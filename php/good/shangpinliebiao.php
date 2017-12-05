@@ -18,9 +18,11 @@ $result_count = null;
 if(@$_POST['beginDate']) {
     $beginDate = date('Y-m-d H:i:s', $_POST['beginDate'] / 1000);
     $endDate = date('Y-m-d H:i:s', $_POST['endDate'] / 1000);
-    $query = "select * from goods where date > {$beginDate} and date < {$endDate} limit {$limit_start}, {$limit_end}";
-    $query_count = "select * from goods where date > {$beginDate} and date < {$endDate}";
+    $query = "select * from goods where date > '{$beginDate}' and date < '{$endDate}' limit {$limit_start}, {$limit_end}";
+    $query_count = "select * from goods where date > '{$beginDate}' and date < '{$endDate}'";
 
+    error_log($query);
+    error_log($query_count);
     $result = $mysqliConn->query($query);
     $result_count = $mysqliConn->query($query_count);
 } else {
