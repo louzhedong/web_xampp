@@ -71,7 +71,7 @@
 
       $.ajax({
           type: 'POST',
-          url: '../php/login.php',
+          url: '../php/user/login.php',
           data: data,
           dataType: 'json',
           success: function (res) {

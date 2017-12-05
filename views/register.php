@@ -87,7 +87,7 @@
 
         $.ajax({
             type: 'POST',
-            url: '../php/register.php',
+            url: '../php/user/register.php',
             data: data,
             dataType: 'json',
             success: function (data) {

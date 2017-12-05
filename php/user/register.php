@@ -11,7 +11,7 @@ function create_token()
 
 $username = $_POST['username'];
 $password = $_POST['password'];
-include 'database.php';
+include '../database.php';
 $query_user = "select id from users where username = '{$username}'";
 
 $result1 = $mysqliConn->query($query_user);
