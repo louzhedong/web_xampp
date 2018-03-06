@@ -1,12 +1,16 @@
-<html>
-  <head></head>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>首页</title>
+      <?php require 'link.php'?>
+  </head>
   <body>
-    <div>
-    <?php 
-      echo "hello, miracle";
-	  echo "<br />";
-	  echo "这是测试文件！"
+    <?php
+      $tab = 'index'
     ?>
-    </div>
+    <?php require 'top.php'?>
+  <div>
+    这是首页
+  </div>
   </body>
 </html>

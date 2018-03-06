@@ -7,3 +7,4 @@
 <script src="../package/jquery.md5.js"></script>
 <link rel="stylesheet" href="../package/bower_components/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/reset.css">

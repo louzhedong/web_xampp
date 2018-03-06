@@ -1,0 +1,64 @@
+.header {
+  background-color: #fff;
+  height: 58px;
+}
+
+.header .header-wrap {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  height: 58px;
+}
+
+.header .header-wrap .header-left {
+  width: 20%;
+  height: 58px;
+  float: left;
+  line-height:58px;
+}
+
+.header .header-wrap .header-center {
+  width: 60%;
+  height: 58px;
+  float: left;
+}
+
+.header .header-wrap .header-right {
+  width: 20%;
+  height: 58px;
+  float: left;
+}
+
+.header .header-wrap .header-center .header-tab {
+  float: left;
+  padding: 0 20px;
+  line-height: 58px;
+  cursor: pointer;
+}
+
+.header .header-wrap .header-center .header-tab.active {
+  background-color: #ff9d00;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .header-wrap .header-center .header-tab:hover {
+  border-bottom: 2px solid #ff9d00;
+  color: #ff9d00;
+  line-height: 56px;
+}
+
+.header .header-wrap .header-right {
+  line-height:58px;
+}
+
+.header .header-wrap .header-right .login-or-reg .to-login, .to-reg{
+  cursor: pointer;
+}
+
+.header .header-wrap .header-right .login-or-reg .to-login:hover, .to-reg:hover{
+  color: #ff9d00;
+}
+
+
+
