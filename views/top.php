@@ -30,8 +30,13 @@
         /
         <span class="to-reg" onclick="toRegister()">注册</span>
       </div>
-      <div class="show-name">
-
+      <div class="show-name dropdown">
+        <div class="hello dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="dropdownMenu1"></div>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a>个人中心</a></li>
+          <li role="separator" class="divider"></li>
+          <li onclick="lagout()"><a>退出</a></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -40,14 +45,19 @@
 
 <script>
   (function () {
+    var username = localStorage.getItem('user_name');
+    if (!username) {
+      window.location.href = "./login.php";
+    }
     var loginOrReg = document.getElementsByClassName('login-or-reg')[0];
     var showName = document.getElementsByClassName('show-name')[0];
+    var hello = document.getElementsByClassName('hello')[0];
     var username = localStorage.getItem('user_name');
     if (username) {
-      loginOrReg.style.display = 'none';
-      showName.innerHTML = '你好，' + username;
+      showName.style.display = 'block';
+      hello.innerHTML = '你好，' + username;
     } else {
-      showName.style.display = 'none';
+      loginOrReg.style.display = 'block';
     }
   })()
 
@@ -77,6 +87,13 @@
 
   function toHotel() {
     window.location.href = "./hotel.php";
+  }
+  
+  function lagout() {
+    toastr.success('您已退出！');
+    localStorage.removeItem('token');
+    localStorage.removeItem('uesr_name');
+    window.location.href = "./login.php";
   }
 
 </script>

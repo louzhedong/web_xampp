@@ -78,9 +78,10 @@
               if(res.resultCode === 0) {
                   // 设置token
                   window.localStorage.setItem('token', res.data.token);
+                  window.localStorage.setItem('user_name', res.data.username);
                   toastr.success('登陆成功！');
                   setTimeout(function () {
-                      window.location.href = '/index/Index/index';
+                      window.location.href = './index.php';
                   }, 1000);
               } else if (res.resultCode !== 0) {
                   toastr.warning(res.resultMsg);

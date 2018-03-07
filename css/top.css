@@ -48,8 +48,22 @@
   line-height: 56px;
 }
 
+.header .header-wrap .header-center .header-tab.active:hover {
+  background-color: #ff9d00;
+  color: #fff;
+  text-decoration: none;
+}
+
 .header .header-wrap .header-right {
   line-height:58px;
+}
+
+.header .header-wrap .header-right .login-or-reg, .show-name {
+  display: none;
+}
+
+.header .header-wrap .header-right .login-or-reg, .show-name .dropdown-menu a{
+  cursor: pointer;
 }
 
 .header .header-wrap .header-right .login-or-reg .to-login, .to-reg{
@@ -58,6 +72,10 @@
 
 .header .header-wrap .header-right .login-or-reg .to-login:hover, .to-reg:hover{
   color: #ff9d00;
+}
+
+.header .header-wrap .header-right .show-name .hello {
+  cursor: pointer;
 }
 
 
