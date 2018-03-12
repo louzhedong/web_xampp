@@ -76,8 +76,7 @@
           dataType: 'json',
           success: function (res) {
               if(res.resultCode === 0) {
-                  // 设置token
-                  window.localStorage.setItem('token', res.data.token);
+                  // 设置用户信息，保存在本地
                   window.localStorage.setItem('user_name', res.data.username);
                   toastr.success('登陆成功！');
                   setTimeout(function () {

@@ -7,3 +7,23 @@ body {
     top: 0;
     bottom: 0;
 }
+
+.btn-primary {
+    background-color: #ff9d00;
+    border: 1px solid #ff9d00;
+}
+
+.btn-primary:hover {
+    background-color: #ff8a00;
+    border: 1px solid #ff8a00;
+}
+
+.btn-primary:active {
+    background-color: #ff8a00;
+    border: 1px solid #ff8a00;
+}
+
+.btn-primary:visited {
+    background-color: #ff8a00;
+    border: 1px solid #ff8a00;
+}

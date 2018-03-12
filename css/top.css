@@ -1,10 +1,11 @@
 .header {
   background-color: #fff;
   height: 58px;
+  border-bottom: 1px solid #999;
 }
 
 .header .header-wrap {
-  width: 1000px;
+  max-width: 1100px;
   position: relative;
   margin: 0 auto;
   height: 58px;
@@ -14,17 +15,50 @@
   width: 20%;
   height: 58px;
   float: left;
-  line-height:58px;
+  display: flex;
+  align-items: center;
+}
+
+.header .header-wrap .header-left img {
+  height: 38px;
+}
+
+.header .header-wrap .header-left .site-title {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: "Heiti SC";
 }
 
 .header .header-wrap .header-center {
-  width: 60%;
+  width: 45%;
   height: 58px;
   float: left;
 }
 
-.header .header-wrap .header-right {
+.header .header-wrap .header-search {
   width: 20%;
+  height: 58px;
+  float: left;
+  padding: 0 20px;
+  position: relative;
+}
+
+.header .header-wrap .header-search .input-group {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 160px;
+}
+
+.header .header-wrap .header-search .input-group .btn-search {
+  color: #ff9d00;
+}
+
+.header .header-wrap .header-right {
+  width: 15%;
   height: 58px;
   float: left;
 }
@@ -55,22 +89,22 @@
 }
 
 .header .header-wrap .header-right {
-  line-height:58px;
+  line-height: 58px;
 }
 
 .header .header-wrap .header-right .login-or-reg, .show-name {
   display: none;
 }
 
-.header .header-wrap .header-right .login-or-reg, .show-name .dropdown-menu a{
+.header .header-wrap .header-right .login-or-reg, .show-name .dropdown-menu a {
   cursor: pointer;
 }
 
-.header .header-wrap .header-right .login-or-reg .to-login, .to-reg{
+.header .header-wrap .header-right .login-or-reg .to-login, .to-reg {
   cursor: pointer;
 }
 
-.header .header-wrap .header-right .login-or-reg .to-login:hover, .to-reg:hover{
+.header .header-wrap .header-right .login-or-reg .to-login:hover, .to-reg:hover {
   color: #ff9d00;
 }
 

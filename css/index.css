@@ -1,0 +1,17 @@
+
+.carousel {
+  height: 480px;
+}
+
+.carousel .carousel-inner {
+  height: 100%;
+}
+
+.carousel .carousel-inner .item {
+  height: 100%;
+}
+
+.carousel .carousel-inner .item img {
+  height: 100%;
+  width: 100%;
+}

@@ -5,7 +5,8 @@
 <div class="header">
   <div class="header-wrap">
     <div class="header-left">
-      logo
+      <img src="../images/logo1.png" alt="">
+      <span class="site-title">驴享汇</span>
     </div>
     <ul class="header-center">
       <li class="header-tab <?php if ($tab == 'index') echo 'active' ?>" onclick="<?php if ($tab != 'index') echo "toIndex()"?>">
@@ -24,6 +25,14 @@
         酒店
       </li>
     </ul>
+    <div class="header-search">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="搜索目的地/攻略">
+        <span class="input-group-btn">
+        <button class="btn btn-default btn-search" type="button"><span class="glyphicon glyphicon-search"></span></button>
+      </span>
+      </div>
+    </div>
     <div class="header-right ">
       <div class="login-or-reg">
         <span class="to-login" onclick="toLogin()">登陆</span>
@@ -35,8 +44,25 @@
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
           <li><a>个人中心</a></li>
           <li role="separator" class="divider"></li>
-          <li onclick="lagout()"><a>退出</a></li>
+          <li data-toggle="modal" data-target="#layoutModal"><a>退出</a></li>
         </ul>
+      </div>
+      <div class="modal fade" id="layoutModal" tabindex="-1" role="dialog" aria-labelledby="lagoutModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="lagoutModalLabel">提示</h4>
+            </div>
+            <div class="modal-body">
+              确认登出吗？
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+              <button type="button" class="btn btn-primary" onclick="lagout()">确定</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -45,10 +71,6 @@
 
 <script>
   (function () {
-    var username = localStorage.getItem('user_name');
-    if (!username) {
-      window.location.href = "./login.php";
-    }
     var loginOrReg = document.getElementsByClassName('login-or-reg')[0];
     var showName = document.getElementsByClassName('show-name')[0];
     var hello = document.getElementsByClassName('hello')[0];
@@ -59,7 +81,7 @@
     } else {
       loginOrReg.style.display = 'block';
     }
-  })()
+  })();
 
   function toLogin() {
     window.location.href = "./login.php";
@@ -88,11 +110,10 @@
   function toHotel() {
     window.location.href = "./hotel.php";
   }
-  
+
   function lagout() {
     toastr.success('您已退出！');
-    localStorage.removeItem('token');
-    localStorage.removeItem('uesr_name');
+    localStorage.removeItem('user_name');
     window.location.href = "./login.php";
   }
 
