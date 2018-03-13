@@ -56,6 +56,7 @@
   margin-right: 5%;
   height: auto;
   float: left;
+  cursor: pointer;
 }
 
 .index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item:last-child {
@@ -102,4 +103,45 @@
 
 .index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item .price .word {
   font-size: 14px;
+}
+
+
+.index-body .row .col-md-2 .activity {
+
+}
+
+.index-body .row .col-md-2 .activity .activity-header {
+  margin-bottom: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-left: 3px solid #ff9d00;
+  padding-left: 15px;
+  font-size: 20px;
+}
+.index-body .row .col-md-2 .activity .activity-item {
+  cursor: pointer;
+  width: 100%;
+}
+
+.index-body .row .col-md-2 .activity .activity-item img {
+  width: 100%;
+}
+
+.index-body .row .col-md-2 .activity .activity-item .activity-describe {
+  background-color: #F0F8FA;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: -1px;
+  padding-top: 20px;
+}
+
+.index-body .row .col-md-2 .activity .activity-item .activity-describe .activity-describe-header {
+  margin-bottom:20px;
+  font-size:16px;
+}
+
+.index-body .row .col-md-2 .activity .activity-item .activity-describe .activity-describe-body {
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
 }

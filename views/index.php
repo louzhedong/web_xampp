@@ -125,7 +125,22 @@ $tab = 'index'
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-2">
-          col-md-2
+          <div class="activity">
+            <div class="activity-header">
+              最新活动
+            </div>
+            <div class="activity-item">
+              <img src="../images/carousel/carousel3.jpeg" alt="">
+              <div class="activity-describe">
+                <div class="activity-describe-header">
+                  坎儿井造就的绿洲奇迹
+                </div>
+                <div class="activity-describe-body">
+                  在吐鲁番盆地中，几乎每一片在戈壁荒漠中突兀出现的小绿洲，都可在它的上游方向找到一条条形同串珠儿搬的坎儿井链
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-md-1"></div>
       </div>
