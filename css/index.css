@@ -15,3 +15,91 @@
   height: 100%;
   width: 100%;
 }
+
+.index-body {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-header {
+  height: 30px;
+  line-height: 30px;
+  border-left: 3px solid #ff9d00;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-header .left {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-header .right {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #888;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content {
+  width: 100%;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item {
+  width: 30%;
+  margin-right: 5%;
+  height: auto;
+  float: left;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item:last-child {
+  margin-right: 0;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item img {
+  width: 100%;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item .describe {
+  height: 60px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  position: relative;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item .describe .describe-inner {
+  height: 60px;
+  line-height: 30px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  padding: 0 10px;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item .describe .describe-inner:hover {
+  height: 120px;
+  transition: height 0.3s;
+  color: #ff9d00;
+  background-color: #f8f8f8;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item .price {
+  text-align: right;
+  margin-right: 10px;
+  color: #ff9d00;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item .price .number {
+  font-size: 18px;
+}
+
+.index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item .price .word {
+  font-size: 14px;
+}
