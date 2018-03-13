@@ -145,3 +145,13 @@
   line-height: 22px;
   color: #666;
 }
+
+.index-body .row .col-md-2 .activity .strategy-header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-left: 3px solid #ff9d00;
+  padding-left: 15px;
+  font-size: 20px;
+}
