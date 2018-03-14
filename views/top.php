@@ -5,8 +5,7 @@
 <div class="header">
   <div class="header-wrap">
     <div class="header-left">
-      <img src="../images/logo1.png" alt="">
-      <span class="site-title">驴享汇</span>
+      <img src="../images/logo2.png" alt="">
     </div>
     <ul class="header-center">
       <li class="header-tab <?php if ($tab == 'index') echo 'active' ?>" onclick="<?php if ($tab != 'index') echo "toIndex()"?>">
@@ -23,6 +22,9 @@
       </li>
       <li class="header-tab <?php if ($tab == 'hotel') echo 'active' ?>" onclick="<?php if ($tab != 'hotel') echo "toHotel()"?>">
         酒店
+      </li>
+      <li class="header-tab <?php if ($tab == 'hotel') echo 'active' ?>" onclick="<?php if ($tab != 'hotel') echo "toHotel()"?>">
+        驴友社
       </li>
     </ul>
     <div class="header-search">

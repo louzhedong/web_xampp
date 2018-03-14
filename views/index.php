@@ -28,31 +28,31 @@ $tab = 'index'
         <div class="item active">
           <img src="../images/carousel/carousel1.jpeg" alt="...">
           <div class="carousel-caption">
-            这里可以加文字
+            【跟着英剧镜头 玩转不列颠】独家英剧取景地打卡、唐顿庄园复古Vintage穿搭、超赞民宿
           </div>
         </div>
         <div class="item">
           <img src="../images/carousel/carousel2.jpeg" alt="...">
           <div class="carousel-caption">
-            这里可以加文字
+            <h1>3/2018</h1>只为那漫山野杏花，自驾新疆十六日
           </div>
         </div>
         <div class="item">
           <img src="../images/carousel/carousel3.jpeg" alt="...">
           <div class="carousel-caption">
-            这里可以加文字
+            夜夜夜新加坡，越夜越HAPPY，新加坡夜色大狂欢
           </div>
         </div>
         <div class="item">
           <img src="../images/carousel/carousel4.jpeg" alt="...">
           <div class="carousel-caption">
-            这里可以加文字
+            4/2018雪线之下无风景，路绳之上皆兄弟
           </div>
         </div>
         <div class="item">
           <img src="../images/carousel/carousel5.jpeg" alt="...">
           <div class="carousel-caption">
-            这里可以加文字
+            新疆行记|人生何处不相逢
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ $tab = 'index'
     </div>
 
     <div class="index-body">
-      <div class="row">
+      <div class="row" style="margin-right: 0;margin-left: 0;">
         <div class="col-md-1"></div>
         <div class="col-md-7">
           <div class="flash-sell">
