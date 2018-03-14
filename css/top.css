@@ -4,14 +4,13 @@
   border-bottom: 1px solid #999;
 }
 
-.header .header-wrap {
-  max-width: 1300px;
+.header .col-md-11 {
   position: relative;
   margin: 0 auto;
   height: 58px;
 }
 
-.header .header-wrap .header-left {
+.header  .col-md-11 .header-left {
   width: 20%;
   height: 58px;
   float: left;
@@ -19,23 +18,23 @@
   align-items: center;
 }
 
-.header .header-wrap .header-left img {
+.header  .col-md-11 .header-left img {
   height: 38px;
 }
 
-.header .header-wrap .header-left .site-title {
+.header  .col-md-11 .header-left .site-title {
   margin-left: 10px;
   font-size: 20px;
   font-family: "Heiti SC";
 }
 
-.header .header-wrap .header-center {
+.header  .col-md-11 .header-center {
   width: 45%;
   height: 58px;
   float: left;
 }
 
-.header .header-wrap .header-search {
+.header  .col-md-11 .header-search {
   width: 20%;
   height: 58px;
   float: left;
@@ -43,72 +42,72 @@
   position: relative;
 }
 
-.header .header-wrap .header-search .input-group {
+.header  .col-md-11 .header-search .input-group {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-  width: 160px;
+  width: 180px;
 }
 
-.header .header-wrap .header-search .input-group .btn-search {
+.header  .col-md-11 .header-search .input-group .btn-search {
   color: #ff9d00;
 }
 
-.header .header-wrap .header-right {
+.header  .col-md-11 .header-right {
   width: 15%;
   height: 58px;
   float: left;
 }
 
-.header .header-wrap .header-center .header-tab {
+.header  .col-md-11 .header-center .header-tab {
   float: left;
   padding: 0 20px;
   line-height: 58px;
   cursor: pointer;
 }
 
-.header .header-wrap .header-center .header-tab.active {
+.header  .col-md-11 .header-center .header-tab.active {
   background-color: #ff9d00;
   color: #fff;
   text-decoration: none;
 }
 
-.header .header-wrap .header-center .header-tab:hover {
+.header  .col-md-11 .header-center .header-tab:hover {
   border-bottom: 2px solid #ff9d00;
   color: #ff9d00;
   line-height: 56px;
 }
 
-.header .header-wrap .header-center .header-tab.active:hover {
+.header  .col-md-11 .header-center .header-tab.active:hover {
   background-color: #ff9d00;
   color: #fff;
   text-decoration: none;
 }
 
-.header .header-wrap .header-right {
+.header  .col-md-11 .header-right {
   line-height: 58px;
 }
 
-.header .header-wrap .header-right .login-or-reg, .show-name {
+.header  .col-md-11 .header-right .login-or-reg, .show-name {
   display: none;
 }
 
-.header .header-wrap .header-right .login-or-reg, .show-name .dropdown-menu a {
+.header  .col-md-11 .header-right .login-or-reg, .show-name .dropdown-menu a {
   cursor: pointer;
 }
 
-.header .header-wrap .header-right .login-or-reg .to-login, .to-reg {
+.header  .col-md-11 .header-right .login-or-reg .to-login, .to-reg {
   cursor: pointer;
 }
 
-.header .header-wrap .header-right .login-or-reg .to-login:hover, .to-reg:hover {
+.header  .col-md-11 .header-right .login-or-reg .to-login:hover, .to-reg:hover {
   color: #ff9d00;
 }
 
-.header .header-wrap .header-right .show-name .hello {
+.header  .col-md-11 .header-right .show-name .hello {
   cursor: pointer;
 }
 

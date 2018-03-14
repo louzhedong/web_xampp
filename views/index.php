@@ -34,7 +34,7 @@ $tab = 'index'
         <div class="item">
           <img src="../images/carousel/carousel2.jpeg" alt="...">
           <div class="carousel-caption">
-            <h1>3/2018</h1>只为那漫山野杏花，自驾新疆十六日
+            <span class="date">3/2018</span>只为那漫山野杏花，自驾新疆十六日
           </div>
         </div>
         <div class="item">
@@ -46,7 +46,7 @@ $tab = 'index'
         <div class="item">
           <img src="../images/carousel/carousel4.jpeg" alt="...">
           <div class="carousel-caption">
-            4/2018雪线之下无风景，路绳之上皆兄弟
+            <span class="date">4/2018</span>雪线之下无风景，路绳之上皆兄弟
           </div>
         </div>
         <div class="item">

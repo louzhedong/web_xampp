@@ -3,35 +3,59 @@
 </head>
 <body>
 <div class="header">
-  <div class="header-wrap">
+  <div class="col-md-1"></div>
+  <div class="col-md-11">
     <div class="header-left">
       <img src="../images/logo2.png" alt="">
     </div>
     <ul class="header-center">
-      <li class="header-tab <?php if ($tab == 'index') echo 'active' ?>" onclick="<?php if ($tab != 'index') echo "toIndex()"?>">
+      <li class="header-tab <?php if ($tab == 'index') echo 'active' ?>"
+          onclick="<?php if ($tab != 'index') echo "toIndex()" ?>">
         首页
       </li>
-      <li class="header-tab <?php if ($tab == 'scenic') echo 'active' ?>" onclick="<?php if ($tab != 'scenic') echo "toScenic()"?>">
+      <li class="header-tab <?php if ($tab == 'scenic') echo 'active' ?>"
+          onclick="<?php if ($tab != 'scenic') echo "toScenic()" ?>">
         景点汇
       </li>
-      <li class="header-tab <?php if ($tab == 'strategy') echo 'active' ?>" onclick="<?php if ($tab != 'strategy') echo "toStrategy()"?>">
+      <li class="header-tab <?php if ($tab == 'strategy') echo 'active' ?>"
+          onclick="<?php if ($tab != 'strategy') echo "toStrategy()" ?>">
         攻略汇
       </li>
-      <li class="header-tab <?php if ($tab == 'mart') echo 'active' ?>" onclick="<?php if ($tab != 'mart') echo "toMart()"?>">
-        享商城
+      <li class="header-tab dropdown martDropdown <?php if ($tab == 'mart') echo 'active' ?>">
+        <div class="dropdown-toggle" id="dropdownMart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          享商城
+          <span class="caret"></span>
+        </div>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMart">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
       </li>
-      <li class="header-tab <?php if ($tab == 'hotel') echo 'active' ?>" onclick="<?php if ($tab != 'hotel') echo "toHotel()"?>">
+      <li class="header-tab <?php if ($tab == 'hotel') echo 'active' ?>"
+          onclick="<?php if ($tab != 'hotel') echo "toHotel()" ?>">
         酒店
       </li>
-      <li class="header-tab <?php if ($tab == 'hotel') echo 'active' ?>" onclick="<?php if ($tab != 'hotel') echo "toHotel()"?>">
-        驴友社
+      <li class="header-tab dropdown societyDropdown <?php if ($tab == 'society') echo 'active' ?>">
+        <div class="dropdown-toggle" id="dropdownSociety" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          驴友社
+          <span class="caret"></span>
+        </div>
+        <ul class="dropdown-menu" aria-labelledby="dropdownSociety">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
       </li>
     </ul>
     <div class="header-search">
       <div class="input-group">
         <input type="text" class="form-control" placeholder="搜索目的地/攻略">
         <span class="input-group-btn">
-        <button class="btn btn-default btn-search" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        <button class="btn btn-default btn-search" type="button"><span
+            class="glyphicon glyphicon-search"></span></button>
       </span>
       </div>
     </div>
@@ -42,7 +66,8 @@
         <span class="to-reg" onclick="toRegister()">注册</span>
       </div>
       <div class="show-name dropdown">
-        <div class="hello dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="dropdownMenu1"></div>
+        <div class="hello dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+             id="dropdownMenu1"></div>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
           <li><a>个人中心</a></li>
           <li role="separator" class="divider"></li>
@@ -53,7 +78,8 @@
         <div class="modal-dialog modal-sm" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+              </button>
               <h4 class="modal-title" id="lagoutModalLabel">提示</h4>
             </div>
             <div class="modal-body">
@@ -85,6 +111,18 @@
     }
   })();
 
+  $('li.martDropdown').mouseover(function () {
+    $(this).addClass('open');
+  }).mouseout(function () {
+    $(this).removeClass('open');
+  });
+
+  $('li.societyDropdown').mouseover(function () {
+    $(this).addClass('open');
+  }).mouseout(function () {
+    $(this).removeClass('open');
+  });
+
   function toLogin() {
     window.location.href = "./login.php";
   }
@@ -111,6 +149,10 @@
 
   function toHotel() {
     window.location.href = "./hotel.php";
+  }
+
+  function toSociety() {
+    window.location.href = './society.php';
   }
 
   function lagout() {
