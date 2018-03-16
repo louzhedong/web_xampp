@@ -87,7 +87,7 @@
 }
 
 .index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item .describe .describe-inner {
-  height: 60px;
+  max-height: 60px;
   line-height: 30px;
   overflow: hidden;
   position: absolute;
@@ -96,8 +96,9 @@
 }
 
 .index-body .row .col-md-7 .flash-sell .flash-sell-content .flash-sell-item .describe .describe-inner:hover {
-  height: 120px;
-  transition: height 0.3s;
+  padding-top: 10px;
+  max-height: 200px;
+  transition: max-height 0.3s;
   color: #ff9d00;
   background-color: #f8f8f8;
 }

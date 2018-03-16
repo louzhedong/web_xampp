@@ -27,9 +27,9 @@
           <span class="caret"></span>
         </div>
         <ul class="dropdown-menu" aria-labelledby="dropdownMart">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
+          <li><a href="#">机酒自由行</a></li>
+          <li><a href="#">当地玩乐</a></li>
+          <li><a href="#"></a></li>
           <li><a href="#">Separated link</a></li>
         </ul>
       </li>
@@ -43,10 +43,10 @@
           <span class="caret"></span>
         </div>
         <ul class="dropdown-menu" aria-labelledby="dropdownSociety">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li><a href="#">Separated link</a></li>
+          <li><a href="#">驴友记</a></li>
+          <li><a href="#">问答</a></li>
+          <li><a href="#">驴友小贴士</a></li>
+          <li><a href="#">积分中心</a></li>
         </ul>
       </li>
     </ul>
