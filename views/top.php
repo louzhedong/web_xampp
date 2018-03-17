@@ -139,6 +139,7 @@
     window.location.href = "./scenic.php";
   }
 
+
   function toStrategy() {
     window.location.href = "./strategy.php";
   }

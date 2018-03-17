@@ -9,9 +9,7 @@
     <?php require 'link.php' ?>
 </head>
 <body>
-<?php
-$tab = 'society'
-?>
+
 <?php require 'top.php' ?>
 <div>
     景点汇详情页

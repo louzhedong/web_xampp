@@ -10,6 +10,11 @@
   margin-top: 60px;
 }
 
+.city-recommend .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .city-recommend .col-md-8 .hot-city .title {
   text-align: center;
   font-size: 24px;
@@ -49,6 +54,14 @@
 
 .city-recommend .col-md-8 .hot-city .tab-content .col-md-4 .city-content {
   padding-top: 20px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.city-recommend .col-md-8 .hot-city .tab-content .col-md-4 .city-content:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .city-recommend .col-md-8 .hot-city .tab-content .col-md-4 .city-content .city-name {
@@ -78,7 +91,6 @@
 
 .city-recommend .col-md-8 .theme .nav-tabs li a {
   border: none;
-  border-bottom: none;
   color: #929292;
   cursor: pointer;
   font-size: 18px;
@@ -114,9 +126,11 @@
   height: 400px;
   padding: 5px 10px;
   color: #fff;
-  background-color:rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   top: 350px;
   transition: top 0.5s;
+  right: 0;
+  left: 0;
 }
 
 .city-recommend .col-md-8 .theme .tab-content .col-md-3 .on-pic:hover .describe {
@@ -159,9 +173,11 @@
   height: 190px;
   padding: 5px 10px;
   color: #fff;
-  background-color:rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   top: 140px;
   transition: top 0.5s;
+  right: 0;
+  left: 0;
 }
 
 .city-recommend .col-md-8 .theme .tab-content .vertical .image:hover .describe {
@@ -178,4 +194,100 @@
   line-height: 25px;
   font-size: 14px;
   padding-top: 10px;
+}
+
+.city-recommend .col-md-8 .month {
+  margin-bottom: 100px;
+}
+
+.city-recommend .col-md-8 .month .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.city-recommend .col-md-8 .month .nav-tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border-bottom: none;
+}
+
+.city-recommend .col-md-8 .month .nav-tabs li {
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.city-recommend .col-md-8 .month .nav-tabs li.active {
+  background-color: #ff9d00;
+}
+
+.city-recommend .col-md-8 .month .nav-tabs li a {
+  border: none;
+  color: #929292;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 55px;
+  padding: 0;
+}
+
+.city-recommend .col-md-8 .month .nav-tabs li a:hover {
+  background: none;
+}
+
+.city-recommend .col-md-8 .month .nav-tabs li.active a {
+  background: none;
+  color: #fff;
+}
+
+.city-recommend .col-md-8 .month .tab-content .tab-pane.active {
+  display: flex;
+  margin-top: 50px;
+  height: 270px;
+}
+
+.city-recommend .col-md-8 .month .tab-content .tab-pane .month-pic {
+  position: relative;
+  flex: 1;
+  margin: 0 10px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.city-recommend .col-md-8 .month .tab-content .tab-pane .month-pic img {
+  width: 100%;
+  height: 270px;
+}
+
+.city-recommend .col-md-8 .month .tab-content .tab-pane .month-pic .describe {
+  position: absolute;
+  height: 270px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 220px;
+  transition: top 0.5s;
+  right: 0;
+  left: 0;
+}
+
+.city-recommend .col-md-8 .month .tab-content .tab-pane .month-pic .describe .describe-header {
+  border-bottom: 1px solid #fff;
+  height: 50px;
+  line-height: 50px;
+}
+
+.city-recommend .col-md-8 .month .tab-content .tab-pane .month-pic .describe .describe-body {
+  line-height: 20px;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.city-recommend .col-md-8 .month .tab-content .tab-pane .month-pic:hover .describe {
+  top: 0;
 }
