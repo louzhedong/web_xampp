@@ -16,6 +16,12 @@ $tab = 'scenic'
 <?php require 'top.php' ?>
 <div class="scenic-header">
   <img src="../images/scenic/top.png">
+  <div class="search-box">
+    <input type="text" class="search-input" placeholder="我想去...">
+    <span class="search-btn">
+      <span class="glyphicon glyphicon-search"></span>
+    </span>
+  </div>
 </div>
 <!-- 热门城市推荐 -->
 <div class="city-recommend">

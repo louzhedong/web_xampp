@@ -1,11 +1,50 @@
 .scenic-header {
   width: 100%;
+  position: relative;
 }
 
 .scenic-header img {
   width: 100%;
 }
 
+.scenic-header .search-box {
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.scenic-header .search-box .search-input {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 20px;
+  border: none;
+  padding: 5px;
+  width: 280px;
+}
+
+.scenic-header .search-box .search-btn {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: #ff9d00;
+  line-height: 40px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.scenic-header .search-box .search-btn .glyphicon {
+  color: #fff;
+}
 .city-recommend {
   margin-top: 60px;
 }

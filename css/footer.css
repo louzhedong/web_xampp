@@ -5,6 +5,10 @@
   background-color: #3c3c3c;
 }
 
+.footer .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .footer .row .col-md-2 {
   padding: 30px 20px;
 }
