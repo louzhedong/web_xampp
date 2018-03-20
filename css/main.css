@@ -27,3 +27,8 @@ body {
     background-color: #ff8a00;
     border: 1px solid #ff8a00;
 }
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}

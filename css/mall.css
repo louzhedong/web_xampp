@@ -1,0 +1,84 @@
+.carousel {
+  position: relative;
+  height: 480px;
+}
+
+.carousel .mall-menu {
+  position: absolute;
+  height: 480px;
+  width: 280px;
+  background-color: red;
+  left: 220px;
+  top: 0;
+  padding: 30px 0;
+  background-color: rgba(0,0,0,.7);
+}
+
+.carousel .mall-menu .mall-menu-item {
+  height: 70px;
+  display: flex;
+  padding-left: 53px;
+  border-top: 1px solid hsla(0,0%,100%,.1);
+}
+
+.carousel .mall-menu .mall-menu-item:hover {
+  background: #fff;
+}
+
+.carousel .mall-menu .mall-menu-item:hover .title .mall-menu-title {
+  color: #000;
+}
+
+.carousel .mall-menu .mall-menu-item:hover .mall-menu-arrow {
+  color: #ff9d00;
+}
+
+.carousel .mall-menu .mall-menu-item:first-child {
+  border-top: none;
+}
+
+.carousel .mall-menu .mall-menu-item .mall-menu-icon {
+  line-height: 70px;
+  color: #ff9d00;
+  font-size: 20px;
+}
+
+.carousel .mall-menu .mall-menu-item .title {
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.carousel .mall-menu .mall-menu-item  .title .mall-menu-title {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.carousel .mall-menu .mall-menu-item  .title .mall-menu-subtitle {
+  font-size: 14px;
+  color: silver;
+  margin-top: 5px;
+}
+
+.carousel .mall-menu .mall-menu-item .mall-menu-arrow {
+  line-height: 70px;
+  margin-left: 50px;
+  color: #fff;
+  opacity: .4;
+}
+
+.carousel .mall-menu .mall-menu-item .menu-content {
+  position: absolute;
+  left: 280px;
+  top: 30px;
+  height: 420px;
+  width: 300px;
+  background: #fff;
+  display: none;
+}
+
+.carousel .mall-menu .mall-menu-item:hover .menu-content {
+  display: block;
+}

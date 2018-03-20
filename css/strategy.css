@@ -1,0 +1,218 @@
+
+.strategy-box {
+  margin-top: 30px;
+}
+
+.strategy-box .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.strategy-box .row .col-md-4 {
+
+}
+
+.strategy-box .row .col-md-4 .strategy-nav {
+  width: 280px;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  position: relative;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item {
+  height: 50px;
+  padding: 0 15px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  line-height: 50px;
+  font-size: 14px;
+  color: #666;
+  cursor: default;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item:hover .left {
+  color: #ff9d00;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item:hover .right {
+  color: #ff9d00;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .left {
+  float: left;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .right {
+  float: right;
+  line-height: 50px;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .nav-panel {
+  display: none;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item:hover .nav-panel {
+  display: block;
+  width: 400px;
+  height: 370px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 280px;
+  z-index: 10;
+  background-color: #fff;
+  margin-left: -2px;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .nav-panel .nav-panel-item {
+  height: 35px;
+  line-height: 35px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .nav-panel .nav-panel-item .index {
+  font-size: 18px;
+  font-style: oblique;
+  margin-right: 10px;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .nav-panel .nav-panel-item .name {
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .nav-panel .nav-panel-item .name:hover {
+  color: #ff9d00;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .nav-panel .nav-panel-item .describe {
+  font-size: 12px;
+  color: #888;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .nav-panel .nav-panel-item:nth-child(1) .index, .nav-panel-item:nth-child(2) .index, .nav-panel-item:nth-child(3) .index {
+  color: #ff9d00;
+}
+
+.strategy-box .row .col-md-4 .strategy-nav .strategy-nav-item .nav-panel .nav-panel-item:nth-child(1) .name, .nav-panel-item:nth-child(2) .name, .nav-panel-item:nth-child(3) .name {
+  color: #ff9d00;
+}
+
+.strategy-box .row .col-md-4 .strategy-search {
+  border: 2px #FFA800 solid;
+  height: 44px;
+  margin-top: 10px;
+}
+
+.strategy-box .row .col-md-4 .strategy-search .strategy-search-input {
+  height: 38px;
+  line-height: 38px;
+  float: left;
+  width: 206px;
+  padding: 3px 0px;
+  border: 0px;
+  font-size: 12px;
+  color: #888888;
+  margin-left: 8px;
+  margin-top: 2px;
+  outline: none;
+  font-family: "Microsoft Yahei", Tahoma, Arial, Helvetica, STHeiti;
+}
+
+.strategy-box .row .col-md-4 .strategy-search .glyphicon {
+  line-height: 42px;
+  color: #FFA800;
+  font-size: 24px;
+  padding-left: 10px;
+  float: left;
+}
+
+.strategy-box .row .col-md-8 {
+
+}
+
+.strategy-box .row .col-md-8 .carousel {
+  height: 300px;
+}
+
+.strategy-box .row .col-md-8 .carousel .carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+
+.strategy-box .row .col-md-8 .carousel .carousel-inner .item {
+  height: 100%;
+  width: 100%;
+}
+
+.strategy-box .row .col-md-8 .carousel .carousel-inner .item img {
+  width: 100%;
+}
+
+.my-strategy .my-strategy-header {
+  font-size: 17px;
+  height: 35px;
+  border-bottom: 1px solid #dadada;
+}
+
+.my-strategy .my-strategy-body img {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.my-strategy .my-strategy-body .my-strategy-rank .my-strategy-rank-item {
+  border-bottom: 1px solid #f7f7f7;
+  line-height: 24px;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.my-strategy .my-strategy-body .my-strategy-rank .my-strategy-rank-item .index {
+  color: #ff9d00;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.total-strategy .total-strategy-header {
+  font-size: 19px;
+  height: 35px;
+  border-bottom: 1px solid #dadada;
+}
+
+.total-strategy .total-strategy-body .total-strategy-content {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: none;
+}
+
+.total-strategy .total-strategy-body .total-strategy-content.active {
+  display: flex;
+}
+
+.total-strategy .total-strategy-body .total-strategy-content .total-strategy-item {
+  width: 22%;
+  margin-top: 20px;
+}
+
+.total-strategy .total-strategy-body .total-strategy-content .total-strategy-item img {
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.total-strategy .total-strategy-body .total-strategy-content .total-strategy-item .city {
+  font-size: 14px;
+}
+
+.total-strategy .total-strategy-body .total-strategy-content .total-strategy-item .country {
+  font-size: 15px;
+  margin-top: 5px;
+}
+

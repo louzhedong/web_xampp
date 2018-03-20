@@ -28,8 +28,19 @@
         联系我们
       </div>
       <ul class="about-body">
-        <li>电话：18268825904</li>
-        <li>邮箱：18268825904@163.com</li>
+        <li>
+          <span class="glyphicon glyphicon-phone-alt"></span>
+
+          ：400-123456
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-envelope"></span>
+          ：lvxianghui@163.com
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-map-marker"></span>
+          ：浙江树人大学致和园
+        </li>
 
       </ul>
     </div>

@@ -19,37 +19,36 @@ $tab = 'index'
       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
       <li data-target="#carousel-example-generic" data-slide-to="3"></li>
       <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="../images/carousel/carousel1.jpeg" alt="...">
+        <img src="../images/index/carousel/carousel1.jpeg" alt="...">
         <div class="carousel-caption">
           【跟着英剧镜头 玩转不列颠】独家英剧取景地打卡、唐顿庄园复古Vintage穿搭、超赞民宿
         </div>
       </div>
       <div class="item">
-        <img src="../images/carousel/carousel2.jpeg" alt="...">
+        <img src="../images/index/carousel/carousel2.jpeg" alt="...">
         <div class="carousel-caption">
           <span class="date">3/2018</span>只为那漫山野杏花，自驾新疆十六日
         </div>
       </div>
       <div class="item">
-        <img src="../images/carousel/carousel3.jpeg" alt="...">
+        <img src="../images/index/carousel/carousel3.jpeg" alt="...">
         <div class="carousel-caption">
           夜夜夜新加坡，越夜越HAPPY，新加坡夜色大狂欢
         </div>
       </div>
       <div class="item">
-        <img src="../images/carousel/carousel4.jpeg" alt="...">
+        <img src="../images/index/carousel/carousel4.jpeg" alt="...">
         <div class="carousel-caption">
           <span class="date">4/2018</span>雪线之下无风景，路绳之上皆兄弟
         </div>
       </div>
       <div class="item">
-        <img src="../images/carousel/carousel5.jpeg" alt="...">
+        <img src="../images/index/carousel/carousel5.jpeg" alt="...">
         <div class="carousel-caption">
           新疆行记|人生何处不相逢
         </div>
@@ -66,7 +65,17 @@ $tab = 'index'
       <span class="sr-only">Next</span>
     </a>
   </div>
+
+  <!-- search-box -->
+  <div class="search-box">
+    <input type="text" class="search-input" placeholder="我想去...">
+    <span class="search-btn">
+      <span class="glyphicon glyphicon-search"></span>
+    </span>
+  </div>
 </div>
+
+
 <div class="index-body">
   <div class="row" style="margin-right: 0;margin-left: 0;">
     <div class="col-md-1"></div>
@@ -78,7 +87,7 @@ $tab = 'index'
         </div>
         <div class="flash-sell-content">
           <div class="flash-sell-item">
-            <img src="../images/carousel/carousel6.jpeg" alt="">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
             <div class="describe">
               <div class="describe-inner">
                 [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
@@ -90,7 +99,7 @@ $tab = 'index'
             </div>
           </div>
           <div class="flash-sell-item">
-            <img src="../images/carousel/carousel6.jpeg" alt="">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
             <div class="describe">
               <div class="describe-inner">
                 【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
@@ -102,7 +111,7 @@ $tab = 'index'
             </div>
           </div>
           <div class="flash-sell-item">
-            <img src="../images/carousel/carousel6.jpeg" alt="">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
             <div class="describe">
               <div class="describe-inner">
                 【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
@@ -123,7 +132,7 @@ $tab = 'index'
           最新活动
         </div>
         <div class="activity-item">
-          <img src="../images/carousel/carousel6.jpeg" alt="">
+          <img src="../images/index/carousel/carousel6.jpeg" alt="">
           <div class="activity-describe">
             <div class="activity-describe-header">
               坎儿井造就的绿洲奇迹

@@ -1,0 +1,64 @@
+.mall-top {
+  border-bottom: 1px solid #ff9d00;
+}
+
+.mall-top .mall-top-search {
+  height: 70px;
+}
+
+.mall-top .mall-top-search .title {
+  line-height: 70px;
+  color: #ff9d00;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.mall-top .mall-top-search .col-md-6 {
+  padding: 15px 0;
+}
+
+.mall-top .mall-top-search .col-md-6 .mall-search {
+  position: relative;
+}
+
+.mall-top .mall-top-search .col-md-6 .mall-search .icons {
+  position: absolute;
+  margin-left: 14px;
+  margin-top: 12px;
+}
+
+.mall-top .mall-top-search .col-md-6 .mall-search .search-input {
+  width: 615px;
+  height: 40px;
+  padding: 0 25px 0 43px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  border: 0;
+  outline: none;
+}
+
+.mall-top .mall-wrap .mall-nav {
+  height: 50px;
+
+}
+
+.mall-top .mall-wrap .mall-nav .mall-tab {
+  float: left;
+  width: 100px;
+  line-height: 50px;
+  text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mall-top .mall-wrap .mall-nav .mall-tab:hover {
+  color: #ff9d00;
+  border-bottom: 2px solid #ff9d00;
+}
+
+.mall-top .mall-wrap .mall-nav .mall-tab.active {
+  color: #ff9d00;
+  border-bottom: 2px solid #ff9d00;
+}

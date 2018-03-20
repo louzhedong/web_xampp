@@ -6,7 +6,7 @@
   <div class="col-md-1"></div>
   <div class="col-md-11">
     <div class="header-left">
-      <img src="../images/logo2.png" alt="">
+      <img src="../images/logo2.png" alt="" onclick="toIndex()">
     </div>
     <ul class="header-center">
       <li class="header-tab <?php if ($tab == 'index') echo 'active' ?>"
@@ -21,8 +21,9 @@
           onclick="<?php if ($tab != 'strategy') echo "toStrategy()" ?>">
         攻略汇
       </li>
-      <li class="header-tab dropdown martDropdown <?php if ($tab == 'mart') echo 'active' ?>">
-        <div class="dropdown-toggle" id="dropdownMart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <li class="header-tab dropdown martDropdown <?php if ($tab == 'mall') echo 'active' ?>">
+        <div class="dropdown-toggle" id="dropdownMart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+             onclick="<?php if ($tab != 'mall') echo "toMall()" ?>">
           享商城
           <span class="caret"></span>
         </div>
@@ -144,8 +145,8 @@
     window.location.href = "./strategy.php";
   }
 
-  function toMart() {
-    window.location.href = "./mart.php";
+  function toMall() {
+    window.location.href = "./mall.php";
   }
 
   function toHotel() {

@@ -1,0 +1,347 @@
+.strategy-book .col-md-8 {
+  background-color: #f7f7f7;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.strategy-book .col-md-3 {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.strategy-book .strategy-book-header {
+  margin-top: 20px;
+  height: 80px;
+  line-height: 80px;
+  color: #ff9d00;
+  text-align: center;
+  font-size: 32px;
+}
+
+.strategy-book .strategy-book-content {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.strategy-book .col-md-3 img {
+  width: 100%;
+}
+
+.strategy-book .col-md-3 .download-btn-pdf {
+  border: 1px solid #ff9d00;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  width: 120px;
+  color: #ff9d00;
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.strategy-book .col-md-3 .download-btn-pdf:hover {
+  background-color: #ff9d00;
+  color: white;
+}
+
+.strategy-book .col-md-3 .download-btn-jpg {
+  border: 1px solid #007ed9;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  width: 120px;
+  color: #007ed9;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.strategy-book .col-md-3 .download-btn-jpg:hover {
+  background-color: #007ed9;
+  color: white;
+}
+
+.strategy-book .col-md-3 .pdf-size {
+  font-size: 12px;
+}
+
+.strategy-book .col-md-3 .jpg-size {
+  font-size: 12px;
+}
+
+.strategy-related .row .col-md-5 .left .related-header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-left: 3px solid #ff9d00;
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.strategy-related .row .col-md-5 .left .related-header .right {
+  float: right;
+  cursor: pointer;
+  font-size: 13px;
+  color: #007ed9;
+}
+
+.strategy-related .row .col-md-5 .left .related-content {
+
+}
+
+.strategy-related .row .col-md-5 .left .related-content .related-item {
+  font-size: 12px;
+  color: #777;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.strategy-related .row .col-md-5 .left .related-content .related-item h4 {
+  line-height: 16px;
+  font-size: 16px;
+  color: #235eb2;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.strategy-related .row .col-md-5 .left .related-content .related-item .notes-infos {
+  margin-bottom: 2px;
+}
+
+.strategy-related .row .col-md-5 .left .related-content .related-item .notes-infos .notes-info-icon {
+  background-position: 0 1px;
+}
+
+.strategy-related .row .col-md-5 .left .related-content .related-item .notes-infos .glyphicon {
+  padding-left: 20px;
+}
+
+.strategy-related .row .col-md-5 .left .related-content .related-item .notes-infos .notes-abstract {
+  padding: 4px 0;
+  color: #333;
+}
+
+.strategy-related .row .col-md-5 .left .related-content .related-item .album {
+  margin: 6px 0;
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.strategy-related .row .col-md-5 .left .related-content .related-item .album .album-item {
+  width: 22%;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+}
+
+.strategy-related .row .col-md-5 .left .related-content .related-item .album .album-item img {
+  width: 100%;
+}
+
+.strategy-related .row .col-md-5 .left .discuss {
+  margin-top: 40px;
+}
+
+.strategy-related .row .col-md-5 .left .discuss .discuss-text textarea {
+  border: 1px #D2D2D2 solid;
+  height: 72px;
+  width: 480px;
+  padding-left: 10px;
+  padding-top: 8px;
+  float: left;
+  resize: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 12px;
+  color: #878787;
+  border-radius: 5px;
+}
+
+.strategy-related .row .col-md-5 .left .discuss .discuss-text #submit {
+  float: right;
+  height: 72px;
+  width: 70px;
+  background: #C6C6C6;
+  font-size: 20px;
+  color: #fff;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.strategy-related .row .col-md-5 .left .discuss .discuss-text #submit:hover{
+  background-color: #ff9d00;
+}
+
+.strategy-related .row .col-md-5 .left .discuss .discuss-text .clear {
+  clear: both;
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user {
+  border-bottom: 1px #DBDBDB solid;
+  width: 560px;
+  float: left;
+  padding-bottom: 10px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  font-size: 12px;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user h3 {
+  float: left;
+  height: 48px;
+  width: 48px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user h3 img {
+  width: 100%;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con {
+  width: 490px;
+  float: left;
+  margin-left: 15px;
+  display: inline;
+  position: relative;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con h4 {
+  float: left;
+  font-weight: normal;
+  line-height: 14px;
+  margin-top: 15px;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con h4 a {
+  color: #FEA901;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con span {
+  float: left;
+  color: #CA2426;
+  margin-left: 6px;
+  line-height: 14px;
+  margin-top: 15px;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con em {
+  float: left;
+  font-style: normal;
+  color: #9A9A9A;
+  margin-left: 20px;
+  line-height: 14px;
+  margin-top: 15px;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con .clear {
+  clear: both;
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con p {
+  width: 455px;
+  float: left;
+  color: #666;
+  line-height: 20px;
+  margin-top: 6px;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con .opatation {
+  width: 102px;
+  position: absolute;
+  z-index: 20;
+  bottom: 2px;
+  right: 0px;
+}
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con .opatation a {
+  float: right;
+  line-height: 14px;
+  color: #FEA901;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+.strategy-related .row .col-md-5 .left .discuss ul .user .e_con .opatation .clear{
+  clear: both;
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+
+.strategy-related .row .col-md-2 .activity .related-header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-left: 3px solid #ff9d00;
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.strategy-related .col-md-2 .row .col-md-5 .scenic-item {
+  background-color: #f7f7f7;
+  padding: 5px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  width: 110px;
+  height: 125px;
+  color: #235eb2;
+  cursor: pointer;
+}
+
+.strategy-related .col-md-2 .row .col-md-5 .scenic-item:hover {
+  color: #ff9d00;
+}
+
+.strategy-related .col-md-2 .row .col-md-5 .scenic-item img {
+  width: 100%;
+  height: 80px;
+}
+
+.strategy-related .col-md-2 .row .col-md-5 .scenic-item .text {
+  margin-top: 10px;
+  font-size: 12px;
+
+  text-align: center;
+}
+
+.strategy-related .col-md-2 .strategy-item {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 125px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.strategy-related .col-md-2 .strategy-item img {
+  width: 100px;
+
+}

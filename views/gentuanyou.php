@@ -1,20 +1,22 @@
 <?php
-// 商城
+    //跟团游
 ?>
 
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>享商城</title>
+    <title>跟团游</title>
     <?php require 'link.php' ?>
 </head>
 <body>
 <?php
-$tab = 'mart'
+$tab = 'mall';
+$mall_tab = 'gentuanyou';
 ?>
 <?php require 'top.php' ?>
+<?php require 'mall_top.php'?>
 <div>
-    享商城
+    跟团游
 </div>
 </body>
 </html>

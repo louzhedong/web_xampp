@@ -15,12 +15,20 @@ $tab = 'scenic'
 ?>
 <?php require 'top.php' ?>
 <div class="scenic-header">
-  <img src="../images/scenic/top.png">
+  <img src="../images/scenic/top.jpeg">
   <div class="search-box">
-    <input type="text" class="search-input" placeholder="我想去...">
-    <span class="search-btn">
-      <span class="glyphicon glyphicon-search"></span>
-    </span>
+    <div class="hello-world">世界那么大，我想去看看！</div>
+    <div class="search-input">
+      <div class="left">
+        <input type="text" placeholder="搜索目的地">
+      </div>
+      <div class="right">
+        <a href="javascript:void(0)" class="search-btn">
+          <span class="glyphicon glyphicon-search"></span>
+          搜索
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 <!-- 热门城市推荐 -->
@@ -1864,6 +1872,6 @@ $tab = 'scenic'
 
 <script>
   function toScenicDetail() {
-    window.location.href = "./scenicDetail.php";
+    window.location.href = "./scenicdetail.php";
   }
 </script>
