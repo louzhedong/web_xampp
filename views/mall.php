@@ -65,7 +65,7 @@ $mall_tab = 'index';
       </div>
     </div>
     <div class="mall-menu-item">
-      <span class="mall-menu-icon glyphicon glyphicon-pawne"></span>
+      <span class="mall-menu-icon glyphicon glyphicon-pawn"></span>
       <div class="title">
         <h2 class="mall-menu-title">港澳台 国内</h2>
         <p class="mall-menu-subtitle">香港 澳门 台湾</p>
@@ -81,13 +81,13 @@ $mall_tab = 'index';
         <h2 class="mall-menu-title">港澳台 国内</h2>
         <p class="mall-menu-subtitle">香港 澳门 台湾</p>
       </div>
-      <span class="mall-menu-arrow glyphicon-chevron-right"></span>
+      <span class="mall-menu-arrow glyphicon glyphicon-chevron-right"></span>
       <div class="menu-content">
         ddd
       </div>
     </div>
     <div class="mall-menu-item">
-      <span class="mall-menu-icon glyphicon glyphicon-knighte"></span>
+      <span class="mall-menu-icon glyphicon glyphicon-knight"></span>
       <div class="title">
         <h2 class="mall-menu-title">港澳台 国内</h2>
         <p class="mall-menu-subtitle">香港 澳门 台湾</p>
@@ -108,6 +108,26 @@ $mall_tab = 'index';
         fff
       </div>
     </div>
+  </div>
+</div>
+<div class="discounts">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <div class="discounts-item">
+        <img src="../images/mall/discounts/discounts1.png" alt="">
+      </div>
+      <div class="discounts-item">
+        <img src="../images/mall/discounts/discounts2.png" alt="">
+      </div>
+      <div class="discounts-item">
+        <img src="../images/mall/discounts/discounts3.png" alt="">
+      </div>
+      <div class="discounts-item">
+        <img src="../images/mall/discounts/discounts4.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-1"></div>
   </div>
 </div>
 </body>

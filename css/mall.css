@@ -3,6 +3,19 @@
   height: 480px;
 }
 
+.carousel .carousel-inner {
+  height: 480px;
+}
+
+.carousel .carousel-inner .item {
+  height: 480px;
+}
+
+.carousel .carousel-inner .item img {
+  height: 100%;
+  width: 100%;
+}
+
 .carousel .mall-menu {
   position: absolute;
   height: 480px;
@@ -17,7 +30,7 @@
 .carousel .mall-menu .mall-menu-item {
   height: 70px;
   display: flex;
-  padding-left: 53px;
+  padding-left: 36px;
   border-top: 1px solid hsla(0,0%,100%,.1);
 }
 
@@ -46,6 +59,7 @@
 .carousel .mall-menu .mall-menu-item .title {
   margin-left: 25px;
   padding-top: 10px;
+  width: 130px;
 }
 
 .carousel .mall-menu .mall-menu-item  .title .mall-menu-title {
@@ -64,7 +78,7 @@
 
 .carousel .mall-menu .mall-menu-item .mall-menu-arrow {
   line-height: 70px;
-  margin-left: 50px;
+  margin-left: 40px;
   color: #fff;
   opacity: .4;
 }
@@ -81,4 +95,21 @@
 
 .carousel .mall-menu .mall-menu-item:hover .menu-content {
   display: block;
+}
+
+.discounts {
+  margin-top: 20px;
+}
+
+.discounts .col-md-10{
+  display: flex;
+  justify-content: space-around;
+}
+
+.discounts .col-md-10 .discounts-item {
+  width: 22%;
+}
+
+.discounts .col-md-10 .discounts-item img {
+  width: 100%;
 }
