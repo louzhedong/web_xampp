@@ -24,14 +24,14 @@
   left: 220px;
   top: 0;
   padding: 30px 0;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .carousel .mall-menu .mall-menu-item {
   height: 70px;
   display: flex;
   padding-left: 36px;
-  border-top: 1px solid hsla(0,0%,100%,.1);
+  border-top: 1px solid hsla(0, 0%, 100%, .1);
 }
 
 .carousel .mall-menu .mall-menu-item:hover {
@@ -62,7 +62,7 @@
   width: 130px;
 }
 
-.carousel .mall-menu .mall-menu-item  .title .mall-menu-title {
+.carousel .mall-menu .mall-menu-item .title .mall-menu-title {
   padding-top: 10px;
   font-size: 18px;
   line-height: 20px;
@@ -70,7 +70,7 @@
   font-weight: 500;
 }
 
-.carousel .mall-menu .mall-menu-item  .title .mall-menu-subtitle {
+.carousel .mall-menu .mall-menu-item .title .mall-menu-subtitle {
   font-size: 14px;
   color: silver;
   margin-top: 5px;
@@ -98,10 +98,10 @@
 }
 
 .discounts {
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
-.discounts .col-md-10{
+.discounts .col-md-10 {
   display: flex;
   justify-content: space-around;
 }
@@ -112,4 +112,384 @@
 
 .discounts .col-md-10 .discounts-item img {
   width: 100%;
+}
+
+.package-tour {
+  margin-top: 60px;
+  background-color: #f5f5f5;
+  padding-bottom: 60px;
+}
+
+.package-tour .package-tour-header {
+  margin-top: 40px;
+  height: 40px;
+}
+
+.package-tour .package-tour-header .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  float: left;
+}
+
+.package-tour .package-tour-header .subtitle {
+  margin-left: 12px;
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #636363;
+  float: left;
+}
+
+.package-tour .package-tour-body {
+  margin-top: 30px;
+}
+
+.package-tour .package-tour-body .package-tour-list {
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.package-tour .package-tour-body .package-tour-list:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-one {
+  float: left;
+  margin: 20px 0 0 20px;
+  position: relative;
+  width: 570px;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-one .pics {
+  width: 100%;
+  height: 266px;
+  overflow: hidden;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-one .pics img {
+  position: relative;
+  top: -56px;
+  display: block;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-one .mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: .2;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-one .tag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100px;
+  height: 100px;
+  padding: 20px 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-one .title {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-one .price {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  line-height: 1;
+  color: silver;
+  font-size: 13px;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-one .price em {
+  font-size: 32px;
+  font-weight: 200;
+  color: #ff7467;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-item {
+  background-color: #fff;
+  float: left;
+  margin: 20px 0 0 20px;
+  width: 275px;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-item .pics {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-item .pics img {
+  position: relative;
+  top: -12px;
+  display: block;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-item .infos {
+  height: 106px;
+  border: 1px solid #ececec;
+  border-top: none;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-item .infos .title {
+  height: 58px;
+  padding: 10px 15px 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323232;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-item .infos .price {
+  padding: 5px 15px 0;
+  color: #959595;
+  line-height: 1;
+  text-align: right;
+  font-size: 13px;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-item .infos .price em {
+  font-size: 28px;
+  font-weight: 200;
+  color: #ff9d00;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-more {
+  margin: 20px 0 0 20px;
+  float: left;
+  width: 275px;
+  height: 266px;
+  background-color: #3fb4e5;
+  background-image: linear-gradient(180deg,#40dbe5,#3e87e6);
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-more .title {
+  padding-top: 46px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-more .arrow {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.package-tour .package-tour-body .package-tour-list .package-tour-more .arrow .glyphicon {
+  font-size: 40px;
+  color: #fff;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.dangdi-tour {
+  padding-bottom: 60px;
+  background-color: #f5f5f5;
+}
+
+.dangdi-tour .dangdi-tour-header {
+  margin-top: 60px;
+  height: 40px;
+}
+
+.dangdi-tour .dangdi-tour-header .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  float: left;
+}
+
+.dangdi-tour .dangdi-tour-header .subtitle {
+  margin-left: 12px;
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #636363;
+  float: left;
+}
+
+.dangdi-tour .dangdi-tour-body {
+  margin-top: 30px;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list {
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one {
+  margin: 25px 0 0 25px;
+  float: left;
+  position: relative;
+  width: 373px;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one .pics {
+  width: 100%;
+  height: 265px;
+  overflow: hidden;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one .pics img {
+  position: relative;
+  left: -14px;
+  display: block;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one .mask {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 175px;
+  background-image: linear-gradient(180deg,transparent,#000);
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one .title {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 50px;
+  max-height: 48px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one .infos {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 10px;
+  font-size: 14px;
+  color: silver;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one .infos:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one .infos .type {
+  float: left;
+  padding-top: 12px;
+  line-height: 20px;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one .infos .price {
+  float: right;
+  line-height: 1;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-one .infos .price em {
+  margin-right: 5px;
+  font-size: 32px;
+  font-weight: 200;
+  color: #ff9d00;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-more {
+  margin: 25px 0 0 25px;
+  float: right;
+  width: 373px;
+  height: 265px;
+  background-color: #ff6a71;
+  background-image: linear-gradient(180deg,#ff6476,#ff7467);
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-more .title {
+  padding-top: 46px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-more .arrow {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-more .arrow .glyphicon {
+  font-size: 40px;
+  color: #fff;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-item {
+  margin: 25px 0 0 25px;
+  float: left;
+  width: 373px;
+  height: 120px;
+  padding-left: 120px;
+  background-color: #fff;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-item .pics {
+  position: absolute;
+  margin-left: -120px;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-item .title {
+  height: 72px;
+  padding: 15px 18px 0;
+  font-size: 16px;
+  line-height: 28px;
+  color: #323232;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-item .price {
+  padding: 15px 15px 0;
+  text-align: right;
+  color: #959595;
+  line-height: 1;
+}
+
+.dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-item .price em {
+  font-size: 32px;
+  font-weight: 200;
+  color: #ff9d00;
 }
