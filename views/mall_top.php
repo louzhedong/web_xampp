@@ -33,9 +33,12 @@
                onclick="<?php if ($mall_tab!= 'index') echo "toIndex()" ?>">首页</div>
           <div class="mall-tab <?php if ($mall_tab == 'gentuanyou') {echo 'active';}?>"
                onclick="<?php if ($mall_tab != 'gentuanyou') echo "toGentuanyou()" ?>">跟团游</div>
-          <div class="mall-tab">当地自助游</div>
-          <div class="mall-tab">签证</div>
-          <div class="mall-tab">邮轮</div>
+          <div class="mall-tab <?php if ($mall_tab == 'dangdiyou') {echo 'active';}?>"
+               onclick="<?php if ($mall_tab != 'dangdiyou') echo "toDangdiyou()" ?>">当地自助游</div>
+          <div class="mall-tab <?php if ($mall_tab == 'qianzheng') {echo 'active';}?>"
+               onclick="<?php if ($mall_tab != 'qianzheng') echo "toQianzheng()" ?>">签证</div>
+          <div class="mall-tab <?php if ($mall_tab == 'cruise') {echo 'active';}?>"
+               onclick="<?php if ($mall_tab != 'cruise') echo "toCruise()" ?>">邮轮</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -50,6 +53,18 @@
 
   function toGentuanyou() {
     window.location.href = './gentuanyou.php';
+  }
+
+  function toDangdiyou() {
+    window.location.href = './dangdiyou.php';
+  }
+
+  function toQianzheng() {
+    window.location.href = './qianzheng.php';
+  }
+
+  function toCruise() {
+    window.location.href = './cruise.php';
   }
 </script>
 
