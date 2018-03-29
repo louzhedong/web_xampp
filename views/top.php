@@ -15,7 +15,7 @@
       </li>
       <li class="header-tab <?php if ($tab == 'scenic') echo 'active' ?>"
           onclick="<?php if ($tab != 'scenic') echo "toScenic()" ?>">
-        景点汇
+        目的地
       </li>
       <li class="header-tab <?php if ($tab == 'strategy') echo 'active' ?>"
           onclick="<?php if ($tab != 'strategy') echo "toStrategy()" ?>">

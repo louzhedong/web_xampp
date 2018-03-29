@@ -124,6 +124,141 @@ $tab = 'index'
           </div>
         </div>
       </div>
+      <br/>
+      <div class="flash-sell">
+        <div class="flash-sell-header">
+          <span class="left">限时特卖</span>
+          <span class="right">每日必看的特价精选</span>
+        </div>
+        <div class="flash-sell-content">
+          <div class="flash-sell-item">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
+            <div class="describe">
+              <div class="describe-inner">
+                [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+              </div>
+            </div>
+            <div class="price">
+              <span class="number">￥1999</span>
+              <span class="word">元起</span>
+            </div>
+          </div>
+          <div class="flash-sell-item">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
+            <div class="describe">
+              <div class="describe-inner">
+                【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+              </div>
+            </div>
+            <div class="price">
+              <span class="number">￥5122</span>
+              <span class="word">元起</span>
+            </div>
+          </div>
+          <div class="flash-sell-item">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
+            <div class="describe">
+              <div class="describe-inner">
+                【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+              </div>
+            </div>
+            <div class="price">
+              <span class="number">￥7196</span>
+              <span class="word">元起</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <div class="flash-sell">
+        <div class="flash-sell-header">
+          <span class="left">限时特卖</span>
+          <span class="right">每日必看的特价精选</span>
+        </div>
+        <div class="flash-sell-content">
+          <div class="flash-sell-item">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
+            <div class="describe">
+              <div class="describe-inner">
+                [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+              </div>
+            </div>
+            <div class="price">
+              <span class="number">￥1999</span>
+              <span class="word">元起</span>
+            </div>
+          </div>
+          <div class="flash-sell-item">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
+            <div class="describe">
+              <div class="describe-inner">
+                【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+              </div>
+            </div>
+            <div class="price">
+              <span class="number">￥5122</span>
+              <span class="word">元起</span>
+            </div>
+          </div>
+          <div class="flash-sell-item">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
+            <div class="describe">
+              <div class="describe-inner">
+                【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+              </div>
+            </div>
+            <div class="price">
+              <span class="number">￥7196</span>
+              <span class="word">元起</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <div class="flash-sell">
+        <div class="flash-sell-header">
+          <span class="left">限时特卖</span>
+          <span class="right">每日必看的特价精选</span>
+        </div>
+        <div class="flash-sell-content">
+          <div class="flash-sell-item">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
+            <div class="describe">
+              <div class="describe-inner">
+                [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+              </div>
+            </div>
+            <div class="price">
+              <span class="number">￥1999</span>
+              <span class="word">元起</span>
+            </div>
+          </div>
+          <div class="flash-sell-item">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
+            <div class="describe">
+              <div class="describe-inner">
+                【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+              </div>
+            </div>
+            <div class="price">
+              <span class="number">￥5122</span>
+              <span class="word">元起</span>
+            </div>
+          </div>
+          <div class="flash-sell-item">
+            <img src="../images/index/carousel/carousel6.jpeg" alt="">
+            <div class="describe">
+              <div class="describe-inner">
+                【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+              </div>
+            </div>
+            <div class="price">
+              <span class="number">￥7196</span>
+              <span class="word">元起</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="col-md-1"></div>
     <div class="col-md-2">
