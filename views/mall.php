@@ -160,87 +160,106 @@ $mall_tab = 'index';
     </div>
     <div class="kill-time">
       <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a aria-controls="t1" href="#t1" role="tab"
-                                                  data-toggle="tab">12:00</a></li>
-        <li role="presentation"><a aria-controls="t2" href="#t2" role="hot" data-toggle="tab">24:00</a></li>
+        <li role="presentation" class="active">
+          <a aria-controls="t1" href="#t1" role="tab" data-toggle="tab">
+            <div class="left">
+              12:00
+            </div>
+            <div class="right">
+              <div>正在秒杀</div>
+              <div id="leftTime"></div>
+            </div>
+          </a>
+        </li>
+        <li role="presentation"><a aria-controls="t2" href="#t2" role="tab" data-toggle="tab">
+            <div class="left">
+              24:00
+            </div>
+            <div class="right">
+              <div class="processing">进行中</div>
+            </div>
+          </a>
+        </li>
       </ul>
       <div class="kill-body">
-        <div role="tabpanel" class="tab-pane active" id="t1">
-          <div class="kill-pic">
-            <div class="kill-item">
-              <img src="../images/index/carousel/carousel6.jpeg" alt="">
-              <div class="describe">
-                <div class="describe-inner">
-                  [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="t1">
+            <div class="kill-pic">
+              <div class="kill-item">
+                <img src="../images/index/carousel/carousel6.jpeg" alt="">
+                <div class="describe">
+                  <div class="describe-inner">
+                    [aa上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+                  </div>
+                </div>
+                <div class="price">
+                  <span class="number">￥1999</span>
+                  <span class="word">元起</span>
                 </div>
               </div>
-              <div class="price">
-                <span class="number">￥1999</span>
-                <span class="word">元起</span>
-              </div>
-            </div>
-            <div class="kill-item">
-              <img src="../images/index/carousel/carousel6.jpeg" alt="">
-              <div class="describe">
-                <div class="describe-inner">
-                  【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+              <div class="kill-item">
+                <img src="../images/index/carousel/carousel6.jpeg" alt="">
+                <div class="describe">
+                  <div class="describe-inner">
+                    【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+                  </div>
+                </div>
+                <div class="price">
+                  <span class="number">￥5122</span>
+                  <span class="word">元起</span>
                 </div>
               </div>
-              <div class="price">
-                <span class="number">￥5122</span>
-                <span class="word">元起</span>
-              </div>
-            </div>
-            <div class="kill-item">
-              <img src="../images/index/carousel/carousel6.jpeg" alt="">
-              <div class="describe">
-                <div class="describe-inner">
-                  【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+              <div class="kill-item">
+                <img src="../images/index/carousel/carousel6.jpeg" alt="">
+                <div class="describe">
+                  <div class="describe-inner">
+                    【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+                  </div>
                 </div>
-              </div>
-              <div class="price">
-                <span class="number">￥7196</span>
-                <span class="word">元起</span>
+                <div class="price">
+                  <span class="number">￥7196</span>
+                  <span class="word">元起</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div role="tabpanel" class="tab-pane" id="t2">
-          <div class="kill-content">
-            <div class="kill-item">
-              <img src="../images/index/carousel/carousel6.jpeg" alt="">
-              <div class="describe">
-                <div class="describe-inner">
-                  [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+          <div role="tabpanel" class="tab-pane" id="t2">
+            <div class="kill-pic">
+              <div class="kill-item">
+                <img src="../images/index/carousel/carousel6.jpeg" alt="">
+                <div class="describe">
+                  <div class="describe-inner">
+                    [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+                  </div>
+                </div>
+                <div class="price">
+                  <span class="number">￥1999</span>
+                  <span class="word">元起</span>
                 </div>
               </div>
-              <div class="price">
-                <span class="number">￥1999</span>
-                <span class="word">元起</span>
-              </div>
-            </div>
-            <div class="kill-item">
-              <img src="../images/index/carousel/carousel6.jpeg" alt="">
-              <div class="describe">
-                <div class="describe-inner">
-                  【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+              <div class="kill-item">
+                <img src="../images/index/carousel/carousel6.jpeg" alt="">
+                <div class="describe">
+                  <div class="describe-inner">
+                    【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+                  </div>
+                </div>
+                <div class="price">
+                  <span class="number">￥5122</span>
+                  <span class="word">元起</span>
                 </div>
               </div>
-              <div class="price">
-                <span class="number">￥5122</span>
-                <span class="word">元起</span>
-              </div>
-            </div>
-            <div class="kill-item">
-              <img src="../images/index/carousel/carousel6.jpeg" alt="">
-              <div class="describe">
-                <div class="describe-inner">
-                  【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+              <div class="kill-item">
+                <img src="../images/index/carousel/carousel6.jpeg" alt="">
+                <div class="describe">
+                  <div class="describe-inner">
+                    【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+                  </div>
                 </div>
-              </div>
-              <div class="price">
-                <span class="number">￥7196</span>
-                <span class="word">元起</span>
+                <div class="price">
+                  <span class="number">￥7196</span>
+                  <span class="word">元起</span>
+                </div>
               </div>
             </div>
           </div>
@@ -401,5 +420,39 @@ $mall_tab = 'index';
 
   function toDangdiyou() {
     window.location.href = './dangdiyou.php';
+  }
+
+  function timeFormat(format, timestamp) {
+    var h = Math.floor(timestamp / (1000 * 60 * 60));
+    var i = Math.floor((timestamp - h * 1000 * 60 * 60) / (1000 * 60));
+    var s = Math.floor((timestamp - h * 1000 * 60 * 60 - i * 1000 * 60) / 1000);
+
+    h = h < 10 ?
+      '0' + h :
+      h;
+    i = i < 10 ?
+      '0' + i :
+      i;
+    s = s < 10 ?
+      '0' + s :
+      s;
+    return format
+      .replace('H', h)
+      .replace('i', i)
+      .replace('s', s)
+  }
+
+  leftTime = 1000 * 24 * 60 * 60 - 1000;
+  var leftTimeDom = document.getElementById("leftTime");
+  leftTimeDom.innerHTML = "距结束" + timeFormat('H:i:s', leftTime);
+  var timer = null;
+  if (leftTime > 0) {
+    timer = setInterval(function () {
+      leftTime -= 1000;
+      leftTimeDom.innerHTML = "距结束" + timeFormat('H:i:s', leftTime);
+    }, 1000)
+  } else {
+    clearInterval(timer);
+    timer = null;
   }
 </script>

@@ -127,7 +127,7 @@
 
 .discounts {
   margin-top: 20px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .discounts .discounts-content {
@@ -187,6 +187,7 @@
   display: flex;
   color: #fff;
   cursor: pointer;
+  border-bottom: none;
 }
 
 .kill .kill-time .nav-tabs li a {
@@ -199,6 +200,23 @@
   background-color: #636363;
 }
 
+.kill .kill-time .nav-tabs li a .left {
+  float: left;
+  margin-right: 30px;
+  line-height: 30px;
+}
+
+.kill .kill-time .nav-tabs li a .right {
+  float: left;
+  font-size: 14px;
+}
+
+.kill .kill-time .nav-tabs li a .right .processing {
+  border: 1px solid;
+  margin: 0 auto;
+  padding: 3px 10px;
+  border-radius: 15px;
+}
 
 .kill .kill-time .nav-tabs li.active a {
   color: #fff;
@@ -208,21 +226,9 @@
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.kill .kill-time .kill-body {
+  margin-top: 30px;
+}
 
 .kill .kill-body .kill-pic {
   width: 100%;
@@ -684,7 +690,6 @@
   font-weight: 200;
   color: #ff9d00;
 }
-
 
 .mall-footer {
   width: 1160px;
