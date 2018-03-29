@@ -152,67 +152,100 @@ $mall_tab = 'index';
   </div>
 </div>
 
-<div class="dangdi-tour">
-  <div class="dangdi-tour-content">
-    <div class="dangdi-tour-header">
-      <p class="title">当地自助游</p>
-      <p class="subtitle">像当地人一样，体验最本土的吃喝玩乐</p>
+<div class="kill">
+  <div class="kill-content">
+    <div class="kill-header">
+      <p class="title">天天秒杀</p>
+      <p class="subtitle">限时抢购，每日24点上新</p>
     </div>
-    <div class="dangdi-tour-body">
-      <ul class="dangdi-tour-list">
-        <div class="dangdi-tour-one">
-          <p class="pics">
-            <img src="../images/mall/dangdi/1.jpeg" alt="">
-          </p>
-          <div class="mask"></div>
-          <h3 class="title">【3月22再秒杀】【打卡必玩】日本东京迪斯尼乐园/迪士尼海洋1日/多日通票</h3>
-          <div class="infos">
-            <p class="type">城市玩乐</p>
-            <p class="price"><em>435</em>元起</p>
-          </div>
-        </div>
-        <div class="dangdi-tour-item">
-          <div class="pics">
-            <img src="../images/mall/dangdi/2.jpeg" alt="">
-          </div>
-          <h3 class="title">【樱花季买二免一】【穷游Q-Home首发】日本京都祇园花见和服体验</h3>
-          <p class="price"><em>240</em>元起</p>
-        </div>
-        <div class="dangdi-tour-item">
-          <div class="pics">
-            <img src="../images/mall/dangdi/3.jpeg" alt="">
-          </div>
-          <h3 class="title">【【3月21秒杀】【酒店接】日本大阪京都一日游金阁寺+伏见稻荷大社+祗园等（大阪往返，一人成团）</h3>
-          <p class="price"><em>195</em>元起</p>
-        </div>
-        <div class="dangdi-tour-item">
-          <div class="pics">
-            <img src="../images/mall/dangdi/4.jpeg" alt="">
-          </div>
-          <h3 class="title">【3月22再秒】【打卡必玩】日本大阪环球影城入园电子票</h3>
-          <p class="price"><em>466</em>元起</p>
-        </div>
-        <div class="dangdi-tour-more" onclick="toDangdiyou()">
-          <p class="title">查看更多<br>当地玩乐产品</p>
-          <p class="arrow">
-            <span class="glyphicon glyphicon-menu-right"></span>
-          </p>
-        </div>
-        <div class="dangdi-tour-item">
-          <div class="pics">
-            <img src="../images/mall/dangdi/5.jpeg" alt="">
-          </div>
-          <h3 class="title">日本青森县星野酒店集团奥入濑溪流酒店</h3>
-          <p class="price"><em>599</em>元起</p>
-        </div>
-        <div class="dangdi-tour-item">
-          <div class="pics">
-            <img src="../images/mall/dangdi/6.jpeg" alt="">
-          </div>
-          <h3 class="title">日本青森县星野酒店集团青森屋</h3>
-          <p class="price"><em>388</em>元起</p>
-        </div>
+    <div class="kill-time">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a aria-controls="t1" href="#t1" role="tab"
+                                                  data-toggle="tab">12:00</a></li>
+        <li role="presentation"><a aria-controls="t2" href="#t2" role="hot" data-toggle="tab">24:00</a></li>
       </ul>
+      <div class="kill-body">
+        <div role="tabpanel" class="tab-pane active" id="t1">
+          <div class="kill-pic">
+            <div class="kill-item">
+              <img src="../images/index/carousel/carousel6.jpeg" alt="">
+              <div class="describe">
+                <div class="describe-inner">
+                  [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+                </div>
+              </div>
+              <div class="price">
+                <span class="number">￥1999</span>
+                <span class="word">元起</span>
+              </div>
+            </div>
+            <div class="kill-item">
+              <img src="../images/index/carousel/carousel6.jpeg" alt="">
+              <div class="describe">
+                <div class="describe-inner">
+                  【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+                </div>
+              </div>
+              <div class="price">
+                <span class="number">￥5122</span>
+                <span class="word">元起</span>
+              </div>
+            </div>
+            <div class="kill-item">
+              <img src="../images/index/carousel/carousel6.jpeg" alt="">
+              <div class="describe">
+                <div class="describe-inner">
+                  【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+                </div>
+              </div>
+              <div class="price">
+                <span class="number">￥7196</span>
+                <span class="word">元起</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="t2">
+          <div class="kill-content">
+            <div class="kill-item">
+              <img src="../images/index/carousel/carousel6.jpeg" alt="">
+              <div class="describe">
+                <div class="describe-inner">
+                  [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+                </div>
+              </div>
+              <div class="price">
+                <span class="number">￥1999</span>
+                <span class="word">元起</span>
+              </div>
+            </div>
+            <div class="kill-item">
+              <img src="../images/index/carousel/carousel6.jpeg" alt="">
+              <div class="describe">
+                <div class="describe-inner">
+                  【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+                </div>
+              </div>
+              <div class="price">
+                <span class="number">￥5122</span>
+                <span class="word">元起</span>
+              </div>
+            </div>
+            <div class="kill-item">
+              <img src="../images/index/carousel/carousel6.jpeg" alt="">
+              <div class="describe">
+                <div class="describe-inner">
+                  【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+                </div>
+              </div>
+              <div class="price">
+                <span class="number">￥7196</span>
+                <span class="word">元起</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -290,6 +323,73 @@ $mall_tab = 'index';
     </div>
   </div>
 </div>
+
+<div class="dangdi-tour">
+  <div class="dangdi-tour-content">
+    <div class="dangdi-tour-header">
+      <p class="title">当地自助游</p>
+      <p class="subtitle">像当地人一样，体验最本土的吃喝玩乐</p>
+    </div>
+    <div class="dangdi-tour-body">
+      <ul class="dangdi-tour-list">
+        <div class="dangdi-tour-one">
+          <p class="pics">
+            <img src="../images/mall/dangdi/1.jpeg" alt="">
+          </p>
+          <div class="mask"></div>
+          <h3 class="title">【3月22再秒杀】【打卡必玩】日本东京迪斯尼乐园/迪士尼海洋1日/多日通票</h3>
+          <div class="infos">
+            <p class="type">城市玩乐</p>
+            <p class="price"><em>435</em>元起</p>
+          </div>
+        </div>
+        <div class="dangdi-tour-item">
+          <div class="pics">
+            <img src="../images/mall/dangdi/2.jpeg" alt="">
+          </div>
+          <h3 class="title">【樱花季买二免一】【穷游Q-Home首发】日本京都祇园花见和服体验</h3>
+          <p class="price"><em>240</em>元起</p>
+        </div>
+        <div class="dangdi-tour-item">
+          <div class="pics">
+            <img src="../images/mall/dangdi/3.jpeg" alt="">
+          </div>
+          <h3 class="title">【【3月21秒杀】【酒店接】日本大阪京都一日游金阁寺+伏见稻荷大社+祗园等（大阪往返，一人成团）</h3>
+          <p class="price"><em>195</em>元起</p>
+        </div>
+        <div class="dangdi-tour-item">
+          <div class="pics">
+            <img src="../images/mall/dangdi/4.jpeg" alt="">
+          </div>
+          <h3 class="title">【3月22再秒】【打卡必玩】日本大阪环球影城入园电子票</h3>
+          <p class="price"><em>466</em>元起</p>
+        </div>
+        <div class="dangdi-tour-more" onclick="toDangdiyou()">
+          <p class="title">查看更多<br>当地玩乐产品</p>
+          <p class="arrow">
+            <span class="glyphicon glyphicon-menu-right"></span>
+          </p>
+        </div>
+        <div class="dangdi-tour-item">
+          <div class="pics">
+            <img src="../images/mall/dangdi/5.jpeg" alt="">
+          </div>
+          <h3 class="title">日本青森县星野酒店集团奥入濑溪流酒店</h3>
+          <p class="price"><em>599</em>元起</p>
+        </div>
+        <div class="dangdi-tour-item">
+          <div class="pics">
+            <img src="../images/mall/dangdi/6.jpeg" alt="">
+          </div>
+          <h3 class="title">日本青森县星野酒店集团青森屋</h3>
+          <p class="price"><em>388</em>元起</p>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
 <?php require 'footer.php' ?>
 </body>
 </html>

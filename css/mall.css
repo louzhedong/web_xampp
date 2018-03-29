@@ -126,7 +126,8 @@
 }
 
 .discounts {
-  margin-top: 60px;
+  margin-top: 20px;
+  margin-bottom:20px;
 }
 
 .discounts .discounts-content {
@@ -145,6 +146,147 @@
 
 .discounts .discounts-content .discounts-item img {
   width: 100%;
+}
+
+.kill {
+  padding-bottom: 120px;
+  background-color: #f5f5f5;
+  padding-top: 60px;
+}
+
+.kill .kill-content {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.kill .kill-content .kill-header {
+  height: 40px;
+}
+
+.kill .kill-header .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  float: left;
+}
+
+.kill .kill-header .subtitle {
+  margin-left: 12px;
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #636363;
+  float: left;
+}
+
+.kill .kill-content .kill-time {
+  margin-top: 30px;
+}
+
+.kill .kill-time .nav-tabs {
+  display: flex;
+  color: #fff;
+  cursor: pointer;
+}
+
+.kill .kill-time .nav-tabs li a {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  width: 300px;
+  height: 50px;
+  background-color: #636363;
+}
+
+
+.kill .kill-time .nav-tabs li.active a {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff9d00;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kill .kill-body .kill-pic {
+  width: 100%;
+}
+
+.kill .kill-body .kill-pic:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.kill .kill-body .kill-pic .kill-item {
+  width: 30%;
+  margin-right: 5%;
+  height: auto;
+  float: left;
+  cursor: pointer;
+}
+
+.kill .kill-body .kill-pic .kill-item:last-child {
+  margin-right: 0;
+}
+
+.kill .kill-body .kill-pic .kill-item img {
+  width: 100%;
+}
+
+.kill .kill-body .kill-pic .kill-item .describe {
+  height: 60px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  position: relative;
+}
+
+.kill .kill-body .kill-pic .kill-item .describe .describe-inner {
+  max-height: 60px;
+  line-height: 30px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  padding: 0 10px;
+}
+
+.kill .kill-body .kill-pic .kill-item .describe .describe-inner:hover {
+  padding-top: 10px;
+  max-height: 200px;
+  transition: max-height 0.3s;
+  color: #ff9d00;
+  background-color: #f8f8f8;
+}
+
+.kill .kill-body .kill-pic .kill-item .price {
+  text-align: right;
+  margin-right: 10px;
+  color: #ff9d00;
+}
+
+.kill .kill-body .kill-pic .kill-item .price .number {
+  font-size: 18px;
+}
+
+.kill .kill-body .kill-pic .kill-item .price .word {
+  font-size: 14px;
 }
 
 .package-tour {
