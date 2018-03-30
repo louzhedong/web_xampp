@@ -176,7 +176,8 @@ $mall_tab = 'index';
               24:00
             </div>
             <div class="right">
-              <div class="processing">进行中</div>
+              <div>正在秒杀</div>
+              <div id="leftTime"></div>
             </div>
           </a>
         </li>

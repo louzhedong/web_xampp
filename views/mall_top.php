@@ -34,7 +34,7 @@
           <div class="mall-tab <?php if ($mall_tab == 'gentuanyou') {echo 'active';}?>"
                onclick="<?php if ($mall_tab != 'gentuanyou') echo "toGentuanyou()" ?>">跟团游</div>
           <div class="mall-tab <?php if ($mall_tab == 'dangdiyou') {echo 'active';}?>"
-               onclick="<?php if ($mall_tab != 'dangdiyou') echo "toDangdiyou()" ?>">当地自助游</div>
+               onclick="<?php if ($mall_tab != 'dangdiyou') echo "toDangdiyou()" ?>">当地游</div>
           <div class="mall-tab <?php if ($mall_tab == 'qianzheng') {echo 'active';}?>"
                onclick="<?php if ($mall_tab != 'qianzheng') echo "toQianzheng()" ?>">签证</div>
           <div class="mall-tab <?php if ($mall_tab == 'cruise') {echo 'active';}?>"
