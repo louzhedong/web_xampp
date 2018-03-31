@@ -416,7 +416,7 @@ $mall_tab = 'index';
 
 <script>
   function toGentuanyou() {
-    window.location.href = 'mall_detail.php';
+    window.location.href = './gentuanyou.php';
   }
 
   function toDangdiyou() {
