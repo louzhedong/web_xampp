@@ -11,7 +11,7 @@
 <body>
 <?php
 $tab = 'mall';
-$mall_tab = 'qianzheng';
+$mall_tab = 'visa';
 ?>
 <?php require 'top.php' ?>
 <?php require 'mall_top.php'?>

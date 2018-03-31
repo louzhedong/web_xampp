@@ -35,8 +35,8 @@
                onclick="<?php if ($mall_tab != 'gentuanyou') echo "toGentuanyou()" ?>">跟团游</div>
           <div class="mall-tab <?php if ($mall_tab == 'dangdiyou') {echo 'active';}?>"
                onclick="<?php if ($mall_tab != 'dangdiyou') echo "toDangdiyou()" ?>">当地游</div>
-          <div class="mall-tab <?php if ($mall_tab == 'qianzheng') {echo 'active';}?>"
-               onclick="<?php if ($mall_tab != 'qianzheng') echo "toQianzheng()" ?>">签证</div>
+          <div class="mall-tab <?php if ($mall_tab == 'visa') {echo 'active';}?>"
+               onclick="<?php if ($mall_tab != 'visa') echo "toVisa()" ?>">签证</div>
           <div class="mall-tab <?php if ($mall_tab == 'cruise') {echo 'active';}?>"
                onclick="<?php if ($mall_tab != 'cruise') echo "toCruise()" ?>">邮轮</div>
         </div>
@@ -59,8 +59,8 @@
     window.location.href = './dangdiyou.php';
   }
 
-  function toQianzheng() {
-    window.location.href = './qianzheng.php';
+  function toVisa() {
+    window.location.href = './visa.php';
   }
 
   function toCruise() {

@@ -1,29 +1,29 @@
-.gentuanyou {
+.mall_detail {
   margin-top: 30px;
 }
 
-.gentuanyou .nav-tabs {
+.mall_detail .nav-tabs {
   border-bottom: none;
   background: #ddd;
 }
 
-.gentuanyou .nav-tabs li a {
+.mall_detail .nav-tabs li a {
   color: #000;
 }
 
-.gentuanyou .nav-tabs li.active a {
+.mall_detail .nav-tabs li.active a {
   color: #000;
   font-weight: bold;
   border-radius: 0px;
   border-top: 2px solid #ff9d00;
 }
 
-.gentuanyou .tab-content {
+.mall_detail .tab-content {
   border: 1px solid #ddd;
   padding-top: 30px;
 }
 
-.gentuanyou .tab-content .tab-pane .line {
+.mall_detail .tab-content .tab-pane .line {
   height: 50px;
   line-height: 50px;
   border-bottom: 1px solid #dadada;
@@ -31,11 +31,11 @@
   font-size: 15px;
 }
 
-.gentuanyou .tab-content .tab-pane .line:last-child {
+.mall_detail .tab-content .tab-pane .line:last-child {
   border-bottom: none;
 }
 
-.gentuanyou .tab-content .tab-pane .line input {
+.mall_detail .tab-content .tab-pane .line input {
   margin-left: 15px;
   margin-right: 5px;
   cursor: pointer;
@@ -43,26 +43,26 @@
   height: 15px;
 }
 
-.gentuanyou .gentuanyou-list {
+.mall_detail .mall_detail-list {
   margin-top: 60px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 {
+.mall_detail .mall_detail-list .col-md-8 {
 
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item {
+.mall_detail .mall_detail-list .col-md-8 .item {
   display: block;
   padding: 20px 0;
   color: #666;
   overflow: hidden;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item:hover {
+.mall_detail .mall_detail-list .col-md-8 .item:hover {
   background: #f9f9f9;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .image {
+.mall_detail .mall_detail-list .col-md-8 .item .image {
   float: left;
   display: inline;
   margin-right: 20px;
@@ -72,11 +72,11 @@
   position: relative;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .image img {
+.mall_detail .mall_detail-list .col-md-8 .item .image img {
   width: 100%;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .image .mark-type {
+.mall_detail .mall_detail-list .col-md-8 .item .image .mark-type {
   background-color: #12bcc4;
   color: #12bcc4;
   position: absolute;
@@ -87,39 +87,39 @@
   font-size: 12px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .image .mark-type strong {
+.mall_detail .mall_detail-list .col-md-8 .item .image .mark-type strong {
   float: left;
   padding: 0 10px;
   color: #fff;
   font-weight: normal;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .image .mark-type span {
+.mall_detail .mall_detail-list .col-md-8 .item .image .mark-type span {
   float: left;
   padding: 0 8px;
   background-color: #fff;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .detail {
+.mall_detail .mall_detail-list .col-md-8 .item .detail {
   float: right;
   width: 530px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .detail info {
+.mall_detail .mall_detail-list .col-md-8 .item .detail info {
   height: 120px;
   overflow: hidden;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .detail p {
+.mall_detail .mall_detail-list .col-md-8 .item .detail p {
   line-height: 20px;
   font-size: 13px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .detail p .t {
+.mall_detail .mall_detail-list .col-md-8 .item .detail p .t {
   margin-right: 20px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .detail .info h3 {
+.mall_detail .mall_detail-list .col-md-8 .item .detail .info h3 {
   margin: 5px 0;
   font-weight: bold;
   font-size: 18px;
@@ -129,11 +129,11 @@
   overflow: hidden;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .s-tag {
+.mall_detail .mall_detail-list .col-md-8 .item .s-tag {
   margin-bottom: 5px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .s-tag span {
+.mall_detail .mall_detail-list .col-md-8 .item .s-tag span {
   display: inline-block;
   border: 1px solid;
   color: #3aaeff;
@@ -142,19 +142,19 @@
   font-size: 12px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .extra {
+.mall_detail .mall_detail-list .col-md-8 .item .extra {
   height: 30px;
   line-height: 30px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .extra .action {
+.mall_detail .mall_detail-list .col-md-8 .item .extra .action {
   float: right;
   width: 100px;
   height: 30px;
   position: relative;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .extra .action .btn {
+.mall_detail .mall_detail-list .col-md-8 .item .extra .action .btn {
   display: inline-block;
   width: 98px;
   height: 28px;
@@ -167,29 +167,29 @@
   padding: 0;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item:hover .extra .action .btn {
+.mall_detail .mall_detail-list .col-md-8 .item:hover .extra .action .btn {
   background: #ff9d00;
   color: #fff;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .extra .action .promo-tag {
+.mall_detail .mall_detail-list .col-md-8 .item .extra .action .promo-tag {
   position: absolute;
   right: 0;
   bottom: 35px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .extra .price {
+.mall_detail .mall_detail-list .col-md-8 .item .extra .price {
   margin-right: 5px;
   color: #ff9d00;
   font-size: 14px;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .extra .price b {
+.mall_detail .mall_detail-list .col-md-8 .item .extra .price b {
   font-size: 18px;
   font-weight: bold;
 }
 
-.gentuanyou .gentuanyou-list .col-md-8 .item .extra .price strong {
+.mall_detail .mall_detail-list .col-md-8 .item .extra .price strong {
   font-size: 28px;
   font-weight: bold;
 }
