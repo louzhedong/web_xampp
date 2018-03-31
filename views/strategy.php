@@ -345,8 +345,8 @@ $tab = 'strategy'
         </div>
       </div>
     </div>
-    <div class="col-md-2"></div>
   </div>
+  <div class="col-md-2"></div>
 </div>
 <div class="row" style="margin-left: 0;margin-right: 0; margin-top: 50px">
   <div class="col-md-2"></div>
