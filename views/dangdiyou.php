@@ -401,40 +401,40 @@ $mall_tab = 'dangdiyou';
 <div class="gallery">
   <ul class="gallery-list">
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin4.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin2.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin3.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin1.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin6.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin7.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin8.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin9.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin10.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin11.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin12.jpeg" alt="">
     </li>
     <li>
-      <img src="../images/mall/dangdi/gallery/1.jpg" alt="">
+      <img src="../images/mall/detail/shangpin13.jpeg" alt="">
     </li>
 
   </ul>

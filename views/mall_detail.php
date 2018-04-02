@@ -93,7 +93,7 @@ $mall_tab = 'mall_detail'
           <div class="col-md-8">
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin1.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin1.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -125,7 +125,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin2.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin2.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -157,7 +157,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin3.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin3.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -188,7 +188,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin4.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin4.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -219,7 +219,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin5.gif" height="150" width="200">
+                <img src="../images/mall/detail/shangpin5.gif" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -251,7 +251,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin6.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin6.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -284,7 +284,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin7.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin7.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -316,7 +316,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin8.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin8.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -348,7 +348,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin9.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin9.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -380,7 +380,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin10.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin10.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -412,7 +412,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin11.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin11.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -444,7 +444,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin12.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin12.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -477,7 +477,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin13.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin13.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -509,7 +509,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin14.jpeg" height="150" width="200">
+                <img src="../images/mall/detail/shangpin14.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
@@ -541,7 +541,7 @@ $mall_tab = 'mall_detail'
             </a>
             <a class="item" href="#">
               <div class="image">
-                <img src="../images/mall_detail/shangpin15.gif" height="150" width="200">
+                <img src="../images/mall/detail/shangpin15.gif" height="150" width="200">
                 <span class="mark-type type-10">
                   <strong>杭州出发</strong>
                   <span>半自助游</span>
