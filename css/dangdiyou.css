@@ -8,7 +8,7 @@
 }
 
 .dangdiyou-box .row .col-md-4 .dangdiyou-nav {
-  width: 280px;
+  width: 350px;
   border: 1px solid #ddd;
   border-bottom: 0;
   position: relative;
@@ -34,7 +34,8 @@
 }
 
 .dangdiyou-box .row .col-md-4 .dangdiyou-nav .dangdiyou-nav-item .left {
-  float: left;
+  float:left;
+  font-size: 14px;
 }
 
 .dangdiyou-box .row .col-md-4 .dangdiyou-nav .dangdiyou-nav-item .right {
@@ -97,25 +98,25 @@
   color: #ff9d00;
 }
 
-.dangdiyou-box .row .col-md-8 {
+.dangdiyou-box .row .col-md-10 {
 
 }
 
-.dangdiyou-box .row .col-md-8 .carousel {
+.dangdiyou-box .row .col-md-10 .carousel {
   height: 300px;
 }
 
-.dangdiyou-box .row .col-md-8 .carousel .carousel-inner {
+.dangdiyou-box .row .col-md-10 .carousel .carousel-inner {
   height: 100%;
   width: 100%;
 }
 
-.dangdiyou-box .row .col-md-8 .carousel .carousel-inner .item {
+.dangdiyou-box .row .col-md-10 .carousel .carousel-inner .item {
   height: 100%;
   width: 100%;
 }
 
-.dangdiyou-box .row .col-md-8 .carousel .carousel-inner .item img {
+.dangdiyou-box .row .col-md-10 .carousel .carousel-inner .item img {
   width: 100%;
 }
 

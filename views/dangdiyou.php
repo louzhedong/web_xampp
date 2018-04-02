@@ -18,8 +18,8 @@ $mall_tab = 'dangdiyou';
 <?php require 'mall_top.php' ?>
 <div class="dangdiyou">
   <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
       <div class="dangdiyou-box">
         <div class="row">
           <div class="col-md-4">
@@ -395,7 +395,7 @@ $mall_tab = 'dangdiyou';
         </li>
       </ul>
     </div>
-    <div class="col-md-2"></div>
+    <div class="col-md-1"></div>
   </div>
 </div>
 <div class="gallery">
