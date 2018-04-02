@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php
-$tab = 'index';
+$tab = 'mall';
 $mall_tab = 'index';
 ?>
 <?php require 'top.php' ?>
