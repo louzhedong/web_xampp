@@ -11,17 +11,13 @@
   <div class="mall-top-search">
     <div class="row">
       <div class="col-md-1"></div>
-      <div class="col-md-2 title">享商城</div>
+      <div class="col-md-5 title">享商城</div>
       <div class="col-md-6">
         <div class="mall-search">
           <div class="icons glyphicon glyphicon-search"></div>
           <input class="search-input" placeholder="搜索国家、城市、产品"></input>
         </div>
       </div>
-      <div class="col-md-2">
-
-      </div>
-      <div class="col-md-1"></div>
     </div>
   </div>
   <div class="mall-wrap">
