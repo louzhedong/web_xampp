@@ -28,10 +28,10 @@
           <span class="caret"></span>
         </div>
         <ul class="dropdown-menu" aria-labelledby="dropdownMart">
-          <li><a href="#">机酒自由行</a></li>
-          <li><a href="#">当地玩乐</a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#">Separated link</a></li>
+          <li><a href="" onclick="javascript(0);toGentuanyou()">跟团游</a></li>
+          <li><a href="" onclick="toDangdiyou()">当地游</a></li>
+          <li><a href="" onclick="toVisa()">签证</a></li>
+          <li><a href="" onclick="toCruise()">邮轮</a></li>
         </ul>
       </li>
       <li class="header-tab <?php if ($tab == 'hotel') echo 'active' ?>"
@@ -156,6 +156,23 @@
   function toSociety() {
     window.location.href = './society.php';
   }
+
+  function toGentuanyou() {
+    window.location.href = './gentuanyou.php';
+  }
+
+  function toDangdiyou() {
+    window.location.href = './dangdiyou.php';
+  }
+
+  function toVisa() {
+    window.location.href = './visa.php';
+  }
+
+  function toCruise() {
+    window.location.href = './cruise.php';
+  }
+
 
   function lagout() {
     toastr.success('您已退出！');

@@ -34,7 +34,7 @@
 }
 
 .dangdiyou-box .row .col-md-4 .dangdiyou-nav .dangdiyou-nav-item .left {
-  float:left;
+  float: left;
   font-size: 14px;
 }
 
@@ -225,6 +225,191 @@
 
 .tag-tabs .tag-tabs-item a div {
   font-size: 13px;
+}
+
+.dangdiyou .hot-sale, .travel-strategy {
+  margin-top: 60px;
+}
+
+.dangdiyou .hot-sale .hot-sale-header {
+  border-bottom: 1px solid #dadada;
+  height: 50px;
+  line-height:50px;
+}
+
+.dangdiyou .hot-sale .hot-sale-header h1 {
+  font-size: 22px;
+}
+
+.dangdiyou .hot-sale .hot-sale-content {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item {
+  float: left;
+  width: 23%;
+  display: inline;
+  margin: 0 15px 15px 0;
+  position: relative;
+  height: 234px;
+  cursor: pointer;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .image {
+  width: 100%;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .image img {
+  width: 100%;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .image .mark-tag {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 7px;
+  line-height: 26px;
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+  font-size: 12px;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .caption {
+  border: 1px solid #f1f1f1;
+  padding: 5px 10px 18px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 90px;
+  background-color: #fff;
+  transition: height .2s ease-in-out .1s;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .caption:hover {
+  height: 115px;
+  background: #f9f9f9;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .caption h3 {
+  height: 40px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  color: #000;
+  line-height: 21px;
+  overflow: hidden;
+  font-size: 14px;
+  transition: height .2s ease-in-out .1s;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .caption:hover h3 {
+  height: 65px;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .caption .sell {
+  float: right;
+  padding-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .caption .price {
+  color: #ff8a00;
+}
+
+.dangdiyou .hot-sale .hot-sale-content .hot-sale-item .caption .price b {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-header {
+  border-bottom: 1px solid #dadada;
+  height: 50px;
+  line-height:50px;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-header h1 {
+  font-size: 22px;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item {
+  float: left;
+  width: 31%;
+  margin: 0 22px 0 0;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item .image {
+  position: relative;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item .image img {
+  width: 100%;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item .image .place {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,.25);
+  text-align: center;
+  line-height: 180px;
+  overflow: hidden;
+  font-size: 30px;
+  color: #fff;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item .detail {
+  height: 120px;
+  border: 1px solid #f1f1f1;
+  padding: 5px 10px;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item .detail>* {
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item .detail h3 {
+  margin: 3px 0 5px;
+  height: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000;
+  line-height: 24px;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item .detail .view {
+  margin-top: 8px;
+  text-align: center;
+  color: #ff9d00;
+  cursor: pointer;
+
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item .detail p {
+  font-size: 15px;
+  height: 22px;
+  color: #333;
+}
+
+.dangdiyou .travel-strategy .travel-strategy-content .travel-strategy-item .detail p:before {
+  content: '';
+  float: left;
+  margin: 6px 8px 0 0;
+  width: 2px;
+  height: 8px;
+  background-color: #ff9d00;
 }
 
 .gallery {
