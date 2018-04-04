@@ -46,7 +46,7 @@
 .visa .visa-recommend .visa-recommend-content .visa-recommend-item .image .cover {
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,.25);
+  background: rgba(0, 0, 0, .25);
   position: absolute;
   left: 0;
   top: 0;
@@ -60,7 +60,7 @@
   display: inline-block;
 }
 
-.visa .visa-recommend .visa-recommend-content .visa-recommend-item .image .cover .city>span {
+.visa .visa-recommend .visa-recommend-content .visa-recommend-item .image .cover .city > span {
   padding: 10px 20px;
   display: inline-block;
 }
@@ -117,7 +117,7 @@
   overflow: hidden;
 }
 
-.visa .visa-recommend .visa-recommend-content .visa-recommend-item .info .visa_tips .nation{
+.visa .visa-recommend .visa-recommend-content .visa-recommend-item .info .visa_tips .nation {
   float: left;
   color: #000;
 }
@@ -132,3 +132,171 @@
   font-size: 22px;
   font-style: normal;
 }
+
+.visa .hot-nation {
+  margin-top: 60px;
+}
+
+.visa .hot-nation .hot-nation-header {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #dadada;
+}
+
+.visa .hot-nation .hot-nation-header h3 {
+  font-size: 22px;
+}
+
+.visa .hot-nation .hot-nation-content {
+  padding: 20px 0 27px;
+  overflow: hidden;
+}
+
+.visa .hot-nation .hot-nation-content .hot-nation-content-item {
+  height: 100px;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 14px;
+  overflow: hidden;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.visa .hot-nation .hot-nation-content .hot-nation-content-item .image {
+  width: 100px;
+  height: 67px;
+  overflow: hidden;
+  float: left;
+}
+
+.visa .hot-nation .hot-nation-content .hot-nation-content-item .image img {
+  width: 100%;
+}
+
+.visa .hot-nation .hot-nation-content .hot-nation-content-item .info {
+  width: 90px;
+  float: left;
+  padding-left: 15px;
+}
+
+.visa .hot-nation .hot-nation-content .hot-nation-content-item .info .nation {
+  color: #000;
+  font-size: 16px;
+}
+
+.visa .hot-nation .hot-nation-content .hot-nation-content-item .info .price {
+  color: #959595;
+  padding-top: 10px;
+}
+
+.visa .hot-nation .hot-nation-content .hot-nation-content-item .info .price em {
+  color: #ff9d00;
+  font-size: 22px;
+  font-style: normal;
+}
+
+.visa .hot-sale {
+  margin-top: 60px;
+}
+
+.visa .hot-sale .hot-sale-header {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #dadada;
+}
+
+.visa .hot-sale .hot-sale-header h3 {
+  font-size: 22px;
+}
+
+.visa .hot-sale .hot-sale-content {
+  padding: 20px 0 27px;
+  overflow: hidden;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item {
+  width: 23%;
+  float: left;
+  margin-right: 15px;
+  height: 210px;
+  position: relative;
+  cursor: pointer;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item .image {
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item .image img {
+  width: 100%;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item .image .text {
+  width: 100%;
+  height: 34px;
+  line-height: 34px;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item .info {
+  border: 1px solid #f1f1f1;
+  border-top: 0;
+  padding: 0 8px 5px 8px;
+  height: 85px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: height .2s ease-in-out .1s;
+  background-color: #fff;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item:hover .info {
+  height: 125px;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item:hover .info h2 {
+  height: 90px;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item .info h2 {
+  font-size: 14px;
+  color: #000;
+  line-height: 22px;
+  font-weight: normal;
+  padding: 6px 0;
+  height: 50px;
+  overflow: hidden;
+  transition: height .2s ease-in-out .1s;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item .info .price {
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item .info .price .money {
+  float: right;
+  color: #959595;
+}
+
+.visa .hot-sale .hot-sale-content .hot-sale-content-item .info .price .money em {
+  color: #ff9d00;
+  font-size: 22px;
+  font-style: normal;
+}
+
+
+
+
+
+
