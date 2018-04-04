@@ -17,7 +17,7 @@
 <div class="container">
   <div class="login-box">
     <div class="login-header">
-      <img src="../images/logo.png" alt="">
+      <img src="../images/logo1.png" alt="">
       用户登陆
     </div>
     <div class="login-body">

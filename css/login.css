@@ -23,6 +23,7 @@
 .login-box .login-header img{
     width: 25px;
     margin-right: 5px;
+    vertical-align: middle;
 }
 
 .login-box .login-body {

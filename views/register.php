@@ -17,7 +17,7 @@
 <div class="container">
   <div class="register-box">
     <div class="register-header">
-      <img src="../images/logo.png" alt="">
+      <img src="../images/logo1.png" alt="">
       用户注册
     </div>
     <div class="register-body">
