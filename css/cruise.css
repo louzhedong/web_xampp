@@ -1,0 +1,332 @@
+.cruise {
+
+}
+
+.cruise .cruise-banner {
+  width: 100%;
+}
+
+.cruise .cruise-banner img {
+  width: 100%;
+}
+
+.cruise .cruise-recommend {
+  margin-top: 60px;
+}
+
+.cruise .cruise-recommend .cruise-recommend-header {
+  height: 60px;
+  border-bottom: 1px solid #dadada;
+  padding-top: 20px;
+}
+
+.cruise .cruise-recommend .cruise-recommend-header .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cruise .cruise-recommend .cruise-recommend-header .subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #636363;
+  padding-left: 12px;
+}
+
+.cruise .cruise-recommend .cruise-recommend-content {
+  overflow: hidden;
+}
+
+.cruise .cruise-recommend .cruise-recommend-content .cruise-recommend-item {
+  float: left;
+  width: 23%;
+  height: 269px;
+  background: #fff;
+  margin-right: 20px;
+  position: relative;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.cruise .cruise-recommend .cruise-recommend-content .cruise-recommend-item .image {
+  width: 100%;
+  position: relative;
+}
+
+.cruise .cruise-recommend .cruise-recommend-content .cruise-recommend-item .image img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.cruise .cruise-recommend .cruise-recommend-content .cruise-recommend-item .image .price {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 15px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  width: 100%;
+}
+
+.cruise .cruise-recommend .cruise-recommend-content .cruise-recommend-item .image .price .fl {
+  float: left;
+  font-size: 16px;
+}
+
+.cruise .cruise-recommend .cruise-recommend-content .cruise-recommend-item .image .price .fr {
+  float: right;
+  font-size: 16px;
+}
+
+.cruise .cruise-recommend .cruise-recommend-content .cruise-recommend-item .image .price .fr em {
+  font-size: 24px;
+}
+
+.cruise .cruise-recommend .cruise-recommend-content .cruise-recommend-item p {
+  font-size: 18px;
+  padding: 15px;
+  line-height: 1.5em;
+  border: 1px solid #dadada;
+}
+
+.cruise .cruise-calendar {
+  margin-top: 60px;
+}
+
+.cruise .cruise-calendar .cruise-calendar-header {
+  height: 60px;
+  border-bottom: 1px solid #dadada;
+  padding-top: 20px;
+}
+
+.cruise .cruise-calendar .cruise-calendar-header .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cruise .cruise-calendar .cruise-calendar-header .subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #636363;
+  padding-left: 12px;
+}
+
+.cruise .cruise-calendar .calendar {
+  margin-top: 30px;
+}
+
+.cruise .cruise-calendar .calendar .calendar-header {
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+  border-bottom: 4px solid #00b081;
+  background: -webkit-gradient(linear, left top, right bottom, from(#5CD383), to(#23CDA9));
+}
+
+.cruise .cruise-calendar .calendar .calendar-header b {
+  width: 136px;
+  float: left;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cruise .cruise-calendar .calendar .calendar-header .line {
+  background: #aee9c1;
+  width: 1px;
+  height: 30px;
+  float: left;
+  margin-top: 20px;
+}
+
+.cruise .cruise-calendar .calendar .calendar-header span {
+  margin-left: 50px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  float: left;
+  font-size: 22px;
+}
+
+.cruise .cruise-calendar .calendar .calendar-header span i {
+  display: none;
+  width: 0;
+  height: 0;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid #00b081;
+  border-left: 8px solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -8px;
+}
+
+.cruise .cruise-calendar .calendar .calendar-header span.active i {
+  display: block;
+}
+
+.cruise .cruise-calendar .calendar .calendar-box {
+  height: 462px;
+  position: relative;
+  border: 1px solid #ececec;
+  border-bottom: 5px solid #ebebeb;
+  background: #fff;
+}
+
+.cruise .cruise-calendar .calendar .calendar-box .month {
+  float: left;
+  width: 135px;
+  font-size: 20px;
+  text-align: center;
+  border-right: 1px solid #ececec;
+  height: 462px;
+  position: relative;
+}
+
+.cruise .cruise-calendar .calendar .calendar-box .month span {
+  padding: 0 20px;
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #636363;
+  font-weight: 700;
+}
+
+.cruise .cruise-calendar .calendar .calendar-box .date-tab {
+  float: left;
+  width: 1022px;
+  overflow: hidden;
+}
+
+.cruise .cruise-calendar .calendar .calendar-box .date-tab .tab-header {
+  height: 54px;
+  line-height: 54px;
+  float: left;
+  width: 145px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ececec;
+  font-size: 18px;
+}
+
+.cruise .cruise-calendar .calendar .calendar-box li {
+  float: left;
+  width: 145px;
+  text-align: center;
+  height: 66px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ececec;
+  line-height: 24px;
+  font-size: 18px;
+  color: #959595;
+}
+
+.cruise .cruise-calendar .calendar .calendar-box li .calendar_data {
+  display: block;
+  color: #333;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.cruise .cruise-calendar .calendar .calendar-box li .price {
+  color: #ff7466;
+  padding-top: 5px;
+  display: inline-block;
+}
+
+.cruise .cruise-calendar .calendar .calendar-box li .rest_day_icon {
+  display: inline;
+  float: right;
+  margin-top: -25px;
+  margin-right: 6px;
+  border: 1px solid #ffb41b;
+  width: 22px;
+  height: 22px;
+  font-size: 17px;
+  border-radius: 12px;
+  color: #ffb41b;
+  background: #fff5e2;
+}
+
+.cruise .cruise-ship {
+  margin-top: 60px;
+}
+
+.cruise .cruise-ship .cruise-ship-header {
+  height: 60px;
+  border-bottom: 1px solid #dadada;
+  padding-top: 20px;
+}
+
+.cruise .cruise-ship .cruise-ship-header .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cruise .cruise-ship .cruise-ship-header .subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #636363;
+  padding-left: 12px;
+}
+
+.cruise .cruise-ship .cruise-ship-content {
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.cruise .cruise-ship .cruise-ship-content .cruise-ship-item {
+  float: left;
+  width: 23%;
+  height: 395px;
+  margin-right: 20px;
+  background: #fff;
+  border: 1px solid #ececec;
+  font-size: 16px;
+  position: relative;
+}
+
+.cruise .cruise-ship .cruise-ship-content .cruise-ship-item .first {
+  width: 100%;
+  height: 182px;
+  display: block;
+}
+
+.cruise .cruise-ship .cruise-ship-content .cruise-ship-item .second {
+  display: block;
+  width: 90px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.cruise .cruise-ship .cruise-ship-content .cruise-ship-item .name {
+  color: #323232;
+  padding: 6px 0;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cruise .cruise-ship .cruise-ship-content .cruise-ship-item .sub_list {
+  border-top: 1px solid #ececec;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.cruise .cruise-ship .cruise-ship-content .cruise-ship-item .sub_list .sub_list_txt {
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.cruise .cruise-ship .cruise-ship-content .cruise-ship-item .sub_list .sub_list_txt p span {
+  color: #989898;
+  vertical-align: 2px;
+  letter-spacing: -4px;
+}
