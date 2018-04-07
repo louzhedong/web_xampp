@@ -38,16 +38,17 @@
           onclick="<?php if ($tab != 'hotel') echo "toHotel()" ?>">
         酒店
       </li>
-      <li class="header-tab dropdown societyDropdown <?php if ($tab == 'society') echo 'active' ?>">
-        <div class="dropdown-toggle" id="dropdownSociety" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <li class="header-tab dropdown societyDropdown <?php if ($tab == 'travel') echo 'active' ?>">
+        <div class="dropdown-toggle" id="dropdownSociety" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+             onclick="<?php if($tab != 'travel') echo 'toTravel()'?>">
           驴友社
           <span class="caret"></span>
         </div>
         <ul class="dropdown-menu" aria-labelledby="dropdownSociety">
-          <li><a href="#">驴友记</a></li>
-          <li><a href="#">问答</a></li>
-          <li><a href="#">驴友小贴士</a></li>
-          <li><a href="#">积分中心</a></li>
+          <li><a onclick="toTravel()">驴友记</a></li>
+          <li><a onclick="toQuestion()">问答</a></li>
+          <li><a onclick="toMyTips()">驴友小贴士</a></li>
+          <li><a onclick="toJifen()">积分中心</a></li>
         </ul>
       </li>
     </ul>
@@ -70,7 +71,7 @@
         <div class="hello dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
              id="dropdownMenu1"></div>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-          <li><a>个人中心</a></li>
+          <li><a onclick="toMyCenter()">个人中心</a></li>
           <li role="separator" class="divider"></li>
           <li data-toggle="modal" data-target="#layoutModal"><a>退出</a></li>
         </ul>
@@ -173,6 +174,21 @@
     window.location.href = './cruise.php';
   }
 
+  function toTravel() {
+    window.location.href = './my_travel.php';
+  }
+
+  function toQuestion() {
+    window.location.href = './question.php';
+  }
+
+  function toMyTips() {
+    window.location.href = './tips.php';
+  }
+
+  function toJifen() {
+    window.location.href = './jifen.php';
+  }
 
   function lagout() {
     toastr.success('您已退出！');
@@ -180,4 +196,7 @@
     window.location.href = "./login.php";
   }
 
+  function toMyCenter() {
+    window.location.href = './my_center.php';
+  }
 </script>
