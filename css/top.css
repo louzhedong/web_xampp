@@ -10,7 +10,7 @@
   height: 58px;
 }
 
-.header  .col-md-11 .header-left {
+.header .col-md-11 .header-left {
   width: 20%;
   height: 58px;
   float: left;
@@ -18,23 +18,23 @@
   align-items: center;
 }
 
-.header  .col-md-11 .header-left img {
+.header .col-md-11 .header-left img {
   height: 38px;
 }
 
-.header  .col-md-11 .header-left .site-title {
+.header .col-md-11 .header-left .site-title {
   margin-left: 10px;
   font-size: 20px;
   font-family: "Heiti SC";
 }
 
-.header  .col-md-11 .header-center {
+.header .col-md-11 .header-center {
   width: 45%;
   height: 58px;
   float: left;
 }
 
-.header  .col-md-11 .header-search {
+.header .col-md-11 .header-search {
   width: 20%;
   height: 58px;
   float: left;
@@ -42,7 +42,7 @@
   position: relative;
 }
 
-.header  .col-md-11 .header-search .input-group {
+.header .col-md-11 .header-search .input-group {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -52,63 +52,127 @@
   width: 180px;
 }
 
-.header  .col-md-11 .header-search .input-group .btn-search {
+.header .col-md-11 .header-search .input-group .btn-search {
   color: #ff9d00;
 }
 
-.header  .col-md-11 .header-right {
+.header .col-md-11 .header-right {
   width: 15%;
   height: 58px;
   float: left;
 }
 
-.header  .col-md-11 .header-center .header-tab {
+.header .col-md-11 .header-center .header-tab {
   float: left;
   padding: 0 20px;
   line-height: 58px;
   cursor: pointer;
 }
 
-.header  .col-md-11 .header-center .header-tab.active {
+.header .col-md-11 .header-center .header-tab.active {
   background-color: #ff9d00;
   color: #fff;
   text-decoration: none;
 }
 
-.header  .col-md-11 .header-center .header-tab:hover {
+.header .col-md-11 .header-center .header-tab:hover {
   border-bottom: 2px solid #ff9d00;
   color: #ff9d00;
   line-height: 56px;
 }
 
-.header  .col-md-11 .header-center .header-tab.active:hover {
+.header .col-md-11 .header-center .header-tab.active:hover {
   background-color: #ff9d00;
   color: #fff;
   text-decoration: none;
 }
 
-.header  .col-md-11 .header-right {
+.header .col-md-11 .header-right {
   line-height: 58px;
 }
 
-.header  .col-md-11 .header-right .login-or-reg, .show-name {
+.header .col-md-11 .header-right .login-or-reg, .show-name {
   display: none;
 }
 
-.header  .col-md-11 .header-right .login-or-reg, .show-name .dropdown-menu a {
+.header .col-md-11 .header-right .login-or-reg, .show-name .dropdown-menu a {
   cursor: pointer;
 }
 
-.header  .col-md-11 .header-right .login-or-reg .to-login, .to-reg {
+.header .col-md-11 .header-right .login-or-reg .to-login, .to-reg {
   cursor: pointer;
 }
 
-.header  .col-md-11 .header-right .login-or-reg .to-login:hover, .to-reg:hover {
+.header .col-md-11 .header-right .login-or-reg .to-login:hover, .to-reg:hover {
   color: #ff9d00;
 }
 
-.header  .col-md-11 .header-right .show-name .hello {
+.header .col-md-11 .header-right .show-name .hello {
   cursor: pointer;
+}
+
+.gouwuche {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  z-index: 100;
+}
+
+.gouwuche:hover .gouwuche-content {
+  display: block;
+}
+
+.gouwuche .gouwuche-header {
+  width: 100px;
+  height: 70px;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.gouwuche .gouwuche-header img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.gouwuche .gouwuche-header .count {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #f01414;
+  color: #fff;
+  border-radius: 50%;
+  vertical-align: middle;
+  line-height: 20px;
+  text-align: center;
+}
+
+.gouwuche .gouwuche-content {
+  display: none;
+  width: 300px;
+  height: 400px;
+  border: 1px solid #dadada;
+  position: absolute;
+  left: -280px;
+  top: -330px;
+  background: #fff;
+  border-radius: 10px;
+
+}
+
+.gouwuche .gouwuche-content:before,
+.gouwuche .gouwuche-content:after {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  bottom: 20px;
+  right: -11px;
+  overflow: hidden;
+  pointer-events: none;
+  transform: rotate(135deg);
+  border-top: 1px solid #dadada;
+  background: #fff;
+  border-left: 1px solid #dadada;
 }
 
 

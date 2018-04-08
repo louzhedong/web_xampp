@@ -39,8 +39,9 @@
         酒店
       </li>
       <li class="header-tab dropdown societyDropdown <?php if ($tab == 'travel') echo 'active' ?>">
-        <div class="dropdown-toggle" id="dropdownSociety" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
-             onclick="<?php if($tab != 'travel') echo 'toTravel()'?>">
+        <div class="dropdown-toggle" id="dropdownSociety" data-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="true"
+             onclick="<?php if ($tab != 'travel') echo 'toTravel()' ?>">
           驴友社
           <span class="caret"></span>
         </div>
@@ -97,6 +98,15 @@
     </div>
   </div>
 </div>
+<div class="gouwuche">
+  <div class="gouwuche-header">
+    <img src="../images/gouwuche.png" alt="">
+    <span class="count"></span>
+  </div>
+  <div class="gouwuche-content">
+
+  </div>
+</div>
 </body>
 
 <script>
@@ -111,6 +121,7 @@
     } else {
       loginOrReg.style.display = 'block';
     }
+    refreshGouwuche();
   })();
 
   $('li.martDropdown').mouseover(function () {
@@ -199,4 +210,28 @@
   function toMyCenter() {
     window.location.href = './my_center.php';
   }
+
+  /**
+   * 刷新购物车统计
+   * 购物车信息保存在localStorage中，结构如下
+   * goodsList: [{
+   *  name: xx,
+   *  content: {
+   *    任意
+   *  }
+   * }]
+   */
+
+  function refreshGouwuche() {
+    var goodsList = window.localStorage.goodsList;
+    var length = 0;
+    if (goodsList) {
+      length = goodsList.length;
+    }
+    document.getElementsByClassName('count')[0].innerText = length;
+  }
+
+  window.refreshGouwuche = refreshGouwuche;
+
+
 </script>
