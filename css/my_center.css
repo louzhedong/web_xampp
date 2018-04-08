@@ -1,0 +1,38 @@
+.my-center #big-map {
+  height: 640px;
+  width: 100%;
+  padding-top: 20px;
+  background: #22445D;
+  position: relative;
+}
+
+.my-center #big-map .jvectormap-zoomin,
+.my-center #big-map .jvectormap-zoomout {
+  display: none;
+}
+
+.my-center #big-map #small-map-cover {
+  width: 140px;
+  height: 68px;
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
+  border: 1px dotted #ff9d00;
+  z-index: 11;
+  border: 1px dashed #ffa800;
+  box-shadow: 2px 2px 0 0 #ffa800;
+}
+
+.my-center #big-map #small-map-cover:hover {
+  border: 1px solid #ffa800;
+  cursor: pointer;
+}
+
+.my-center #big-map #small-map {
+  z-index: 10;
+  width: 140px;
+  height: 68px;
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
+}
