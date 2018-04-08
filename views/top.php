@@ -28,10 +28,10 @@
           <span class="caret"></span>
         </div>
         <ul class="dropdown-menu" aria-labelledby="dropdownMart">
-          <li><a href="" onclick="javascript(0);toGentuanyou()">跟团游</a></li>
-          <li><a href="" onclick="toDangdiyou()">当地游</a></li>
-          <li><a href="" onclick="toVisa()">签证</a></li>
-          <li><a href="" onclick="toCruise()">邮轮</a></li>
+          <li><a onclick="toGentuanyou()">跟团游</a></li>
+          <li><a onclick="toDangdiyou()">当地游</a></li>
+          <li><a onclick="toVisa()">签证</a></li>
+          <li><a onclick="toCruise()">邮轮</a></li>
         </ul>
       </li>
       <li class="header-tab <?php if ($tab == 'hotel') echo 'active' ?>"
@@ -159,14 +159,6 @@
 
   function toMall() {
     window.location.href = "./mall.php";
-  }
-
-  function toHotel() {
-    window.location.href = "./hotel.php";
-  }
-
-  function toSociety() {
-    window.location.href = './society.php';
   }
 
   function toGentuanyou() {
