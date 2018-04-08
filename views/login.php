@@ -5,15 +5,37 @@
 	<?php require 'link.php'?>
     <link rel="stylesheet" href="../css/login.css">
     <style>
-    body {
-      background-image: url("../images/login/background.jpg");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-attachment: fixed;
-    }
+      * {
+        margin: 0; padding: 0;
+      }
+
+      body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
   </style>
+  <script src="../js/login/nlq1kdt.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
+<div id="container">
+  <video id="background_video" loop muted></video>
+  <div id="video_cover"></div>
+  <div id="overlay"></div>
+
+  <div id="video_controls">
+      <span id="play">
+        <img src="../images/login/play.png">
+      </span>
+    <span id="pause">
+        <img src="../images/login/pause.png">
+      </span>
+  </div>
+</div>
+
+<script src="../js/login/bideo.js"></script>
+<script src="../js/login/main.js"></script>
 <div class="container">
   <div class="login-box">
     <div class="login-header">
