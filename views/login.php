@@ -15,28 +15,12 @@
         overflow: hidden;
       }
   </style>
-  <script src="../js/login/nlq1kdt.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
-<div id="container">
-  <video id="background_video" loop muted></video>
-  <div id="video_cover"></div>
-  <div id="overlay"></div>
-
-  <div id="video_controls">
-      <span id="play">
-        <img src="../images/login/play.png">
-      </span>
-    <span id="pause">
-        <img src="../images/login/pause.png">
-      </span>
-  </div>
-</div>
-
-<script src="../js/login/bideo.js"></script>
-<script src="../js/login/main.js"></script>
 <div class="container">
+  <video id="background_video" loop muted autoplay>
+    <source src="../video/login/night.mp4">
+  </video>
   <div class="login-box">
     <div class="login-header">
       <img src="../images/logo1.png" alt="">
