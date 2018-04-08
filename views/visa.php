@@ -90,7 +90,7 @@ $mall_tab = 'visa';
         <ul class="hot-nation-content">
           <li class="hot-nation-content-item">
             <div class="image">
-              <img src="../images/mall/visa/nation/japan.jpeg" alt="">
+              <img src="../images/mall/visa/country/japan.jpeg" alt="">
             </div>
             <div class="info">
               <p class="nation">日本</p>
@@ -99,7 +99,7 @@ $mall_tab = 'visa';
           </li>
           <li class="hot-nation-content-item">
             <div class="image">
-              <img src="../images/mall/visa/nation/taiguo.jpeg" alt="">
+              <img src="../images/mall/visa/country/taiguo.jpeg" alt="">
             </div>
             <div class="info">
               <p class="nation">泰国</p>
@@ -108,7 +108,7 @@ $mall_tab = 'visa';
           </li>
           <li class="hot-nation-content-item">
             <div class="image">
-              <img src="../images/mall/visa/nation/taiwan.png" alt="">
+              <img src="../images/mall/visa/country/taiwan.png" alt="">
             </div>
             <div class="info">
               <p class="nation">中国台湾</p>
@@ -117,7 +117,7 @@ $mall_tab = 'visa';
           </li>
           <li class="hot-nation-content-item">
             <div class="image">
-              <img src="../images/mall/visa/nation/meiguo.jpeg" alt="">
+              <img src="../images/mall/visa/country/meiguo.jpeg" alt="">
             </div>
             <div class="info">
               <p class="nation">美国</p>
@@ -126,13 +126,113 @@ $mall_tab = 'visa';
           </li>
           <li class="hot-nation-content-item">
             <div class="image">
-              <img src="../images/mall/visa/nation/aodaliya.jpeg" alt="">
+              <img src="../images/mall/visa/country/aodaliya.jpeg" alt="">
             </div>
             <div class="info">
               <p class="nation">澳大利亚</p>
               <p class="price"><em>¥688</em>起</p>
             </div>
           </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/tuerqi.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">土耳其</p>
+              <p class="price"><em>¥199</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/yuenan.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">越南</p>
+              <p class="price"><em>¥999</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/faguo.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">法国</p>
+              <p class="price"><em>¥999</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/yidali.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">意大利</p>
+              <p class="price"><em>¥999</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/eluosi.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">俄罗斯</p>
+              <p class="price"><em>¥689</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/yingguo.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">英国</p>
+              <p class="price"><em>¥999</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/xinjiapo.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">新加坡</p>
+              <p class="price"><em>¥479</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/feilvbin.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">菲律宾</p>
+              <p class="price"><em>¥999</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/xinxilan.gif" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">新西兰</p>
+              <p class="price"><em>¥599</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/malaixiya.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">马来西亚</p>
+              <p class="price"><em>¥999</em>起</p>
+            </div>
+          </li>
+          <li class="hot-nation-content-item">
+            <div class="image">
+              <img src="../images/mall/visa/country/jianada.jpeg" alt="">
+            </div>
+            <div class="info">
+              <p class="nation">加拿大</p>
+              <p class="price"><em>¥999</em>起</p>
+            </div>
+          </li>
+
         </ul>
       </div>
       <div class="hot-sale">
