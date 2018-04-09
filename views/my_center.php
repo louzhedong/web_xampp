@@ -51,18 +51,18 @@ $tab = 'center';
     });
     $('#small-map').vectorMap({
       map: 'cn_mill',
-      backgroundColor: '#0da4ff',
+      backgroundColor: '#1f3957',
       color: "#BBBBBB",
       regionsSelectable: false,
       regionStyle: {
         initial: {
-          fill: '#35576F',
+          fill: '#485e6f',
         },
         hover: {
-          fill: '#DEDEDE'
+          fill: '#cadead'
         },
         selected: {
-          fill: '#E9D59F',
+          fill: '#ff9d00',
         }
       },
       zoomOnScroll: false,
@@ -73,18 +73,18 @@ $tab = 'center';
     document.getElementById('big-map').innerHTML = '<div id="small-map-cover" onclick="toWorldMap()"></div><div id="small-map"></div>';
     $('#big-map').vectorMap({
       map: 'cn_mill',
-      backgroundColor: '#0da4ff',
+      backgroundColor: '#1f3957',
       color: "#BBBBBB",
       regionsSelectable: true,
       regionStyle: {
         initial: {
-          fill: '#35576F',
+          fill: '#485e6f',
         },
         hover: {
-          fill: '#DEDEDE'
+          fill: '#cadead'
         },
         selected: {
-          fill: '#E9D59F',
+          fill: '#ff9d00',
         }
       },
       zoomOnScroll: false,
@@ -92,18 +92,18 @@ $tab = 'center';
     ;
     $('#small-map').vectorMap({
       map: 'world_mill',
-      backgroundColor: '#0da4ff',
+      backgroundColor: '#1f3957',
       color: "#BBBBBB",
       regionsSelectable: false,
       regionStyle: {
         initial: {
-          fill: '#35576F',
+          fill: '#485e6f',
         },
         hover: {
-          fill: '#DEDEDE'
+          fill: '#cadead'
         },
         selected: {
-          fill: '#E9D59F',
+          fill: '#ff9d00',
         }
       },
       zoomOnScroll: false,
@@ -114,18 +114,18 @@ $tab = 'center';
     document.getElementById('big-map').innerHTML = '<div id="small-map-cover" onclick="toChinaMap()"></div><div id="small-map"></div>';
     $('#big-map').vectorMap({
       map: 'world_mill',
-      backgroundColor: '#0da4ff',
+      backgroundColor: '#1f3957',
       color: "#BBBBBB",
       regionsSelectable: true,
       regionStyle: {
         initial: {
-          fill: '#35576F',
+          fill: '#485e6f',
         },
         hover: {
-          fill: '#DEDEDE'
+          fill: '#cadead'
         },
         selected: {
-          fill: '#E9D59F',
+          fill: '#ff9d00',
         }
       },
       zoomOnScroll: false,
@@ -133,18 +133,18 @@ $tab = 'center';
     ;
     $('#small-map').vectorMap({
       map: 'cn_mill',
-      backgroundColor: '#0da4ff',
+      backgroundColor: '#1f3957',
       color: "#BBBBBB",
       regionsSelectable: false,
       regionStyle: {
         initial: {
-          fill: '#35576F',
+          fill: '#485e6f',
         },
         hover: {
-          fill: '#DEDEDE'
+          fill: '#cadead'
         },
         selected: {
-          fill: '#E9D59F',
+          fill: '#ff9d00',
         }
       },
       zoomOnScroll: false,
