@@ -4,17 +4,23 @@
 	<title>用户注册</title>
 	<?php require 'link.php'?>
     <link rel="stylesheet" href="../css/register.css">
-  	<style>
-    body {
-      background-image: url("../images/register/bg2.jpg");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-attachment: fixed;
+  <style>
+    * {
+      margin: 0; padding: 0;
     }
-  	</style>
+
+    body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  </style>
 </head>
 <body>
 <div class="container">
+  <video id="background_video" loop muted autoplay>
+    <source src="../video/login/night.mp4">
+  </video>
   <div class="register-box">
     <div class="register-header">
       <img src="../images/logo1.png" alt="">
