@@ -4,6 +4,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 include '../database.php';
 $query = "select username, password, token from users where username = '{$username}'";
+
 $result = $mysqliConn->query($query);
 while ($row = $result->fetch_array()) {
     if ($row['username'] == $username) {

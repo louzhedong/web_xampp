@@ -217,3 +217,18 @@
   margin-top: 5px;
 }
 
+#turn_page li a{
+  color: #ff9d00;
+}
+
+#turn_page li a:hover {
+  background-color: #ff9d00;
+  border-color: #ff9d00;
+  color:#fff;
+}
+
+#turn_page li.active a {
+  background-color: #ff9d00;
+  border-color: #ff9d00;
+  color: #FFF;
+}

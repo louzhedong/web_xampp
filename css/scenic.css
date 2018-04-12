@@ -11,16 +11,15 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-70%);
   width: 760px;
 }
 
 .scenic-header .search-box .hello-world {
   text-align: center;
-  color: #fff;
   font-weight: bold;
   font-size: 50px;
-  height: 90px;
+  height: 100px;
 }
 
 .scenic-header .search-box .search-input {

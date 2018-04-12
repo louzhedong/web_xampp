@@ -178,7 +178,7 @@
   }
 
   function toTravel() {
-    window.location.href = './my_travel.php';
+    window.location.href = './society_travel.php';
   }
 
   function toQuestion() {

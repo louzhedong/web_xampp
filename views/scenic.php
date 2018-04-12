@@ -15,9 +15,10 @@ $tab = 'scenic'
 ?>
 <?php require 'top.php' ?>
 <div class="scenic-header">
-  <img src="../images/scenic/top.jpeg">
+  <img src="../images/scenic/top.jpg">
   <div class="search-box">
-    <div class="hello-world">世界那么大，我想去看看！</div>
+    <div class="hello-world"><a style="color: #fff">世界那么大，</a> <a style="color: #ff9d00">我想去看看！</a>
+    </div>
     <div class="search-input">
       <div class="left">
         <input type="text" placeholder="搜索目的地">
