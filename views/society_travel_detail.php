@@ -13,368 +13,1034 @@
 <?php require 'top.php' ?>
 <div>
   <header>
-    <h1>2018.04.04
-      FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略！
+    <h1>2018.04.04/ FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略！
     </h1>
 
   </header>
   <section class="cd-faq">
     <ul class="cd-faq-categories">
-      <li><a class="selected" href="#basics"> 写在前面<br>
-          普吉岛 -曼谷</a></li>
-      <li><a href="#day1"> DAY1：西安--普吉岛
-
-          江西冷 -芭东海滩</a></li>
-      <li><a href="#day2"> DAY2：普吉岛
-
-          皇帝岛</a></li>
-      <li><a href="#day3"> DAY3：普吉岛
-
-          神仙半岛 -芭东海滩 -卡塔海岸观景台 -拉威海滩</a></li>
-      <li><a href="#day4"> DAY4：普吉岛--曼谷
-
-          山顶餐厅 -暹罗中心</a></li>
-      <li><a href="#day5"> DAY5：曼谷
-
-          四面佛 -大皇宫 -暹罗广场</a></li>
-      <li><a href="#day6"> DAY6：曼谷
-
-          美功铁道市场 -安帕瓦水上市场</a></li>
-      <li><a href="#day7">DAY7：曼谷--西安
-
-          暹罗广场</a></li>
-      <li><a href="#describe">实用攻略
-
-          开销 -交通 -住宿 -餐饮 -购物 -注意事项</a></li>
+      <li><a class="selected" href="#basics"> 写在前面</a></li>
+      <li><a href="#day1"> DAY1：西安--普吉岛（芭东海滩）</a></li>
+      <li><a href="#day2"> DAY2：普吉岛（皇帝岛）</a></li>
+      <li><a href="#day3"> DAY3：神仙半岛 -芭东海滩 -卡塔海岸观景台 -拉威海滩</a></li>
+      <li><a href="#day4"> DAY4：山顶餐厅 -暹罗中心</a></li>
+      <li><a href="#day5"> DAY5：四面佛 -大皇宫 -暹罗广场</a></li>
+      <li><a href="#day6"> DAY6：美功铁道市场 -安帕瓦水上市场</a></li>
+      <li><a href="#day7"> DAY7：曼谷（暹罗广场）--西安</a></li>
+      <li><a href="#describe">实用攻略</a></li>
     </ul> <!-- cd-faq-categories -->
 
     <div class="cd-faq-items">
       <ul id="basics" class="cd-faq-group">
         <li class="cd-faq-title"><h2>写在前面</h2></li>
         <li>
-          <a class="cd-faq-trigger" href="#0">How do I change my password?</a>
+          <a class="cd-faq-trigger" >How do I change my password?</a>
           <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quidem blanditiis delectus corporis, possimus officia sint sequi ex tenetur id impedit est pariatur iure animi non a ratione reiciendis nihil sed consequatur atque repellendus fugit perspiciatis rerum et. Dolorum consequuntur fugit deleniti, soluta fuga nobis. Ducimus blanditiis velit sit iste delectus obcaecati debitis omnis, assumenda accusamus cumque perferendis eos aut quidem! Aut, totam rerum, cupiditate quae aperiam voluptas rem inventore quas, ex maxime culpa nam soluta labore at amet nihil laborum? Explicabo numquam, sit fugit, voluptatem autem atque quis quam voluptate fugiat earum rem hic, reprehenderit quaerat tempore at. Aperiam.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
+            <p>转眼，从泰国回来已经月余，楼主才终于有时间提起笔来完成这一次的泰国之行，区别于以往，楼主这次已经是第四次刷泰国特别是普吉曼谷这一张“地图”了，所以在楼主的前言当中可能有很多信息是楼主根据多次泰国的经历总结而来的，并不是单纯的每日行程了，所以各位看官受累，楼主这里有很多废话了。</p>
+            <img src="../images/society/society_travel_detail/1-1.jpg">
+            <img src="../images/society/society_travel_detail/1-2.jpg">
+            <img src="../images/society/society_travel_detail/1-3.jpg">
+            <img src="../images/society/society_travel_detail/1-4.jpg">
+            <img src="../images/society/society_travel_detail/1-5.jpg">
+            <img src="../images/society/society_travel_detail/1-6.jpg">
+            <p>提到泰国，大家都会想起什么？阳光、沙滩、大象、人妖……种种之类，泰国的标签实在是太多了！楼主作为一介名副其实的屌丝，第一次出国也是选择泰国作为目的地，不为别的，因为实在是又便宜又好！至今回头看看，这一次已经是第四次踏上泰国的的土地，这么看来又便宜又好当真是名不虚传！</p>
+            <p>泰国在每个人的行程计划里一定都有不同的打开方式，楼主这里可能不是最好的，但楼主希望自己的这些经历可以帮助想要计划去到泰国的各位朋友，毕竟这么简单而又美好的地方在以后的日子里还是要去到的，说不定将来有一天，祖国的高铁可以从昆明一路修到曼谷什么的，然后我们就可以吃着火锅唱着歌一路南下到曼谷，说不定还能帮泰国整治一下BTS的乱象……算了，现阶段还是就YY一下就可以了！</p>
+            <img src="../images/society/society_travel_detail/1-7.jpg">
+            <p>关于为什么要去泰国，首先大家想到的肯定是清澈的海水，低廉的物价，优质的服务，好吃的水果……等等诸如此类。
+              <br>
+              楼主第一次去泰国，就是单纯的想出国，原来都是在国内跑来跑去，好不容易办下来了护照，怎么能不出去看看呢？但是去哪里就是一个问题，当时楼主的老婆大人还在遥远的澳洲上学，楼主虽然可以申请去澳洲看望一下自己亲爱的老婆大人，但是奈何澳洲是一个发达国家，白本护照什么的虽然没有不行，可楼主一介屌丝就真的是不行了。那么问题来了，澳大利亚这么“不友好”，那要选择哪里呢？楼主有一位远亲是做旅游行业的相关，大致咨询了一下，她告诉楼主，像是济州岛啊、台湾啊、巴厘岛啊什么的都是不错的选择，签证方便，都是举世闻名的旅游目的地。于是乎楼主就开始挨个跑旅行社，看看有没有什么关于济州岛之类的好一点的行程（ps:当时楼主还是一个小白，虽然有一颗出去的心，但是暂时还没有出去的能力，所以说就先看看旅行社什么的），当时还是个夏天，楼主在旅行社就发现怎么这么多海岛游啊，看着看着怎么就看到了普吉岛这三个字上面了。回家之后一合计，棒子楼主不是那么的喜欢，台湾终有一天楼主可以大摇大摆的去，巴厘岛呢看来是有点远，楼主又害怕坐飞机，所以挑来挑去，普吉岛就是越看越顺眼、越看越顺眼！目的地确定之后，下来就是怎么去了，楼主跟老婆大人最终商量决定，“整”！就一个字，咱们自己整！这么多人都能去，楼主也是鼻子下面还有张嘴，咱们怎么就不能自己去，于是乎就开始筹备第一次的泰国之行。
+              <br>
+              这之后就不用说了，第一次感受到泰国的美好之后，第二次带着家人一起享受泰国的美好。
+              <br>
+              第三次是楼主所在的公司组织出国，目的地又一次选择了泰国，楼主也体验了一次百十号人一起出游的壮观场面。
+              <br>
+              第四次呢？第四次就是这一次了，楼主也主要基于这一次的行程，跟大家来分享一下自己泰国旅行的经验。
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do I sign up?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi cupiditate et laudantium esse adipisci consequatur modi possimus accusantium vero atque excepturi nobis in doloremque repudiandae soluta non minus dolore voluptatem enim reiciendis officia voluptates, fuga ullam? Voluptas reiciendis cumque molestiae unde numquam similique quas doloremque non, perferendis doloribus necessitatibus itaque dolorem quam officia atque perspiciatis dolore laudantium dolor voluptatem eligendi? Aliquam nulla unde voluptatum molestiae, eos fugit ullam, consequuntur, saepe voluptas quaerat deleniti. Repellendus magni sint temporibus, accusantium rem commodi?</p>
-          </div> <!-- cd-faq-content -->
-        </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">Can I remove a post?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
+              <br>
+              首先呢，先来说一说关于泰国的时间规划：
+              <br>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do reviews work?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+
+              泰国这个地方呢，很神奇，怎么说他神奇呢？是因为在时间安排上来讲，泰国旅游就跟他们人妖的“小弟弟”一样--可长可短；旅行范围呢，又跟他们人妖的“小妹妹”一样--可大可小。
+              <br>
+              先说时间，楼主在泰国的这几次，大概就是六七八九天这种样子，分配一般都是岛上四五天，曼谷两三天这样的比例。按这种情况下，大家都可以接自己的年假，一般都是五天左右，加上年假两头的周末，组成一个九天这样子的小长假。或者呢，楼主也见证了自己的同事，利用年假、婚假、周末正常假期，共同组成了长达几乎一个月的大长假，完成了一次泰国的深度环游。
+              <br>
+              再说范围，泰国并不是一个很小的国家，虽然跟祖国的地大物博比起来那还是有点差距的，但是要想一时半会儿跑遍泰国那也是有一点痴心妄想了。泰国最为人熟知的就是自己海岛的旅游线路了，各大旅行社针对这一点也有非常多的选择，但是海岛呢主要都集中在泰国的南部，例如普吉、甲米、苏梅什么的；北线呢这两年也渐渐的开始热了起来，主要以清迈等地为中心；中线自然就是首都曼谷了，以及附近的芭提雅什么的。所以这么多的选择，大家是不是就有点摸不着头脑了？楼主告诉大家，还不至于！不是刚才先说的是时间方面嘛？二者结合起来就好说很多了，一般大家都可以组成9天这样的假期，楼主第一建议就是先以南部的海岛为始，再向中部的曼谷靠近。之后有了一定的经历经验之后，随着假期的增长，可以再往内陆清迈什么的靠近。或者利用下一次的假期在开始中北部的旅行。</p>
+            <img src="../images/society/society_travel_detail/1-8.jpg">
+            <p>详细的呢，楼主来说说这一次的时间安排。由于这一次出行，楼主并不是像以往的只有我们两个人，而是加上四位朋友总共六人，而且大家又不在同一家公司或者单位，所以说要把所有人的时间凑在一起就是一个比较大的问题。
+              <br>
+              So long ago that 楼主也 can't remember，这一大群人已经讨论过要一起出去一趟了。但是奈何从毕业之后已经小十年了，也就一起，大年夜爬过秦岭，盛夏夜看过流星；其余的时间就是打打牌喝喝茶，出游这件事情根本没有实质性的进展。但是今年不同，说走咱就走，嘴了这么多年，怎么着都该行动一把了，楼主这几个人也从一辆北斗星的人数变成了GL8才刚好装下，趁着还不需要换考斯特的时候，把这件事情先解决了，不然越往后，机会越渺茫啊！
+              <br>
+              楼主计划这件事的时候是在今天五一前夕，但是眼瞅着五一的机票就是个天文数字，并且就这几天临时确定出游这件事情的话，假可能都请不下来，所以，时间上还是往后放一放比较好。于是乎，五一之后紧接着的端午就是楼主主要考虑的时间段了。</p>
+            <img src="../images/society/society_travel_detail/1-9.jpg">
+            <p>当楼主打开日历看到端午的放假安排之后，那简直就是欣喜若狂啊！为什么，因为端午的放假是周天、周一、周二！要问这有什么特别的呢？因为从周三开始，只需要请三天假！三天假就可以凑成一个八天的小长假。人多的时候，就是这个时间上大家不好协调，有的人上班可能周一到周五，周末休息；有的人虽说是做五休二，但是休假时间不在周末；再有的还有上两天休一天，轮班倒的状况；再往后可能其他什么状况的都有。楼主这几个人好的一点是大家都属于第一种，但是即便是这样，时间都不好凑在一起，因为有的人不好请假，有的人可能已经把假期用完了……因此说，这种只需要请三天假的状况，一下子就降低了请假的难度，对于楼主安排大家后续的出行，就方便很多了。
+              <br>
+              接下来，说一说为什么要去泰国：
+              <br>
+
+
+              楼主的八天小长假计划确定下来之后，紧接着的问题就是去哪里。这个去哪里的大体方向倒是划定了，一般来说都被锁定在东南亚，因为再远的像欧洲、澳洲、美洲什么的这个时间是根本不够啊！再有一点，就是楼主在的地方是祖国西北边陲的一个小地方，飞机能飞的地方不多，因此，这一点也是得考虑进去，不然老是要去北上广什么的转机，时间都浪费在这上面了，显得多少有点划不来。</p>
+            <img src="../images/society/society_travel_detail/1-10.jpg">
+            <p>说回东南亚，这就开始选址了！<br>
+
+              港澳台？楼主坚信终有一日可以不用这么多的手续，现在的政策还不如去有些免签国家来的简单，于是乎pass；
+              <br>
+              菲律宾？排华排了那么多年，好不容易上台一个亲华系总统，但是楼主还是不太喜欢菲律宾这片土地，可能日后这也不会作为楼主的出行选择，所以同样pass；
+              <br>
+              越南？离得又近，又有“海上桂林之称”的下龙湾，还有胡志明市不一样的南亚风情？不不不落选理由如同菲律宾一样，pass；
+              <br>
+              缅甸？柬埔寨？以楼主之前出游的经历来讲，这两个国家像是蒲甘啊、暹粒啊，作为旅游观光，完全是没有问题的，都是非常值得一去的世界级的景观，但是作为度假的候选的话，方向跑偏了！因此pass；
+              <br>
+              印尼呢？这个总可以了吧？又是巴厘岛，又是免签的，完全符合楼主的要求了？不不不，还记得楼主说过的，自己是在祖国西北边陲的一座小城市，那里的飞机不是步步高点读机“想飞哪里飞哪里”的，以巴厘岛的设定，已经跨过赤道了，七个小时的飞行可不是一般度假能够承受的，没办法，pass。
+
+
+              <br>
+              说来说去，楼主将目光就锁定在了泰国这片神奇的土地上。首先得益于时间安排，以楼主多次泰国的经历来讲，7、8天的时间在泰国也算是足够的；另外，楼主的城市又有亚航的航班直飞曼谷，那么往返的最大问题就不用担心了；最后，也是比较重要的一点就是，泰国不止可以先贴签，还可以直接拿着护照说走就走，办理落地签，即使是白本护照（这个很重要，楼主这一行人里面就有白本出行的朋友，如果当时选择了日本等国家，万一签证一哆嗦，被拒签一个，岂不是剩下的人都很尴尬？）也可以顺利出行。泰国毕竟是个微笑国度，那么友好，旅游业又是相当的发达，一般没有什么特别严重的问题，都是很欢迎大家的。
+              <br>
+              说说航班：
+
+
+              <br>
+              假期也确定了，目的地也确定了，那么再来说一说航班的选择。
+              <br>
+              首先呢，楼主之前说到过，这里是有一班直飞曼谷的航班的，这本是一件好事，但是楼主看了看这个价格，我去，这不如一刀捅死楼主来的更划算一些，所以楼主还是决定再想想其他办法，找一找有没有优惠一点的路径。
+              <br>
+              然后呢，想想其他办法，楼主灵光一现，出现了一座城市--昆明！为什么这座城市会出现在楼主的脑海当中呢？因为楼主在第二次带家人出行至曼谷的时候，酒店大堂碰见了一行云南人，他们一句外文都不会就敢出门被出租司机狠宰一大笔都还在傻乐，觉得自由行非常棒的时候，楼主就觉得这个昆明飞这里的成本一定非常的低，果然，在搜索了机票之后，发现真的是很便宜诶！
+              <br>
+              价格是便宜，但是这才是昆明到曼谷，曼谷还得往返普吉岛，然后还得从老家往返昆明……妈呀，满共算下来6次飞机，这才是去趟泰国啊，楼主去阿根廷都没有转这么多次飞机。于是乎，全票否决此方案！
+              <br>
+              昆明的方案被否，留给楼主的选择就不是很多了，那要怎么办呢？别着急，既然亚航能飞曼谷，亚航就能飞普吉岛，无所不能的亚航简直就是一个爽！虽说飞往普吉岛需要在吉隆坡进行一次转机，但是，从曼谷去往普吉岛也是一个往返啊，里外里算下来，大家都是四趟航程，所以说从吉隆坡转机也是可以的嘛！而且，凌晨十二点起飞的航班，比晚上十点左右的航班来讲，从下班再到机场的过程也不是那么的赶，所以说，就他了！
+            </p>
+            <img src="../images/society/society_travel_detail/1-11.jpg">
+            <img src="../images/society/society_travel_detail/1-12.jpg">
+            <img src="../images/society/society_travel_detail/1-13.jpg">
+            <p>
+              第一程既然已经确定，那么顺势将接下来的飞机都一确定，按照我们马哥的话来说，就是，飞机票都先买好，把大家都拉上贼船之后，谁再想下去就比较难了！事实证明，还是先把机票定了最好使。于是乎，接下来就是普吉岛飞往曼谷，曼谷飞往西安，都是在亚航上面顺手就拿下。这样，万里长征就终于跨出了第一步。
+
+
+              <br>
+              这里再来说说关于航班预订的一些注意事项！敲敲小黑板，画个小重点，这里大家拿出小本本可以关注一下。
+              <br>
+              楼主此行的所有航班都是在亚航的官网上购买的，楼主在之前的文章中也多次提到过购票的话还是建议大家在官网上进行。为什么呢？主要还是因为类似于某程啊、某哪儿啊这些第三方代理网站违规操作，导致客户最终不能按时按计划登上飞机，以至于所有的旅行计划都泡汤！前一段时间，这种新闻真的是层出不穷，有时候真的不是钱多少的问题，而是真正的影响心情，好不容易东拼西凑大家请了这么几天假，结果因为这一张没有着落的机票让所有后续行程都成了镜中月水中花，是不是想想都生气？虽说近几年在有关部门的政治之下，有所改观，但是这种事情还是偶尔有所发生，所以，在这件事情降临在我们某一个人身上之前，我们还是尽量的去避免这样的问题岂不是更好？
+              <br>
+              但是，像某程这种第三方代理网站并不是一点用处都没有，反而他们可以作为很好的搜索工具，帮助我们在选购航班的时候，列出几乎所有的可能！一般情况下，楼主就是利用他们上面的搜索结果，选出比较符合自己期望的线路，然后再在相应的官网上面完成预定。这样可以说是省时省力又省心！
+              <br>
+              不过有一点，“飞猪”作为阿里爸爸这几年猛推的旅行网站，楼主觉得有时候还是可以一用的。比如说在某些时候某宝在我们购物结束后，或者是使用某付宝结算完成之后，都会送我们一些优惠券，其中可能就有可以用于飞猪购票的抵用券。这种抵用券有时候真的是比在航司官网上的价格再优惠几十块钱，虽说可能一个账号只限购买一张，但是聊胜于无有啊！所以说偶尔也是可以考虑一下第三方代理网站的。
+
+              <br>
+
+              亚航作为世界知名的廉价航空公司，这也是多年蝉联某些航空排行的第一名了！这里的第一名不是说他不好，反而是优秀的代名词。虽然说亚航说来说去都是廉价航空公司，但是总体的服务啊，准点率啊，还是可以的。廉价航空，顾名思义，就是价格便宜，便宜在哪里呢？一般就是砍去了餐食、行李托运、廊桥登机、略显紧凑的座位安排等等，但是换来的自然就是价格上的优势了。楼主认为四五个小时这种时间下，廉航还是相当不错的。
+              <br>
+              亚航的购票选择出发地和目的地就可以正常的进行了，如果说大家需要在去的时候就有托运行李，完全不用在机场再花大价钱购买，也不用在淘宝上分辨卖家的真伪，一个官网，直接可以搞定！在选择航班的时候，下方顺便就可以添加超值套装了，行李、餐食、座位选择都有！是不是很方便？
+            </p>
+            <img src="../images/society/society_travel_detail/1-14.jpg">
+            <p>但是楼主这里跟大家多说一句，泰国的旅游业嘛，那可是相当的发达，去的时候原则上可以什么都不带，空箱子去，满载而归！但是一般情况下还是带几身换洗衣服，相机什么的就可以了。因为泰国遍地都是7-11，里面大量出售旅行装洗浴系列，还有各种各样款式种类的防晒，完全不用操心，所以说去的时候真的不用带什么需要托运的行李。
+              <br>
+              但是，万一大家买了票又没有买超值套装，而且又有了托运行李怎么办（当然楼主说的都是出发之前）？不用着急，还是在官网上就能解决！怎么办呢？在网页右上角“管理我的预定”里面，同样是可以添加行李，以及购买餐食的，价格绝对比现场要便宜！而且还要比某宝什么的放心许多。</p>
+            <img src="../images/society/society_travel_detail/1-15.jpg">
+            <p>关于签证的二三事：
+
+
+              <br>
+              目的地安排好了，机票也已经拿下了，接下来比较重要的一个环节就是目的地的签证了。因为毕竟是出国，不像是国内游，各省之间都是邻里关系，大家串个门也没有那么麻烦。
+              <br>
+              目前签证也就两大种：需要签证和免签；再细分一下需要签证的情况，就是贴签和落地签。
+              <br>
+              泰国属于需要签证的行列，但是泰国的签证可以说是难度最简单的之一了。简单到什么地步呢？虽说是需要贴签或者落地签，但是实际操作起来都能赶上免签的效果。
+              <br>
+              楼主出去这几次，大多数情况下是贴签的，唯一一次跟公司百十号人出行才使用了落地签。但是以楼主的性格，还是建议大家现在国内把签证办好，也就是先办理贴签。因为万一在落到当地出现什么幺蛾子，或者说是人太多导致办理时间过长，而延误了后续的行程，是不是就非常影响出行的心情了？
+              <br>
+              泰国的贴签现在很多城市都有泰王国的领事馆，但是实际上的操作模式，还需要很多资料，包括单位要出具证明啦、甚至几千块钱的存款证明之类的，这样的操作讲真还是挺麻烦的。所以说，楼主强烈建议大家就某宝代办，花小钱办大事，一般情况下只需要护照和照片就可以了，各家价钱都差不多，链接楼主就不安利了。
+            </p>
+            <p>酒店预订：
+
+
+              <br>
+              去泰国，住一家舒适一点的酒店是非常重要的一件事情。作为东南亚的旅游大国，泰国的酒店服务可以说是真的没得挑，用又便宜又好来形容，真的是不过分。很多时候，楼主甚至根本不想出海，不想去环岛，而就是想单纯的躺在酒店，睡到自然醒，看看书，看看海，然后发发呆。
+              <br>
+              楼主的酒店大多数情况下都是在booking上面提前定好的。酒店方面会在确认之后发来电邮确认，出行之前，记得把酒店发送的电邮文件打印出来拿上就可以了。
+              <br>
+              普吉岛上的酒店多种多样，一晚上从几万的超豪华海景别墅到一晚上百十块的旅社，都可以找到，可以说是能满足几乎所有层次游客的需求。大多数的酒店都是沿着普吉岛绕圈圈，因为应该是个人去到海岛上都是想感受一下海滨风情，什么海景房的自然就是得沿着海边修建了吧！
+              <br>
+              以楼主以往的经历来看，更多人去普吉岛，选择酒店还是靠近岛的西海岸，为什么呢？整个普吉岛作为泰国的明珠是漂浮在印度洋的安达曼海上的，而普及岛的西海岸就正对着一望无际的安达曼海，比较有名的沙滩类似于芭东、卡塔、卡伦海滩都是在这一侧，同样的围绕这些知名海滩所修建的酒店就更是不少了。因此呢，楼主建议大家在选择酒店的时候也是在这边进行一个挑选。
+              <br>
+              楼主挑酒店一般不会选择最靠近主要海滩附近的酒店，因为一般价位都会比较高，如果看起来价格相对便宜的话，那么酒店的设施或者说是年限就比较长了。但是大家可能会说，住的那么远，通勤怎么办？可能有一点了解普吉岛的话都知道，岛上是没有出租车的。这一点的话楼主会建议大家租车，因为每次去到岛上，楼主的第一件事情都是先租车，有了“腿”之后，想去哪里就可以很方便的去哪里了。方式方法呢，楼主在后面会安利给大家。
+              <br>
+              再说回酒店，稍微远离闹市的海滩的酒店有什么好处呢？性价比极高！原因就在于他们虽然占据的地方景色非常美丽，但是苦于通勤这一件事情上，让很多游客特别是屌丝老外这种类型的游客不会选择他们，因此在价格上，这类酒店就会有大幅度的让步，但是实际上酒店的星级、档次、服务、卫生等之类的都是非常不错的。
+              <br>
+              楼主将这一次的酒店推荐给大家。
+
+
+              <br>
+              Cape Sienna Hotel & Villas（西恩纳角别墅酒店）：酒店位于卡马拉海滩，距离海滩的距离步行三分钟之内就可以到达。酒店的海景房是非常不错的，几乎每一间都是可以正面看到大海，因为酒店名字就叫西恩纳角，整个酒店就在这个突出的尖尖上，所以所有房间都可以说是无遮挡的面向大海。
+            </p>
+
+            <img src="../images/society/society_travel_detail/1-19.jpg">
+            <img src="../images/society/society_travel_detail/1-20.jpg">
+            <img src="../images/society/society_travel_detail/1-21.jpg">
+            <p>
+              酒店有两座泳池，一座位于高处的餐厅旁边，很多时候，可以看到大家就是边点着喝的聊聊天，一边有人在水里嬉戏。泳池不是很大，但是风景很美，风和日丽的早上开始，楼主可以在这里静静地躺上一天。
+              <br>
+              另一座泳池，就完全可以讲用来欣赏海景是最好的了。泳池位于酒店的最下方，泳池边沿再往下就是礁石，在游泳的时候，就可以听见海浪拍打岸边的声音。
+              <br>
+              酒店房间的尺寸也是非常令人满意的，以为过于狭小的房间楼主在其他地方尝试过，好家伙，那都不是一个拥挤能够形容的，毕竟舒适度太差。这家酒店的客房，可以说就完全没有这样的烦恼，大家的箱子想怎么放就怎么放，买回来的零食想怎么堆就怎么堆！
+              <br>
+              在选取酒店的时候，还有一点比较重要的是，楼主觉得“跑和尚不跑庙”政策比较重要！什么叫做“跑和尚不跑庙”呢？顾名思义，就是选取一家酒店就定下来，每天只是我们自己在岛上转转去到不同的地方，而宿处就固定下来。不然的话每天搬家这样的归属感是非常差的，也不利于大家舒适的享受海岛上的生活。
+
+
+              <br>
+              酒店就在https://www.booking.com/s/12_6/kun87937上面，搜索栏输入楼主留下的酒店名称就可以了！
+              <br>
+              关于租车：
+
+
+              <br>
+              可能区别于部分在岛上有接机的游客，楼主全程都是靠着自驾完成整个岛上的行程。因为之前也提到过，岛上并没有出租车，都是以双条车（类似于祖国的村村通，或者三蹦子不过是四轮版）、摩托车这样的方式。
+              <br>
+              双条车可以说就是作为普吉岛上简易出租的存在，方便是方便，但是在大家经常要走走停停的时候，这个可就不太好办了，每一次都要停下来拦车，而且可能还不一定有合适自己团体数量的座位；摩托车呢，也是一般要到岛上，跟私人店家进行租赁，很多时候就会因为护照啊什么的事情，多骗一点大家的金钱，而且摩托车上路楼主总觉得不安全。因此楼主几乎在泰国，只要是上岛，没有公交也没有出租的这种情况下，就会自觉的选择租车。
+
+              <br>
+
+              泰国的租车业非常的发达，大家其实没必要什么事情都依赖于某程、某宝之类的网站，因为关于租车，在泰国有一百种方式，都比上面楼主提到的店家好使。楼主一般租车使用的网站如下：
+
+              //www.rentalcars.com/。
+              <br>
+              在这里订车的好处在于，他也相当于是所有租车公司的代理网站，上面会列出各家租车公司不同车型的报价以方便大家的挑选。这样就不用大家在一家一家的搜索，然后再去对比价格了！十分的方便。
+              <br>
+              首页里先选择国家，然后挑选目的地，之后一般大家的取车地点都会是机场，因为楼主每次去的话都是坐飞机，然后出机场就可以无缝连接了。
+              <br>
+              旁边也可以清楚的看到，网站上会列出很多家租车公司，例如赫兹、安飞士这样的国际知名租车公司。
+              <br>
+              搜索之后，上面会显示全部的车辆信息，可以根据自身的情况，两三个人的话，这种一百多快一天的小车足够了，类似于mirage这种款式的小车车，国内都是没有的呢，有机会的话，大家都是可以体验一下的。
+              <br>
+              每一辆车上面也都有他们的出租要求，例如满油取还、是否有工作人员带领取车、评价怎么样都是有涵盖的。
+
+              <br>
+
+              楼主这一次由于出行人数达到了六人，而泰国又是一个没有五菱宏光的国度，所以就只能选择一辆看起来稍微威猛一点的大车了，丰田的fortuner。这款车在国内是没有销售的，实际的驾乘体验还是相当带劲，毕竟是SUV的地盘+MPV的内部结构，舒适度和实用性都得到了一定的兼顾，总体感觉棒棒的！
+              这里还请大家注意，租车是很简单，但是有一点，在泰国，驾驶方式刚好是跟国内相反，是右舵左行！！！注意楼主开车的路线是在左侧车道。
+              这里还是要多唠叨几句：
+              <br>
+              首先租车的时候建议大家还是优先考虑自排挡，因为手排挡的方向也是反向的，如果不是很熟悉山地路况驾驶的时候，还是很难操作的。
+              <br>
+              其次，泰国是承认国际驾照的，但是咱们没有国际驾照，这个时候怎么办呢？那就要提前在国内翻译好自己的驾驶证，到租车门店的时候直接出示给工作人员就可以了！驾照翻译要怎么做呢？交给某宝就好了，三天吧，很快的。
+              <br>
+              还有呢，订车的时候建议大家还是购买完全的保险，这样万一因为操作不慎或者说是突发事件，还是有一定保障的，毕竟出门在外，我们只是图方便，而不是找危险。
+              <br>
+              最后呢，就是开着车出发吧！
+
+              <br>
+
+              关于换汇：
+
+
+              <br>
+              换汇这件事情对于泰国来讲简直是简单很多了。为什么这么说呢？
+              <br>
+              首先，泰国是一个旅游大国，泰铢在国内很多银行都是可以换到的算是主流货币之一了。在楼主小的时候，都记得有亲戚朋友外出游玩回来，拿一些外国的钱币打发一下小孩子，其实当时拿到的就已经是泰铢了，由此可见泰国的繁盛已经不是一天两天的事情了。
+              <br>
+              楼主这里换汇的地方主要还是去的中国银行，出门前不需要换太多，拿个千八百人民币就可以了（泰铢大约与人民币是5：1这样的比例，近些年人民币稍微有一点跌了，不过也没太大差），泰铢最大面额是1000铢，看过楼主之前文章的朋友们肯定都知道楼主经常强调去发达国家之前换汇一定要换取一些小面额，因为100欧元这种面额老外找不开。但是在泰国不需要担心这件事情，泰国人，搞的定1000泰铢！
+            </p>
+            <img src="../images/society/society_travel_detail/1-20.jpg">
+            <p>最后，来说说为什么不用换太多泰铢。因为普吉岛上等之类的地方，遍地都是换汇的小窗口，他们在窗口上就会挂出当时的牌价，美元、欧元、人民币、港元都是可以轻松兑换的，十分的方便。由于国家不执行太严格的汇率管制，所以说我们在这些小窗口换到的泰铢汇率都是相当可观的。比如说楼主在国内是以大约1:4.8左右换到的泰铢，但是在普吉岛上，有的窗口汇率甚至已经突破了1:5，是不是听起来相当划算呢？
+              <br>
+              而且放心一点，泰国似乎是没有假币的，他们收到1000泰铢的时候，是根本不需要抬头望望天或者过一下验钞机，就是这么自信！
+              <br>
+              通讯信息：
+
+
+              <br>
+              泰国旅游有一样神奇的产品，游客sim卡！就是专门为短期旅行的游客设计的手机卡。最最最知名的就是这款happy card了。电话卡包含7天2.5G的高速流量，流量超出的话普通2g流量是无限制的，但是速度就会慢很多了。
+              <br>
+              卡片原来包装是这个样子，现在可能都普遍是下面图片的样子。
+              <br>
+              不要惊讶于上面全是中文，没问题，他就是泰国的电话卡，使用起来非常的方便。楼主以苹果手机举例，只需要将电话卡换上手机，就可以正常使用了，一般情况下都不需要关机重启什么的。
+              这里提醒大家一下，手机卡在平时的导航、查一查好吃的馆子、发发朋友圈、刷刷微博的时候高速流量绝对是足够的，但请大家最好还是不要拿流量刷视频或者王者农药什么的，因为长时间这样跑流量，最后被限速还是很坑的。酒店都有免费wifi，效果都还不错，需要大规模使用流量的话，还是连上WiFi比较好！
+              潜水的一些事情：
+
+              <br>
+
+              来泰国，即便是大家不要深潜，估计都会尝试一下浮潜。浮潜楼主自己经历的都得是出海之后的事情了，因为水深，能见度高，鱼多，效果好！但是既然要出海才能看见，那么所用的浮潜用具都是船家提供的。那么这样一来，很明显这些咬嘴什么的都是公用的。
+              <br>
+              如果大家对这一点比较介意的话，可以在出发之前，国内某宝购买浮潜的基础装备：浮潜三宝！注意要键入关键词--全干式，这样的话就可以放心大胆的去体验浮潜带来的乐趣了！
+            </p>
+            <p>出门必带：<br>
+
+
+
+              好了好了，终于到了最后一项了，出门必带！
+              <br>
+              1、围巾一条，或者薄型外套一件！大家会说楼主是不是有病，泰国是个热带国家，去了不是要捂痱子？不不不，这个不是给室外准备的，而是室内。就比如出门第一道冷气--亚航的航班，他们会把机上的冷气开的特别足，飞机还经常都是夜间的红眼，这么冷的空调，没有一条大围巾作为铺盖，会很冷的。同理，泰国的商场里也是一样，女同志可能去了之后就知道外套的重要性了。
+              <br>
+              2、驱蚊水！来来来，楼主你给我解释一下，出门不让带过大的液体，怕是飞机不让托运，这会儿又要驱蚊水，哪里找？不要着急，泰国遍地7-11，里面的驱蚊水各种尺寸都有，强力驱蚊效果只有你想不到！去的时候，有空要先到7-11采购一番哦，不然外国的蚊子没比较可爱！
+              <br>
+
+              3、夹脚拖！废话，谁不知道去海滩要带上这个玩意？别说，还真有人就这么忘了，楼主这一次一行当中的增增，就干了一件非常令楼主匪夷所思的这件事情，居然只穿了运动鞋，夹脚拖还是楼主们帮他在岛上挑的……夹脚拖的好处就不用赘述了，起码出门是鞋，回酒店是拖鞋！通风透气，行动方便……
+              <br>
+              4、护照、驾照等各种证件！出门之前，一定要再三检查自己的证件是否携带，到了机场没有护照，呵呵哒；到了汽车租赁点，没带驾照，又是呵呵哒！所以说最常见的东西一定要带齐全。
+            </p>
           </div> <!-- cd-faq-content -->
         </li>
       </ul> <!-- cd-faq-group -->
 
       <ul id="day1" class="cd-faq-group">
-        <li class="cd-faq-title"><h2>HTML5</h2></li>
+        <li class="cd-faq-title"><h2>DAY1：西安--普吉岛（芭东海滩）</h2></li>
         <li>
           <a class="cd-faq-trigger" href="#0">How does syncing work?</a>
           <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+            <p>航班信息：西安（0:15）--吉隆坡（5:20），亚航 D7347。
+
+
+              <br>
+              楼主一行第一程航班是需要在吉隆坡进行转机的。而且亚航多数都是这样夜间的红眼航班，但是还好这一群人都是年轻，后半夜飞机也都能扛得住。像楼主这样的“上车睡觉，下车尿尿”的体质，这一班也都还不错，飞机上睡一觉，下飞机就可以接着玩。
+              <br>
+              这个阶段去大马的游客还真不少，楼主上一次飞吉隆坡的同一班航班还是一架3-3排布的飞机，这一次3-3-3排布的飞机居然也都快坐满了。</p>
+            <img src="../images/society/society_travel_detail/2-1.jpg">
+            <p>由于起飞的时候，都已经到了平常入睡的时间，所以小伙伴们纷纷选择进入梦乡。注意马哥还有远处楼主的身上，都是有外套护体的，不然的话，这一觉可能睡得就不是很踏实了。
+              <br>
+              到达吉隆坡KLIA2机场之后，由于我们是转机，所以说不需要进海关，当然也就不需要在办签证，只需要前往中转中心办理下一程的登机牌就好。</p>
+            <img src="../images/society/society_travel_detail/2-2.jpg">
+            <p>伴随着窗外的天亮，也就要抵达目的地了。
+
+            </p>
+            <img src="../images/society/society_travel_detail/2-3.jpg">
+            <p>普吉岛入关很容易，特别楼主还是在国内已经办理好了贴签，所以说拿着护照直接到海关的窗口就可以了，和蔼的海关大哥只需要检查护照盖上入境的章子就OK了！
+              <br>
+              入关之后，楼主还不着急出航站楼，因为没有人接机，自己要在航站楼里先把租车的手续办完。
+              <br>
+              楼主印象中这个到达大厅似乎是重新装修过，感觉跟之前来的感觉有些不一样了，看起来新了好多。在这里大家会看到来自世界各地的游客纷纷从海关涌出来，当然来自祖国的游客占据了其中的绝大部分。</p>
+            <img src="../images/society/society_travel_detail/2-4.jpg">
+            <p>办理好手续，出了候机楼，楼主就有点扛不住了！为什么呢？因为这时候的雨实在是太大了，在等自己座驾的时候，回头看了一眼普吉机场航班的起飞过程，基本上就是从离开地面，到飞进云层看不见，这个过程也就只需要五秒钟……就这雨，楼主明天还怎么出海啊……
+
+
+              <br>
+              拿到车的时候，先不要着急开走，因为送车来的工作人员也是先要一起验视一下车子的外观，跟我们确认好没有什么明显的外部损伤，还有看到油表指针是满的的情况下，才会把车子交给我们。那么同样，我们在最后还车的时候，也要确保车子的外观完好，以及油箱是满的才可以！
+
+
+              <br>
+              有了“腿”之后，这下要去哪里就是一件完全不用操心的事情，只需要点开手机上的谷歌地图，输入目的地，然后跟着导航一路前行就可以了。
+              <br>
+              不过开车的时候，楼主又一次陷入了深深地绝望，因为楼主将雨刮器已经拨到了最快速的档位，然而天上倒下来的雨水还是根本刷不开的样子！明天的出海，到底会是什么样子？难不成真的要应了出门大家的问题--普吉岛不会下一个礼拜的雨，然后大家只能待在酒店打牌吧……
+
+              <br>
+              顶着瓢泼大雨，楼主一行也终于抵达了酒店，泰国作为一个旅游大国这么多年神的不是白叫的，当楼主把车停在酒店的门厅的时候，就有门迎小哥上来，该帮忙拿行李的拿行李，帮忙趴车的就去直接帮忙把车子趴好了。
+              <br>
+              但是一切的一切，一定记得要给小费哦！而且注意，小费一定不能给硬币！硬币购物的时候可以，打发乞丐的时候可以，但是作为消费是不可以的！泰铢纸币最小面额是20铢铢，折合下来也就四块钱人民币，咱们在国内停车一小时都不止这个价格，所以说，花小钱办大事还是挺好的，而且小费给到了，真的是服务质量简直天翻地覆。
+
+
+              <br>
+              Cape Sienna Hotel & Villas（西恩纳角别墅酒店），楼主在前文的时候跟大家提到过，在岛上的这几天楼主一行都是住在这家酒店，以酒店为据点，周边开着车子想去哪里就去那里，就不用在担心还要天天拖着行李搬家了。
+              <br>
+              酒店的大堂就是大家看到的这个样子，大堂的正下方就是车来车往的门厅，看起来还是很cool的。楼主的朋友们这时候都是毫不犹豫的拿出照相设备，开始对着一望无际的安达曼海咔嚓咔嚓了。</p>
+            <img src="../images/society/society_travel_detail/2-5.jpg">
+            <p> 酒店方面提供的服务也都还不错，等候区桌子上面有不同香型的洗浴用品的试用品，酒店方会根据我们对味道的喜好，来安排酒店里的洗浴用品。
+              <br>
+              不过按楼主的时间来讲，今天到达的时间算是有点早了，大概在早上不到十点，而酒店的入住时间规定在下午两点以后。一般遇见这种情况，像是欧洲或者澳洲，就得等到两点以后，或者是加半天的费用直接入住。在泰国呢，怎么说服务业做得好，就是这么来的，酒店方面再确认还有空房的前提下，还是直接帮我们安排了入住，并且所有的房间都是爱在一起的，方便大家日常的走动。
+              <br>
+              到达酒店，首先，第一件事情--洗澡！！！别问楼主为什么刚来就要洗澡！因为这天气，谁去谁知道，泰国是个热带国家啊，一动就是一身的汗……在这里，每天洗上八回澡都不觉得爽快！楼主的老家虽然是个远在大西北的小城市，热归热，但是很干燥啊，这里的热是闷热夹杂着海水的味道，裤裆里都能养鱼了好么！
+              <br>
+              洗完澡之后，按照楼主中老年人设定的尿性，就准备补上一觉，毕竟这么大的床配上海景还有凉凉的空调WiFi，谁能抵御得了呢？结果怎样，被这一群基友还是无情的拉了出去。
+
+
+              <br>
+              由于外面雨太大，不能按照最初的计划，找一片海滩，架一张躺椅，支一把阳伞，好好地晒晒太阳，那么还能去哪里呢？芭东海滩边上的大商场--江西冷（jungceylon）！这座商场是岛上除了镇中央的cental festival以外比较大的商场之一了。开车到了芭东海滩附近还是要稍微减速慢行的，游客比较多，按照导航，可以很轻松的找到江西冷的地下停车场。
+            </p>
+            <img src="../images/society/society_travel_detail/2-6.jpg">
+            <p>今天的这个雨，阻挡的不只是楼主一个人，进到商场里面才发现，真的是people mountain people sea！因为大家的BGM可能都是“一场雨，把我困在这里，你冷漠的表情，会让我伤心，六月的雨……”！吧啦吧啦，楼主不自觉的就唱了起来，赶紧停停停，今儿出门果然是忘了吃药了。
+
+
+              <br>
+              看来大雨真的是比较影响普吉岛的旅游的，平时散落在各大海滩的游客，这时候几乎都汇集在了一起。那也没办法，谁让我们都赶上了呢？来普吉岛比较重要的一点就是出海，这里发达的旅游业乘船出海就占了其中很大一部分。平时大家在街边都可以看到很多小格子铺，里面摆满了各种各样的宣传册，上面就是介绍一些出海的项目，主要区分就是岛屿不同，乘船的人数不同，相应的价格就会有所区别。今天大雨外面是去不了了，江西冷里面也同样是有经营出海一日游的小店铺的，楼主一行就打算在里面找找看，对比一下看哪一家比较合适。
+              <br>
+              其实结果都大同小异，出海大约每人每天从七八百泰铢到两三千泰铢不等，这个价格包含的大多数都是快艇，人少一点的十几二十人一船，人多一点的大概就是四五十人左右大一点的快艇了。当然除了这些选择，还有长尾船（long tail），一船大概可以坐下最多十来人，船倒是泰国传统特色，长得都非常的好看，但是速度可是出奇的慢。另外就是帆船也是其中一个选项，价格相对也会更贵一些，大家呢，都可以根据自己的时间安排还有价格预算进行一下筛选，选择一个自己最喜欢的或者是最合适自己的项目。
+
+              <br>
+              下面这个就是普遍长尾船的长相了。为什么要叫长尾船呢？顾名思义，船的后面有一条长长的尾巴，这个尾巴就是从马达上出来连接水下螺旋桨的，不然靠人力划船是会累死的……</p>
+            <img src="../images/society/society_travel_detail/2-7.jpg">
+            <p>楼主一行最终选择的当然还是最常见的快艇出海了，跟店家打听了一下，明天的降水概率大概在50%以下，听起来还是挺不错的，但是内心还是有一点小小的忐忑。
+              <br>
+              这里预定好了行程之后，需要告知店家所住的酒店，他们会在第二天准时派车到酒店去接大家，一般都是早上九点之前，诚信度是非常高的，完全不用担心交了钱之后，第二天找不到人这种情况。这就非常区别于楼主家乡的火车站附近的一日游了，在楼主那里，把钱要是提前交给火车站附近的店家，呵呵，那这辈子都不会有人派车来接我们去旅游景点了！
+
+
+              <br>
+              好了，今天最主要的一项任务预定出海的行程，算是搞定了！这么大的雨确实也影响出行，没地方去还是直接回酒店吧。终于熬到了雨停，也已经半下午了，那就趁着不下雨的这会儿，出去溜溜腿儿吧！
+              <br>
+              从酒店去到拉威海滩走路也就三五分钟的事情，所以，大家这次出门就没有在开车了，万一过去了也不好停车还是挺尴尬的。
+              <br>
+              傍晚的海滩已经处于退潮的状态了，这会儿就有很多非常有意思的事情，比如说可以抓螃蟹，如果想玩儿的话，建议随身带上一把小铲子，见到有冒泡泡的沙洞，一铲子下去，小螃蟹就出来了。
+            </p>
+            <img src="../images/society/society_travel_detail/2-8.jpg">
+            <img src="../images/society/society_travel_detail/2-9.jpg">
+            <p>餐厅位于酒店的泳池旁边，虽然到晚上泳池已经不开放了，但是泳池里只是没人而已。再加上泳池外面就是一望无际的大海，准确的说在这里享用一顿晚餐还是很不错的。</p>
+            <img src="../images/society/society_travel_detail/2-10.jpg">
+            <img src="../images/society/society_travel_detail/2-11.jpg">
+            <img src="../images/society/society_travel_detail/2-12.jpg">
+            <img src="../images/society/society_travel_detail/2-13.jpg">
+            <img src="../images/society/society_travel_detail/2-14.jpg">
+            <img src="../images/society/society_travel_detail/2-15.jpg">
+            <p>泰国的餐食很奇怪，说好吃吧，有些人说不，说不好吃吧，也有人说不！很多菜品，像是冬阴功汤，楼主的老婆大人就非常的喜欢，每次去，但凡进馆子，都要先来一份，但是楼主就觉得尝一口就可以了。但是像是这个绿咖喱鸡饭，楼主就非常的喜欢，其他人也都觉得还好。所以说，到了泰国，各种餐食大家都可以多多尝试一下，其中肯定有对自己胃口的。
+
+
+              <br>
+              今天，在这样的欢乐的气氛中，结束了大雨磅礴的一天，楼主其实还是挺期待明天出海的，具体怎么样，咱们明天见了！</p>
           </div> <!-- cd-faq-content -->
         </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do I upload files from my phone or tablet?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempore, placeat quisquam rerum! Eligendi fugit dolorum tenetur modi fuga nisi rerum, autem officiis quaerat quos. Magni quia, quo quibusdam odio. Error magni aperiam amet architecto adipisci aspernatur! Officia, quaerat magni architecto nostrum magnam fuga nihil, ipsum laboriosam similique voluptatibus facilis nobis? Eius non asperiores, nesciunt suscipit veniam blanditiis veritatis provident possimus iusto voluptas, eveniet architecto quidem quos molestias, aperiam eum reprehenderit dolores ad deserunt eos amet. Vero molestiae commodi unde dolor dicta maxime alias, velit, nesciunt cum dolorem, ipsam soluta sint suscipit maiores mollitia assumenda ducimus aperiam neque enim! Quas culpa dolorum ipsam? Ipsum voluptatibus numquam natus? Eligendi explicabo eos, perferendis voluptatibus hic sed ipsam rerum maiores officia! Beatae, molestias!</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do I link to a file or folder?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
       </ul> <!-- cd-faq-group -->
 
       <ul id="day2" class="cd-faq-group">
-        <li class="cd-faq-title"><h2>jQuery</h2></li>
+        <li class="cd-faq-title"><h2>DAY2：普吉岛(皇帝岛)</h2></li>
         <li>
           <a class="cd-faq-trigger" href="#0">How do I change my password?</a>
           <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis earum autem consectetur labore eius tenetur esse, in temporibus sequi cum voluptatem vitae repellat nostrum odio perspiciatis dolores recusandae necessitatibus, unde, deserunt voluptas possimus veniam magni soluta deleniti! Architecto, quidem, totam. Fugit minus odit unde ea cupiditate ab aperiam sed dolore facere nihil laboriosam dolorum repellat deleniti aliquam fugiat laudantium delectus sint iure odio, necessitatibus rem quisquam! Ipsum praesentium quam nisi sint, impedit sapiente facilis laudantium mollitia quae fugiat similique. Dolor maiores aliquid incidunt commodi doloremque rem! Quaerat, debitis voluptatem vero qui enim, sunt reiciendis tempore inventore maxime quasi fugiat accusamus beatae modi voluptates iste officia esse soluta tempora labore quisquam fuga, cum. Sint nemo iste nulla accusamus quam qui quos, vero, minus id. Eius mollitia consequatur fugit nam consequuntur nesciunt illo id quis reprehenderit obcaecati voluptates corrupti, minus! Possimus, perspiciatis!</p>
+            <p>今天的主要任务就是出海了，早上起来，看到天气还不错，当然按楼主后续的经历来讲，在岛上的四天也就只有这一天可以说是风和日丽，还真的是不容易，谁让楼主今天特地挑了一个雨季来到了普吉岛，虽说没有台风肆虐，但是就天天这样下雨也是扛不住的啊！
+
+
+              <br>
+              楼主昨天也说到过，泰国的旅游业是相当的发达，所以信用度什么的也是非常之高的，昨天跟一日游的店家付完钱，说好酒店之后，今天早上就可以安心的等着他们派mini bus来接我们了。普吉岛上跑着的mini bus基本上都是丰田海狮这种车子，很类似于咱们国内见到的金杯面包，荷载大约在十来个人这样一个情况，并且都是有轮圈或者大包围的改装的，造型都很时尚酷炫。
+              <br>
+              这些mini bus主要负责的任务就是将游客们或者带到码头，或者带到人妖表演的现场。车里的冷气依旧是非常十足，所以还请怕冷（准确的说是怕温差太大）的男男女女们随身携带一件轻薄的外套。</p>
+            <img src="../images/society/society_travel_detail/3-1.jpg">
+            <p>好了，跟着mini bus的步伐，我们就可以顺利的来到码头了。大家在这里汇集，都是各种各样酷炫的mini bus从各个酒店载来的来自不同国家的游客们，大家无论是在镇上哪一家的一日游小门店下的订单，只要选择的出海的岛屿是一致的，就都有可能被放在一起，这样呢，就看大家的缘分了。
+
+
+              <br>
+              快艇上面的人数都是事先核算好的，所以说大家乘坐那一艘快艇都是有安排的，当然前提是得跟着自己快艇上的导游员，他会下来跟即将上船的每一位游客确认身份，确认无误之后，就可以登船了。<br>
+              这次，楼主乘坐的是大快艇，乘船人数比较多，体验感算是稍微的差一些，不过好处在于大一点的快艇相对于小快艇来说在海面上的稳定性还是有所增加的，对于出海会晕船的朋友们来说倒是一件好事情。
+              <br>
+              快艇上的马达，几乎都被Yamaha和Honda两家垄断完了。经常发言都是小日本怎么怎么，实际上小日本背后的大日本帝国在工业上的先进程度真的不是盖的！每个马达都在200匹马力，而且还是四个！这一个放在车上就已经不得了了，楼主的屌丝小福也无非就一百多匹马力……所以快艇在海上还真的就是风驰电掣！
+            </p>
+            <img src="../images/society/society_travel_detail/3-2.jpg">
+            <p>虽然说昨天下雨几乎下了整整一天，但是到了今天立刻是晴空万里也算是运气好，赶上了一个好时候，今天的海面浪也不是很大，所以快艇行驶起来是非常平稳的。
+              <br>
+              还有，想坐船头的朋友们，还有一点需要注意！有些朋友可能会为了防晒穿上一件皮肤衣，但是在海上疾驰的时候，还是要做好这件皮肤衣会成为一次性雨衣的准备，因为快艇算是一个敞篷，而且是速度非常快的敞篷，行驶过程中的风会把这种非常轻薄的皮肤衣完全撕成布条条！别问楼主怎么知道的，上次出行已经毁了一件了！
+            </p>
+            <img src="../images/society/society_travel_detail/3-3.jpg">
+            <p>大概行驶有半个小时左右吧，楼主一行就到达目的地了。快艇在海上的时间其实主要还是取决于选择的目的地岛屿的远近程度。有些岛屿船是可以直接靠岸的，但是今天的岛屿，船都是在浮桥边上停靠，大家需要走过浮桥，才能够到达岸边，所以走浮桥的时候，一定要小心，别一个猛子就下水了。
+            </p>
+            <img src="../images/society/society_travel_detail/3-4.jpg">
+            <p> 到了岛上就算是开启自由活动的时间了，想享受日光浴就在沙滩上占一个躺椅，想下海的话，那就可以直接奔着海浪就去吧！总之从现在开始，就可以尽情的撒欢了。
+              <br>
+              出门的时候，楼主建议男男女女们都把衣服直接换好，毕竟阳光沙山海浪，大家穿的都一样，女士们比基尼外面来一款外搭，就可以轻松化解太暴露的尴尬；男士们嘛，楼主建议还是穿沙滩裤比较好一些，既能下水游泳，又能上岸走路，总比泳裤那么紧绷看起来好看多了。
+            </p>
+            <img src="../images/society/society_travel_detail/3-5.jpg">
+            <img src="../images/society/society_travel_detail/3-6.jpg">
+            <img src="../images/society/society_travel_detail/3-7.jpg">
+            <p> 看完了水面上，再将镜头下放到海底，这里真的是近海的地方就有各种各样的鱼！包括我们在《海底总动员》当中看到的小丑鱼尼莫，不过这次运气不是很好，没有找到尼莫的身影。但是其他种类的鱼，楼主也很多都不认识，只是觉得还都挺好看的。
+              <br>
+              而且这些鱼也几乎都不怕人类，因为一方面我们的灵活度根本跟它们比不了，一个摆尾我们就落后好几个身位了，二一个我们本身就算是外来物种，在人家的地盘当然没有鱼怕我们了！所以说，就趁着它们还不怕，拿出相机记录下来吧！
+            </p>
+            <img src="../images/society/society_travel_detail/3-8.jpg">
+            <img src="../images/society/society_travel_detail/3-9.jpg">
+            <img src="../images/society/society_travel_detail/3-10.jpg">
+            <img src="../images/society/society_travel_detail/3-11.jpg">
+            <img src="../images/society/society_travel_detail/3-12.jpg">
+            <img src="../images/society/society_travel_detail/3-13.jpg">
+            <p> 吃过饭之后，今天最重点的项目来了，什么呢？浮潜啊！大家不是想说刚在海滩上都已经游过泳浮过潜了？不不不，真正的浮潜还没有正式开始！
+              <br>
+              中午饭吃过之后，船家会继续开船出发，这一次会将快艇就停在大海的中央。是的！不靠岸！就停在大海的中央，然后发给大家救生衣、泳镜、呼吸管什么的，就可以一个挨一个扑通扑通跳下水了。</p>
+            <img src="../images/society/society_travel_detail/3-14.jpg">
+            <img src="../images/society/society_travel_detail/3-15.jpg">
+            <p> 从水下出来呢，最终的目的地还是一座小岛，累了一天了，大多数游人的选择，可能就是找一张有树荫的躺椅，然后静静的享受这半下午的时光。基本上从这里开始，今天的出海行程就接近尾声了。</p>
+            <img src="../images/society/society_travel_detail/3-16.jpg">
+            <img src="../images/society/society_travel_detail/3-17.jpg">
+            <p> 好了，一天的出海行程总有要结束的时刻。在离开的时候记得带好自己的随身物品，不要上错船，跟着来时的船家，继续一路破浪，回到来时的码头。
+              <br>
+              到了码头，也是会有mini bus把我们都送回酒店的。这一点大家放心，泰国的服务业绝对不会出现把我们扔在半路这种情况。
+
+
+              <br>
+              回到酒店，第一时间得先洗洗澡，因为这个海水泡一天，感受真的还是挺难受的，特别是头发，会变得特别的干涩，所以说一定要洗个澡好好的舒爽一下。完后呢，夜晚才刚刚开始，等大家都休整片刻之后，就可以继续整装出发了。
+              <br>
+              去哪里，今晚的目的地：卡伦海滩。<br>
+              海滩上的夜晚是非常的热闹，这种海鲜大排档到处都有，选择一家自己看的顺眼的，就可以落座了，楼主一般的套路就是没有套路，完全看心情，哪家人多去哪家，其实多数时候都是大同小异。</p>
+            <img src="../images/society/society_travel_detail/3-18.jpg">
+            <img src="../images/society/society_travel_detail/3-19.jpg">
+            <img src="../images/society/society_travel_detail/3-20.jpg">
+            <img src="../images/society/society_travel_detail/3-21.jpg">
+            <img src="../images/society/society_travel_detail/3-22.jpg">
+            <p> 好了，在一片祥和美好的尬聊氛围中，今天就暂且先告一段落了。吃过饭晚上回酒店，自然就是玩玩儿桌游，吹吹牛，人多有的时候还挺好的。<br>
+
+              最后，注意一点，即使是人多，在泰国也不要赌博，被举报的话还是后果挺严重的。</p>
           </div> <!-- cd-faq-content -->
         </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do I delete my account?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo tempore soluta, minus magnam non blanditiis dolore, in nam voluptas nobis minima deserunt deleniti id animi amet, suscipit consequuntur corporis nihil laborum facere temporibus. Qui inventore, doloribus facilis, provident soluta voluptas excepturi perspiciatis fugiat odit vero! Optio assumenda animi at! Assumenda doloremque nemo est sequi eaque, ipsum id, labore rem nisi, amet similique vel autem dolore totam facilis deserunt. Mollitia non ut libero unde accusamus praesentium sint maiores, illo, nemo aliquid?</p>
-          </div> <!-- cd-faq-content -->
-        </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do I change my account settings?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">I forgot my password. How do I reset it?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum at aspernatur iure facere ab a corporis mollitia molestiae quod omnis minima, est labore quidem nobis accusantium ad totam sunt doloremque laudantium impedit similique iste quasi cum! Libero fugit at praesentium vero. Maiores non consequuntur rerum, nemo a qui repellat quibusdam architecto voluptatem? Sequi, possimus, cupiditate autem soluta ipsa rerum officiis cum libero delectus explicabo facilis, odit ullam aperiam reprehenderit! Vero ad non harum veritatis tempore beatae possimus, ex odio quo.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
       </ul> <!-- cd-faq-group -->
 
       <ul id="day3" class="cd-faq-group">
-        <li class="cd-faq-title"><h2>CSS3</h2></li>
+        <li class="cd-faq-title"><h2>DAY3：神仙半岛 -芭东海滩 -卡塔海岸观景台 -拉威海滩</h2></li>
         <li>
           <a class="cd-faq-trigger" href="#0">Can I have an invoice for my subscription?</a>
           <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
+            <p>今天的目标就是自驾环岛了，没有什么非常明确的目的，就是开着车，走到哪里算哪里。不过按楼主的尿性，一大早是不会起床的，酒店的早饭再好吃，有些时候对于楼主来讲都是摆设！不过，一切的一切就是因为有这么一群损友，他们会起个大早，然后在去吃早饭的时候大砸特砸一通楼主的门，然后在吃饭回来的时候，继续拳打脚踢一遍……天呐，楼主真的是手边没有一摞板砖！
+              <br>
+              趁楼主还没有起来的功夫，这帮基友兄弟们已经出门溜达了一圈了，嗯，精神好，身体棒，大概就是这么个意思吧！</p>
+            <img src="../images/society/society_travel_detail/4-1.jpg">
+            <img src="../images/society/society_travel_detail/4-2.jpg">
+            <p>其实要是大家在岛上选择不租车的话，小摩托真的也是挺不错的选项。楼主第二次在泰国的时候，当时先去的甲米，在奥南海滩就看见一行大约五六个小女孩，两两一辆小摩托，也是自由自在的。或者小情侣两个人一辆，感受一下泰国假日。
+            </p>
+            <img src="../images/society/society_travel_detail/4-3.jpg">
+            <p>看今天的天气，其实还不算很坑，虽然没有晴空万里，但也不是乌云密布，所以说，起床，准备出发。</p>
+            <img src="../images/society/society_travel_detail/4-4.jpg">
+            <img src="../images/society/society_travel_detail/4-5.jpg">
+            <p>今天的第一站，卡伦海滩观景平台。楼主13年第一次开车途经这里的时候，这儿还是一个不是很起眼的小地方，因为多数游客都集中在海滩附近，这里也就是一些屌丝老外骑着小摩托能到这看一看。这一次来，没想到人还挺多的，可能随着普吉岛的开发，这些地方也越来越容易到达了吧！
+            </p>
+            <img src="../images/society/society_travel_detail/4-6.jpg">
+            <p>卡塔海滩的标志性景观就是可以看到这个M型的芭东和卡塔海滩，如果天气好的话，这里也是欣赏日落的好地方，不过来的时候一定记得把防蚊水涂好，不然到了晚上日落没看上结果都喂了蚊子了！</p>
+            <img src="../images/society/society_travel_detail/4-7.jpg">
+            <img src="../images/society/society_travel_detail/4-8.jpg">
+            <p>离开观景台，继续前行。
+              <br>
+              环绕普吉岛的西岸，似乎一直也就这么一条路，除了进入不同海滩附近的小镇上有一些岔路外，其余的楼主这几次来来回回走了好几遍发现也就是这一条。路的两边大家可以注意看看，有卡丁车场、射击场、骑大象的地方等等，只有大家想不到，没有普吉岛上没有的。
+              <br>
+              路上的限速居然还有冲突的时候，不过在这里，当地人似乎都是不鸟这个限速的。泰国老司机开车虽然彪，但是还是挺守规矩的，即便是我们这种新手在路上比较慢，他们在一些不能超车的路段上也会安安静静的跟着，不会一直喇叭狂按，然后到了路宽一点的地方，或者是直线稍微长一点的路段，就会毫不犹豫一脚油秒杀我们。
+              <br>
+              普吉岛上的便利店业务是非常发达的，主要以7-11和Family Mart两家为主，经营的范围大同小异，所以说去哪一家都是看个人喜好了。7-11有时候会有一些小的促销活动，比如说满额送一些很卡通的贴纸，然后集齐若干数量的贴纸，还可以兑换一些小产品，一线城市像北京上海的朋友们应该会很熟悉这个套路。但是以楼主个人经验，在岛上就是在放开吃吃喝喝，也没有集齐足够换购的贴纸，所以说也就没有必要非要挤在7-11一家了。
+              <br>
+              经过几个拐弯，大家决定靠边停车，去“洗劫”一家Family Mart，因为车上的水也存货不多了，所以得买点吃吃喝喝。
+            </p>
+            <img src="../images/society/society_travel_detail/4-9.jpg">
+            <img src="../images/society/society_travel_detail/4-10.jpg">
+            <p> 楼主比较推荐这里立顿的柠檬冰红茶，冰镇引用降温效果明显，还有桃子味的都可以尝试一下。泰国的饮料品种真的是很多很多，例如芬达，还有楼主家乡根本见不着的草莓味，虽然喝起来就觉得是香精兑的，但是尝个新奇还是可以的。还有各种口味的冰淇淋，感觉和路雪什么的在国内真的是不怎么走心。
+              <br>
+              进到7-11或者family Mart里面千万别觉得眼花缭乱，实在不行，想吃想喝的都一起拿下，真的说，物价并不是很贵！</p>
+            <img src="../images/society/society_travel_detail/4-11.jpg">
+            <p>简单的补给之后，换我们大河马开车，大家出门也都是想感受一把不一样的风情，开车这件事情自然不用说，毕竟泰国是右舵左行，跟国内还是差很大的。
+              <br>
+              开始的时候，由于都是一条路，马哥的驾驶风格还算是平稳！但是，在经过一个小的十字路口的时候，神奇的事情发生了。
+              <br>
+              什么呢？首先，马哥在转向的时候很自然的开启了雨刮器！楼主虽然知道这个是很有可能发生的，但是还是被震惊到了。由于方向盘在右侧，所以相应的，转向灯的安排是在方向盘的右侧，方向盘左侧是雨刮器，按照国内的习惯，转向的时候自然就要拨动方向盘左侧的档杆，于是乎，雨刮器就行动了。
+              <br>
+              这还不是最爽的，马哥又在右转弯的时候轻松地并入了最右侧车道！要知道，泰国的右转就跟国内的左转是一个效果，这就意味着马哥已经驶进了逆向车道！哇，好刺激。伴随着逆行，远处慢慢也驶来一辆mini bus。然后，马哥又开始跟对向鸣笛，发现似乎是我们走错车道之后，终于一把方向变回了左道。估计对象的mini bus当时都有点想尿的冲动。
+              <br>
+              经过这个弯道之后，马哥有了一些不一样的感受，直言以后在国内在开车，看见有车在晴天开雨刮器的时候，一定要第一时间避让，不然可能就跟着对方一起“boom沙卡拉卡”了！
+              <br>
+              再后来，大家才反应过来，马哥当年可是在大英帝国留学若干年的，英国可是世界上右舵左行的鼻祖啊！马哥在大家的一片质疑声当中，终于发现自己似乎是留了一个假学！然而，这个弯道，也成了这几天最刺激的一项运动。
+            </p>
+            <p>沿着泰国的乡村公路，下一个目的地--神仙半岛。</p>
+            <img src="../images/society/society_travel_detail/4-12.jpg">
+            <p> 神仙半岛也是一个不错的观景平台，但是今天看这天气，日落什么的也就基本告别我们了。</p>
+            <img src="../images/society/society_travel_detail/4-13.jpg">
+            <img src="../images/society/society_travel_detail/4-14.jpg">
+            <p> 岛上的犬虽然热，但是都是这样自由自在，如果身上有吃的的话，还是给他们喂一点吧，因为这么热的天还要去找吃的还是挺可怜的。
+              <br>
+              神仙半岛不远处，就是顺着这个大下坡一直前进，绕过前面立有风车的半岛之后，有一片不错的沙滩，这片沙滩算是人比较少，而且还挺干净的，花点小钱租个躺椅，一下午就可以在这里度过，游泳累了的话可以再买几只椰子，印象中不到50铢铢一个，还是冰镇过的，非常的舒爽。
+              <br>
+              但是今天，已经开始有点下雨了，享受阳光沙滩是不太可能了，那么还是开着车子，继续前进吧。
+            </p>
+            <img src="../images/society/society_travel_detail/4-15.jpg">
+            <img src="../images/society/society_travel_detail/4-16.jpg">
+            <p>继续向前，就到了普吉岛南部的拉威海滩。拉威海滩是一片不大的海滩，而且沙滩不像芭东、卡塔、卡伦那边很宽，这里的沙滩很窄，并不是一个非常适合下水的地方，而且这里周边的酒店也相对便宜一些，缺少一些豪华的度假村。
+              <br>
+              但是这里算是一个不小的码头，有很多私人承包的快艇就停靠在岸边。楼主跟其中一家确认了一下价格，小快艇能装下楼主一行六人的这种，一天2000泰铢，包含一个岛，浮潜装备他们都提供，而且如果自己带水果啊，饮料什么的，船上也是有冰块可以帮忙冰镇的。不过这里似乎不提供免费的接送服务，需要到点自己上门，但是像楼主这次这样多人一起的话，这种小快艇还是挺划算的。
+              <br>
+              先暂且当做备选，明天根据天气，再做决定吧，因为老板人还不错，告诉我们出海前两小时提前打电话联系他就可以了。</p>
+            <img src="../images/society/society_travel_detail/4-17.jpg">
+            <img src="../images/society/society_travel_detail/4-18.jpg">
+            <img src="../images/society/society_travel_detail/4-19.jpg">
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">Why did my credit card or PayPal payment fail?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusantium dolorem vel, ad, nostrum natus eos, nemo placeat quos nisi architecto rem dolorum amet consectetur molestiae reprehenderit cum harum commodi beatae necessitatibus. Mollitia a nostrum enim earum minima doloribus illum autem, provident vero et, aspernatur quae sunt illo dolorem. Corporis blanditiis, unde, neque, adipisci debitis quas ullam accusantium repudiandae eum nostrum quis! Velit esse harum qui, modi ratione debitis alias laboriosam minus eaque, quod, itaque labore illo totam aut quia fuga nemo. Perferendis ipsa laborum atque assumenda tempore aspernatur a eos harum non id commodi excepturi quaerat ullam, explicabo, incidunt ipsam, accusantium quo magni ut! Ratione, magnam. Delectus nesciunt impedit praesentium sed, aliquam architecto dolores quae, distinctio consectetur obcaecati esse, consequuntur vel sit quis blanditiis possimus dolorum. Eaque architecto doloremque aliquid quae cumque, vitae perferendis enim, iure fugiat, soluta aut!</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">Why does my bank statement show multiple charges for one upgrade?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
           </div> <!-- cd-faq-content -->
         </li>
       </ul> <!-- cd-faq-group -->
 
       <ul id="day4" class="cd-faq-group">
-        <li class="cd-faq-title"><h2>SVG</h2></li>
+        <li class="cd-faq-title"><h2>DAY4：山顶餐厅 -暹罗中心</h2></li>
         <li>
           <a class="cd-faq-trigger" href="#0">Can I specify my own private key?</a>
           <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+            <p>今天是在普吉岛上的最后一天了，时间确实还过得挺快的。今天呢，楼主带大家去寻访一家比较著名的普吉岛餐厅，具体结果怎么样呢，接着看下去就知道了。
+              <br>
+              当然，下面的位置不是餐厅了，而是一片已经靠近芭东碧池的海滩，这里属于即便是退潮了也不是怎么能下水的一片海滩，因为岸上的礁石比较多。白天的这里看起来就是阳光以及海浪，但是夜晚的这里就不一样了，各种三蹦子会带着自己的移动厨房从普吉岛的角角落落汇集到这里，组成一片不小的夜市。各位看官有时间的话，天黑以后，可以亲自来感受一下。
+            </p>
+            <img src="../images/society/society_travel_detail/5-1.jpg">
+            <img src="../images/society/society_travel_detail/5-2.jpg">
+            <img src="../images/society/society_travel_detail/5-3.jpg">
+            <p>当然，到了这里，自拍什么的是必不可少的了，毕竟楼主从小生活在祖国的西北边陲，基本上没有什么可能看见“大海啊，全是水”的这种状况，所以还是抓紧时间留念吧！
+              <br>
+              顺便一说，马路对面还有一家family Mart，如果需要补给一些水啊，冷饮啊什么的，也是非常方便的。
+            </p>
+            <img src="../images/society/society_travel_detail/5-4.jpg">
+            <p>告别了kalim海滩，开上车，继续前进，向着今天最重要的目的地出发，那就是山顶餐厅了。楼主先少卖关子，将山顶餐厅的位置标出来给大家，以免看了半天图的各位看官们忍不了要修理楼主，哈哈。
+              <br>
+              Tunk Ka Cafe：在普吉岛市镇中心的一座小山头上，到达这里的话要么开车，要么骑小摩托，要不然提前预约一辆接送往返的包车服务，总之因为离海滩比较远，所以散着步的话一般是不好到达的。好了看好了位置，接下来就准备出发吧。
+              <br>
+              这一路的路况还是不那么乐观的！
+              <br>
+              首先，要经过海滩附近的山路。普吉岛算是一个比较神奇的岛，这些沿着岛屿最外围的公路，经常就是一边是山崖，下面就是大海，而且在有些角度看起来，似乎海水就在天上，因为公路的坡度还是比较大的。当然，这里希望大家还是谨慎驾驶。
+              <br>
+              其次，就是岛中间市镇上的公路了，这里呢，由于地形平坦，公路质量也好，丰田等一系列霓虹国出产的汽车又非常的抗造，所以说公路上的车子都是非常的快，再加上周围还有很多摩托车围绕，速度也是相当快。因此特别是并道的时候一定要注意，避免产生剐蹭等意外情况！
+              <br>
+              最后一段呢，就是车少弯急路窄的盘山路段了。因为餐厅位于山顶，所以这一段路也是唯一的必经之路，在这里呢，通过弧度较大的发卡弯的时候，一定要注意鸣笛，示意对向车辆，以免发生意外。</p>
+            <img src="../images/society/society_travel_detail/5-5.jpg">
+            <img src="../images/society/society_travel_detail/5-6.jpg">
+            <p>好了，这里就是山顶餐厅--Tunk Ka Cafe的本尊了，虽然这时候已经是饭点了，但是由于这家餐厅的小众属性，能来这里的游客相较于海滩附近的餐厅还是比较少的。</p>
+            <img src="../images/society/society_travel_detail/5-7.jpg">
+            <img src="../images/society/society_travel_detail/5-8.jpg">
+            <img src="../images/society/society_travel_detail/5-9.jpg">
+            <img src="../images/society/society_travel_detail/5-10.jpg">
+            <p>餐厅里的装修装饰看起来也是非常和谐的。总之来到这里，不由得就会让人有一种，这家餐厅看起来就还不错的感觉。</p>
+            <img src="../images/society/society_travel_detail/5-11.jpg">
+            <img src="../images/society/society_travel_detail/5-12.jpg">
+            <img src="../images/society/society_travel_detail/5-13.jpg">
+            <p>    然后容楼主一一介绍这些吃的&喝的！
+              <br>
+              首先，是冰奶茶，推荐！对于普吉岛这种热死人的地方，冰饮本身就是加分选项，再加上这一家的奶茶味道还是相当十足的，所以说可以尝试一下。</p>
+            <img src="../images/society/society_travel_detail/5-14.jpg">
+            <p>李熊猫李总面前的香蕉牛奶shake，banana milk shake是楼主每到普吉岛都会点的一项饮品，别的不说，就是小摊上买来的就是真材实料的香蕉和在7-11找得到的明治牛奶作为主料。虽然说添加剂这些糖浆什么的看起来就比国内色素很多，但是在泰国总体都是这个样子，也不必过多的担心。
+              <br>
+              这个是楼主点的芒果&火龙果双拼shake。纯天然，混合沙冰把水果打成泥，就是这个样子，味道绝对纯真。但是对于热带水果接受度比较低一点的朋友们，这杯饮料甚点！
+            </p>
+            <img src="../images/society/society_travel_detail/5-15.jpg">
+            <p>下面开始上硬菜！
+              <br>
+              首先，冬阴功汤，楼主之前也说道过，泰国的餐饮萝卜白菜各有所爱，有的人喜欢的不得了，对于有些朋友来说可能就一般，所以说选择自己最喜欢的，其他的不必强求。冬阴功汤作为泰国传统特色，还是建议大家都可以尝一尝。
+            </p>
+            <img src="../images/society/society_travel_detail/5-16.jpg">
+            <p>咖喱蟹。这家餐厅的螃蟹在上桌的时候是已经褪好壳的！服务简直不要再周到！对于楼主这种海鲜手残党来说，真的是无上的福音。
+              <br>
+              顺带说一句，以下所有这些虾啦、蟹啦、鱼啦，餐厅都是按百克为单位，比如说一盘咖喱蟹，要个300克的分量什么的。但是楼主一行六人的战斗力，当场就让服务生小哥怀疑人生了，螃蟹先来一斤（也就是500克）；虾子来一kilo（也就是1000克），一斤烤着吃，一斤黑椒炒着吃；鱼，整一条大的，清蒸就行……开始的时候，小哥反复跟我们确认分量，害怕我们点多了吃不完，直到我们风卷残云第一波之后，又呼唤来同一位服务生小哥，把其中某几样产品原样又下了一次单的时候，小哥才发现我们真的是劝不住的，刚才可能自己的行为太“乃义务”！
+            </p>
+            <img src="../images/society/society_travel_detail/5-17.jpg">
+            <p>黑椒酱炒虾。上桌的时候已经是去过头的，虾尾那一点点壳子也都是脆的，所以说，只需要拿起勺子，张开大嘴就可以了！</p>
+            <img src="../images/society/society_travel_detail/5-18.jpg">
+            <p>这条鱼看起来不是多么起眼，但是味道还是可以的，这里提醒大家一句，点鱼的时候，一定还是要确认一下菜单，毕竟那么多鱼的品种，不知道哪一条的身价就上天了，别吃完饭结账的时候看账单以为是电话号码，实际上可能真的是价格哦！
+            </p>
+            <img src="../images/society/society_travel_detail/5-19.jpg">
+            <p>烤虾。也是除了虾头，几乎可以全部拿下的一道菜。旁边的蘸料吃起来就非常的泰国风味，可以尝试一下。</p>
+            <img src="../images/society/society_travel_detail/5-20.jpg">
+            <p>菠萝炒饭。这里的菠萝炒饭区分大中小号，一般情况下，小号的菠萝饭各家的样式都一样，就是盛装在一个被掏空的菠萝里面，但是大份的话，就没有这么大号的菠萝给大家当碗了，于是乎就是这样满满的一盘子。
+            </p>
+            <img src="../images/society/society_travel_detail/5-21.jpg">
+            <p>以上这些，看起来其实已经不少了，但是直到最后又原样把黑椒炒虾子和咖喱蟹原样点了一份之后，楼主发现这会儿大家才是真的吃饱了。
+              <br>
+              这么丰盛的一顿饭，总共下来也就四千多泰铢，折合人民币八百块左右，再平均到六个人头上，每人也就140人民币左右，真的不算是很贵，在国内六个人吃一顿火锅，怎么地也不都得七八百块了吧！而且就从环境和服务来讲，这一家也都是值当这个价格了。当然楼主的经历仅供参考，一切以大家实际到来为准。
+              <br>
+              饭后，继续开始自娱自乐的时间。
+              <br>
+              楼主来的时候告诉过大家，这家餐厅是在山顶上，所以风景自然是不会差了，Phuket view point就是这里的观景平台了。在上面可以说是能看到整个普吉的全貌。</p>
+            <img src="../images/society/society_travel_detail/5-22.jpg">
+            <img src="../images/society/society_travel_detail/5-23.jpg">
+            <img src="../images/society/society_travel_detail/5-24.jpg">
+            <p>最后呢，在所有人的大长腿的一张合照中，让我们结束这顿美好的午饭吧！接下来，也基本上就要结束普吉岛的行程了，因为下午，我们就要从这里飞往泰国的首都曼谷了。心念普吉，后会有期！
+              <br>
+              航班信息：普吉岛（18:00）--曼谷（19:10），亚洲航空 FD3032。
+
+
+              <br>
+              普吉岛机场虽然作为一个国际机场，但是相比之下也还是小的可怜的，等飞机的间隙，依旧突出一个人多好办事的特点，几个箱子一摞，就可以在候机楼继续玩儿桌游了。玩儿归玩儿，但是一定注意看好自己的航班信息，别一不小心误机了。
+
+
+              <br>
+              亚航依旧是无餐食，无饮水，无娱乐设施的三无屌丝廉航，不过这一程还好，区区一个小时的航班，也不会把楼主折磨成什么样子。
+              <br>
+              趁着天没黑，可以先看看彩虹。
+            </p>
+            <img src="../images/society/society_travel_detail/5-25.jpg">
+            <img src="../images/society/society_travel_detail/5-26.jpg">
+            <img src="../images/society/society_travel_detail/5-27.jpg">
+            <img src="../images/society/society_travel_detail/5-28.jpg">
+            <img src="../images/society/society_travel_detail/5-29.jpg">
+            <p>曼谷有两座机场，素万那普国际机场和廊曼国际机场。前者是曼谷比较新一些的机场，后者呢就是我们所熟知的廉航专用机场了。奈何楼主到达泰国只经历过廊曼机场一座，所以说素万那普想介绍也是心有余而立不足。
+              <br>
+              廊曼机场到达大厅出来之后，去市区建议大家就打出租车，因为近些年泰国泰国对于出租市场进行了一系列比较强有力的整顿措施，打击了一些专门针对游客绕路或者不打表漫天要价的行为，据说效果还不错。从机场打车到市中心的暹罗广场附近大约也就是200多THB，三个人一车的话还是很划算的。
+              <br>
+              打车的地方很好找，看着到达大厅顶上的指示牌，很容易就找到。但是一般情况下出租车候车室还是要排长长的队伍的，不过由于安排的车辆比较多，所以排号还算是快。从这里出发的出租车大多数还是会很自觉的by meter计费，也就是打表，如果大家还是不放心的话，楼主建议点开谷歌地图，输入目的地，然后点击导航，就可以了，看看司机大哥是不是按照大概这个路线前进的。
+
+
+              <br>
+              Ibis Bangkok Siam（宜必思曼谷暹罗酒店）：说是推荐这间酒店，倒不如说是推荐这个酒店所处的位置。因为曼谷也是一个世界级的大都市，现代化建设不一定搞得有我们的北上广强，但是城市大小以及社会地位在泰国乃至东南亚都是相当顶尖的。因此这里的住宿也可以说并不是非常亲民的价格，就像ibis这种快捷酒店，旺季的价格都快赶上岛上星级酒店的价格了。但是在这里，这种标准快捷酒店在位置上可以说是相当划算的，楼主在曼谷一般不会租车，因为非常拥堵且道路状况复杂，所以都是选择出租或者是BTS等公共交通。这家酒店所在的位置已经是相当的市中心了。楼下就是BTS的站点，隔壁就有麦克当纳姆兹，大堂还有一间7-11，四周起码有4家大型的购物中心环绕，是隆夜市也离这里大约就两站BTS的路程。在楼主的概念里这里已经相当于要什么有什么了，而且在曼谷，又没有岛上宜人的风光需要躺在海景大床房里欣赏，城市景观加上每天暴走之后的暴汗，最需要的就是能洗澡以及强劲的空调，这两样条件ibis都可以满足，所以就图一个超高性价比吧！
+            </p>
+            <img src="../images/society/society_travel_detail/5-30.jpg">
+            <p>酒店就是非常标准的快捷酒店长相，话说楼主一般去北京办签证什么的也就是快捷酒店的干活，毕竟显得屌丝一些，符合楼主的气质。
+              <br>
+              到酒店的时间不算是太晚，所以还有时间到周围的商场里寻找一下好吃的。酒店步行范围内的暹罗模范购物广场里面，整个一楼就是一座偌大的美食广场，其中还包含一家比较大的超市，可以说饭食的品种相当多样。但是要注意一点，这里虽然说晚上十点才关门，但是大约到了九点左右的时候，餐厅就要进行last call了，如果没有什么点单需要，那他们就不再提供主食什么的了，酒水饮料由于都是现成的，可能还会有，所以说，晚上要吃饭，一定要抓紧时间哦。
+
+
+              <br>
+              今天呢，就先到这里，明天就正式开始曼谷之行了，有什么新的发现，明天继续吧！</p>
           </div> <!-- cd-faq-content -->
         </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">My files are missing! How do I get them back?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How can I access my account data?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus magni vero deserunt enim et quia in aliquam, rem tempore voluptas illo nisi veritatis quas quod placeat ipsa! Error qui harum accusamus incidunt at libero ipsum, suscipit dolorum esse explicabo in eius voluptates quidem voluptatem inventore amet eaque deserunt veniam dignissimos excepturi? Dolore, quo amet nostrum autem nemo. Sit nam assumenda, corporis ea sunt distinctio nostrum doloribus alias, beatae nesciunt dolore saepe consequuntur minima eveniet porro dolor officiis maiores ab obcaecati officia enim aliquam. Itaque fuga molestiae hic accusantium atque corporis quia id sequi enim vero? Hic aperiam sint facilis aliquam quia, accusamus tenetur earum totam enim est, error. Iusto, reiciendis necessitatibus molestias. Voluptatibus eos explicabo repellat nesciunt nam vero minima.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How can I control if other search engines can link to my profile?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
       </ul> <!-- cd-faq-group -->
 
       <ul id="day5" class="cd-faq-group">
-        <li class="cd-faq-title"><h2>CANVAS</h2></li>
+        <li class="cd-faq-title"><h2>DAY5：四面佛 -大皇宫 -暹罗广场</h2></li>
         <li>
           <a class="cd-faq-trigger" href="#0">What should I do if my order hasn't been delivered yet?</a>
           <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+            <p>今天起来的第一件事，就是先去拜佛，什么佛呢？就是泰国的超级知名--四面佛。
+              <br>
+              在曼谷，千万不要相信从放满冷气的酒店窗户里看到的室外！看似多云，室外温度预报34度左右，实际体感温度绝对100度！而且一出门绝对不多云，立刻艳阳高照，但是没有办法，既来之，则出之！真的猛士敢于直面阳光的直射。
+              <br>
+              必思的早饭楼主就先不考虑享用了，所以在预定的时候，就直接选择的是不含早餐的房型。早晨一般楼主还是愿意去一趟隔壁的麦克当纳姆兹，毕竟一不用担心吃不惯，二不用费心还要去找哪里有吃的，第三就是还有一杯咖啡作为“鸡血”，这样白天能多顶一会儿。
+              <br>
+              吃过早饭，就可以出发拜佛去了。<br>
+
+
+
+              四面佛是华人地区民间对梵天的俗称，“梵天”在佛教中亦称造书天、婆罗贺摩天、净天。原是印度教、婆罗门教三大主神之一的梵天，是创造宇宙之神，梵文字母的创制者。在东南亚，特别是泰国被认为是法力无边，掌握人间荣华富贵之神；其四面分别朝向东南西北，供信众祈福。由于外形近似中国佛像，中文译名多为四面佛，但事实上四面佛不是佛，所以准确而言应译为四面神。
+              <br>
+              四面佛，人称“有求必应”佛，该佛有四尊佛面，分别代表健康、事业、爱情与财运，掌管人间的一切事务，是泰国香火最旺的佛像之一。据说四面佛的灵验超乎寻常，因此，有些游客为了在四面佛前许誓还愿而多次往返泰国，更有许多港台影视明星，年年都来泰国膜拜四面佛，可见四面佛的魅力。
+              <br>
+              四面佛位于曼谷爱侣湾凯悦酒店边、崇光百货公司旁的马路转角处，声名远播，香火最盛。在此地设立四面佛坛的原因，据说是在1956年Erawan酒店（君悦酒店前身）兴建之时，发生了一连串的不幸事故，业主请来了在泰国据说有天眼通的銮素威参佩少将察看并依其建议供奉四面佛，于是乃平安顺利。人们拜四面神时通常用鲜花、香烛和木象，或者将麻雀放生，富有者则雇几名穿着泰国古代民族服装的少女在佛像前随着音乐边歌边跳传统的祭神舞，意在祭神、谢神或还愿，以谢神恩。到泰国旅行，参拜四面佛是必不可少的项目。
+              <br>
+
+
+              对于信教的朋友们来说，拜佛什么的都是最正常不过的事情了。但是对于一般游客，与其说是拜神，不如说是对当地的风俗习惯的一种尊重。而且，四面佛这里也是曼谷可以说是最著名的景点之一了，前来参观也是必不可少的。
+              <br>
+              对于楼主来说，楼主觉得还是有必要拜拜神算是还愿的，为什么这么说呢，这得追溯到第一次来到泰国，首先楼主的目的地也是普吉岛，当时一直在拜托天气给力，自然在岛上的那几天都是阳光灿烂，然后呢突然有一天想着要是再来一场大雨就完美了，结果到了傍晚，真的大于倾盆！再加上楼主这几次来泰国，许的几个愿望陆陆续续都实现了，所以说还是得尊重一下神的。
+              <br>
+
+
+              四面佛的位置呢，离楼主的住处不是很远，所以楼主选择的是大家就靠步行前进吧，里外里没有一公里的路。</p>
+            <img src="../images/society/society_travel_detail/6-1.jpg">
+            <p> 这一路上从“暹罗发现”购物中心开始是连续穿过3座购物商场，到“暹罗模范”购物中心才会出来，所以说空调还是很给力的。从“暹罗模范”出来之后，也不用在马路上走，从二楼的出口直接连到BTS的人行天桥上，再走一点，就又可以进入“中心世界”百货了，空调又一次向大家招手。之后，再从“中心世界”百货过到马路对面的商场里，再过一个马路，就是四面佛本尊了。
+              <br>
+              所以说，在曼谷室外活动，一定要有效利用商场啊，因为里面各个都是冷气十足！</p>
+            <img src="../images/society/society_travel_detail/6-2.jpg">
+            <img src="../images/society/society_travel_detail/6-3.jpg">
+            <img src="../images/society/society_travel_detail/6-4.jpg">
+            <p>四面佛的香火也是异常之旺盛，自然周边也会聚集一些做生意的小贩，不然大家放生的麻雀哪里来呢？或者说是这些小黄花和蜡烛哪里来呢？一般作为游客来到这里，都是选择买一点小黄花还有蜡烛，环绕一圈，一次表示一下对四面佛的尊敬。东西倒也不是很贵，大概20THB左右。当然，价格和对应的产品档次和数量上不封顶，根据个人意愿了。
+              <br>
+              在香炉附近的时候，一定要注意安全，因为香炉里面也是满满当当烧完没烧完的蜡烛或者香，所以在放置自己的蜡烛的时候，当心不要被周围正在燃烧的香烫伤。不过一般来说现场还是有工作人员不断地把快燃烧完的或者已经熄灭的香和蜡烛清理掉，以保证给后续敬香的人有足够的空位。</p>
+            <p>拜完四面佛之后，路上再给大家介绍一样非常壮观的景象，就是曼谷街头的摩托车发车。在地面上看到就是这个样子，一大堆摩托车挤在一起，然后焦急的等着红绿灯，待会儿咱们换个角度看问题，就会感觉壮观很多了。</p>
+            <img src="../images/society/society_travel_detail/6-5.jpg">
+            <img src="../images/society/society_travel_detail/6-6.jpg">
+            <img src="../images/society/society_travel_detail/6-7.jpg">
+            <p>好了，紧张刺激的摩托车发车过后，还是让我们到一个有空调的世界里去吧。楼主真心想知道一个问题就是，在空调发明之前，泰国人到底是怎么在这里生活着的！体感温度达到爆炸极限也真是没有几个城市可以做到。
+              <br>
+              今天的商场里中庭的展览还是很吸引人的，但是看在上面上千万泰铢的标价，楼主也就欣赏欣赏就可以了。作为发展中国家，其实我觉得法拉利还不算是太厚道，展览的车款只有458和488两款（说的跟楼主能买得起哪一辆似的）。同样作为发展中国家的我们，可能满大街都能找到F12、FF、599、812等更壕一点的车款，甚至恩佐或者辣法之类的都有可能！哎，早知道楼主去年在香榭丽舍大街的时候，就应该交给黑哥们几十欧，感受一把了！
+            </p>
+            <img src="../images/society/society_travel_detail/6-8.jpg">
+            <p>当然，来到这里的主要目的不是为了买车。我呸！买什么车？对对，不是为了看车，看车！而是要在这凉爽的空调房里寻寻觅觅一下中午饭了。吃什么呢？泰餐已经吃了好几天，话说楼主是没有什么大问题，但是楼主的基友们已经是迫不及待想吃中餐属性加成的餐食了！这个好办，说是中心世界真是无所不能，里面的餐饮种类也是相当之多。位于六楼的鼎泰丰就成了我们今天的首选。
+              <br>
+              今天的鼎泰丰还是需要排一排队的，哦no。但是没办法，谁让这是一家中餐馆，奈何还是等等吧。</p>
+            <img src="../images/society/society_travel_detail/6-9.jpg">
+            <p>鼎泰丰呢，最有名的也就是各种小笼了，一般一份的量不算是很大，所以应该都可以品尝到比较多的品种。楼主比较推荐的就是蟹粉小笼了，毕竟这也是南方小笼的主力品种吧。还有比如担担面啦、红油燃面啦、肚丝汤之类的，即便是没有原产地做的正宗，但是在异国他乡能吃上一碗这样的面也是很满足的。</p>
+            <img src="../images/society/society_travel_detail/6-9.jpg">
+            <img src="../images/society/society_travel_detail/6-10.jpg">
+            <img src="../images/society/society_travel_detail/6-11.jpg">
+            <img src="../images/society/society_travel_detail/6-12.jpg">
+            <img src="../images/society/society_travel_detail/6-13.jpg">
+            <p>午饭过后，下午的行程分为两部分：楼主的基友们由于都是第一次来曼谷，所以说，大皇宫就是必须要去参观的景点之一了；楼主呢，大皇宫都去了好几回了，每一次都是差点热死在曼谷，所以今天果断放弃参观大皇宫的行程改为和老婆大人逛街，享受空调这种现代科技带来的爽快之感！
+              <br>
+              首先，吃饭的同一层还有一家影院，最近正值小黄人在泰国上映，所以电影院里就有这样的格鲁和他的minions在这里搞宣传，来来来，赶紧抓紧时间一起合个影吧。</p>
+            <p>在泰国，商店里可以购买的单品非常的多，像下面的虎牌万金油、卧佛牌青草药膏等，都是大家争相抢购的实用单品，楼主自然也是要在商场里采购一番的。大家可能还掌握着类似于驱蚊水啊、蜗牛霜啊、蜈蚣丸等等需要购买的单品，楼主就不一一展示了，一般情况下这些东西在boots里面都有。
+              <br>
+              唯一楼主要提醒一句，就是买够2000泰铢一单的商品的话，是可以享受退税的，泰国的退税费率大概在7%左右。别看这7%不多，但实际上大家再买东西的时候，真的不清楚到底会买多少，一般情况下买着买着就很多泰铢出去了。
+            </p>
+            <img src="../images/society/society_travel_detail/6-14.jpg">
+            <img src="../images/society/society_travel_detail/6-15.jpg">
+            <p>好了，一路驰骋终于顺利到达大皇宫。
+              <br>
+
+
+              大皇宫（Grand Palace），又称大王宫，是泰国（暹罗）王室的皇宫。紧邻湄南河，是曼谷中心内一处大规模古建筑群（计28座），总面积218400平方米。
+              <br>
+              大皇宫始建于1782年，经历代国王的不断修缮扩建，终于建成现在这座规模宏大的大皇宫建筑群，至今仍然金碧辉煌。
+              <br>
+              大皇宫是仿照故都大城的旧皇宫建造的，大皇宫是泰国诸多王宫之一，是历代王宫保存最完美、规模最大、最有民族特色的王宫。曼谷王朝从拉玛一世到拉玛八世，均居于大皇宫内。大皇宫汇聚了泰国的建筑、绘画、雕刻和装潢艺术的精粹。其风格具有鲜明的暹罗建筑艺术特点，深受各国游人的赞赏，被称为 “泰国艺术大全”。
+              <br>
+              1946年拉玛八世在宫中被刺之后，拉玛九世便搬至大皇宫东面新建的集拉达宫居住。现在，大皇宫除了用于举行加冕典礼、宫廷庆祝等仪式和活动外，平时对外开放，成为泰国著名的游览场所。
+              <br>
+
+
+              实用信息：
+              <br>
+              开放时间：8:30-15:30，有王室仪式时闭馆。
+              <br>
+
+
+              门票：500铢通票含玉佛寺、大皇宫、柚木宫的门票。</p>
+            <img src="../images/society/society_travel_detail/6-16.jpg">
+            <p>这里大家需要注意一下，首先，不论大家什么时候到达大皇宫，门外都会有不同的当地人告诉大家今天皇宫关门啦，或者马上关门之类的消息，然后不明真相的群众们一旦相信他们的话，就会要准备走了，然后这些人就会马上再告诉大家可以坐船游湄南河啊，河上面也可以看见大皇宫什么的。
+              <br>
+              这个时候请先不要相信他们，因为大皇宫如果真要关闭的话，那一定会提前发布消息的，大家都有各种机会知道，这些人的主要目的还是为自己的游船生意揽客；另外就是大皇宫的开放时间到下午3:30这个时候是不再售票进入了，皇宫里面四点半以后才开始清场，所以一般大家都是有时间完全参观大皇宫的。</p>
+            <img src="../images/society/society_travel_detail/6-17.jpg">
+            <p>另外，进入大皇宫参观的话，是有着装要求的，最起码的就是衣着整齐。夹脚拖什么的倒不禁止，但是男士的背心、女士的吊带是绝对的错误示范，在售票处的展示牌上就会明令禁止。下半身男士不允许穿短裤，女士的短裙什么的也就先算了，毕竟参观皇宫，起码的尊重是要有的。
+              <br>
+              长裤的示范如下：
+              <br>
+              大家可以像李熊猫李总一样，出门的时候就选择自带，当然这样的好处就是完全符合要求，在大皇宫门口也不用额外再花银子；但是崩溃的点就在于李总今天一条长裤，差点热死自己，因为从早上出门，到最后回酒店都得穿着这条长裤出行。
+              <br>
+              不然就可以像我们增增一样，虽然短裤出门，但是可以在皇宫门口，购买一条非常有泰国气息的长裤，虽然质量看起来比较不结实耐用，不过既符合要求，又通风凉爽。价格也不贵，一般就在100THB上下，大家搞搞价就好了。
+              <br>
+              大皇宫呢，主要就突出一个金碧辉煌，不知道是纯金还是镀金，总之就要是金的就对了。皇宫里面树不是很多，所以大家还是要注意防暑降温工作，以免长时间暴晒导致中暑或者眩晕什么的。</p>
+            <img src="../images/society/society_travel_detail/6-18.jpg">
+            <img src="../images/society/society_travel_detail/6-19.jpg">
+            <img src="../images/society/society_travel_detail/6-20.jpg">
+            <img src="../images/society/society_travel_detail/6-21.jpg">
+            <img src="../images/society/society_travel_detail/6-22.jpg">
+            <img src="../images/society/society_travel_detail/6-23.jpg">
+            <img src="../images/society/society_travel_detail/6-24.jpg">
+            <img src="../images/society/society_travel_detail/6-25.jpg">
+            <p>大皇宫还有一大特色就是有很多地方还是有士兵站岗的，就像英国经常看见站岗的士兵是一顶大帽子一样，泰国的这些皇宫士兵也是非常有特色的，但是可能因为天气实在是太热，小哥们一个个制服还要拿着装备带着头盔，还是挺辛苦的。
+              <br>
+              一般情况下小哥们都是允许大家合影的，但是还是要用眼神征求一下小哥们的同意，另外就是不要拥挤，不要影响小哥们站岗的秩序。</p>
+            <img src="../images/society/society_travel_detail/6-26.jpg">
+            <img src="../images/society/society_travel_detail/6-27.jpg">
+            <p>晚上吃饭同样就是在酒店附近的“暹罗模范”百货中解决了，吃过饭，回到酒店，天已经黑掉了，但是从酒店看外面，曼谷的点亮工程做的还是相当可以的，不然大家怎么能在飞机上看到那么大一个曼谷市区呢！
+            </p>
+            <img src="../images/society/society_travel_detail/6-28.jpg">
+            <p>晚上呢，还是需要找地方去嗨一下，哪里呢？曼谷著背包客集散地--考山路。
+              <br>
+            考山路是泰国首都曼谷的一条街道，英文名Khao San Road，是背包客的聚集地。说起考山路，当地无人不晓。对于来自各地的典型背包客，没到过考山路就如同没到过泰国一样。 很多背包客都选择这个地方作为旅游“微笑之国”的落脚地。莱昂纳多的电影《海滩》曾经在此取景。
+              <br>
+            考山路散发的魅力和曼谷其他街道不一样——一条不到400米的街如此生气勃勃，左右两条街道是主要脉搏，摆卖随性的旅游纪念品。到了晚上呢，路两边的酒吧就开始此起彼伏，来自世界各地的游客们就汇集到此，开始彻夜的狂欢。
+
+
+              <br>
+            由于楼主一行六人晚上只顾着喝酒玩儿游戏了，对于路上的所见所闻没有太多的照片记录，所以说不能很直观的传达给大家了。那么考山路呢，还是要留给大家自己去发现。
+              <br>
+            伴随着晚上三蹦子的疾驰，嗨过了也该回去休息了。</p>
           </div> <!-- cd-faq-content -->
         </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
       </ul> <!-- cd-faq-group -->
 
       <ul id="day6" class="cd-faq-group">
-        <li class="cd-faq-title"><h2>CSS3</h2></li>
+        <li class="cd-faq-title"><h2>DAY6：美功铁道市场 -安帕瓦水上市场</h2></li>
         <li>
           <a class="cd-faq-trigger" href="#0">Can I have an invoice for my subscription?</a>
+          <p>今天的主要目的地是著名的曼谷美功铁道市场，说是在曼谷，实际上已经在周围的郊区了，大约80多公里的路程，所以还是得早起一些，不然赶到了也看不上火车进站的情景了。
+            <br>
+            今天的路线方针选择的是乘坐公共交通到达美功铁道市场，首先第一步，就是从暹罗站搭成BTS到达胜利纪念碑站（N3站，victory monument）。
+            <br>
+            BTS的车票很好购买，车站里自动售票机和人工窗口都可以，人工窗口只需要告诉小哥到N3站，然后再说要几张票就可以了，非常简单。
+            <br>
+            曼谷的BTS在非高峰时期，也不算是太拥挤，但是楼主此次来曼谷是非常拒绝搭乘BTS的，因为上一次在曼谷乘坐BTS的时候，一连四次坐错方向，简直搞得楼主晕头转向，所以这一次尽量能不坐车就不坐车。但是今天是没有别的办法了，走路看样子是到不了目的地的，所以还是硬着头皮去坐BTS好了。
+          </p>
+          <img src="../images/society/society_travel_detail/7-1.jpg">
+          <p>到达胜利纪念碑站（N3站，victory monument）之后，沿着天桥，一直走到下图标记的“公交车站”。原先去美功市场的小巴都停在“原来车站”这个位置的高速路口，出了BTS车站走过天桥，就可以直接买小巴车票前往目的地了。
+            <br>
+            楼主本身也是按照这个地方找来，但是发现高速公路的天桥下面什么都没有啊，这是什么情况？当时就懵逼了，一辆小巴的影子都见不到。之后呢，又折回到了标记“公交车站”的这个位置，跟当地小哥打听了一下美功铁道市场怎么去的时候，小哥告诉我们要搭乘“515”路公交车才行。
+          </p>
+          <img src="../images/society/society_travel_detail/7-2.jpg">
+          <p>OK，楼主就按照小哥的提示，找到了“515”路车。当天驾车的是一位大姐，我们上车前问大姐到不到美功铁道市场，大姐只是示意我们上车，然后就没有然后了。
+            <br>
+            楼主用万能的谷歌地图搜索了一下，这个515路车的终点是一个叫做“Southern Mini Van Station”的地方。但是呢，公交开动之后，跟地图上导航显示的路线完全是两个方向，我去，楼主又一次的懵逼了，而且呢车上算上楼主这一群人再加上司机，都不到十个人，完全没有一个像是游客的样子。楼主弱弱的有点觉得是不是走错了……不过又不能下车，算了，索性就是车子到哪里就在哪里下车好了。
+            <br>
+            不过虽然跟导航显示的路线不一样，但是车子到达的地方是一样的。下车之后，就是一个车站模样的地方，停了不少小巴，楼主一行一进售票厅，就被包围了，都是问楼主要去哪里的，等楼主回过神来，定睛一看，哦哦，这里就是传说中的小巴车站了，各家的牌子上都写有华欣啊、美功啊之类的目的地。
+            <br>
+            啊，楼主晒了一早上，终于找到小巴车站了，真的是相当不容易啊！买好票之后，终于可以等着前往最终的目的地了。
+            <br>
+            当天临近的两趟火车进站时间分别是11:00和14:00两个时间段，但是眼看着经过一早上的折腾到达的时候已经快12:00了，那么留给楼主一行人的只有下午两点的这一次了。还好时间离得也不是太远，先在市场上逛逛看看，等着下一趟列车进站吧！
+          </p>
+          <img src="../images/society/society_travel_detail/7-3.jpg">
+          <p> 其实这个火车市场，小摊贩们稍稍向旁边挪上20米建设他们的门店，都可以避开整个铁道，但是，往往事情就是这么刺激，大家就是要围着铁路搭上自己的棚子，久而久之，也就形成了这个铁道路市场了。</p>
+          <img src="../images/society/society_travel_detail/7-4.jpg">
+          <p> 这里是没有空调的，小贩们就是用这样的遮阳布来抵挡来自太阳的问候。走在这里面也是相当的闷热，所以有需要的话多买点水，或者看见椰子啊什么的就买一个来解暑吧！</p>
+          <img src="../images/society/society_travel_detail/7-5.jpg">
+          <img src="../images/society/society_travel_detail/7-6.jpg">
+          <img src="../images/society/society_travel_detail/7-7.jpg">
+          <img src="../images/society/society_travel_detail/7-8.jpg">
+          <img src="../images/society/society_travel_detail/7-9.jpg">
+          <img src="../images/society/society_travel_detail/7-10.jpg">
+          <img src="../images/society/society_travel_detail/7-11.jpg">
+          <img src="../images/society/society_travel_detail/7-12.jpg">
+          <p>等火车过去之后，小商贩们又会将自己的摊子支好，然后呢，游客也就慢慢的散去了，一切恢复往常，像是什么都没发生一样。
+            <br>
+            对于游客来讲，晒了这么久的太阳，闻了这么长时间的鱼腥，就是为了看到火车进站的这个瞬间。其实从看见火车到火车离开市场进到车站里面，整个过程火车都很慢了，持续大概也就是5到十分钟最多了。所以说，要来这里看到火车进站的话，还是需要最好按时间表提前一点点等着的，不然很有可能错过的。
+
+
+            <br>
+            从美功铁道市场结束之后，接下来要去的就是安帕瓦水上市场。怎么去呢？不用大家着急，就在铁道旁边的马路上，就会有很多人喊着安帕瓦，安帕瓦揽客，搭乘他们营运的“村村通”就妥妥的可以到了。票价8泰铢，真的是相当便宜了，坐票挂票一个价哦！
+            <br>
+            在路上也就十几分钟，就可以顺利到达安帕瓦水上市场了。
+          </p>
+          <img src="../images/society/society_travel_detail/7-13.jpg">
+          <img src="../images/society/society_travel_detail/7-14.jpg">
+          <p>楼主感觉这里倒是有一点咱们江南某些古镇的样子，就是伊水有一条长廊，长廊上连绵的顶棚，然后各家各户就在这里做生意。下面的水上，来往的各种小船，有自己做生意用的，也有载着游客来回巡游的。</p>
+          <img src="../images/society/society_travel_detail/7-15.jpg">
+          <img src="../images/society/society_travel_detail/7-16.jpg">
+          <p> 回程的路线就是早上的路线的镜像版，到达mini van的车站之后，依旧是搭乘515回到victory monument，再从victory monument搭乘BTS回到暹罗（saim）站。当晚上的515到达胜利纪念碑的时候，下车的依旧是包括楼主一行几人满共不到十个人的样子，但是这会儿上车的人就非常之多了，到什么程度呢？就从楼主从座位上起开到脚踩到地面的这一瞬间功夫，车上的座位基本上就已经满了，然后还有陆陆续续上车站着的人。
+            <br>
+            楼主开始没觉得多奇怪，后来上了BTS才反应过来，会不会也是因为曼谷的房价相对于其他地方太高了，导致这些小年轻们一样没办法负担房价，因此，都是在远郊的地方住着，然后每天靠着公共交通通勤。要是这样的话，看来哪个城市的年轻人都不是很好混啊！
+
+            <br>
+
+            由于暴晒了一天，再加上早上开始找去到美功的mini van就经历了非常沉重的暴击，所以楼主决定回酒店好好洗个澡，吹吹空调，再说晚上怎么整。
+
+
+            <br>
+            晚上，经过大家商议一致决定，去大宝剑！从楼主来到泰国的第一天开始，感觉没有哪天不在大宝剑，不在大宝剑就是在去大宝剑的路上，由此可见泰国的大宝剑业务是多么的发达。毕竟真的是又便宜又好，每天这样的暴走，一顿大宝剑真的是相当的能缓解疲劳。
+
+            <br>
+
+            去大宝剑路上经过的艺术馆，虽然不知道写的是什么，但是感觉上画风还是蛮可爱的。
+          </p>
+          <img src="../images/society/society_travel_detail/7-17.jpg">
+
           <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
           </div> <!-- cd-faq-content -->
         </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">Why did my credit card or PayPal payment fail?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusantium dolorem vel, ad, nostrum natus eos, nemo placeat quos nisi architecto rem dolorum amet consectetur molestiae reprehenderit cum harum commodi beatae necessitatibus. Mollitia a nostrum enim earum minima doloribus illum autem, provident vero et, aspernatur quae sunt illo dolorem. Corporis blanditiis, unde, neque, adipisci debitis quas ullam accusantium repudiandae eum nostrum quis! Velit esse harum qui, modi ratione debitis alias laboriosam minus eaque, quod, itaque labore illo totam aut quia fuga nemo. Perferendis ipsa laborum atque assumenda tempore aspernatur a eos harum non id commodi excepturi quaerat ullam, explicabo, incidunt ipsam, accusantium quo magni ut! Ratione, magnam. Delectus nesciunt impedit praesentium sed, aliquam architecto dolores quae, distinctio consectetur obcaecati esse, consequuntur vel sit quis blanditiis possimus dolorum. Eaque architecto doloremque aliquid quae cumque, vitae perferendis enim, iure fugiat, soluta aut!</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">Why does my bank statement show multiple charges for one upgrade?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
       </ul> <!-- cd-faq-group -->
 
       <ul id="day7" class="cd-faq-group">
-        <li class="cd-faq-title"><h2>SVG</h2></li>
+        <li class="cd-faq-title"><h2>DAY7：曼谷（暹罗广场）--西安</h2></li>
         <li>
           <a class="cd-faq-trigger" href="#0">Can I specify my own private key?</a>
           <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+            <p>今天呢，是在泰国的最后一天，说是一天，实际上也就大半天，飞机是半下午的，基本上中午吃完饭就要奔着机场去了。即便也就是半天，时间也不能浪费了，自然是留给大家买买买了。楼主主要去到的地方就是在四面佛那个大十字路口的central world（中心世界百货），还有马路对面的big C超市。
+              <br>
+              一般按楼主的习惯就是先退房，因为这种大城市的快捷酒店入住率会比较高，所以对于退房时间的要求都比较严格，所以没必要干耗在酒店，毕竟主要目的还是出门去商场。退完房之后，行李箱这种不方便携带的行李建议就先寄存在酒店，拿上贴身装有巨款的小包出门就好了。
+              <br>
+              这条去商场的路是不是很熟悉？没错，去四面佛就是这条路，所以这一路基本上都是可以走在有空调的商场里的。
+              <br>
+              一般来说，都要买点什么呢？楼主给大家做个简单的介绍，一般这些产品楼主回国的时候都是会买上一大堆送亲戚朋友的。
+
+              <br>
+
+              首先来说说在商场里就可以一站买齐的。
+              <br>
+              虎牌万金油。俗话说万金油，哪里有病抹哪里，简直比步步高点读机还牛逼，boots、7-11、big C等都有售最大盒的不到100泰铢。
+              <br>
+              虎牌镇痛贴。这个一般楼主都是买来送老人，天气变化的时候关节疼痛啊，脖子疼腰扭伤啊之类的都是有神奇功效的。红色的发热，绿色的清凉，根据需要购买哦！boots、7-11、big C等都有售。</p>
+            <img src="../images/society/society_travel_detail/8-1.jpg">
+            <img src="../images/society/society_travel_detail/8-2.jpg">
+            <p> 泰国驱蚊水。超级畅销以及长效，一般楼主下飞机进入第一间7-11的时候必买产品之一，有大瓶和小瓶区分，小瓶可以直接带上飞机，十分方便。boots、7-11、big C等都有售。
+            </p>
+            <img src="../images/society/society_travel_detail/8-3.jpg">
+            <p>蜈蚣丸。止咳效果巨好，一粒起效！</p>
+            <img src="../images/society/society_travel_detail/8-4.jpg">
+            <p>鼻通。一连串有六个，对于晕车晕船有奇效，分为上下两节，上半截拧开闻一闻，下半截拧开涂一涂，但是闻的时候不要用力过猛，容易脑仁疼。boots、7-11、big C等有售。
+            </p>
+            <img src="../images/society/society_travel_detail/8-5.jpg">
+            <p>接下来再来说说超市里面可以一站购齐的产品，当然主要就是一些吃的了。
+              <br>
+              泰国泡面。认准这个包装，就是这个味，在曼谷的big C里面，一桶卖11泰铢，等楼主回到家去超市看了一眼，这个东西标价11元人民币，连标价都懒得改了就只改一个货币，真的是不如去抢！7-11、big C有售。
+            </p>
+            <img src="../images/society/society_travel_detail/8-6.jpg">
+            <p>小老板各种口味紫菜。简直是看电视的时候必备小食，吃多了还不长肉，各种口味，根据喜好选择吧！7-11、big C有售。
+            </p>
+            <img src="../images/society/society_travel_detail/8-7.jpg">
+            <p>鳕鱼丝。劲道耐嚼，价格便宜，送人佳品。7-11、big C有售。</p>
+            <img src="../images/society/society_travel_detail/8-8.jpg">
+            <p>好了，以上楼主介绍了一些在泰国非常值得买的吃的以及用的，而且都属于便宜量又足的行列，除了这些吃的因为包装原因比较占地方，其余的用品类，都是可以一箱子塞好多，回去送亲戚送朋友绝对数量足够。吃的的话，虽然占地方，但是不沉，建议用超市的大号购物袋多装几个，然后一般big C的出口有免费的宽胶带，结结实实捆几圈就好了，也不用托运，直接登机就可以。
+
+
+              <br>
+              另外，泰国的DQ价格是相当便宜的，楼主印象中国内的一个大白（双球甜筒）售价应该是8块，而在泰国，一个大白的价格为15THB，折合人民币就是需要3块钱，是不是便宜很多？但是这一次楼主在普吉岛上的江西冷里发现，那里的大白居然要25THB一个，这个就有点欺客了，可能还是跟普吉岛这些年过渡开发有关系。DQ在central world里面就有一家，5楼如果没记错的话，十分好找。
+            </p>
+            <p>好了，在商场以及超市大买特买一番后，就该回酒店拿上行李去机场了。来的时候，楼主建议打车来，当然去机场的时候，还是建议打车去。从酒店打上的车子大多都会自觉的by meter（打表），如果不打表的话，直接告知司机打表，一般情况下他们都会照做。然后就是点开手机上的谷歌地图，看看司机大哥有没有按大约既定的导航路线前进就可以了。
+
+              <br>
+
+              曼谷楼主之前说到过，有两座机场--廊曼和素万那普，去机场的时候一定要确认好自己是在哪一个，千万别走错了，以曼谷的交通，一旦走错机场，再要回到正确的机场怕是耽误的时间就比较长了。
+              <br>
+              楼主离开的时候还是廊曼机场，没错，就是传说中的屌丝廉航聚集的机场……虽说廊曼机场不够大，但是人数可不少，毕竟还是泰国旅游的主力机场之一。
+              <br>
+              到机场的时候，别忘了退税，退税要先在办理登机牌之前的机场大厅里找到退税中心盖章，这个时候要拿好自己购买的行李，起码看起来要有，别什么东西都已经吃了喝了用了或者都穿在身上了。</p>
+            <img src="../images/society/society_travel_detail/8-9.jpg">
+            <p> 然后，收好盖好章的凭证，去办理登机牌，这个时候，行李该托运的就可以托运了。楼主回家只有亚航运营的一班航班，所以楼主建议乘坐亚航来泰国的朋友们在国内买票的时候，就先将回程的这一段买一个带托运行李套餐的，绝对要比在现场买划算，而且一般大家回国都会带大包小包很多东西，托运走登机的时候就方便很多了。
+              <br>
+              办理好登机之后，先出海关。再过安检，安检没有问题的话就可以进入候机大厅了。
+              <br>
+              这时候就可以看到退税的窗口，拿出刚才盖好章的单子，排队就可以了。</p>
+            <img src="../images/society/society_travel_detail/8-10.jpg">
+            <p>办理好退税，一切手续就已经齐活了，这时候，如果还有时间的话，可以在廊曼的候机楼的KING POWER免税店在转转，看看有什么想买却忘了的产品。如果没有什么的话，就可以安心候机了。
+
+              <br>
+
+              航班信息：曼谷（16:35）--西安（21:35），亚航 FD588。
+              <br>
+
+
+              几乎每次离开泰国的时候，楼主都是这同一班航班。当然泰国有再多的舍不得，不还是得回家吗？不过，以后要是还有时间，楼主确信还是会再来泰国的，毕竟这个地方真的是又便宜友好，人也非常友善，为什么不常来度假呢！
+              <br>
+              好了，这次的行程就先告一段落了，泰国我们下次再见！</p>
           </div> <!-- cd-faq-content -->
         </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">My files are missing! How do I get them back?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">How can I access my account data?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus magni vero deserunt enim et quia in aliquam, rem tempore voluptas illo nisi veritatis quas quod placeat ipsa! Error qui harum accusamus incidunt at libero ipsum, suscipit dolorum esse explicabo in eius voluptates quidem voluptatem inventore amet eaque deserunt veniam dignissimos excepturi? Dolore, quo amet nostrum autem nemo. Sit nam assumenda, corporis ea sunt distinctio nostrum doloribus alias, beatae nesciunt dolore saepe consequuntur minima eveniet porro dolor officiis maiores ab obcaecati officia enim aliquam. Itaque fuga molestiae hic accusantium atque corporis quia id sequi enim vero? Hic aperiam sint facilis aliquam quia, accusamus tenetur earum totam enim est, error. Iusto, reiciendis necessitatibus molestias. Voluptatibus eos explicabo repellat nesciunt nam vero minima.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">How can I control if other search engines can link to my profile?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
       </ul> <!-- cd-faq-group -->
 
       <ul id="describe" class="cd-faq-group">
-        <li class="cd-faq-title"><h2>CANVAS</h2></li>
+        <li class="cd-faq-title"><h2>实用攻略</h2></li>
         <li>
           <a class="cd-faq-trigger" href="#0">What should I do if my order hasn't been delivered yet?</a>
           <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+            <p>机票花销：
+
+              泰国整体的消费不算太高，所以来说还是非常适合有空去度个假什么的。特别是现在楼主这个年龄，父母基本上都已经快退休了，所以泰国也是一个带老人家去休息休息的好地方。或者有一些亲子家庭，也可以全家出动。泰国算是一个出行当中相对简单的国家，一般也可以作为第一次出国的目的地首选。
+
+              一般情况下到泰国都是直飞曼谷，像楼主所在的小县城，有一趟亚航直飞曼谷的航班，最便宜的时候单程大约就是588块人民币，往返一趟1200块钱左右，再加上泰国境内随便往返一座岛屿，大概300-400块钱，一个人的总费用大约就是个1600块钱包住了。除开这种机票打极端折扣的时候，正常情况下往返一趟，一个人的机票也就两千块左右。这一次楼主由于是在端午这种前后能拼假的档口出行，所以机票略贵，一个人往返所有机票加下来2700块钱。
+
+              另外，现在很多城市还开通了一些直飞普吉或者甲米的航线，避开暑假，国庆这种旅游旺季，打折的时候机票也还是很划算的，对于只想去个海岛，或者说不想倒太多次飞机的人群来说，这都是一个比较好的选择。
+
+
+
+              交通方面：
+
+              先说说楼主在岛上的建议。一般上岛，楼主都是自己选择租车，所以也比较建议大家选择租车这一个方式，实惠不敢说，但是毕竟方便，腿由自己掌控，想去哪里就去哪里，想几点回酒店就几点回酒店，自由自在多好！
+
+              租车的方式楼主开头安利过，有需要的话翻到前面点开网址，选购就可以了。下面po几张楼主之前租过的小车车。
+
+              三菱Mirage，一款非常实用的小车，比较适合两个人出行，因为后排空间实在是有点小，毕竟是微型车，但是后备箱放两个大箱子是没有什么大问题的，空调够凉，而且还有电动折叠耳朵，推荐推荐。
+            </p>
+            <img src="../images/society/society_travel_detail/9-1.jpg">
+            <p>尼桑Almera，在国内同款车型就是日产阳光，虽然长相比较丑，但是空间较大，适合一家三到四口人，动力足够，而且还省油。</p>
+            <img src="../images/society/society_travel_detail/9-2.jpg">
+            <p>再说说曼谷这种大城市。在曼谷楼主多数时间就不租车了，取而代之的就是公共交通。因为曼谷的路况比较复杂，城市也比较大，开着导航也难免出错，另外一点就是堵车啊，大家感受一下北京的早晚高峰就知道了，一个效果，并且停车也是个问题。
+
+              公共交通其实也有很多可以选择。
+
+              BTS是其中之一，虽然曼谷的BTS规划极其的混乱，但是很多地方也是可以直达的，那姑且让他混乱下去，反正规划局不是自己家的，也不用我们瞎操心和担责任不是？</p>
+            <img src="../images/society/society_travel_detail/9-3.jpg">
+            <p>住宿选择：
+
+              楼主在泰国的住宿选择无非两大类：第一是岛上度假需要选择的，第二就是城市观光需要选择的。
+
+              在岛上的情况来说，楼主的个人风格就是选择一个稍微远离闹市海滩的度假酒店，星级高一些，服务好一些，价格相比闹市区的同类酒店也相对低一些。但是这样的唯一问题就是需要租车来通勤比较方便。</p>
+            <img src="../images/society/society_travel_detail/9-4.jpg">
+            <p>    在曼谷这种大都市，还是建议选择相对靠市中心繁华区域的一些酒店，虽然说星级酒店在这些位置价格都比较高昂，但是架不住方便这一条选项，曼谷毕竟不是乡下，日常通勤的公共交通都是很发达的，而且多数时候大家需要依赖自己的11路的时候，就知道一个好位置是有多么的重要了。
+
+              餐饮方面：
+
+              泰国由于消费水平不是太高，所以说可以使顿顿吃大餐的节奏。就比如楼主在岛上选择的tunk ka cafe这家餐厅，产品是绝对物超所值的，价格上来讲，六个人总共才4000+泰铢，折合一个人也就700-800泰铢，算下来一顿饭人民币大约150左右。在国内，两个人吃一顿火锅都不止300块了，再别说一顿海鲜大餐了
+
+              另外在卡伦海滩晚上的夜市，也算是比较贵的一餐，吃下来一个人大约人民币120左右，都在能接受的范围。
+
+              像是一般的小饭馆子，那一顿下来就更便宜了，人均三五十块钱差不多。而且多以炒米饭比较和国人胃口。
+
+              路边的夜市，一些小摊上的单品，推着车车流动的小贩售卖的当地特色，这些单品一样可能都不到十块钱人民币，都是可以尝试的选项。
+            </p>
+            <img src="../images/society/society_travel_detail/9-5.jpg">
+            <img src="../images/society/society_travel_detail/9-6.jpg">
+            <img src="../images/society/society_travel_detail/9-7.jpg">
+            <img src="../images/society/society_travel_detail/9-8.jpg">
+            <p>购物方面：
+
+              在泰国来，有很多东西都值得带回国内，楼主作为一个大老爷们，化妆品什么的暂时也没有太多的推荐，唯独就是有一样，banana boat的芦荟胶要推荐一下，这个晒后修复实在是感觉爽快。为什么要推荐这款单品呢？因为楼主之前一次在甲米的时候，整个后背晒伤，火辣辣的疼，每天都是靠这个芦荟抹在背上能清凉一些。
+
+              各大7-11、family mart、boots、big C有售。</p>
+
+            <img src="../images/society/society_travel_detail/9-9.jpg">
+            <p> 另外一些像是青草药膏啊、虎牌万金油啊也都是居家旅行必备。具体可以买些什么呢？参见楼主最后一天在曼谷的行程。
+
+
+
+              一些注意事项：
+
+              最后，给大家提一些小醒。泰国作为一个微笑国度，佛教国家，虽说整体上人民会淡定一点，但是也不乏一些小偷小摸。花样呢层出不穷，简直令我们防不胜防。
+
+              比如楼主的某同学一次去泰国，当地“路人”以没见过人民币为借口搭讪，骗楼主的同学将人民币从钱包里拿了出来，而且对方还说我就拿着看一看，人在这也跑不了，话是没问题，他拿着钱也没跑，但是还记得网上大家看到的“魔术手”这种视频吗？一摞钱数一遍少几张，再数一遍再少几张这种手法。楼主的同学就是被这种手段骗了，而且还是后知后觉，在他们泰铢不够想在换一点的时候，发现怎么人民币的数量对不上了，这才发现。
+
+              另外一些，楼主到不觉得是骗子，但是体验感的话，不是很好，就比如楼主一次在曼谷街头，想买小贩的鲜榨冰镇果汁。一般就是石榴汁啊、芒果汁什么的，天太热，她们都是冰镇的，用来解暑刚好。楼主问多钱的时候，小贩是貌似兄妹俩，男孩说50泰铢，女孩说40泰铢，而且是异口同声两个价格，对方也很是尴尬，相觑一笑，楼主自然就按照40泰铢给他们了。虽说并不是多钱，楼主也能理解小哥看见外国人了，想多挣一点外汇说不定都是贴补家用，但是被戳穿了岂不是很尴尬？</p>
+            <img src="../images/society/society_travel_detail/9-10.jpg">
+            <img src="../images/society/society_travel_detail/9-11.jpg">
           </div> <!-- cd-faq-content -->
         </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
 
-        <li>
-          <a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
-
-        <li>
-          <a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-          <div class="cd-faq-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-          </div> <!-- cd-faq-content -->
-        </li>
       </ul> <!-- cd-faq-group -->
     </div> <!-- cd-faq-items -->
     <a href="#0" class="cd-close-panel">Close</a>
