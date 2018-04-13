@@ -57,29 +57,15 @@ Main components
 
 -------------------------------- */
 header {
-    position: relative;
-    height: 180px;
-    line-height: 180px;
-    text-align: center;
-    background-color: #a9c056;
+    background-image: url("../images/society/society_travel_detail/top.jpeg");
+    height: 350px;
+    line-height: 240px;
 }
 header h1 {
-    color: #ffffff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 20px;
+    color: #ff9d00;
+    font-size: 18px;
     font-size: 1.25rem;
-}
-@media only screen and (min-width: 1024px) {
-    header {
-        height: 240px;
-        line-height: 240px;
-    }
-    header h1 {
-        font-size: 36px;
-        font-size: 2.25rem;
-        font-weight: 300;
-    }
+    text-align: right;
 }
 
 .cd-faq {

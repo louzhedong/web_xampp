@@ -54,9 +54,9 @@ $tab = 'society'
     <br>
     <section id="gallery-wrapper">
       <article class="white-panel">
-        <img src="../images/society/society_travel/t1.jpg" class="thumb">
+        <img src="../images/society/society_travel/t1.jpeg" class="thumb">
         <h1>
-          <span href="#">南极：从安第斯走到世界的尽头 -智利南极奇幻之旅</span>
+          <span href="#">泰国：FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略！</span>
         </h1>
         <div id="label">
           <span class="glyphicon glyphicon-heart" aria-hidden="true" style="margin-right:20px "> 185</span>
