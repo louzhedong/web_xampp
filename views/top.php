@@ -186,7 +186,7 @@
   }
 
   function toMyTips() {
-    window.location.href = './tips.php';
+    window.location.href = './society_remind.php';
   }
 
   function toJifen() {
