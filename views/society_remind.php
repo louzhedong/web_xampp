@@ -16,13 +16,240 @@ $tab = 'travel';
 ?>
 <?php require 'top.php' ?>
 <section class="cd-hero">
-  <ul class="cd-hero-slider autoplay">
+  <ul class="cd-hero-slider ">
     <li class="selected">
       <div class="cd-full-width">
         <h2>张钧甯</h2>
-        <p>2002年出道，2004年本科毕业于国立台北大学法律系，2006年因主演电视剧《白色巨塔》而走红[2]  </p>
-        <a  class="cd-btn">查看更多</a>
-      </div> <!-- .cd-full-width -->
+        <!--
+        <div class="hangqing_content zk">
+          <div id="float2" class="cx_tb">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="cx_tb" id="TableBj">
+              <tbody>
+              <tr>
+                <th class="dr" width="165" colspan="2" height="60" rowspan="2"><strong>货币</strong></th>
+                <th colspan="8" class="bo_line"><strong>银 行</strong></th>
+              </tr>
+              <tr class="color2">
+                <th class="hl" width="68">中国银行</th>
+                <th class="hl" width="68">工商银行</th>
+                <th class="hl" width="68">交通银行</th>
+                <th class="hl" width="68">农业银行</th>
+                <th class="hl" width="68">浦发银行</th>
+                <th class="hl" width="68">建设银行</th>
+                <th class="hl" width="68">招商银行</th>
+                <th class="last" width="68">光大银行</th>
+              </tr>
+              </tbody></table>
+          </div>
+
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="cx_tb2" id="TableBj">
+            <tbody>
+            <tr>
+              <th width="165" colspan="2" rowspan="2"></th>
+              <th colspan="8"></th>
+            </tr>
+            <tr>
+              <th width="68"></th><th width="68"></th><th width="68"></th><th width="68"></th><th width="68"></th><th width="68"></th><th width="68"></th><th width="68"></th>
+            </tr>
+            <tr align="center">
+              <td align="center" rowspan="4" class="fir_td"><div>美元/人民币</div></td>
+              <td class="dr" align="left">
+                中间价
+              </td>
+              <td colspan="8" rowspan="76" style="padding:0px; border:0px">
+
+                <div id="BankData">
+                  <table cellpadding="0" cellspacing="0" background="0" width="550">
+                    <tbody><tr><td width="68">628.98</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">628.60</td><td width="68"></td><td width="68">628.70</td><td width="68"></td></tr>
+                    <tr><td width="68">622.31</td><td width="68">622.49</td><td width="68">623.40</td><td width="68">623.14</td><td width="68">622.31</td><td width="68">623.09</td><td width="68">622.41</td><td width="68">622.4724</td></tr>
+                    <tr><td width="68">627.42</td><td width="68">627.52</td><td width="68">628.56</td><td width="68">627.67</td><td width="68">627.40</td><td width="68">627.43</td><td width="68">627.57</td><td width="68">627.7540</td></tr>
+                    <tr><td width="68">630.08</td><td width="68">630.16</td><td width="68">631.20</td><td width="68">630.06</td><td width="68">629.86</td><td width="68">630.2</td><td width="68">630.27</td><td width="68">630.2690</td></tr>
+                    <tr><td width="68">5.8617</td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68">5.84206</td><td width="68"></td><td width="68">5.8440</td><td width="68"></td></tr>
+                    <tr><td width="68">5.6408</td><td width="68">5.6580</td><td width="68">5.69735</td><td width="68">5.641</td><td width="68">5.65511</td><td width="68">5.6577</td><td width="68">5.6365</td><td width="68">5.6333</td></tr>
+                    <tr><td width="68">5.8217</td><td width="68">5.8245</td><td width="68">5.88637</td><td width="68">5.821</td><td width="68">5.82161</td><td width="68">5.8242</td><td width="68">5.8206</td><td width="68">5.8203</td></tr>
+                    <tr><td width="68">5.8646</td><td width="68">5.8678</td><td width="68">5.92771</td><td width="68">5.862</td><td width="68">5.86251</td><td width="68">5.8687</td><td width="68">5.8674</td><td width="68">5.8671</td></tr>
+                    <tr><td width="68">774.98</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">774.61</td><td width="68"></td><td width="68">774.81</td><td width="68"></td></tr>
+                    <tr><td width="68">747.97</td><td width="68">750.13</td><td width="68">744.85</td><td width="68">747.28</td><td width="68">749.82</td><td width="68">749.92</td><td width="68">747.30</td><td width="68">746.9426</td></tr>
+                    <tr><td width="68">771.96</td><td width="68">772.22</td><td width="68">769.96</td><td width="68">772.47</td><td width="68">771.90</td><td width="68">772.23</td><td width="68">771.71</td><td width="68">771.7374</td></tr>
+                    <tr><td width="68">777.65</td><td width="68">777.95</td><td width="68">775.36</td><td width="68">777.9</td><td width="68">777.33</td><td width="68">777.42</td><td width="68">777.91</td><td width="68">777.9360</td></tr>
+                    <tr><td width="68">894.67</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">895.38</td><td width="68"></td><td width="68">896.15</td><td width="68"></td></tr>
+                    <tr><td width="68">865.08</td><td width="68">867.67</td><td width="68">854.05</td><td width="68">863.39</td><td width="68">866.72</td><td width="68">867.44</td><td width="68">864.34</td><td width="68">863.8458</td></tr>
+                    <tr><td width="68">892.82</td><td width="68">893.21</td><td width="68">882.84</td><td width="68">892.5</td><td width="68">892.24</td><td width="68">892.98</td><td width="68">892.57</td><td width="68">892.5212</td></tr>
+                    <tr><td width="68">899.4</td><td width="68">899.85</td><td width="68">889.04</td><td width="68">898.77</td><td width="68">898.52</td><td width="68">899.7</td><td width="68">899.73</td><td width="68">899.6900</td></tr>
+                    <tr><td width="68">487.73</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">489.90</td><td width="68"></td><td width="68">489.76</td><td width="68"></td></tr>
+                    <tr><td width="68">473.03</td><td width="68">474.11</td><td width="68">468.89</td><td width="68">472.28</td><td width="68">474.21</td><td width="68">474.03</td><td width="68">472.37</td><td width="68">472.2378</td></tr>
+                    <tr><td width="68">488.2</td><td width="68">488.07</td><td width="68">482.70</td><td width="68">487.96</td><td width="68">488.18</td><td width="68">487.99</td><td width="68">487.80</td><td width="68">487.9137</td></tr>
+                    <tr><td width="68">491.79</td><td width="68">491.69</td><td width="68">486.08</td><td width="68">491.88</td><td width="68">491.61</td><td width="68">491.66</td><td width="68">491.72</td><td width="68">491.8327</td></tr>
+                    <tr><td width="68">499.39</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">499.87</td><td width="68"></td><td width="68">499.84</td><td width="68"></td></tr>
+                    <tr><td width="68">482.47</td><td width="68">483.90</td><td width="68">474.37</td><td width="68">481.88</td><td width="68">483.87</td><td width="68">483.87</td><td width="68">482.10</td><td width="68">481.9885</td></tr>
+                    <tr><td width="68">498.2</td><td width="68">498.15</td><td width="68">490.12</td><td width="68">497.88</td><td width="68">498.12</td><td width="68">498.12</td><td width="68">497.84</td><td width="68">497.9881</td></tr>
+                    <tr><td width="68">501.87</td><td width="68">501.85</td><td width="68">494.04</td><td width="68">501.88</td><td width="68">501.62</td><td width="68">501.87</td><td width="68">501.84</td><td width="68">501.9881</td></tr>
+                    <tr><td width="68">653.27</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">652.18</td><td width="68"></td><td width="68">652.52</td><td width="68"></td></tr>
+                    <tr><td width="68">629.87</td><td width="68">631.77</td><td width="68">633.34</td><td width="68">629.29</td><td width="68">631.31</td><td width="68">631.62</td><td width="68">629.36</td><td width="68">628.9557</td></tr>
+                    <tr><td width="68">649.93</td><td width="68">650.38</td><td width="68">654.37</td><td width="68">650.17</td><td width="68">649.89</td><td width="68">650.22</td><td width="68">649.91</td><td width="68">649.8339</td></tr>
+                    <tr><td width="68">654.49</td><td width="68">655.21</td><td width="68">659.61</td><td width="68">655.4</td><td width="68">654.47</td><td width="68">655.11</td><td width="68">655.13</td><td width="68">655.0535</td></tr>
+                    <tr><td width="68">80.13</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">80.07</td><td width="68"></td><td width="68">80.09</td><td width="68"></td></tr>
+                    <tr><td width="68">79.29</td><td width="68">79.30</td><td width="68">79.43</td><td width="68">79.3</td><td width="68">79.35</td><td width="68">79.38</td><td width="68">79.37</td><td width="68">79.2967</td></tr>
+                    <tr><td width="68">79.92</td><td width="68">79.95</td><td width="68">80.07</td><td width="68">79.94</td><td width="68">79.92</td><td width="68">79.94</td><td width="68">79.93</td><td width="68">79.9375</td></tr>
+                    <tr><td width="68">80.24</td><td width="68">80.28</td><td width="68">80.39</td><td width="68">80.26</td><td width="68">80.23</td><td width="68">80.26</td><td width="68">80.25</td><td width="68">80.2579</td></tr>
+                    <tr><td width="68">0.5875</td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">0.5644</td><td width="68">0.5687</td><td width="68">0.5731</td><td width="68">0.566</td><td width="68"></td><td width="68">0.5685</td><td width="68"></td><td width="68">0.5664</td></tr>
+                    <tr><td width="68">0.585</td><td width="68">0.5854</td><td width="68"></td><td width="68">0.566</td><td width="68"></td><td width="68">0.585</td><td width="68"></td><td width="68">0.5852</td></tr>
+                    <tr><td width="68">0.5896</td><td width="68">0.5898</td><td width="68">0.6159</td><td width="68">0.608</td><td width="68"></td><td width="68">0.6061</td><td width="68"></td><td width="68">0.5899</td></tr>
+                    <tr><td width="68">20.14</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">20.1765</td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">19.48</td><td width="68">19.48</td><td width="68">19.45</td><td width="68">19.46</td><td width="68">19.5308</td><td width="68">19.477231</td><td width="68"></td><td width="68">19.4645</td></tr>
+                    <tr><td width="68">20.1</td><td width="68">20.11</td><td width="68">20.09</td><td width="68">20.11</td><td width="68">20.0958</td><td width="68">20.098079</td><td width="68"></td><td width="68">20.1106</td></tr>
+                    <tr><td width="68">20.26</td><td width="68">20.26</td><td width="68">20.25</td><td width="68">20.27</td><td width="68">20.338</td><td width="68">20.259319</td><td width="68"></td><td width="68">20.2722</td></tr>
+                    <tr><td width="68">77.85</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">77.71</td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">75.15</td><td width="68">76.99</td><td width="68">77.12</td><td width="68">74.94</td><td width="68">76.46</td><td width="68">74.93</td><td width="68"></td><td width="68">76.9149</td></tr>
+                    <tr><td width="68">77.76</td><td width="68">77.61</td><td width="68">77.74</td><td width="68">77.74</td><td width="68">77.39</td><td width="68">77.57</td><td width="68"></td><td width="68">77.5364</td></tr>
+                    <tr><td width="68">78.07</td><td width="68">77.94</td><td width="68">78.04</td><td width="68">77.74</td><td width="68">78.96</td><td width="68">77.89</td><td width="68"></td><td width="68">77.8472</td></tr>
+                    <tr><td width="68">463.79</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">464.54</td><td width="68"></td><td width="68">464.48</td><td width="68"></td></tr>
+                    <tr><td width="68">448.5</td><td width="68">449.67</td><td width="68">442.10</td><td width="68"></td><td width="68">449.67</td><td width="68">449.6</td><td width="68">447.99</td><td width="68">447.7746</td></tr>
+                    <tr><td width="68">462.78</td><td width="68">462.91</td><td width="68">456.77</td><td width="68"></td><td width="68">462.67</td><td width="68">462.83</td><td width="68">462.62</td><td width="68">462.6385</td></tr>
+                    <tr><td width="68">466.04</td><td width="68">466.35</td><td width="68">460.43</td><td width="68"></td><td width="68">468.26</td><td width="68">466.32</td><td width="68">466.34</td><td width="68">466.3545</td></tr>
+                    <tr><td width="68">479.06</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">479.46</td><td width="68"></td><td width="68">479.23</td><td width="68"></td></tr>
+                    <tr><td width="68">462.92</td><td width="68">463.98</td><td width="68">462.53</td><td width="68">462.23</td><td width="68">464.11</td><td width="68">463.92</td><td width="68">462.22</td><td width="68">462.2142</td></tr>
+                    <tr><td width="68">477.66</td><td width="68">477.64</td><td width="68">478.13</td><td width="68">477.81</td><td width="68">477.77</td><td width="68">477.58</td><td width="68">477.31</td><td width="68">477.5574</td></tr>
+                    <tr><td width="68">481.02</td><td width="68">481.19</td><td width="68">481.47</td><td width="68">481.17</td><td width="68">481.14</td><td width="68">481.18</td><td width="68">481.15</td><td width="68">481.3932</td></tr>
+                    <tr><td width="68">74.78</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">74.61</td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">71.98</td><td width="68">72.23</td><td width="68">72.35</td><td width="68">71.94</td><td width="68">72.22</td><td width="68">72.22</td><td width="68"></td><td width="68">71.9299</td></tr>
+                    <tr><td width="68">74.27</td><td width="68">74.36</td><td width="68">74.75</td><td width="68">74.33</td><td width="68">74.35</td><td width="68">74.35</td><td width="68"></td><td width="68">74.3176</td></tr>
+                    <tr><td width="68">74.87</td><td width="68">74.91</td><td width="68">75.35</td><td width="68">74.93</td><td width="68">74.88</td><td width="68">74.91</td><td width="68"></td><td width="68">74.9146</td></tr>
+                    <tr><td width="68">104.07</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">104.04</td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">100.4</td><td width="68">100.74</td><td width="68">100.00</td><td width="68">100.29</td><td width="68">99.88</td><td width="68">100.71</td><td width="68"></td><td width="68">100.3119</td></tr>
+                    <tr><td width="68">103.59</td><td width="68">103.71</td><td width="68">103.32</td><td width="68">103.62</td><td width="68">103.62</td><td width="68">103.68</td><td width="68"></td><td width="68">103.6418</td></tr>
+                    <tr><td width="68">104.43</td><td width="68">104.48</td><td width="68">104.14</td><td width="68">104.45</td><td width="68">104.88</td><td width="68">104.46</td><td width="68"></td><td width="68">104.4742</td></tr>
+                    <tr><td width="68">80.95</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">80.86</td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">77.97</td><td width="68">78.24</td><td width="68">77.45</td><td width="68">77.89</td><td width="68">78.27</td><td width="68">78.23</td><td width="68"></td><td width="68">77.9070</td></tr>
+                    <tr><td width="68">80.46</td><td width="68">80.55</td><td width="68">80.02</td><td width="68">80.48</td><td width="68">80.57</td><td width="68">80.54</td><td width="68"></td><td width="68">80.4931</td></tr>
+                    <tr><td width="68">81.1</td><td width="68">81.15</td><td width="68">80.66</td><td width="68">81.12</td><td width="68">81.15</td><td width="68">81.14</td><td width="68"></td><td width="68">81.1397</td></tr>
+                    <tr><td width="68">12.08</td><td width="68"></td><td width="68">-</td><td width="68"></td><td width="68">12.1048</td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">11.68</td><td width="68">13.392</td><td width="68">11.64</td><td width="68"></td><td width="68">11.911</td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">12.05</td><td width="68">13.392</td><td width="68">-</td><td width="68"></td><td width="68">12.0563</td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">12.15</td><td width="68">13.833</td><td width="68">-</td><td width="68"></td><td width="68">12.2985</td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">52.15</td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">48.02</td><td width="68">49.48</td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68">50.5</td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">52.01</td><td width="68">52.01</td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68">51.91</td><td width="68"></td><td width="68"></td></tr>
+                    <tr><td width="68">52.37</td><td width="68">52.39</td><td width="68"></td><td width="68"></td><td width="68"></td><td width="68">52.43</td><td width="68"></td><td width="68"></td></tr>
+                    </tbody></table>
+                </div>
+              </td>
+            </tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>日元/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>欧元/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>英镑/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr><tr align="center">
+              <td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>澳元 /人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>加元/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>瑞士法郎/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>港币/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>韩元/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>泰铢/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>澳门元/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>新西兰元/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>新加坡元/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>瑞典克郎/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>丹麦克郎/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>挪威克郎/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>菲律宾比索/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            <tr align="center"><td align="center" rowspan="4" class="fir_td"><div>南非兰特/人民币</div></td>
+              <td class="dr" align="left">中间价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞买价</td></tr>
+            <tr align="center"><td class="dr" align="left">汇买价</td></tr>
+            <tr align="center"><td class="dr" align="left">钞/汇卖价</td></tr>
+
+            </tbody></table>
+
+        </div>
+
+      </div>
+      -->
+      <!-- .cd-full-width -->
     </li>
 
     <li>
@@ -77,11 +304,11 @@ $tab = 'travel';
       <span class="cd-marker item-1"></span>
 
       <ul>
-        <li class="selected"><a href="#0">介绍</a></li>
-        <li><a href="#0">经历</a></li>
-        <li><a href="#0">参演</a></li>
-        <li><a href="#0">演艺</a></li>
-        <li><a href="#0">生活</a></li>
+        <li class="selected"><a href="#0">汇率中心</a></li>
+        <li><a href="#0">健康助手</a></li>
+        <li><a href="#0">随声小件指南</a></li>
+        <li><a href="#0">不要</a></li>
+        <li><a href="#0">不要</a></li>
       </ul>
     </nav>
   </div> <!-- .cd-slider-nav -->
