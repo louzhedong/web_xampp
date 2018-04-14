@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php
-$tab = 'society'
+$tab = 'travel'
 ?>
 <?php require 'top.php' ?>
 <div  class="society-travel">
