@@ -700,8 +700,9 @@
 }
 
 .gentuanyou-recommend {
-  margin-top: 60px;
   padding-bottom: 60px;
+  width: 1160px;
+  margin: 60px auto;
 }
 
 .gentuanyou-recommend .gentuanyou-recommend-header {

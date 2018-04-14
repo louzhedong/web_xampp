@@ -26,7 +26,6 @@ h5>a {font-weight:400;}
 .fa-no-mr {margin-right:0;}
 input#q {width:180px;}
 a.external{
-    background: url("img/view_reference.gif") no-repeat scroll right 4px transparent;
     padding-right: 13px;
 }
 img.lazy { max-width: 100%;}
@@ -183,7 +182,6 @@ a.count-info:link, a.count-info:visited, a.count-info:active {
 
 .navbar-nav > li > a:link, .navbar-nav > li > a:visited {
     color: #eee;
-    text-deco
     ration: none;
 }
 
@@ -198,7 +196,6 @@ a.count-info:link, a.count-info:visited, a.count-info:active {
 /* pagination start */
 .pagination {
     margin: 5px 0 0;
-    float: center;
 }
 
 .pagination > li > a, .pagination > li > span {
@@ -258,7 +255,6 @@ li.navi-top-list {padding-top:5px; padding-bottom:5px;}
     color: #666;
     text-align: center;
     padding: 5px 0 5px 0;
-    background: url("img/line.jpg") left center repeat-x;
 }
 .login-three-home strong {background-color:#fff; padding: 0 5px;}
 .auth-clients {
@@ -293,7 +289,6 @@ ul.auth-clients li.auth-client a.auth-link, .auth-client a.auth-link {
     float: left;
     width: 24px;
     height: 100%;
-    background: url(img/icons_0_24.png) no-repeat;
 }
 
 .auth-icon.qq {
