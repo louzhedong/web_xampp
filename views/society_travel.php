@@ -53,7 +53,7 @@ $tab = 'travel'
     <br>
     <br>
     <section id="gallery-wrapper">
-      <article class="white-panel">
+      <article class="white-panel" onclick="toSocietyDetail()">
         <img src="../images/society/society_travel/t1.jpeg" class="thumb">
         <h1>
           <span href="#">泰国：FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略！</span>
@@ -242,6 +242,9 @@ $tab = 'travel'
     <script src="../js/society_travel/jquery-1.11.0.min.js"></script>
     <script src="../js/society_travel/pinterest_grid.js"></script>
     <script type="text/javascript">
+      function toSocietyDetail() {
+        window.location.href = './society_travel_detail.php';
+      }
       $(function () {
         $("#gallery-wrapper").pinterest_grid({
           no_columns: 4,

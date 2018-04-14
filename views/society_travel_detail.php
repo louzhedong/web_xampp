@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="../css/society_travel_detail.css">
 </head>
 <body>
+<?php
+$tab = 'travel';
+?>
 <?php require 'top.php' ?>
 <div>
   <header>
