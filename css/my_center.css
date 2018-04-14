@@ -1,3 +1,7 @@
+.my-center {
+  background-color: #f3f3f5;
+}
+
 .my-center #big-map {
   height: 640px;
   width: 100%;
@@ -34,4 +38,160 @@
   position: absolute;
   bottom: 50px;
   left: 200px;
+}
+
+.my-info {
+  position: relative;
+  margin: 4em auto;
+  box-shadow: none;
+  width: 90%;
+  max-width: 1024px;
+}
+
+.my-info .relative-read {
+  top: 0;
+  left: 0;
+  width: 280px;
+  z-index: 2;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+}
+
+.my-info .info {
+  width: 100%;
+  padding-left: 300px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.MAvatar {
+  text-align: center;
+  font-size: 14px;
+}
+
+.MAvatar .MAvaImg {
+  width: 120px;
+  height: 70px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.MAvatar .MAvaImg img {
+  position: relative;
+  top: -50px;
+  z-index: 20;
+  border-radius: 120px;
+  border: 0;
+  vertical-align: middle;
+}
+
+.MAvatar .MAvaName {
+  font-size: 22px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.MAvatar .its_tags {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.MAvatar .its_tags span {
+  height: 18px;
+  line-height: 18px;
+  padding: 0 6px;
+  background: gray;
+  color: #fff;
+  border-radius: 9px;
+}
+
+.MAvatar .MAvaInfo {
+  padding: 0 15px;
+
+  margin-top: 16px;
+  line-height: 16px;
+}
+
+.MAvatar .MAvaInfo span {
+  padding: 0 10px 0 7px;
+  display: inline-block;
+  position: relative;
+}
+
+.MAvatar .MAvaInfo .MAvaLevel a {
+  color: #ea3c1a;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.flt1 {
+  float: left;
+}
+
+.MAvatar .MAvaMore {
+  margin-top: 20px;
+  border-top: #e2e2e2 1px solid;
+  border-bottom: #e2e2e2 1px solid;
+}
+
+.MAvatar .MAvaMore .MAvaNums {
+  position: relative;
+  width: 33%;
+  float: left;
+  padding: 10px 0;
+  text-align: center;
+  line-height: 20px;
+  border-right: #e2e2e2 1px solid;
+}
+
+.MAvatar .MAvaMore .last {
+  border-right: none;
+}
+
+.MAvatar .MAvaMore .MAvaNums strong {
+  font-size: 20px;
+  color: #444;
+}
+
+.my-info .info .info-content {
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  padding: 15px;
+}
+
+.my-info .info .info-content .info-header strong {
+  word-break: break-all;
+  display: block;
+  font-weight: 400;
+  max-width: 628px;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 25px;
+}
+
+.my-info .info .info-content .gailan {
+  margin: 40px 0;
+  font-size: 18px;
+}
+
+.my-info .info .info-content .detail {
+  height: 40px;
+  line-height: 40px;
+  background: #f3f3f5;
+  width: 100%;
+
+}
+
+.my-info .info .info-content .detail span {
+  margin-left: 10px;
+}
+
+.my-info .info .info-content .detail .count {
+  color: #ff9d00;
 }

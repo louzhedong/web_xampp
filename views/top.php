@@ -98,15 +98,15 @@
     </div>
   </div>
 </div>
-<div class="gouwuche">
-  <div class="gouwuche-header">
-    <img src="../images/gouwuche.png" alt="">
-    <span class="count"></span>
-  </div>
-  <div class="gouwuche-content">
-
-  </div>
-</div>
+<!--<div class="gouwuche">-->
+<!--  <div class="gouwuche-header">-->
+<!--    <img src="../images/gouwuche.png" alt="">-->
+<!--    <span class="count"></span>-->
+<!--  </div>-->
+<!--  <div class="gouwuche-content">-->
+<!---->
+<!--  </div>-->
+<!--</div>-->
 </body>
 
 <script>
@@ -121,7 +121,7 @@
     } else {
       loginOrReg.style.display = 'block';
     }
-    refreshGouwuche();
+//    refreshGouwuche();
   })();
 
   $('li.martDropdown').mouseover(function () {
@@ -214,16 +214,16 @@
    * }]
    */
 
-  function refreshGouwuche() {
-    var goodsList = window.localStorage.goodsList;
-    var length = 0;
-    if (goodsList) {
-      length = goodsList.length;
-    }
-    document.getElementsByClassName('count')[0].innerText = length;
-  }
-
-  window.refreshGouwuche = refreshGouwuche;
+//  function refreshGouwuche() {
+//    var goodsList = window.localStorage.goodsList;
+//    var length = 0;
+//    if (goodsList) {
+//      length = goodsList.length;
+//    }
+//    document.getElementsByClassName('count')[0].innerText = length;
+//  }
+//
+//  window.refreshGouwuche = refreshGouwuche;
 
 
 </script>
