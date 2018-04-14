@@ -1,0 +1,16 @@
+#user{
+    background-color: #ff9d00;
+}
+
+#user img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-top: 3px;
+}
+
+#user a{
+    vertical-align: middle;
+    margin-left: 10px;
+}

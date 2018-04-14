@@ -62,7 +62,7 @@ $tab = 'society'
           <span class="glyphicon glyphicon-heart" aria-hidden="true" style="margin-right:20px "> 185</span>
           <span class="glyphicon glyphicon-list-alt" aria-hidden="true"> 101</span>
         </div>
-        <div id="user"><img src="../images/society/society_travel/1.jpg"><a>娜娜</a></div>
+        <div id="user"><img src="../images/touxiang.jpeg"><a>娜娜</a></div>
       </article>
       <article class="white-panel">
         <img src="../images/society/society_travel/t16.jpg" class="thumb">

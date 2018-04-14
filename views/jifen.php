@@ -17,6 +17,9 @@ $tab = 'travel';
 <div class="question">
     积分中心
 </div>
+<div id="user"><img src="../images/touxiang.jpeg"><a>娜娜</a></div>
+
+
 <?php require 'footer.php' ?>
 </body>
 </html>

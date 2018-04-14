@@ -698,3 +698,149 @@
   overflow: hidden;
   padding: 60px 0 50px;
 }
+
+.gentuanyou-recommend {
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-header {
+  height: 60px;
+  padding-top: 20px;
+  border-bottom: 1px solid #dadada;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-header .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-header .subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #636363;
+  padding-left: 12px;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-menu {
+  background-color: #3ed099;
+  background-image: linear-gradient(180deg, #61d482, #16cbb3);
+  float: left;
+  width: 275px;
+  height: 386px;
+  overflow: hidden;
+  margin-top: 14px;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-menu.red {
+  background-color: #ff6b70;
+  background-image: linear-gradient(180deg,#ff6476,#ff7467);
+  float: left;
+  width: 275px;
+  height: 386px;
+  overflow: hidden;
+  margin-top: 14px;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-menu .title {
+  padding: 12px 16px 20px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-menu .list {
+  margin-bottom: 16px;
+  height: 144px;
+  overflow: hidden;
+  padding-left: 16px;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-menu .list a {
+  float: left;
+  margin: 0 12px 16px 0;
+  padding: 0 14px;
+  border: 1px solid #fff;
+  border-color: hsla(0, 0%, 100%, .7);
+  border-radius: 15px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-menu .hot_title {
+  margin: 0 16px 7px;
+  border-bottom: 1px solid #fff;
+  border-color: hsla(0, 0%, 100%, .4);
+  padding: 0 0 7px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-menu .hot_list {
+  height: 84px;
+  overflow: hidden;
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-menu .hot_list a {
+  float: left;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-menu .hot_list .gapline {
+  float: left;
+  width: 0;
+  height: 16px;
+  border-right: 1px solid #fff;
+  border-color: hsla(0, 0%, 100%, .6);
+  margin: 6px 10px;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-item {
+  position: relative;
+  float: left;
+  margin: 14px 0 0 20px;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-item .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-item .image img {
+  display: block;
+  background-color: #fff;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-item .titles {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 15px 11px;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-item .titles .title {
+  font-size: 20px;
+  height: 30px;
+  color: #fff;
+}
+
+.gentuanyou-recommend .gentuanyou-recommend-content .gentuanyou-recommend-item .titles .subtitle {
+  height: 21px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #fff;
+  transition: height .2s;
+}
