@@ -1,0 +1,141 @@
+.payment {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.payment .main-title {
+  padding: 0 10px;
+  margin-bottom: 35px;
+}
+
+.payment .main-title .logo {
+  width: 120px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.payment .main-title .logo img {
+  width: 100%;
+}
+
+.payment .main-title .split {
+  display: inline-block;
+  width: 2px;
+  height: 25px;
+  background-color: #999;
+  margin: 0 15px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.payment .main-title .sub {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.payment .message {
+  margin: 30px 10px 20px;
+}
+
+.payment .message h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #ff9d00;
+  line-height: 30px;
+}
+
+.payment .message h3 i {
+  width: 22px;
+  height: 22px;
+}
+
+.payment .message h3 i img {
+  width: 22px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.payment .message h3 .countdown {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #333;
+  font-weight: normal;
+}
+
+.payment .message .item {
+  margin: 8px 0;
+  padding-left: 36px;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.payment .message .item .order-id {
+  float: left;
+  width: 110px;
+}
+
+.payment .message .item .price {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ff9d00;
+  vertical-align: top;
+}
+
+.payment .message .item .price em {
+  font-style: normal;
+  font-size: 22px;
+  position: relative;
+  bottom: -2px;
+}
+
+.payment .payment-method {
+  margin: 15px 0;
+}
+
+.payment .payment-method .hd {
+  font-size: 18px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.payment .payment-method .bd {
+  border: 1px solid #e5e5e5;
+  padding: 35px 30px;
+  overflow: hidden;
+}
+
+.payment .payment-method .bd input {
+  margin-top: 12px;
+}
+
+.payment .payment-method .bd img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.payment .payment-method .bd span {
+  margin-right: 15px;
+}
+
+
+.payment .order-action {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.payment .order-action .pay-btn {
+  display: inline-block;
+  width: 340px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff9d00;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 2px;
+}
