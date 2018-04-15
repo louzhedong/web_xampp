@@ -117,7 +117,7 @@
     var username = localStorage.getItem('user_name');
     if (username) {
       showName.style.display = 'block';
-      hello.innerHTML = '你好，' + username;
+      hello.innerHTML = '<span>你好，' + username + '</span>' + '<span class="caret"></span>';
     } else {
       loginOrReg.style.display = 'block';
     }
