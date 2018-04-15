@@ -1,161 +1,161 @@
 .gailan_header .row {
-    background-color: #f1f1f1;
-    padding:  30px 0px 50px 0px;
+  background-color: #f1f1f1;
+  padding: 30px 0px 50px 0px;
 }
 
-.gailan_header .row .col-md-10 .row{
+.gailan_header .row .col-md-10 .row {
 
 }
 
-
-.gailan_header .row .col-md-10 .row .col-md-8 .item img{
-    width: 100%;
+.gailan_header .row .col-md-10 .row .col-md-8 .item img {
+  width: 100%;
 }
 
-.gailan_header .row .col-md-10 .row .col-md-4{
-    background-color: #fff;
+.gailan_header .row .col-md-10 .row .col-md-4 {
+  background-color: #fff;
 
 }
 
 .gailan_header .row .col-md-10 .row .col-md-4 .title {
 
-    margin-top: 10px;
-    font-size: 24px;
-    font-weight: 500;
-    color: #111;
-    line-height: 24px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #111;
+  line-height: 24px;
 
 }
 
-.gailan_header .row .col-md-10 .row .col-md-4 .describe-text{
-    margin-top: 10px;
-    line-height: 20px;
-    color: #666;
-    font-size: 14px;
+.gailan_header .row .col-md-10 .row .col-md-4 .describe-text {
+  margin-top: 10px;
+  line-height: 20px;
+  color: #666;
+  font-size: 14px;
 }
 
-.gailan_header .row .col-md-10 .row .col-md-4 .describe-season{
-    margin-top: 10px;
-    color: #666;
-    font-size: 14px;
+.gailan_header .row .col-md-10 .row .col-md-4 .describe-season {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
 }
 
 .gailan_header .row .col-md-10 .row .col-md-4 .title-1 {
-    border-top: 2px solid #f1f1f1;
-    margin-top: 10px;
-    padding-top: 5px;
-    font-size: 24px;
-    font-weight: 500;
-    color: #111;
-    line-height: 24px;
+  border-top: 2px solid #f1f1f1;
+  margin-top: 10px;
+  padding-top: 5px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #111;
+  line-height: 24px;
 
 }
 
-
-.gailan_header .row .col-md-10 .row .col-md-4  .relate-strategy img{
-    padding-top: 5px;
-    width: 100px;
-    height: 137px;
-    float: left;
-    padding-left: 2px;
+.gailan_header .row .col-md-10 .row .col-md-4 .relate-strategy img {
+  padding-top: 5px;
+  width: 100px;
+  height: 137px;
+  float: left;
+  padding-left: 2px;
 }
 
-.gailan_header .row .col-md-10 .row .col-md-4  .relate-strategy-title{
-    padding: 5px 0px 20px 140px;
-    font-size: 18px;
-    color: #666;
+.gailan_header .row .col-md-10 .row .col-md-4 .relate-strategy-title {
+  padding: 5px 0px 20px 140px;
+  font-size: 18px;
+  color: #666;
 }
 
-.gailan_header .row .col-md-10 .row .col-md-4  .relate-strategy-count{
-    color: #666;
-    font-size: 14px;
-    padding: 5px 0px 20px 140px;
+.gailan_header .row .col-md-10 .row .col-md-4 .relate-strategy-count {
+  color: #666;
+  font-size: 14px;
+  padding: 5px 0px 20px 140px;
 }
 
 .gailan_hot .row {
-    padding:  30px 0px 50px 0px;
+  padding: 30px 0px 50px 0px;
 }
 
-.gailan_hot .row .bigtitle{
-    text-align: center;
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 1.058823;
-    color: #636363;
+.gailan_hot .row .bigtitle {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.058823;
+  color: #636363;
 }
 
-.gailan_hot .row .col-md-10 .pic{
-    margin-top: 30px;
+.gailan_hot .row .col-md-10 .pic {
+  margin-top: 30px;
 }
 
-
-.gailan_hot .row .col-md-10 .pic  .hot-sale-content .hot-sale-item {
-    float: left;
-    width: 23%;
-    display: inline;
-    margin: 0 15px 15px 0;
-    position: relative;
-    height: 234px;
-    cursor: pointer;
+.gailan_hot .row .col-md-10 .pic .hot-sale-content {
+  overflow: hidden;
 }
 
-.gailan_hot .row .col-md-10 .pic  .hot-sale-content .hot-sale-item .image {
-    width: 100%;
+.gailan_hot .row .col-md-10 .pic .hot-sale-content .hot-sale-item {
+  float: left;
+  width: 32%;
+  display: inline;
+  margin: 0 15px 15px 0;
+  position: relative;
+  height: 284px;
+  cursor: pointer;
+}
+
+.gailan_hot .row .col-md-10 .pic .hot-sale-content .hot-sale-item .image {
+  width: 100%;
 }
 
 .gailan_hot .row .col-md-10 .pic .hot-sale-content .hot-sale-item .image img {
-    width: 310px;
-    height: 200px;
+  width: 100%;
+  height:200px;
 }
 
 .gailan_hot .row .col-md-10 .pic .hot-sale-content .hot-sale-item .image .mark-tag {
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 0 7px;
-    line-height: 26px;
-    background-color: rgba(0,0,0,.7);
-    color: #fff;
-    font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 7px;
+  line-height: 26px;
+  background-color: rgba(0, 0, 0, .7);
+  color: #fff;
+  font-size: 12px;
 }
 
 .gailan_hot .row .col-md-10 .pic .hot-sale-content .hot-sale-item .caption {
-    border: 1px solid #f1f1f1;
-    padding: 5px 10px 18px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 90px;
-    background-color: #fff;
-    transition: height .2s ease-in-out .1s;
-    width: 310px;
+  border: 1px solid #f1f1f1;
+  padding: 5px 10px 18px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 90px;
+  background-color: #fff;
+  transition: height .2s ease-in-out .1s;
+  width: 100%;
 }
 
 .gailan_hot .row .col-md-10 .pic .hot-sale-content .hot-sale-item .caption:hover {
-    height: 115px;
-    background: #f9f9f9;
+  height: 115px;
+  background: #f9f9f9;
 }
 
 .gailan_hot .row .col-md-10 .pic .hot-sale-content .hot-sale-item .caption h3 {
-    height: 40px;
-    margin-bottom: 15px;
-    font-weight: normal;
-    color: #666;
-    line-height: 21px;
-    overflow: hidden;
-    font-size: 14px;
-    transition: height .2s ease-in-out .1s;
+  height: 40px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  color: #666;
+  line-height: 21px;
+  overflow: hidden;
+  font-size: 14px;
+  transition: height .2s ease-in-out .1s;
 }
 
 .gailan_hot .row .col-md-10 .pic .hot-sale-content .hot-sale-item .caption:hover h3 {
-    height: 65px;
+  height: 65px;
 }
 
-
 .gailan_hot .row .col-md-10 .pic .hot-sale-content .hot-sale-item .caption .price {
-    color: #ff8a00;
-    font-size: 20px;
-    padding-left: 100px;
-    cursor: pointer;
+  color: #ff8a00;
+  font-size: 20px;
+  padding-left: 100px;
+  cursor: pointer;
 }
