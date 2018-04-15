@@ -1,159 +1,159 @@
-#user img{
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    vertical-align: middle;
-    margin-top: 3px;
+#user img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-top: 3px;
 }
 
-#user a{
-    vertical-align: middle;
-    margin-left: 10px;
+#user a {
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .jifen-header .row .col-md-3 {
-    margin: 10px;
-    padding: 10px;
-    background-color: #faf2cc;
-    height: 65px;
-    padding-left: 60px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #faf2cc;
+  height: 65px;
+  padding-left: 60px;
 }
 
-.jifen-header .row .col-md-3 .sun_all{
-    font-size: 16px;
+.jifen-header .row .col-md-3 .sun_all {
+  font-size: 16px;
 }
 
-.jifen-header .row .col-md-3 .span{
+.jifen-header .row .col-md-3 .span {
 
 }
 
-.jifen-header .row .col-md-3 .sun_useful{
-    font-size: 1.5rem;
-    color:#ff9d00;
+.jifen-header .row .col-md-3 .sun_useful {
+  font-size: 1.5rem;
+  color: #ff9d00;
 }
 
 .jifen-header .row .col-md-4 {
-    margin: 10px;
-    padding: 10px;
-    background-color: #faf2cc;
-    height: 65px;
-    padding-left: 60px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #faf2cc;
+  height: 65px;
+  padding-left: 60px;
 }
 
 .jifen-header .row .col-md-4 img {
-    height: 35px;
-    width: 35px;
-    border:2px solid #ff9d00;
-    border-radius: 20px;
-    vertical-align: middle;
-    text-align: center;
-    cursor: pointer;
+  height: 35px;
+  width: 35px;
+  border: 2px solid #ff9d00;
+  border-radius: 20px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
 }
 
 .jifen-header .row .col-md-4 span {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .jifen-content {
-    overflow: hidden;
+  overflow: hidden;
+}
+
+.jifen-content .row .col-md-10 {
+  padding: 0;
 }
 
 .col-md-10 .nav-tabs {
-    border-bottom: none;
-    background: #ddd;
+  border-bottom: none;
+  background: #ddd;
 }
 
 .col-md-10 .nav-tabs li a {
-    color: #000;
+  color: #000;
 }
 
 .col-md-10 .nav-tabs li.active a {
-    color: #000;
-    font-weight: bold;
-    border-radius: 0px;
-    border-top: 2px solid #ff9d00;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0px;
+  border-top: 2px solid #ff9d00;
 }
 
 .col-md-10 .tab-content {
-    border: 1px solid #ddd;
-    padding-top: 30px;
+  border: 1px solid #ddd;
+  padding-top: 30px;
 }
 
 .col-md-10 .tab-content .tab-pane .line {
-    height: 50px;
-    line-height: 50px;
-    border-bottom: 1px solid #dadada;
-    margin: 0 10px;
-    font-size: 15px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #dadada;
+  margin: 0 10px;
+  font-size: 15px;
 }
 
 .col-md-10 .tab-content .tab-pane .line:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .col-md-10 .tab-content .tab-pane .line input {
-    margin-left: 15px;
-    margin-right: 5px;
-    cursor: pointer;
-    width: 15px;
-    height: 15px;
+  margin-left: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
 }
 
 .col-md-10 .hot-sale-content {
-    margin-top: 50px;
-    overflow: hidden;
+  margin-top: 50px;
+  overflow: hidden;
 }
 
 .col-md-10 .hot-sale-content .hot-sale-item {
-    float: left;
-    width: 23%;
-    display: inline;
-    margin: 0 15px 15px 0;
-    position: relative;
-    height: 322px;
-    cursor: pointer;
-    border: 1px solid #f1f1f1;
-    padding: 5px 10px 18px;
+  float: left;
+  width: 23%;
+  display: inline;
+  margin: 0 15px 15px 0;
+  position: relative;
+  height: 322px;
+  cursor: pointer;
+  border: 1px solid #f1f1f1;
+  padding: 5px 10px 18px;
 }
 
 .col-md-10 .hot-sale-content .hot-sale-item .image {
-    text-align: center;
+  text-align: center;
 }
 
 .col-md-10 .hot-sale-content .hot-sale-item .image img {
-    width: 176px;
-    height: 176px;
+  width: 176px;
+  height: 176px;
 }
 
 .col-md-10 .hot-sale-content .hot-sale-item .caption {
-    border-top: 1px solid #f1f1f1;
-    padding: 10px 47px 18px;
-    background-color: #fff;
-    text-align: center;
+  border-top: 1px solid #f1f1f1;
+  padding: 10px 47px 18px;
+  background-color: #fff;
+  text-align: center;
 }
-
-
 
 .col-md-10 .hot-sale-content .hot-sale-item .caption h3 {
-    height: 20px;
-    margin-bottom: 15px;
-    font-weight: normal;
-    color: #000;
-    line-height: 21px;
-    overflow: hidden;
-    font-size: 16px;
-    text-align: center;
+  height: 20px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  color: #000;
+  line-height: 21px;
+  overflow: hidden;
+  font-size: 16px;
+  text-align: center;
 }
-
-
 
 .col-md-10 .hot-sale-content .hot-sale-item .caption .price {
-    color: #ff8a00;
-    text-align: center;
+  color: #ff8a00;
+  text-align: center;
 }
 
-.col-md-10  .hot-sale-content .hot-sale-item .caption .price b {
-    font-size: 22px;
-    font-weight: bold;
+.col-md-10 .hot-sale-content .hot-sale-item .caption .price b {
+  font-size: 22px;
+  font-weight: bold;
 
 }
