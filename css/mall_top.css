@@ -13,21 +13,21 @@
   font-size: 28px;
 }
 
-.mall-top .mall-top-search .col-md-6 {
+.mall-top .mall-top-search .col-md-8 {
   padding: 15px 0;
 }
 
-.mall-top .mall-top-search .col-md-6 .mall-search {
+.mall-top .mall-top-search .col-md-8 .mall-search {
   position: relative;
 }
 
-.mall-top .mall-top-search .col-md-6 .mall-search .icons {
+.mall-top .mall-top-search .col-md-8 .mall-search .icons {
   position: absolute;
   margin-left: 14px;
   margin-top: 12px;
 }
 
-.mall-top .mall-top-search .col-md-6 .mall-search .search-input {
+.mall-top .mall-top-search .col-md-8 .mall-search .search-input {
   width: 615px;
   height: 40px;
   padding: 0 25px 0 43px;
