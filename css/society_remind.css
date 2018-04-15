@@ -767,6 +767,7 @@ Main content
   margin: 2em 0;
 }
 
+
 @media only screen and (min-width: 1170px) {
   .cd-main-content {
     padding: 3em 0;
@@ -800,6 +801,8 @@ Javascript disabled
 
 .image img {
   border-radius: 50%;
+  width: 300px;
+  height: 200px;
 }
 
 #result {
