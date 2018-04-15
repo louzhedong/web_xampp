@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <title>景点汇</title>
+  <title>目的地</title>
     <?php require 'link.php' ?>
   <link rel="stylesheet" href="../css/scenic.css">
 </head>
@@ -1873,6 +1873,6 @@ $tab = 'scenic'
 
 <script>
   function toScenicDetail() {
-    window.location.href = "./scenicdetail.php";
+    window.location.href = "./scenicdetail_gailan.php";
   }
 </script>

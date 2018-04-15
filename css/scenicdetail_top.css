@@ -1,0 +1,46 @@
+.scenic-top {
+    border-bottom: 1px solid #ff9d00;
+}
+
+.scenic-top .mall-top-search {
+    height: 100px;
+}
+
+.scenic-top .mall-top-search .title {
+    line-height: 70px;
+    color: #ff9d00;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.scenic-top .mall-top-search .subtitle {
+    line-height: 0px;
+    color: #ff9d00;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+
+.scenic-top .mall-wrap .mall-nav {
+    height: 50px;
+    margin-left: -30px;
+}
+
+.scenic-top .mall-wrap .mall-nav .mall-tab {
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.scenic-top .mall-wrap .mall-nav .mall-tab:hover {
+    color: #ff9d00;
+    border-bottom: 2px solid #ff9d00;
+}
+
+.scenic-top .mall-wrap .mall-nav .mall-tab.active {
+    color: #ff9d00;
+    border-bottom: 2px solid #ff9d00;
+}

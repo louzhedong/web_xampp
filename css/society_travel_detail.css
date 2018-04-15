@@ -83,7 +83,7 @@ header h1 span img{
 
 header h1 span{
   text-align: right;
-  color: #ff9d00;
+  color: #fff;
   font-size: 18px;
 
 }
@@ -625,7 +625,7 @@ header h1 span{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 25px;
+  font-size: 21px;
 }
 
 .my-info .info .info-content .gailan {
