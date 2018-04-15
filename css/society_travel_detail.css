@@ -72,7 +72,7 @@ header h1{
   height: 150px;
 }
 
-header h1 img{
+header h1 span img{
   margin-left: 30px;
   border: 2px solid #fff;
   border-radius: 20px;

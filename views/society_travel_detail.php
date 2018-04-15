@@ -17,11 +17,15 @@ $tab = 'travel';
 <div>
   <header>
     <h1>
-      <img src="../images/society/society_travel_detail/zan.png">
-      <img src="../images/society/society_travel_detail/xin.png"></h1>
-      <span>点赞</span>  <span>收藏</span>
-
-
+      <span>
+        <img src="../images/society/society_travel_detail/zan.png">
+        <span>点赞</span>
+      </span>
+      <span>
+        <img src="../images/society/society_travel_detail/xin.png">
+        <span>收藏</span>
+      </span>
+    </h1>
   </header>
 
   <div class="my-info">
