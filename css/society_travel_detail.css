@@ -65,11 +65,27 @@ header {
   line-height: 240px;
 }
 
-header h1 {
+header h1{
+  text-align: right;
+  padding-top: 290px;
+  margin-right: 190px;
+  height: 150px;
+}
+
+header h1 img{
+  margin-left: 30px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+
+}
+
+header h1 span{
+  text-align: right;
   color: #ff9d00;
   font-size: 18px;
-  text-align: right;
-  padding-top: 280px;
+
 }
 
 .cd-faq {

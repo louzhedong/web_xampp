@@ -17,6 +17,7 @@
   background-color: #faf2cc;
   height: 65px;
   padding-left: 60px;
+    border-right: 5px solid #fff;
 }
 
 .jifen-header .row .col-md-3 .sun_all {
@@ -41,8 +42,8 @@
 }
 
 .jifen-header .row .col-md-4 img {
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   border: 2px solid #ff9d00;
   border-radius: 20px;
   vertical-align: middle;

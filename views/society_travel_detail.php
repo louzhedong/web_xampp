@@ -16,8 +16,11 @@ $tab = 'travel';
 <?php require 'top.php' ?>
 <div>
   <header>
-    <h1>2018.04.04/ FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略！
-    </h1>
+    <h1>
+      <img src="../images/society/society_travel_detail/zan.png">
+      <img src="../images/society/society_travel_detail/xin.png"></h1>
+      <span>点赞</span>  <span>收藏</span>
+
 
   </header>
 
@@ -59,21 +62,22 @@ $tab = 'travel';
       <div class="info-content">
         <div class="info-header">
           <strong>
-            漂洋过海来睡你，在普吉宜必思邂逅绝美海岛时光
+            FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略！
           </strong>
         </div>
         <div class="gailan">
           概览
         </div>
         <div class="detail">
-          <span>游玩城市：</span>
-          <span class="count">3</span>
-          <span>到达国家：</span>
-          <span class="count">2</span>
-          <span>撰写游记：</span>
-          <span class="count">12</span>
-          <span>获得徽章：</span>
-          <span class="count">3</span>
+          <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+          <span>游玩时间：</span>
+          <span class="count">2018/04/04</span>
+          <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+          <span>出行天数：</span>
+          <span class="count">7</span>
+          <span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+          <span>人均费用：</span>
+          <span class="count">5000-10000</span>
         </div>
       </div>
     </div>
