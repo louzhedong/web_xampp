@@ -45,9 +45,17 @@
     width: 35px;
     border:2px solid #ff9d00;
     border-radius: 20px;
-    margin-right: 50px;
+    vertical-align: middle;
     text-align: center;
     cursor: pointer;
+}
+
+.jifen-header .row .col-md-4 span {
+    margin-right: 20px;
+}
+
+.jifen-content {
+    overflow: hidden;
 }
 
 .col-md-10 .nav-tabs {

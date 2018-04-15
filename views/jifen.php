@@ -6,7 +6,7 @@
 <html lang="zh-CN">
 <head>
   <title>积分中心</title>
-  <?php require 'link.php' ?>
+    <?php require 'link.php' ?>
   <link rel="stylesheet" href="../css/jifen.css">
 </head>
 <body>
@@ -39,11 +39,9 @@ $tab = 'travel';
     </div>
     <div class="col-md-4">
       <img src="../images/society/jifen/transfer.png">
+      <span>兑换记录</span>
       <img src="../images/society/jifen/love.png">
-      <br>
-      <span>
-        兑换记录 我的收藏
-      </span>
+      <span>我的收藏</span>
     </div>
     <div class="col-md-1"></div>
   </div>
@@ -59,7 +57,7 @@ $tab = 'travel';
       <div role="tabpanel" class="tab-pane active" id="all">
         <div class="line">积分区间：<input type="checkbox">不限 <input type="checkbox">0-20000 <input type="checkbox">20000-40000
           <input
-              type="checkbox">40000-60000 <input type="checkbox">60000~~
+            type="checkbox">40000-60000 <input type="checkbox">60000~~
         </div>
         <div class="line">礼品种类：<input type="checkbox">不限 <input type="checkbox">数码 <input type="checkbox">日用品
           <input type="checkbox">影视会员 <input type="checkbox">其他
