@@ -167,15 +167,158 @@ $mall_ta = 'gailan';
             <div class="caption">
               <h3><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
                 查汶海滩 、 拉迈海滩 、 波菩海滩 、 纳通镇 、 祖父祖母石 、 大佛寺和金色大佛 </h3>
-              <span class="price">曼谷</span>
+              <span class="price">苏梅岛</span>
             </div>
           </li>
 
         </ul>
       </div>
+      <div class="more">
+        <button type="button" class="btn btn-default" onclick="toScenic()">点击查看更多</button>
+      </div>
     </div>
     <div class="col-md-1"></div>
   </div>
 </div>
+<div class="gailan_goods">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <div class="bigtitle">
+        泰国热门团购
+      </div>
+      <div class="goods">
+        <ul class="hot-sale-content">
+          <li class="hot-sale-item">
+            <div class="image">
+              <img src="../images/mall/dangdi/hot_sale/1.jpeg" alt="">
+              <div class="mark-tag">
+                多日游
+              </div>
+            </div>
+            <div class="caption">
+              <h3>疯抢特价·苏梅岛一地3天2晚超值游 下单即送1晚酒店（纯玩0购物+蜈支洲岛+南山+天涯海角+呀诺达+3晚连住酒店）</h3>
+              <span class="sell">已售 1150</span>
+              <span class="price"><b>￥800</b> 起</span>
+            </div>
+          </li>
+          <li class="hot-sale-item">
+            <div class="image">
+              <img src="../images/mall/dangdi/hot_sale/2.gif" alt="">
+              <div class="mark-tag">
+                一日游
+              </div>
+            </div>
+            <div class="caption">
+              <h3>芭提雅，体验别样风情+客家私厨午宴一日游（12人VIP团+独家深入明清古村落）</h3>
+              <span class="sell">已售 707</span>
+              <span class="price"><b>￥398</b> 起</span>
+            </div>
+          </li>
+          <li class="hot-sale-item">
+            <div class="image">
+              <img src="../images/mall/dangdi/hot_sale/3.jpeg" alt="">
+              <div class="mark-tag">
+                多日游
+              </div>
+            </div>
+            <div class="caption">
+              <h3>泰国人妖表演，皮皮岛3天2晚大环线,经典全覆盖自由行（车辆+住宿+门票）</h3>
+              <span class="sell">已售 870</span>
+              <span class="price"><b>￥660</b> 起</span>
+            </div>
+          </li>
+          <li class="hot-sale-item">
+            <div class="image">
+              <img src="../images/mall/dangdi/hot_sale/4.gif" alt="">
+              <div class="mark-tag">
+                多日游
+              </div>
+            </div>
+            <div class="caption">
+              <h3>曼谷 环海2日游玩体验～情人滩边摩挲花楼湖景房·独立空调不再冷（年销售过万份）</h3>
+              <span class="sell">已售 2951</span>
+              <span class="price"><b>￥369</b> 起</span>
+            </div>
+          </li>
+          <li class="hot-sale-item">
+            <div class="image">
+              <img src="../images/mall/dangdi/hot_sale/5.jpeg" alt="">
+              <div class="mark-tag">
+                多日游
+              </div>
+            </div>
+            <div class="caption">
+              <h3>纯净之旅~温暖冬天·这是一条极致奢华的7天6晚泰国高端冰雪之旅（ 酒店奢华温泉双次不限时 4-6人免费升级包炕）</h3>
+              <span class="sell">已售 297</span>
+              <span class="price"><b>￥3980</b> 起</span>
+            </div>
+          </li>
+          <li class="hot-sale-item">
+            <div class="image">
+              <img src="../images/mall/dangdi/hot_sale/6.jpeg" alt="">
+              <div class="mark-tag">
+                一日游
+              </div>
+            </div>
+            <div class="caption">
+              <h3>可订清迈+普吉岛纯玩一日游（赠自助午餐+耳麦+接机或高铁 ）</h3>
+              <span class="sell">已售 6572</span>
+              <span class="price"><b>￥208</b> 起</span>
+            </div>
+          </li>
+          <li class="hot-sale-item">
+            <div class="image">
+              <img src="../images/mall/dangdi/hot_sale/7.jpeg" alt="">
+              <div class="mark-tag">
+                景点门票
+              </div>
+            </div>
+            <div class="caption">
+              <h3>即订即用 泰国乐园1日门票 破5万销量 快速换领fp fastpass （多人同行可刷一人身份证入园）</h3>
+              <span class="sell">已售 10480</span>
+              <span class="price"><b>￥278</b> 起</span>
+            </div>
+          </li>
+          <li class="hot-sale-item">
+            <div class="image">
+              <img src="../images/mall/dangdi/hot_sale/8.jpeg" alt="">
+              <div class="mark-tag">
+                景点门票
+              </div>
+            </div>
+            <div class="caption">
+              <h3>限时特惠.泰国天涯海角门票（随订随取）.必打卡景区</h3>
+              <span class="sell">已售 49880</span>
+              <span class="price"><b>￥20</b> 起</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="more">
+        <button type="button" class="btn btn-default" onclick="toScenic()">点击查看更多</button>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+  <script>
+      function toGailan() {
+          window.location.href = './scenicdetail_gailan.php';
+      }
+
+      function toGuide() {
+          window.location.href = './scenicdetail_guide.php';
+      }
+
+      function toScenic() {
+          window.location.href = './scenicdetail_scenic.php';
+      }
+
+      function toRelate() {
+          window.location.href = './scenicdetail_relate.php';
+      }
+
+  </script>
 </body>
 </html>
