@@ -109,7 +109,7 @@ $mall_ta = 'gailan';
             <div class="image">
               <img src="../images/scenic/scenicdetail_gailan/hot2.jpeg" alt="">
               <div class="mark-tag">
-               2
+                2
               </div>
             </div>
             <div class="caption">
@@ -174,7 +174,7 @@ $mall_ta = 'gailan';
         </ul>
       </div>
       <div class="more">
-        <button type="button" class="btn btn-default" onclick="toScenic()">点击查看更多</button>
+        <button type="button" class="btn btn-default" onclick="toscenicdetail_scenic()">点击查看更多</button>
       </div>
     </div>
     <div class="col-md-1"></div>
@@ -188,7 +188,7 @@ $mall_ta = 'gailan';
         泰国热门团购
       </div>
       <div class="goods">
-        <ul class="hot-sale-content">
+        <ul class="hot-sale-content" style="overflow:hidden">
           <li class="hot-sale-item">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/1.jpeg" alt="">
@@ -296,29 +296,309 @@ $mall_ta = 'gailan';
         </ul>
       </div>
       <div class="more">
-        <button type="button" class="btn btn-default" onclick="toScenic()">点击查看更多</button>
+        <button type="button" class="btn btn-default" onclick="toMall_detail()">点击查看更多</button>
       </div>
     </div>
     <div class="col-md-1"></div>
+  </div>
 </div>
+<div class="gailan_strategy">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <div class="bigtitle">
+        泰国热门驴友记
+      </div>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a aria-controls="theme1" href="#theme1" role="tab"
+                                                  data-toggle="tab">悠久的古城遗迹</a></li>
+        <li role="presentation"><a aria-controls="theme2" href="#theme2" role="hot" data-toggle="tab">不得不提的寺庙文化</a></li>
+        <li role="presentation"><a aria-controls="theme3" href="#theme3" role="tab" data-toggle="tab">永远不会腻的买买买</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane" id="theme1">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="on-pic">
+                <img src="../images/scenic/scenicdetail_gailan/travel2.jpeg" alt="">
+                <div class="describe" onclick="tosociety_travel_detail()">
+                  <p class="describe-img">
+                    <img src="../images/society/society_travel/6.jpg">
+                  </p>
+                  <p class="describe-name">
+                    环球世界我的目标
+                  </p>
+                  <p class="describe-header">
+                    那座曾经消失的魏功甘古城
+                  </p>
+                  <p class="describe-body">
+                    魏功甘古城，清迈之前的都城，曾经因为洪水而消失在人们的视野里，但是，断壁残垣并不能阻挡他的魅力
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="on-pic">
+                <img src="../images/scenic/scenicdetail_gailan/travel3.jpeg" alt="">
+                <div class="describe" onclick="tosociety_travel_detail()">
+                  <p class="describe-img">
+                    <img src="../images/society/society_travel/3.jpg">
+                  </p>
+                  <p class="describe-name">
+                    世界世界在我脚下
+                  </p>
+                  <p class="describe-header">
+                    清迈--行走在小城故事里
+                  </p>
+                  <p class="describe-body">
+                    清迈的美景、美食介绍，还有好玩的人妖表演和夜间动物园哦~
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="on-pic">
+                <img src="../images/scenic/scenicdetail_gailan/travel1.jpeg" alt="">
+                <div class="describe" onclick="tosociety_travel_detail()">
+                  <p class="describe-img">
+                    <img src="../images/society/society_travel/4.jpg">
+                  </p>
+                  <p class="describe-name">
+                    老年团伙~~~
+                  </p>
+                  <p class="describe-header">
+                    北国玫瑰--清迈
+                  </p>
+                  <p class="describe-body">
+                    清迈，是泰国第二大城市，是清迈府的首府，其发达程度仅次於首都曼谷。距曼谷700公里，位于海拔300米的高原盆地，四周群山环抱，气候凉爽，景色旖旎，古迹众多，商业繁荣，是东南亚著名的避暑旅游胜地。
+                  </p>
+                </div>
+              </div>
+            </div>
 
-  <script>
-      function toGailan() {
-          window.location.href = './scenicdetail_gailan.php';
-      }
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="theme2">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="on-pic">
+                <img src="../images/scenic/scenicdetail_gailan/travel4.jpeg" alt="">
+                <div class="describe" onclick="tosociety_travel_detail()">
+                  <p class="describe-img">
+                    <img src="../images/society/society_travel/2.jpg">
+                  </p>
+                  <p class="describe-name">
+                    慧慧
+                  </p>
+                  <p class="describe-header">
+                    清迈寻觅佛迹
+                  </p>
+                  <p class="describe-body">
+                    在泰国这个佛教国家，清迈这朵泰北玫瑰是去旅行时一个不可错过的城市。拥有众多历史悠久的古佛寺，信仰的熏陶造就了这里淳朴、和善的民风，众多的手工艺品，物超所值的小吃，做为泰国的第二大城市生活的便利自然也不成问题。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="on-pic">
+                <img src="../images/scenic/scenicdetail_gailan/travel5.jpeg" alt="">
+                <div class="describe" onclick="tosociety_travel_detail()">
+                  <p class="describe-img">
+                    <img src="../images/society/society_travel/3.jpg">
+                  </p>
+                  <p class="describe-name">
+                    高德高德
+                  </p>
+                  <p class="describe-header">
+                    清迈の精美寺庙
+                  </p>
+                  <p class="describe-body">
 
-      function toGuide() {
-          window.location.href = './scenicdetail_guide.php';
-      }
+                    清迈是泰国第二大城市，至今仍保留着很多珍贵的历史和文化遗迹。清迈有太多值得留恋的地方，古城内以及城外遍布了很多大大小小的寺庙，精美而庄严。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="on-pic">
+                <img src="../images/scenic/scenicdetail_gailan/travel6.jpeg" alt="">
+                <div class="describe" onclick="tosociety_travel_detail()">
+                  <p class="describe-img">
+                    <img src="../images/society/society_travel/4.jpg">
+                  </p>
+                  <p class="describe-name">
+                    多多人儿
+                  </p>
+                  <p class="describe-header">
+                    在曼谷一定要去参拜的寺庙
+                  </p>
+                  <p class="describe-body">
+                    泰国被称为千佛之国，几乎每个村落都会有一两座寺庙，而在首都曼谷更是有着大大小小众多寺庙，有一些相当宏伟、壮观，有些则精致、具有特别的意义。
+                  </p>
+                </div>
+              </div>
+            </div>
 
-      function toScenic() {
-          window.location.href = './scenicdetail_scenic.php';
-      }
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="theme3">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="on-pic">
+                <img src="../images/scenic/scenicdetail_gailan/travel7.jpeg" alt="">
+                <div class="describe" onclick="tosociety_travel_detail()">
+                  <p class="describe-img">
+                    <img src="../images/society/society_travel/7.jpg">
+                  </p>
+                  <p class="describe-name">
+                    hihihigh起来
+                  </p>
+                  <p class="describe-header">
+                    清迈的购物清单
+                  </p>
+                  <p class="describe-body">
+                    去清迈两次，就说说我每次都会买的东西。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="on-pic">
+                <img src="../images/scenic/scenicdetail_gailan/travel8.jpeg" alt="">
+                <div class="describe" onclick="tosociety_travel_detail()">
+                  <p class="describe-img">
+                    <img src="../images/society/society_travel/3.jpg">
+                  </p>
+                  <p class="describe-name">
+                    社会我的幂姐呀。。
+                  </p>
+                  <p class="describe-header">
+                    最喜欢的清迈几个购物点
+                  </p>
+                  <p class="describe-body">
+                    非常赞的几个清迈夜市。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="on-pic">
+                <img src="../images/society/society_travel/t1.jpeg" alt="">
+                <div class="describe" onclick="tosociety_travel_detail()">
+                  <p class="describe-img">
+                    <img src="../images/touxiang.jpeg">
+                  </p>
+                  <p class="describe-name">
+                    wuli思密达达达达达
+                  </p>
+                  <p class="describe-header">
+                    FRIENDS六人行，泰美泰国！...
+                  </p>
+                  <p class="describe-body">
+                    提到泰国，大家都会想起什么？阳光、沙滩、大象、人妖……种种之类，泰国的标签实在是太多了！楼主作为一介名副其实的屌丝，第一次出国也是选择泰国作为目的地，不为别的，因为实在是又便宜又好！
+                  </p>
+                </div>
+              </div>
+            </div>
 
-      function toRelate() {
-          window.location.href = './scenicdetail_relate.php';
-      }
+          </div>
+        </div>
+        <div class="more">
+          <button type="button" class="btn btn-default" onclick="tosociety_travel() ">点击查看更多</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
 
-  </script>
+
+
+</div>
+<div class="gailan_discuss">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <div class="bigtitle">
+        热门评论
+      </div>
+      <div class="discuss">
+        <form>
+          <ul>
+            <li class="user">
+              <h3><img src="../images/touxiang.jpeg"></h3>
+              <div class="e_con">
+                <h4><a href="#">某某某</a></h4>
+                <span>Lv.15</span>
+                <em>2018-03-12 17:41:58</em>
+                <div class="clear"></div>
+                <p>:攻略还好哦</p>
+                <div class="clear"></div>
+                <div class="opatation">
+                  <a href="javascript:void(0);" class="reply_wall">回复</a>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </li>
+            <li class="user">
+              <h3><img src="../images/logo1.png"></a></h3>
+              <div class="e_con">
+                <h4><a href="#" target="_blank">abc</a></h4>
+                <span>Lv.1</span>
+                <em>2018-03-11 19:26:13</em>
+                <div class="clear"></div>
+                <p>攻略pdf下载的时候总是乱码</p>
+                <div class="clear"></div>
+                <div class="opatation">
+                  <a href="javascript:void(0);" class="reply_wall">回复</a>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </li>
+            <div class="clear"></div>
+          </ul>
+          <div class="discuss-text">
+            <textarea></textarea>
+            <a id="submit" href="#">提交</a>
+            <div class="clear"></div>
+          </div>
+          <!-- 发言-->
+
+          <nav aria-label="Page navigation" style="float:right; margin-top: 10px">
+            <ul class="pagination">
+              <li class="active"><a href="#aaa">1</a></li>
+              <li><a href="#aaa">2</a></li>
+              <li><a href="#aaa">3</a></li>
+              <li><a href="#aaa">4</a></li>
+              <li><a href="#aaa">5</a></li>
+            </ul>
+          </nav>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>
+<script>
+    function toscenicdetail_scenic() {
+        window.location.href = './scenicdetail_scenic.php';
+    }
+
+    function toRelate() {
+        window.location.href = './scenicdetail_relate.php';
+    }
+
+    function toMall_detail() {
+        window.location.href = './mall_detail.php';
+    }
+
+    function tosociety_travel_detail() {
+        window.location.href = './society_travel_detail.php';
+    }
+
+    function tosociety_travel() {
+        window.location.href = './society_travel.php';
+    }
+
+</script>
 </body>
 </html>

@@ -245,3 +245,269 @@
 .gailan_goods .row .col-md-10 .goods  .hot-sale-content .hot-sale-item .caption .price {
     color: #ff8a00;
 }
+
+.gailan_strategy .row {
+    padding: 30px 0px 50px 0px;
+}
+
+.gailan_strategy .row .col-md-10 .nav-tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.gailan_strategy .row .col-md-10  .nav-tabs li a {
+    border: none;
+    color: #929292;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.gailan_strategy .row .col-md-10 .nav-tabs li a:hover {
+    background: #fff;
+}
+
+.gailan_strategy .row .col-md-10 .nav-tabs li.active a {
+    color: #000;
+    border-bottom: 3px solid #ff9d00;
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 {
+    height: 400px;
+    padding: 50px 20px 0 20px;
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 .on-pic {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 .on-pic > img {
+    height: 60%;
+    width: 100%;
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 .on-pic .describe {
+    position: absolute;
+    height: 400px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 1);
+    top: 210px;
+    transition: top 0.5s;
+    right: 0;
+    left: 0;
+    border-top: 2px solid #ff9d00;
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 .on-pic:hover .describe {
+    top: 100px;
+    cursor: pointer;
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 .on-pic .describe .describe-img img{
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 70px;
+    height: 70px;
+    margin-left: 130px;
+    margin-top: -35px;
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 .on-pic .describe .describe-name{
+    line-height: 25px;
+    font-size: 12px;
+    padding-top: 10px;
+    color: #636363;
+    text-align: center;
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 .on-pic .describe .describe-header {
+    height: 50px;
+    line-height: 50px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 .on-pic .describe .describe-body {
+    line-height: 25px;
+    font-size: 12px;
+    padding-top: 10px;
+    color: #636363;
+}
+
+.gailan_strategy .row .col-md-10 .tab-content .col-md-4 .on-pic .describe .bottom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 26px;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    background: #fff;
+}
+
+.gailan_discuss .row {
+    background-color: #f1f1f1;
+    padding: 30px 0px 50px 0px;
+}
+
+
+.gailan_discuss .row .discuss {
+    margin-top: 40px;
+}
+
+.gailan_discuss .row .discuss .discuss-text{
+    padding-top:20px;
+}
+
+.gailan_discuss .row .discuss .discuss-text textarea {
+    border: 1px #D2D2D2 solid;
+    height: 72px;
+    width: 480px;
+    padding-left: 10px;
+    padding-top: 8px;
+    float: left;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 12px;
+    color: #878787;
+    border-radius: 5px;
+
+}
+
+.gailan_discuss .row .discuss .discuss-text #submit {
+    float: right;
+    height: 72px;
+    width: 70px;
+    background: #C6C6C6;
+    font-size: 20px;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.gailan_discuss .row .discuss .discuss-text #submit:hover{
+    background-color: #ff9d00;
+}
+
+.gailan_discuss .row .discuss .discuss-text .clear {
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.gailan_discuss .row .discuss ul .user {
+    border-bottom: 1px #DBDBDB solid;
+    width: 560px;
+    float: left;
+    padding-bottom: 10px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 12px;
+}
+
+.gailan_discuss .row .discuss ul .user:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.gailan_discuss .row .discuss ul .user h3 {
+    float: left;
+    height: 48px;
+    width: 48px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.gailan_discuss .row .discuss ul .user h3 img {
+    width: 100%;
+}
+
+.gailan_discuss .row .discuss ul .user .e_con {
+    width: 490px;
+    float: left;
+    margin-left: 15px;
+    display: inline;
+    position: relative;
+}
+
+.gailan_discuss .row .discuss ul .user .e_con h4 {
+    float: left;
+    font-weight: normal;
+    line-height: 14px;
+    margin-top: 15px;
+}
+
+.gailan_discuss .row .discuss ul .user .e_con h4 a {
+    color: #FEA901;
+}
+
+.gailan_discuss .row .discuss ul .user .e_con span {
+    float: left;
+    color: #CA2426;
+    margin-left: 6px;
+    line-height: 14px;
+    margin-top: 15px;
+}
+
+.gailan_discuss .row .discuss ul .user .e_con em {
+    float: left;
+    font-style: normal;
+    color: #9A9A9A;
+    margin-left: 20px;
+    line-height: 14px;
+    margin-top: 15px;
+}
+
+.gailan_discuss .row .discuss ul .user .e_con .clear {
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.gailan_discuss .row .discuss ul .user .e_con p {
+    width: 455px;
+    float: left;
+    color: #666;
+    line-height: 20px;
+    margin-top: 6px;
+}
+
+.gailan_discuss .row .discuss ul .user .e_con .opatation {
+    width: 102px;
+    position: absolute;
+    z-index: 20;
+    bottom: 2px;
+    right: 0px;
+}
+
+.gailan_discuss .row .discuss ul .user .e_con .opatation a {
+    float: right;
+    line-height: 14px;
+    color: #FEA901;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.gailan_discuss .row .discuss ul .user .e_con .opatation .clear{
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
