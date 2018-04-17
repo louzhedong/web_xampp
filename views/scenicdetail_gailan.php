@@ -12,7 +12,7 @@
 <body>
 <?php
 $tab = 'scenic';
-$mall_ta = 'gailan';
+$scenicdetail_tab= 'gailan';
 ?>
 <?php require 'top.php' ?>
 <?php require 'scenicdetail_top.php' ?>

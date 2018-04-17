@@ -1,0 +1,216 @@
+.row .col-md-3 .scenic_right {
+    margin: 30px 0 0px 10px;
+}
+
+.activity-header {
+    margin-bottom: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 3px solid #ff9d00;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+
+.row .col-md-3 .scenic_right .strategy-header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 3px solid #ff9d00;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.row .col-md-3 .scenic_right .relate-strategy img {
+    padding-top: 5px;
+    width: 100px;
+    height: 137px;
+    float: left;
+    padding-left: 2px;
+}
+
+.row .col-md-3 .scenic_right .relate-strategy-title {
+    padding: 5px 0px 20px 140px;
+    font-size: 18px;
+    color: #666;
+}
+
+.row .col-md-3 .scenic_right .relate-strategy-count {
+    color: #666;
+    font-size: 14px;
+    padding: 5px 0px 20px 140px;
+}
+
+
+.row .col-md-7 .scenic_left{
+    margin-top: 30px;
+}
+
+.row .col-md-7 .scenic_left .tab-pane{
+    border: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+.row .col-md-7 .scenic_left .tab-pane .line {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #dadada;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+.row .col-md-7 .scenic_left .tab-pane .line:last-child {
+    border-bottom: none;
+}
+
+.row .col-md-7 .scenic_left .tab-pane .line input {
+    margin-left: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.row .col-md-7 .scenic_left .item {
+    display: block;
+    padding: 20px 0;
+    color: #666;
+    overflow: hidden;
+}
+
+.row .col-md-7 .scenic_left .item:hover {
+    background: #f9f9f9;
+}
+
+.row .col-md-7 .scenic_left .item .image {
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.row .col-md-7 .scenic_left .item .image img {
+    width: 100%;
+}
+
+.row .col-md-7 .scenic_left .item .image .mark-type {
+    background-color: #12bcc4;
+    color: #12bcc4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.row .col-md-7 .scenic_left .item .image .mark-type strong {
+    float: left;
+    padding: 0 10px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.row .col-md-7 .scenic_left .item .image .mark-type span {
+    float: left;
+    padding: 0 8px;
+    background-color: #fff;
+}
+
+.row .col-md-7 .scenic_left .item .detail {
+    float: right;
+    width: 530px;
+}
+
+.row .col-md-7 .scenic_left .item .detail info {
+    height: 120px;
+    overflow: hidden;
+}
+
+.row .col-md-7 .scenic_left .item .detail p {
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.row .col-md-7 .scenic_left .item .detail p .t {
+    margin-right: 20px;
+}
+
+.row .col-md-7 .scenic_left .item .detail .info h3 {
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    line-height: 24px;
+    max-height: 48px;
+    overflow: hidden;
+}
+
+.row .col-md-7 .scenic_left .item .s-tag {
+    margin-bottom: 5px;
+}
+
+.row .col-md-7 .scenic_left .item .s-tag span {
+    display: inline-block;
+    border: 1px solid;
+    color: #3aaeff;
+    line-height: 14px;
+    padding: 0 3px;
+    font-size: 12px;
+}
+
+.row .col-md-7 .scenic_left .item .extra {
+    height: 30px;
+    line-height: 30px;
+}
+
+.row .col-md-7 .scenic_left .item .extra .action {
+    float: right;
+    width: 100px;
+    height: 30px;
+    position: relative;
+}
+
+.row .col-md-7 .scenic_left .item .extra .action .btn {
+    display: inline-block;
+    width: 98px;
+    height: 28px;
+    border: 1px solid #ff9d00;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 2px;
+    color: #ff9d00;
+    line-height: 28px;
+    padding: 0;
+}
+
+.row .col-md-7 .scenic_left .item:hover .extra .action .btn {
+    background: #ff9d00;
+    color: #fff;
+}
+
+.row .col-md-7 .scenic_left .item .extra .action .promo-tag {
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+}
+
+.row .col-md-7 .scenic_left .item .extra .price {
+    margin-right: 5px;
+    color: #ff9d00;
+    font-size: 14px;
+}
+
+.row .col-md-7 .scenic_left .item .extra .price b {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.row .col-md-7 .scenic_left .item .extra .price strong {
+    font-size: 28px;
+    font-weight: bold;
+}

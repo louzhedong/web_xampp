@@ -11,7 +11,7 @@
 <body>
 <?php
 $tab = 'scenic';
-$mall_tab = 'guide';
+$scenicdetail_tab = 'guide';
 ?>
 <?php require 'top.php' ?>
 <?php require 'scenicdetail_top.php' ?>
