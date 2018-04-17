@@ -232,11 +232,13 @@ $tab = 'travel'
     </section>
     <nav aria-label="Page navigation" style="text-align: center;margin-top: 10px">
       <ul class="pagination" id="turn_page">
+        <li><a href="#aaa">«</a></li>
         <li class="active"><a href="#aaa">1</a></li>
         <li><a href="#aaa">2</a></li>
         <li><a href="#aaa">3</a></li>
         <li><a href="#aaa">4</a></li>
         <li><a href="#aaa">5</a></li>
+        <li><a href="#" >»</a></li>
       </ul>
     </nav>
     <script src="../js/society_travel/jquery-1.11.0.min.js"></script>

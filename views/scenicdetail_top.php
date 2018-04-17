@@ -25,13 +25,13 @@
       <div class="col-md-10">
         <div class="mall-nav">
           <div class="mall-tab <?php if ($mall_tab == 'gailan') {echo 'active';}?>"
-               onclick="<?php if ($mall_tab!= 'gailan') echo "toGailan()" ?>">概览</div>
+               onclick="<?php if ($mall_tab!= 'gailan') echo "toscenicdetail_gailan()" ?>">概览</div>
           <div class="mall-tab <?php if ($mall_tab == 'guide') {echo 'active';}?>"
-               onclick="<?php if ($mall_tab != 'guide') echo "toGuide()" ?>">目的地指南</div>
+               onclick="<?php if ($mall_tab != 'guide') echo "toscenicdetail_guide()" ?>">目的地指南</div>
           <div class="mall-tab <?php if ($mall_tab == 'hot_scenic') {echo 'active';}?>"
-               onclick="<?php if ($mall_tab != 'hot_scenic') echo "toScenic()" ?>">热门景点</div>
+               onclick="<?php if ($mall_tab != 'hot_scenic') echo "toscenicdetail_scenic()" ?>">热门景点</div>
           <div class="mall-tab <?php if ($mall_tab == 'relate') {echo 'active';}?>"
-               onclick="<?php if ($mall_tab != 'relate') echo "toRelate()" ?>">相关驴友记</div>
+               onclick="<?php if ($mall_tab != 'relate') echo "toscenicdetail_relate()" ?>">相关驴友记</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -40,19 +40,19 @@
 </div>
 
 <script>
-  function toGailan() {
+  function toscenicdetail_gailan() {
     window.location.href = './scenicdetail_gailan.php';
   }
 
-  function toGuide() {
+  function toscenicdetail_guide() {
     window.location.href = './scenicdetail_guide.php';
   }
 
-  function toScenic() {
+  function toscenicdetail_scenic() {
     window.location.href = './scenicdetail_scenic.php';
   }
 
-  function toRelate() {
+  function toscenicdetail_relate() {
     window.location.href = './scenicdetail_relate.php';
   }
 

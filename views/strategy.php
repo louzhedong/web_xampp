@@ -475,11 +475,13 @@ $tab = 'strategy'
           </div>
           <nav aria-label="Page navigation" style="float:right; margin-top: 10px">
             <ul class="pagination" id="turn_page">
+              <li><a href="#aaa">«</a></li>
               <li class="active"><a href="#aaa">1</a></li>
               <li><a href="#aaa">2</a></li>
               <li><a href="#aaa">3</a></li>
               <li><a href="#aaa">4</a></li>
               <li><a href="#aaa">5</a></li>
+              <li><a href="#" >»</a></li>
             </ul>
           </nav>
         </div>

@@ -367,9 +367,9 @@
 .gailan_discuss .row .discuss .discuss-text textarea {
     border: 1px #D2D2D2 solid;
     height: 72px;
-    width: 480px;
+    width: 600px;
     padding-left: 10px;
-    padding-top: 8px;
+    margin-top: 35px;
     float: left;
     resize: none;
     overflow-x: hidden;
@@ -390,6 +390,7 @@
     line-height: 70px;
     text-align: center;
     border-radius: 5px;
+    margin-top: 35px;
 }
 
 .gailan_discuss .row .discuss .discuss-text #submit:hover{
@@ -407,7 +408,7 @@
 
 .gailan_discuss .row .discuss ul .user {
     border-bottom: 1px #DBDBDB solid;
-    width: 560px;
+    width: 100%;
     float: left;
     padding-bottom: 10px;
     display: list-item;
@@ -434,7 +435,7 @@
 }
 
 .gailan_discuss .row .discuss ul .user .e_con {
-    width: 490px;
+    width: 590px;
     float: left;
     margin-left: 15px;
     display: inline;
@@ -496,10 +497,10 @@
 
 .gailan_discuss .row .discuss ul .user .e_con .opatation a {
     float: right;
-    line-height: 14px;
+    line-height: 66px;
     color: #FEA901;
-    margin-left: 10px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 
@@ -510,4 +511,24 @@
     font-size: 0;
     line-height: 0;
     overflow: hidden;
+}
+
+#turn_page{
+    margin-right: 215px;
+}
+
+#turn_page li a{
+    color: #ff9d00;
+}
+
+#turn_page li a:hover {
+    background-color: #ff9d00;
+    border-color: #ff9d00;
+    color:#fff;
+}
+
+#turn_page li.active a {
+    background-color: #ff9d00;
+    border-color: #ff9d00;
+    color: #FFF;
 }

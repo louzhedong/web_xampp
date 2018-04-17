@@ -206,7 +206,7 @@ a.count-info:link, a.count-info:visited, a.count-info:active {
 
 .pagination > .active > a,
 .pagination > .active > span {
-    background-color: #61B3E6;
+    background-color: #ff9d00;
     color: #fff;
 }
 

@@ -95,13 +95,13 @@ $tab = 'travel';
             <img class="img-circle media-object" src="../images/society/society_travel/7.jpg" ></a>
           <div class="media-body">
             <h5 class="media-heading"><a href="#">中国有哪些人少但值得一去的古镇？</a></h5>
-            <div class="small gray"><a class="badge fr count-info" href="#">4</a><a class="btn btn-xs node small" href="#">热门问题</a> • <strong><i class="fa fa-user"></i><a href="#">杨林</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>1个月前</div>
+            <div class="small gray"><a class="badge fr count-info" href="#">4</a><a class="btn btn-xs node small" href="#">热门问题</a> • <strong><i class="fa fa-user"></i><a href="#">杨林</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>7天前</div>
           </div>
         </li>
         <li class="list-group-item media"><a class="media-left item-avatar" href="#">
             <img class="img-circle media-object" src="../images/society/society_travel/8.jpg" alt="悠悠"></a><div class="media-body">
             <h5 class="media-heading"><a href="#">旅行小白怎么识别旅游景点常见的坑人伎俩？</a></h5>
-            <div class="small gray"><a class="badge fr count-info" href="#">32</a><a class="btn btn-xs node small" href="#">热门问题</a> • <strong><i class="fa fa-user"></i><a href="#">悠悠</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>1个月前</div>
+            <div class="small gray"><a class="badge fr count-info" href="#">32</a><a class="btn btn-xs node small" href="#">热门问题</a> • <strong><i class="fa fa-user"></i><a href="#">悠悠</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>1天前</div>
           </div>
         </li>
         <li class="list-group-item media"><a class="media-left item-avatar" href="#">
@@ -125,25 +125,25 @@ $tab = 'travel';
         <li class="list-group-item media"><a class="media-left item-avatar" href="#">
             <img class="img-circle media-object" src="../images/society/society_travel/12.jpg" alt="陈会婷"></a><div class="media-body">
             <h5 class="media-heading"><a href="#">一个吃货的旅行，是怎样的？</a></h5>
-            <div class="small gray"><a class="badge fr count-info" href="#">6</a><a class="btn btn-xs node small" href="#">热门问题</a> • <strong><i class="fa fa-user"></i><a href="#">陈会婷</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>2个月前</div>
+            <div class="small gray"><a class="badge fr count-info" href="#">6</a><a class="btn btn-xs node small" href="#">热门问题</a> • <strong><i class="fa fa-user"></i><a href="#">陈会婷</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>1个月前</div>
           </div>
         </li>
         <li class="list-group-item media"><a class="media-left item-avatar" href="#">
             <img class="img-circle media-object" src="../images/society/society_travel/13.jpg" alt="杨淼"></a><div class="media-body">
             <h5 class="media-heading"><a href="#">去曼谷能吃到哪些经典的泰国美食？</a></h5>
-            <div class="small gray"><a class="btn btn-xs node small" href="#">最新问题</a> • <strong><i class="fa fa-user"></i><a href="#">杨淼</a> <span class="user-level user-level-2">V2</span></strong> • <i class="fa fa-clock-o"></i>2个月前</div>
+            <div class="small gray"><a class="btn btn-xs node small" href="#">最新问题</a> • <strong><i class="fa fa-user"></i><a href="#">杨淼</a> <span class="user-level user-level-2">V2</span></strong> • <i class="fa fa-clock-o"></i>4个月前</div>
           </div>
         </li>
         <li class="list-group-item media"><a class="media-left item-avatar" href="#">
             <img class="img-circle media-object" src="../images/society/society_travel/14.jpg" alt="李丁鑫"></a><div class="media-body">
             <h5 class="media-heading"><a href="#">你在旅途中，做过最疯狂最刺激的事是什么？</a></h5>
-            <div class="small gray"><a class="badge fr count-info" href="#">9</a><a class="btn btn-xs node small" href="#">热门问题</a> • <strong><i class="fa fa-user"></i><a href="#">李丁鑫</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>2个月前</div>
+            <div class="small gray"><a class="badge fr count-info" href="#">9</a><a class="btn btn-xs node small" href="#">热门问题</a> • <strong><i class="fa fa-user"></i><a href="#">李丁鑫</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>3个月前</div>
           </div>
         </li>
         <li class="list-group-item media"><a class="media-left item-avatar" href="#">
             <img class="img-circle media-object" src="../images/society/society_travel/15.jpg" alt="朱旭冉"></a><div class="media-body">
             <h5 class="media-heading"><a href="#">如何回应“去日本旅游的人都是卖国贼”的言论？</a></h5>
-            <div class="small gray"><a class="badge fr count-info" href="#">2</a><a class="btn btn-xs node small" href="#">待回答问题</a> • <strong><i class="fa fa-user"></i><a href="#">朱旭冉</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>2个月前</div>
+            <div class="small gray"><a class="badge fr count-info" href="#">2</a><a class="btn btn-xs node small" href="#">待回答问题</a> • <strong><i class="fa fa-user"></i><a href="#">朱旭冉</a> <span class="user-level user-level-1">V1</span></strong> • <i class="fa fa-clock-o"></i>1个月前</div>
           </div>
         </li>
 
@@ -184,9 +184,6 @@ $tab = 'travel';
         </li>
         <li class="list-group-item"><a href="#"><i class="fa fa-pencil"></i>发表新主题</a> <a href="#"><i class="fa fa-envelope"></i>发送私信</a></li>
         <li class="list-group-item">
-          <span class="fr">
-            <a class="btn btn-xs node" href="#">21<i class="fa fa-trophy silver" aria-hidden="true"></i>88<i class="fa fa-trophy copper" aria-hidden="true"></i></a>
-          </span>
           <a href="#"><i class="fa fa-bell-o"></i>0 条提醒</a>
         </li>
       </ul>
@@ -199,8 +196,7 @@ $tab = 'travel';
         <div class="panel-body">
           <span class="si-label">注册会员:</span><span class="si-info">6624</span>
           <span class="si-label">板块:</span><span class="si-info">4</span>
-          <span class="si-label">主题:</span><span class="si-info">123</span>
-          <span class="si-label">回复:</span><span class="si-info">761</span>
+          <span class="si-label">问题:</span><span class="si-info">761</span>
         </div>
       </div>
     </div>

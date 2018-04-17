@@ -189,8 +189,8 @@ $mall_ta = 'gailan';
       </div>
       <div class="goods">
         <ul class="hot-sale-content" style="overflow:hidden">
-          <li class="hot-sale-item">
-            <div class="image">
+          <li class="hot-sale-item" onclick="tomall_detail()">
+            <div class="image" >
               <img src="../images/mall/dangdi/hot_sale/1.jpeg" alt="">
               <div class="mark-tag">
                 多日游
@@ -202,7 +202,7 @@ $mall_ta = 'gailan';
               <span class="price"><b>￥800</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item">
+          <li class="hot-sale-item" onclick="tomall_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/2.gif" alt="">
               <div class="mark-tag">
@@ -215,7 +215,7 @@ $mall_ta = 'gailan';
               <span class="price"><b>￥398</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item">
+          <li class="hot-sale-item" onclick="tomall_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/3.jpeg" alt="">
               <div class="mark-tag">
@@ -228,7 +228,7 @@ $mall_ta = 'gailan';
               <span class="price"><b>￥660</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item">
+          <li class="hot-sale-item"  onclick="tomall_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/4.gif" alt="">
               <div class="mark-tag">
@@ -241,7 +241,7 @@ $mall_ta = 'gailan';
               <span class="price"><b>￥369</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item">
+          <li class="hot-sale-item" onclick="tomall_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/5.jpeg" alt="">
               <div class="mark-tag">
@@ -254,7 +254,7 @@ $mall_ta = 'gailan';
               <span class="price"><b>￥3980</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item">
+          <li class="hot-sale-item" onclick="tomall_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/6.jpeg" alt="">
               <div class="mark-tag">
@@ -267,7 +267,7 @@ $mall_ta = 'gailan';
               <span class="price"><b>￥208</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item">
+          <li class="hot-sale-item"  onclick="tomall_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/7.jpeg" alt="">
               <div class="mark-tag">
@@ -280,7 +280,7 @@ $mall_ta = 'gailan';
               <span class="price"><b>￥278</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item">
+          <li class="hot-sale-item" onclick="tomall_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/8.jpeg" alt="">
               <div class="mark-tag">
@@ -316,7 +316,7 @@ $mall_ta = 'gailan';
         <li role="presentation"><a aria-controls="theme3" href="#theme3" role="tab" data-toggle="tab">永远不会腻的买买买</a></li>
       </ul>
       <div class="tab-content">
-        <div role="tabpanel" class="tab-pane" id="theme1">
+        <div role="tabpanel" class="tab-pane active" id="theme1">
           <div class="row">
             <div class="col-md-4">
               <div class="on-pic">
@@ -525,16 +525,61 @@ $mall_ta = 'gailan';
         <form>
           <ul>
             <li class="user">
-              <h3><img src="../images/touxiang.jpeg"></h3>
+              <h3><img src="../images/society/society_travel/2.jpg"></h3>
               <div class="e_con">
-                <h4><a href="#">某某某</a></h4>
+                <h4><a href="#">种子</a></h4>
                 <span>Lv.15</span>
                 <em>2018-03-12 17:41:58</em>
                 <div class="clear"></div>
-                <p>:攻略还好哦</p>
+                <p>好想去泰国呀呀呀，想玩想玩，很吸引我</p>
                 <div class="clear"></div>
                 <div class="opatation">
-                  <a href="javascript:void(0);" class="reply_wall">回复</a>
+                  <a href="javascript:void(0);" class="reply_wall">1楼</a>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </li>
+            <li class="user">
+              <h3><img src="../images/touxiang.jpeg"></h3>
+              <div class="e_con">
+                <h4><a href="#">娜娜~~~</a></h4>
+                <span>Lv.1</span>
+                <em>2018-03-17 09:41:18</em>
+                <div class="clear"></div>
+                <p>还没有出过国，特别想去泰国玩，非常漂亮</p>
+                <div class="clear"></div>
+                <div class="opatation">
+                  <a href="javascript:void(0);" class="reply_wall">2楼</a>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </li>
+            <li class="user">
+              <h3><img src="../images/society/society_travel/4.jpg"></h3>
+              <div class="e_con">
+                <h4><a href="#">飞飞飞，飞起来</a></h4>
+                <span>Lv.2</span>
+                <em>2018-03-19 11:40:00</em>
+                <div class="clear"></div>
+                <p>表示怎么你那个签证啊，不知道诶，指教一下大神</p>
+                <div class="clear"></div>
+                <div class="opatation">
+                  <a href="javascript:void(0);" class="reply_wall">3楼</a>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </li>
+            <li class="user">
+              <h3><img src="../images/touxiang.jpeg"></h3>
+              <div class="e_con">
+                <h4><a href="#">传说中的某某某</a></h4>
+                <span>Lv.10</span>
+                <em>2018-04-06 21:27:43</em>
+                <div class="clear"></div>
+                <p>攻略还不错哒，哈哈哈</p>
+                <div class="clear"></div>
+                <div class="opatation">
+                  <a href="javascript:void(0);" class="reply_wall">4楼</a>
                   <div class="clear"></div>
                 </div>
               </div>
@@ -542,14 +587,14 @@ $mall_ta = 'gailan';
             <li class="user">
               <h3><img src="../images/logo1.png"></a></h3>
               <div class="e_con">
-                <h4><a href="#" target="_blank">abc</a></h4>
-                <span>Lv.1</span>
-                <em>2018-03-11 19:26:13</em>
+                <h4><a href="#" target="_blank">ajdfbc</a></h4>
+                <span>Lv.8</span>
+                <em>2018-04-16 13:08:09</em>
                 <div class="clear"></div>
-                <p>攻略pdf下载的时候总是乱码</p>
+                <p>泰国那个海边很好玩值得一去</p>
                 <div class="clear"></div>
                 <div class="opatation">
-                  <a href="javascript:void(0);" class="reply_wall">回复</a>
+                  <a href="javascript:void(0);" class="reply_wall">5楼</a>
                   <div class="clear"></div>
                 </div>
               </div>
@@ -564,12 +609,14 @@ $mall_ta = 'gailan';
           <!-- 发言-->
 
           <nav aria-label="Page navigation" style="float:right; margin-top: 10px">
-            <ul class="pagination">
+            <ul class="pagination" id="turn_page">
+              <li><a href="#aaa">«</a></li>
               <li class="active"><a href="#aaa">1</a></li>
               <li><a href="#aaa">2</a></li>
               <li><a href="#aaa">3</a></li>
               <li><a href="#aaa">4</a></li>
               <li><a href="#aaa">5</a></li>
+              <li><a href="#" >»</a></li>
             </ul>
           </nav>
         </form>
@@ -583,11 +630,8 @@ $mall_ta = 'gailan';
         window.location.href = './scenicdetail_scenic.php';
     }
 
-    function toRelate() {
-        window.location.href = './scenicdetail_relate.php';
-    }
 
-    function toMall_detail() {
+    function tomall_detail() {
         window.location.href = './mall_detail.php';
     }
 
