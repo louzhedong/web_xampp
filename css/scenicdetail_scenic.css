@@ -74,9 +74,11 @@
 
 .row .col-md-7 .scenic_left .item {
     display: block;
-    padding: 20px 0;
+    margin: 30px 0 0px 0;
     color: #666;
     overflow: hidden;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #6363;
 }
 
 .row .col-md-7 .scenic_left .item:hover {
@@ -97,47 +99,28 @@
     width: 100%;
 }
 
-.row .col-md-7 .scenic_left .item .image .mark-type {
-    background-color: #12bcc4;
-    color: #12bcc4;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 1px;
-    line-height: 18px;
-    font-size: 12px;
-}
 
-.row .col-md-7 .scenic_left .item .image .mark-type strong {
-    float: left;
-    padding: 0 10px;
-    color: #fff;
-    font-weight: normal;
-}
-
-.row .col-md-7 .scenic_left .item .image .mark-type span {
-    float: left;
-    padding: 0 8px;
-    background-color: #fff;
-}
 
 .row .col-md-7 .scenic_left .item .detail {
     float: right;
-    width: 530px;
+    width: 580px;
 }
 
-.row .col-md-7 .scenic_left .item .detail info {
-    height: 120px;
+.row .col-md-7 .scenic_left .item .detail .info {
+    height: 150px;
     overflow: hidden;
 }
 
 .row .col-md-7 .scenic_left .item .detail p {
     line-height: 20px;
     font-size: 13px;
+    margin-bottom: 38px;
+    width: 484px;
 }
 
 .row .col-md-7 .scenic_left .item .detail p .t {
     margin-right: 20px;
+
 }
 
 .row .col-md-7 .scenic_left .item .detail .info h3 {
@@ -150,23 +133,8 @@
     overflow: hidden;
 }
 
-.row .col-md-7 .scenic_left .item .s-tag {
-    margin-bottom: 5px;
-}
 
-.row .col-md-7 .scenic_left .item .s-tag span {
-    display: inline-block;
-    border: 1px solid;
-    color: #3aaeff;
-    line-height: 14px;
-    padding: 0 3px;
-    font-size: 12px;
-}
 
-.row .col-md-7 .scenic_left .item .extra {
-    height: 30px;
-    line-height: 30px;
-}
 
 .row .col-md-7 .scenic_left .item .extra .action {
     float: right;
@@ -177,15 +145,15 @@
 
 .row .col-md-7 .scenic_left .item .extra .action .btn {
     display: inline-block;
-    width: 98px;
-    height: 28px;
-    border: 1px solid #ff9d00;
+    width: 120px;
+    height: 95px;
+    border: 0px solid #ff9d00;
     text-align: center;
-    font-size: 16px;
+    font-size: 38px;
     border-radius: 2px;
     color: #ff9d00;
-    line-height: 28px;
-    padding: 0;
+    line-height: 20px;
+    padding: 29px 20px 0px 0px;
 }
 
 .row .col-md-7 .scenic_left .item:hover .extra .action .btn {
@@ -199,18 +167,22 @@
     bottom: 35px;
 }
 
-.row .col-md-7 .scenic_left .item .extra .price {
-    margin-right: 5px;
+#turn_page{
+    margin-right: 215px;
+}
+
+#turn_page li a{
     color: #ff9d00;
-    font-size: 14px;
 }
 
-.row .col-md-7 .scenic_left .item .extra .price b {
-    font-size: 18px;
-    font-weight: bold;
+#turn_page li a:hover {
+    background-color: #ff9d00;
+    border-color: #ff9d00;
+    color:#fff;
 }
 
-.row .col-md-7 .scenic_left .item .extra .price strong {
-    font-size: 28px;
-    font-weight: bold;
+#turn_page li.active a {
+    background-color: #ff9d00;
+    border-color: #ff9d00;
+    color: #FFF;
 }

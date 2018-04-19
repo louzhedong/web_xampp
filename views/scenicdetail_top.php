@@ -30,8 +30,6 @@
                onclick="<?php if ($scenicdetail_tab != 'guide') echo "toscenicdetail_guide()" ?>">目的地指南</div>
           <div class="mall-tab <?php if ($scenicdetail_tab == 'hot_scenic') {echo 'active';}?>"
                onclick="<?php if ($scenicdetail_tab != 'hot_scenic') echo "toscenicdetail_scenic()" ?>">观光指南</div>
-          <div class="mall-tab <?php if ($scenicdetail_tab == 'relate') {echo 'active';}?>"
-               onclick="<?php if ($scenicdetail_tab != 'relate') echo "toscenicdetail_relate()" ?>">相关驴友记</div>
         </div>
       </div>
       <div class="col-md-1"></div>

@@ -1,5 +1,7 @@
 <head>
   <link rel="stylesheet" href="../css/top.css">
+  <script src="../js/top/jquery.min.js"></script>
+  <script src="../js/top/sucaijiayuan.js"></script>
 </head>
 <body>
 <div class="header">
@@ -107,6 +109,7 @@
 <!---->
 <!--  </div>-->
 <!--</div>-->
+<a href="#0" class="cd-top">Top</a>
 </body>
 
 <script>
@@ -175,6 +178,10 @@
 
   function toCruise() {
     window.location.href = './cruise.php';
+  }
+
+  function toHotel() {
+      window.location.href = './hotel.php';
   }
 
   function toTravel() {
