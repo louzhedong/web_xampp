@@ -1,6 +1,5 @@
 <head>
   <link rel="stylesheet" href="../css/top.css">
-  <script src="../js/top/jquery.min.js"></script>
   <script src="../js/top/sucaijiayuan.js"></script>
 </head>
 <body>
