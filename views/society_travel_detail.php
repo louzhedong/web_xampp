@@ -1165,7 +1165,7 @@ $tab = 'travel';
   </section> <!-- cd-faq -->
   <script src="../js/society_travel_detail/jquery-2.1.1.js"></script>
   <script src="../js/society_travel_detail/jquery.mobile.custom.min.js"></script>
-  <script src="../js/society_travel_detail/main.js"></script> <!--
+  <script src="../js/society_travel_detail/main.js"></script>
 </div>
 </body>
 </html>
