@@ -20,7 +20,7 @@ $tab = 'strategy'
     <div class="col-md-8">
       <div class="row">
         <div class="col-md-3">
-          <img src="../images/strategydetail/beijing/beijing.jpg">
+          <img src="../images/strategy/book/beijing.jpg">
         </div>
         <div class="col-md-6">
           <div class="strategy-book-header">
@@ -29,7 +29,7 @@ $tab = 'strategy'
           <div class="strategy-book-content">
             在每个人心中，都一个人属于自己的北京。北京是一座包容万象、海纳百川的城市。三千年的历史，六朝故都，这里荟萃了自元明清以来的中华文化，荟萃了众多名胜古迹和人文景观。如果想准确的描绘出北京的模样，无异于痴人说梦，北京在红宫墙外的宁静小路上，在胡同儿的转弯拐角儿，在国贸的匆匆路旁，也在未名湖边的石砖小径。只有用心去感受，去聆听，才能听到北京的内心独白。在我的心里，北京表面上它是现代大都会，但是内心却有抹不去的古朴和怀旧。闲庭信步在逐渐少去的胡同里，走进那热气腾腾的涮肉店，那才是真正的北京。
             <br><br><br>
-            预览
+
           </div>
         </div>
         <div class="col-md-3">

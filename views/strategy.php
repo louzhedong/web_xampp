@@ -7,7 +7,7 @@
 <head>
   <title>攻略汇</title>
   <link rel="stylesheet" href="../css/strategy.css">
-    <?php require 'link.php' ?>
+  <?php require 'link.php' ?>
 </head>
 <body>
 <?php
@@ -358,47 +358,44 @@ $tab = 'strategy'
             编辑推荐
           </div>
           <div class="my-strategy-body">
-            <img src="../images/strategy/book/japan.jpeg" alt="" onclick="toStrategyDetail()">
+            <img style="width: 130px;height: 185px;margin-left: 40px" src="../images/strategy/book/beijing.jpg" alt=""
+                 onclick="toStrategyDetail()">
             <div class="my-strategy-rank">
               <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
                 <span class="index">2</span>
-                <span class="name">东京</span>
+                <span class="name">三亚</span>
               </div>
               <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
                 <span class="index">3</span>
-                <span class="name">大阪</span>
-              </div>
-              <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
-                <span class="index">3</span>
-                <span class="name">大阪</span>
+                <span class="name">普吉岛</span>
               </div>
               <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
                 <span class="index">4</span>
-                <span class="name">大阪</span>
+                <span class="name">巴厘岛</span>
               </div>
               <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
                 <span class="index">5</span>
-                <span class="name">大阪</span>
+                <span class="name">新加坡</span>
               </div>
               <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
                 <span class="index">6</span>
-                <span class="name">大阪</span>
+                <span class="name">法国巴黎</span>
               </div>
               <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
                 <span class="index">7</span>
-                <span class="name">大阪</span>
+                <span class="name">圣托里尼岛</span>
               </div>
               <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
                 <span class="index">8</span>
-                <span class="name">大阪</span>
+                <span class="name">马来西亚</span>
               </div>
               <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
                 <span class="index">9</span>
-                <span class="name">大阪</span>
+                <span class="name">伦敦</span>
               </div>
               <div class="my-strategy-rank-item" onclick="toStrategyDetail()">
                 <span class="index">10</span>
-                <span class="name">大阪</span>
+                <span class="name">华盛顿</span>
               </div>
             </div>
           </div>
@@ -412,64 +409,64 @@ $tab = 'strategy'
           <div class="total-strategy-body">
             <div class="total-strategy-content active content-1" id="content1">
               <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
+                <img src="../images/strategy/book/sanya.jpg" alt="">
+                <div class="city">中国</div>
+                <div class="country">三亚</div>
+              </div>
+              <div class="total-strategy-item">
+                <img src="../images/strategy/book/taiguo.jpg" alt="">
+                <div class="city">泰国</div>
+                <div class="country">泰国</div>
+              </div>
+              <div class="total-strategy-item">
+                <img src="../images/strategy/book/puluowangsi.jpg" alt="">
+                <div class="city">法国</div>
+                <div class="country">普罗旺斯</div>
+              </div>
+              <div class="total-strategy-item">
+                <img src="../images/strategy/book/shengtuolini.jpg" alt="">
+                <div class="city">希腊</div>
+                <div class="country">圣托里尼</div>
+              </div>
+              <div class="total-strategy-item">
+                <img src="../images/strategy/book/balidao.jpg" alt="">
+                <div class="city">印度尼西亚</div>
+                <div class="country">巴厘岛</div>
+              </div>
+              <div class="total-strategy-item">
+                <img src="../images/strategy/book/xixilidao.jpg" alt="">
+                <div class="city">意大利</div>
+                <div class="country">西西里岛</div>
+              </div>
+              <div class="total-strategy-item">
+                <img src="../images/strategy/book/riben.jpg" alt="">
+                <div class="city">日本</div>
                 <div class="country">日本</div>
               </div>
               <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
+                <img src="../images/strategy/book/beijing.jpg" alt="">
+                <div class="city">中国</div>
+                <div class="country">北京</div>
               </div>
               <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
+                <img src="../images/strategy/book/taiguo.jpg" alt="">
+                <div class="city">泰国</div>
+                <div class="country">泰国</div>
               </div>
               <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
+                <img src="../images/strategy/book/shengtuolini.jpg" alt="">
+                <div class="city">希腊</div>
+                <div class="country">圣托里尼</div>
               </div>
               <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
+                <img src="../images/strategy/book/balidao.jpg" alt="">
+                <div class="city">印度尼西亚</div>
+                <div class="country">巴厘岛</div>
               </div>
               <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
-              </div>
-              <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
-              </div>
-              <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
-              </div>
-              <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
-              </div>
-              <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
-              </div>
-              <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
-              </div>
-              <div class="total-strategy-item">
-                <img src="../images/strategy/book/japan.jpeg" alt="">
-                <div class="city">大阪</div>
-                <div class="country">日本</div>
+                <img src="../images/strategy/book/sanya.jpg" alt="">
+                <div class="city">中国</div>
+                <div class="country">三亚</div>
               </div>
             </div>
           </div>
@@ -481,7 +478,7 @@ $tab = 'strategy'
               <li><a href="#aaa">3</a></li>
               <li><a href="#aaa">4</a></li>
               <li><a href="#aaa">5</a></li>
-              <li><a href="#" >»</a></li>
+              <li><a href="#">»</a></li>
             </ul>
           </nav>
         </div>
@@ -496,21 +493,22 @@ $tab = 'strategy'
 </html>
 
 <script>
-  (function () {
-    var pagination = document.getElementsByClassName('pagination')[0];
-    var liList = pagination.children;
-    for (var i = 0, length = liList.length; i < length; i++) {
-      liList[i].addEventListener('click', function (event) {
-        console.log(event.currentTarget)
-        var currentTarget = event.currentTarget;
-        if (!currentTarget.classList.contains('active')) {
-          $(currentTarget).addClass('active');
-          $(currentTarget).siblings().removeClass('active');
+    (function () {
+        var pagination = document.getElementsByClassName('pagination')[0];
+        var liList = pagination.children;
+        for (var i = 0, length = liList.length; i < length; i++) {
+            liList[i].addEventListener('click', function (event) {
+                console.log(event.currentTarget)
+                var currentTarget = event.currentTarget;
+                if (!currentTarget.classList.contains('active')) {
+                    $(currentTarget).addClass('active');
+                    $(currentTarget).siblings().removeClass('active');
+                }
+            })
         }
-      })
+    })();
+
+    function toStrategyDetail() {
+        window.location.href = "./strategydetail.php";
     }
-  })();
-  function toStrategyDetail() {
-    window.location.href = "./strategydetail.php";
-  }
 </script>
