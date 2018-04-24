@@ -55,7 +55,7 @@ $tab = 'strategy'
       <div class="left">
         <div class="related-header">
           相关游记
-          <span class="right">
+          <span class="right" onclick="tosociety_travel()">
             更多游记<span class="glyphicon glyphicon-send"></span>
           </span>
         </div>
@@ -339,6 +339,10 @@ $tab = 'strategy'
 </html>
 
 <script>
+    function tosociety_travel() {
+        window.location.href = './society_travel.php';
+    }
+
   (function () {
     var pagination = document.getElementsByClassName('pagination')[0];
     var liList = pagination.children;

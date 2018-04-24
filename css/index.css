@@ -186,10 +186,6 @@
   padding-top: 20px;
 }
 
-.index-body .row .col-md-2 .activity .activity-item .activity-describe .activity-describe-header {
-  margin-bottom:20px;
-  font-size:16px;
-}
 
 .index-body .row .col-md-2 .activity .activity-item .activity-describe .activity-describe-body {
   font-size: 14px;
@@ -368,4 +364,28 @@
   position: absolute;
   right: 0;
   bottom: 35px;
+}
+
+.righter {
+  float: right;
+  cursor: pointer;
+  font-size: 13px;
+  color: #007ed9;
+}
+
+.notice-list li {
+  padding-left: 12px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.gray-point {
+  height: 3px;
+  width: 3px;
+  font-size: 0;
+  position: relative;
+  left: -14px;
+  top: -2px;
+  background-color: #ccc;
+  display: inline-block;
 }

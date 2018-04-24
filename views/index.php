@@ -84,6 +84,9 @@ $tab = 'index'
         <div class="flash-sell-header">
           <span class="left">每日特卖</span>
           <span class="right">每天给您最优惠的团购路线</span>
+          <span class="righter" onclick="tomall()">
+            更多<span class="glyphicon glyphicon-send"></span>
+          </span>
         </div>
         <div class="flash-sell-content">
           <div class="flash-sell-item">
@@ -129,6 +132,9 @@ $tab = 'index'
         <div class="flash-sell-header">
           <span class="left">精品特选</span>
           <span class="right">精心为您挑选最优品质</span>
+          <span class="righter" onclick="togentuanyou()">
+            更多<span class="glyphicon glyphicon-send"></span>
+          </span>
         </div>
         <ul class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">跟团游</a>
@@ -184,6 +190,9 @@ $tab = 'index'
         <div class="flash-sell-header">
           <span class="left">去哪儿</span>
           <span class="right">热门目的地看这里</span>
+          <span class="righter" onclick="toscenic()">
+            更多<span class="glyphicon glyphicon-send"></span>
+          </span>
         </div>
         <ul class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">当季游</a>
@@ -245,6 +254,9 @@ $tab = 'index'
       <div class="flash-sell">
         <div class="flash-sell-header">
           <span class="left">精彩驴友记</span>
+          <span class="righter" onclick="tosociety_travel()">
+            更多<span class="glyphicon glyphicon-send"></span>
+          </span>
         </div>
         <div class="hot-travel">
           <a class="item" onclick="tosociety_travel_detail()">
@@ -405,20 +417,41 @@ $tab = 'index'
         <div class="activity-header">
           最新活动
         </div>
+
         <div class="activity-item">
-          <img src="../images/index/carousel/carousel6.jpeg" alt="">
+          <img src="../images/index/activity1.jpeg" alt="">
+          <img src="../images/index/activity.jpeg" alt="">
           <div class="activity-describe">
-            <div class="activity-describe-header">
-              坎儿井造就的绿洲奇迹
-            </div>
             <div class="activity-describe-body">
-              在吐鲁番盆地中，几乎每一片在戈壁荒漠中突兀出现的小绿洲，都可在它的上游方向找到一条条形同串珠儿搬的坎儿井链
+              <marquee direction=up behavior=scroll loop=13 scrollamount=1 scrolldelay=10 align=middle height=150 width=80% hspace=20 vspace=10 onmouseover=this.stop() onmouseout=this.start()>
+                【五一端午小长假即将来袭！】
+                <br><br>
+                如果还没定好去哪里玩，就让我们来帮你！<br>
+                可别错过了一年中最惬意的时光！<br>
+                <br><br>
+                【跟父母一起去远方】
+                <br><br>
+                每个成长的瞬间，都有他们的陪伴，<br>
+                曾经他们把世界带给我们，如今我们将世界呈现给他们。<br>
+                日本的古朴、清迈的悠闲、纽约的繁华…<br>
+                现在，是你带领他们看世界的时候了！<br>
+                <br><br>
+                【签证1元起，你还在等什么？】
+                <br><br>
+                时近暑期，还伴随着清明五一端午节的假日，<br>
+                闲不下来的你，是否被想出国耍的思绪搞的心痒痒？<br>
+                那不如，我们帮你搞定签证！</marquee>
             </div>
           </div>
         </div>
         <div class="strategy-header">
-          旅游攻略推荐
+          公告栏
         </div>
+        <ul class="notice-list">
+          <li><span class="gray-point"></span><a class="nslog" >评选最佳驴友记的标准新鲜出炉啦！！！</a></li>
+          <li><span class="gray-point"></span><a class="nslog" >靠谱点评标准升级啦！</a></li>
+          <li><span class="gray-point"></span><a class="nslog" >网站最新功能看这里 </a></li>
+        </ul>
       </div>
     </div>
     <div class="col-md-1"></div>
@@ -435,6 +468,22 @@ $tab = 'index'
 
     function tosociety_travel_detail() {
         window.location.href = './society_travel_detail.php';
+    }
+
+    function tomall() {
+        window.location.href = './mall.php';
+    }
+
+    function togentuanyou() {
+        window.location.href = './gentuanyou.php';
+    }
+
+    function toscenic() {
+        window.location.href = './scenic.php';
+    }
+
+    function tosociety_travel() {
+        window.location.href = './society_travel.php';
     }
 
 </script>
