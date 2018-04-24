@@ -131,12 +131,10 @@ $tab = 'index'
           <span class="right">精心为您挑选最优品质</span>
         </div>
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">全部</a></li>
-          <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot" data-toggle="tab">跟团游</a></li>
-          <li role="presentation" class="active"><a aria-controls="banzizhuyou" href="#banzizhuyou" role="tab" data-toggle="tab">半自助游</a></li>
-          <li role="presentation"><a aria-controls="ziyouxing" href="#banzizhuyou" role="tab" data-toggle="tab">自由行</a></li>
-          <li role="presentation"><a aria-controls="qianzheng" href="#banzizhuyou" role="tab" data-toggle="tab">签证</a></li>
-          <li role="presentation"><a aria-controls="youlun" href="#banzizhuyou" role="tab" data-toggle="tab">邮轮</a></li>
+          <li role="presentation" class="active"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">跟团游</a></li>
+          <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot" data-toggle="tab">当地游</a></li>
+          <li role="presentation"><a aria-controls="banzizhuyou" href="#banzizhuyou" role="tab" data-toggle="tab">签证</a></li>
+          <li role="presentation"><a aria-controls="ziyouxing" href="#banzizhuyou" role="tab" data-toggle="tab">邮轮</a></li>
         </ul>
         <div class="flash-sell-content">
           <div class="flash-sell-item">

@@ -218,7 +218,7 @@
   cursor: pointer;
 }
 
-.col-md-7 .nav-tabs li .active a {
+.col-md-7 .nav-tabs li.active a {
   color: #000;
   font-weight: bold;
   border-radius: 0px;
