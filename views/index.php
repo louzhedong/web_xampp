@@ -296,19 +296,18 @@ $tab = 'index'
                   <span class="t">古巴位于加勒比海的西北部，是中美洲大安的列斯群岛中最大的岛屿，最北端与美国的佛罗里达州Key West隔海相望，被誉为“墨西哥湾的钥匙”。据《纽约时报》统计，古巴已被列入今年全球十大必游地之一。</span>
 
 
-
                 </p>
-              </div>             
+              </div>
 
             </div>
           </a>
           <a class="item" onclick="tosociety_travel_detail()">
             <div class="image">
-              <img src="../images/society/society_travel/t1.jpeg">
+              <img src="../images/index/4-2.jpeg" height="100%">
             </div>
             <div class="detail">
               <div class="info">
-                <h3>泰国：FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略</h3>
+                <h3>稻城：色达到稻城，从你的全世界路过</h3>
                 <div class="extra">
                   <div class="action">
                     <span class="btn"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></span>
@@ -318,11 +317,16 @@ $tab = 'index'
                 </div>
                 <p>
                   <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                  作者：<span onclick="">wuli思密达达达达达</span>
+                  作者：<span onclick="">空气贝儿</span>
                   <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
-                  2369182人阅读过</p>
+                  42972人阅读过</p>
                 <p>
-                  <span class="t">提到泰国，大家都会想起什么？阳光、沙滩、大象、人妖……种种之类，泰国的标签实在是太多了！楼主作为一介名副其实的屌丝，第一次出国也是选择泰国作为目的地，不为别的，因为实在是又便宜又好！至今回头看看，这一次已经是第四次踏上泰国的的土地，这么看来又便宜又好当真是名不虚传！</span>
+                  <span class="t">色达和稻城亚丁都是我旅行清单里写了很久，却未能完成的一段遗憾
+找个秋天去稻城，这个小愿望终于在10月和几个小伙伴组队完成
+也是在这趟旅行里，认识了一个，瞒着老妈去唱k，骗到身份证只身一人来到成都，和我们一起去旅行的不靠谱队友
+敲下这篇游记，想以此记录的除了这一路的风景，还有那些发生在旅途中的故事
+如此清晰又刻骨铭心！
+
                 </p>
               </div>
 
@@ -330,11 +334,11 @@ $tab = 'index'
           </a>
           <a class="item" onclick="tosociety_travel_detail()">
             <div class="image">
-              <img src="../images/society/society_travel/t1.jpeg">
+              <img src="../images/index/4-3.jpeg" height="100%">
             </div>
             <div class="detail">
               <div class="info">
-                <h3>泰国：FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略</h3>
+                <h3>马尔代夫：马尔代夫、迪拜七晚九日自由行</h3>
                 <div class="extra">
                   <div class="action">
                     <span class="btn"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></span>
@@ -344,11 +348,16 @@ $tab = 'index'
                 </div>
                 <p>
                   <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                  作者：<span onclick="">wuli思密达达达达达</span>
+                  作者：<span onclick="">shijie,zaizheli</span>
                   <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
-                  2369182人阅读过</p>
+                  183211人阅读过</p>
                 <p>
-                  <span class="t">提到泰国，大家都会想起什么？阳光、沙滩、大象、人妖……种种之类，泰国的标签实在是太多了！楼主作为一介名副其实的屌丝，第一次出国也是选择泰国作为目的地，不为别的，因为实在是又便宜又好！至今回头看看，这一次已经是第四次踏上泰国的的土地，这么看来又便宜又好当真是名不虚传！</span>
+                  <span class="t">到马尔代夫和迪拜，又是一次临时性起意。
+
+元旦刚过，看到穷游有一款自由行产品，马尔代夫、迪拜七晚九日自由行，虽然价格看上去不低，但恰好是我们没有去过一直计划去的地方，时间长短也比较符合我们的需求。
+
+对于马代和迪拜，我们的认知可能与很多人有些不同。
+
                 </p>
               </div>
 
@@ -356,11 +365,11 @@ $tab = 'index'
           </a>
           <a class="item" onclick="tosociety_travel_detail()">
             <div class="image">
-              <img src="../images/society/society_travel/t1.jpeg">
+              <img src="../images/index/4-4.jpeg" height="100%">
             </div>
             <div class="detail">
               <div class="info">
-                <h3>泰国：FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略</h3>
+                <h3>香港：味道香港，最不起眼的米其林推荐</h3>
                 <div class="extra">
                   <div class="action">
                     <span class="btn"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></span>
@@ -370,16 +379,21 @@ $tab = 'index'
                 </div>
                 <p>
                   <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                  作者：<span onclick="">wuli思密达达达达达</span>
+                  作者：<span onclick="">开心开心很开心</span>
                   <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
-                  2369182人阅读过</p>
+                  127639人阅读过</p>
                 <p>
-                  <span class="t">提到泰国，大家都会想起什么？阳光、沙滩、大象、人妖……种种之类，泰国的标签实在是太多了！楼主作为一介名副其实的屌丝，第一次出国也是选择泰国作为目的地，不为别的，因为实在是又便宜又好！至今回头看看，这一次已经是第四次踏上泰国的的土地，这么看来又便宜又好当真是名不虚传！</span>
+                  <span class="t">我曾经在香港，生活了3年。那时候，我总想好好记录生活中的香港，可每一次动笔，都有个小恶魔说，诶，反正来日方长，不如先看个剧好不好。好吧。
+于是，直到我，一个人离开我还没为这座城市敲下过一个字。
+
+我以为我对这座城市已经足够了解。可我越深入，才越发现我对它的认知是多么浅薄。
+
                 </p>
               </div>
 
             </div>
           </a>
+
         </div>
 
 
