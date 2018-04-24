@@ -7,7 +7,7 @@
 <head>
   <title>驴友记</title>
   <link rel="stylesheet" href="../css/society_travel.css">
-    <?php require 'link.php' ?>
+  <?php require 'link.php' ?>
   <link rel="stylesheet" href="../css/good_detail.css">
   <link rel="stylesheet" href="../package/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
 </head>
@@ -20,7 +20,41 @@ $tab = 'mall';
   <div class="good-detail-up">
     <div class="up-left">
       <div class="image">
-        <img src="../images/good/1.jpeg" alt="">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="../images/good/2.jpeg">
+            </div>
+            <div class="item">
+              <img src="../images/good/5.jpeg">
+            </div>
+            <div class="item">
+              <img src="../images/good/3.jpeg">
+            </div>
+            <div class="item">
+              <img src="../images/good/4.jpeg">
+            </div>
+            <div class="item">
+              <img src="../images/good/6.jpeg">
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </div>
     <div class="up-right">
@@ -101,7 +135,8 @@ $tab = 'mall';
         <div class="product_intro-info">
           <h5>亮点推荐</h5>
           <div class="right">
-            <p>五星级的Atlantis度假村位于迪拜的朱美拉棕榈岛，享有阿拉伯海湾的壮丽美景，设有私人沙滩和水下水族馆。你可与海豚共游，还可免费进入水上冒险乐园水上乐园和Lost Chambers Aquarium水族馆。</p>
+            <p>五星级的Atlantis度假村位于迪拜的朱美拉棕榈岛，享有阿拉伯海湾的壮丽美景，设有私人沙滩和水下水族馆。你可与海豚共游，还可免费进入水上冒险乐园水上乐园和Lost Chambers
+              Aquarium水族馆。</p>
           </div>
         </div>
         <div class="product_intro-info">
@@ -120,16 +155,19 @@ $tab = 'mall';
         <div class="product_intro-info">
           <h5>产品信息</h5>
           <div class="right">
-            <p style="color: #ff9d00">迪拜亚特兰蒂斯度假酒店   Atlantis The Palm</p>
-            <p>五星级的Atlantis度假村位于迪拜的朱美拉棕榈岛，享有阿拉伯海湾的壮丽美景，设有私人沙滩和水下水族馆。你可与海豚共游 ，还可免费进入水上冒险乐园水上乐园和Lost Chambers Aquarium水族馆。</p>
+            <p style="color: #ff9d00">迪拜亚特兰蒂斯度假酒店 Atlantis The Palm</p>
+            <p>五星级的Atlantis度假村位于迪拜的朱美拉棕榈岛，享有阿拉伯海湾的壮丽美景，设有私人沙滩和水下水族馆。你可与海豚共游 ，还可免费进入水上冒险乐园水上乐园和Lost Chambers
+              Aquarium水族馆。</p>
             <img src="../images/good/2.jpeg" alt="">
             <img src="../images/good/3.jpeg" alt="">
             <img src="../images/good/4.jpeg" alt="">
-            <p>餐饮场所包括布置现代且供应传统中国川菜的Yuan餐厅以及供应阿拉伯风味当代日式佳肴并获奖的Nobu餐厅。Bread Street Kitchen & Bar酒吧供应英式菜单和戈登拉姆齐Gordon Ramsay的美味饮料。客人可以在Levantine Bar And Terrace露台一边享受棕榈和迪拜天际的壮丽景色，一边品尝地道的黎巴嫩美食以及可口的饮料。</p>
+            <p>餐饮场所包括布置现代且供应传统中国川菜的Yuan餐厅以及供应阿拉伯风味当代日式佳肴并获奖的Nobu餐厅。Bread Street Kitchen & Bar酒吧供应英式菜单和戈登拉姆齐Gordon
+              Ramsay的美味饮料。客人可以在Levantine Bar And Terrace露台一边享受棕榈和迪拜天际的壮丽景色，一边品尝地道的黎巴嫩美食以及可口的饮料。</p>
             <img src="../images/good/5.jpeg" alt="">
             <img src="../images/good/6.jpeg" alt="">
             <img src="../images/good/7.jpeg" alt="">
-            <p>客人可以免费进入水上冒险乐园 - 中东地区的水上乐园，其中设有海王星塔和波塞冬塔及各种惊险的水滑梯塔。度假村为儿童提供水上游乐场。儿童俱乐部（The Kids Club）为孩子们提供严格监管的日常娱乐项目。</p>
+            <p>客人可以免费进入水上冒险乐园 - 中东地区的水上乐园，其中设有海王星塔和波塞冬塔及各种惊险的水滑梯塔。度假村为儿童提供水上游乐场。儿童俱乐部（The Kids
+              Club）为孩子们提供严格监管的日常娱乐项目。</p>
           </div>
         </div>
         <div class="product_intro-info">
@@ -157,7 +195,7 @@ $tab = 'mall';
           <div class="right">
             <p>1、 豪华房/海景豪华房/棕榈滩豪华房(双人床/双床)-根据所选套餐而定</p>
             <p>2、 5%增值税+ 10%市政费+10%住宿方服务费</p>
-            <p>3.   酒店早餐+晚餐</p>
+            <p>3. 酒店早餐+晚餐</p>
           </div>
         </div>
         <div class="product_intro-info">
@@ -174,38 +212,38 @@ $tab = 'mall';
           <h5>退款政策</h5>
           <div class="right">
             <p>本商品为特价商品，支付成功后，不支持任何变更，如遇退款或改期收取100%手续费。</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<script src="../package/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
-<script src="../package/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
-<script>
-  $('#datetimepicker').datetimepicker({
-    format: 'yyyy-mm-dd',
-    autoclose: true,
-    minView: 2
-  });
+  <script src="../package/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+  <script src="../package/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+  <script>
+      $('#datetimepicker').datetimepicker({
+          format: 'yyyy-mm-dd',
+          autoclose: true,
+          minView: 2
+      });
 
-  function addNumber() {
-    var $elm = document.getElementById('buy-number');
-    var value = parseInt($elm.innerText);
-    value ++;
-    $elm.innerText = value;
-    document.getElementById('total-count').innerText = value * 4285;
-  }
+      function addNumber() {
+          var $elm = document.getElementById('buy-number');
+          var value = parseInt($elm.innerText);
+          value++;
+          $elm.innerText = value;
+          document.getElementById('total-count').innerText = value * 4285;
+      }
 
-  function subNumber() {
-    var $elm = document.getElementById('buy-number');
-    var value = parseInt($elm.innerText);
-    if (value > 1) {
-      value --;
-      $elm.innerText = value;
-      document.getElementById('total-count').innerText = value * 4285;
-    }
-  }
-</script>
-<?php require 'footer.php'?>
+      function subNumber() {
+          var $elm = document.getElementById('buy-number');
+          var value = parseInt($elm.innerText);
+          if (value > 1) {
+              value--;
+              $elm.innerText = value;
+              document.getElementById('total-count').innerText = value * 4285;
+          }
+      }
+  </script>
+  <?php require 'footer.php' ?>
 </body>
 </html>

@@ -206,3 +206,21 @@
   padding-left: 15px;
   font-size: 20px;
 }
+
+
+.col-md-7 .nav-tabs {
+  border-bottom: none;
+  margin-bottom: 30px;
+}
+
+.col-md-7 .nav-tabs li a {
+  color: #000;
+  cursor: pointer;
+}
+
+.col-md-7 .nav-tabs li .active a {
+  color: #000;
+  font-weight: bold;
+  border-radius: 0px;
+  border-top: 2px solid #ff9d00;
+}
