@@ -81,7 +81,7 @@ $tab = 'center';
   </div>
 </div>
 <section class="cd-faq">
-  <ul class="cd-faq-categories">
+  <ul class="nav nav-pills nav-stacked">
     <li><a class="selected" href="#basics"> 我的订单</a></li>
     <li><a href="#day1">我的收藏</a></li>
     <li><a href="#day2">我的游记</a></li>
