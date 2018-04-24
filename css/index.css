@@ -222,5 +222,5 @@
   color: #000;
   font-weight: bold;
   border-radius: 0px;
-  border-top: 2px solid #ff9d00;
+  border-top: 2px solid #ff9d00 !important;
 }
