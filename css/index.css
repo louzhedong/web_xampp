@@ -210,7 +210,7 @@
 
 .col-md-7 .nav-tabs {
   border-bottom: none;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .col-md-7 .nav-tabs li a {
@@ -223,4 +223,149 @@
   font-weight: bold;
   border-radius: 0px;
   border-top: 2px solid #ff9d00 !important;
+}
+
+.col-md-7 .goto-content span{
+  position: absolute;
+  left: 3%;
+  top: 1010px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.col-md-7 .goto-content{
+  margin-bottom: 30px;
+}
+
+.col-md-7 .to-where-list {
+  margin-top: -240px;
+  float: right;
+}
+
+
+
+.col-md-7 .to-where-list li {
+  width: 450px;
+  height: 51px;
+  line-height: 31px;
+  border-bottom: 1px solid #f3f2e4;
+}
+
+.col-md-7 .to-where-list li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 0 10px 14px;
+  width: 386px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.col-md-7 .to-where-list-desc {
+  width: 262px;
+  margin-right: 15px;
+  display: inline-block;
+  color: #999;
+}
+
+.col-md-7 .to-where-list-name {
+  color: #ff9d00;
+  font-size: 18px;
+  margin-right: 9px;
+}
+
+.col-md-7 .to-where-love {
+  width: 68px;
+  color: rgb(244, 116, 0);
+  display: inline-block;
+}
+
+.col-md-7 .hot-travel .item {
+  display: block;
+  margin: 30px 0 0px 0;
+  color: #666;
+  overflow: hidden;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #6363;
+}
+
+
+.col-md-7 .hot-travel .item .image {
+  float: left;
+  display: inline;
+  margin-right: 20px;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.col-md-7 .hot-travel .item .image img {
+  width: 100%;
+}
+
+
+
+.col-md-7 .hot-travel .item .detail {
+  float: right;
+  width: 580px;
+}
+
+.col-md-7 .hot-travel .item .detail .info {
+  height: 150px;
+  overflow: hidden;
+}
+
+.col-md-7 .hot-travel .item .detail p {
+  line-height: 20px;
+  font-size: 13px;
+  margin-bottom: 32px;
+  width: 490px;
+}
+
+.col-md-7 .hot-travel .item .detail p .t {
+  margin-right: 20px;
+
+}
+
+ .col-md-7 .hot-travel .item .detail .info h3 {
+  margin: 5px 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  line-height: 24px;
+  max-height: 48px;
+  overflow: hidden;
+   cursor: pointer;
+}
+
+.col-md-7 .hot-travel .item .extra .action {
+  float: right;
+  width: 100px;
+  height: 30px;
+  position: relative;
+}
+
+.col-md-7 .hot-travel .item .extra .action .btn {
+  display: inline-block;
+  width: 120px;
+  height: 95px;
+  border: 0px solid #ff9d00;
+  text-align: center;
+  font-size: 38px;
+  border-radius: 2px;
+  color: #ff9d00;
+  line-height: 20px;
+  padding: 29px 20px 0px 0px;
+}
+
+.col-md-7 .hot-travel .item .extra .action .btn:hover {
+  background: #ff9d00;
+  color: #fff;
+}
+
+.col-md-7 .hot-travel .item .extra .action .promo-tag {
+  position: absolute;
+  right: 0;
+  bottom: 35px;
 }

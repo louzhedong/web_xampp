@@ -167,7 +167,7 @@
   padding: 0;
 }
 
-.mall_detail .mall_detail-list .col-md-8 .item:hover .extra .action .btn {
+.mall_detail .mall_detail-list .col-md-8 .item .extra .action .btn:hover {
   background: #ff9d00;
   color: #fff;
 }
