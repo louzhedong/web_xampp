@@ -21,9 +21,9 @@
 }
 
 .jquery-accordion-menu {
-    min-width: 260px;
+    width: 260px;
     float: left;
-    position: relative;
+    position: fixed;
     box-shadow: 0 20px 50px #333
 }
 
@@ -124,7 +124,7 @@
     transition: border .2s linear
 }
 
-.jquery-accordion-menu ul ul.submenu li:hover>a {
+.jquery-accordion-menu ul ul.submenu li.active>a {
     border-left-color: #414956
 }
 
@@ -230,7 +230,7 @@
 }
 
 
-.red.jquery-accordion-menu ul ul.submenu li:hover>a {
+.red.jquery-accordion-menu ul ul.submenu li.active>a {
     border-left-color: #ff9d00
 }
 
@@ -280,6 +280,17 @@
 }
 
 .guide_row .col-md-7 .title{
-    margin:100px 0 10px 0;
-    padding:10px 0 10px 0;
+    margin:10px 0 10px 0;
+    color:#ff9d00;
+}
+
+.guide_row .col-md-7 .text{
+    border:1px solid #f1f1f1;
+    background-color: #f1f1f1;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.5;
+}
+
+body{
+    position: relative;
 }

@@ -39,13 +39,13 @@
         </li>
         <li>
           <span class="glyphicon glyphicon-map-marker"></span>
-          ：浙江树人大学致和园
+          ：浙江树人大学
         </li>
 
       </ul>
     </div>
     <div class="col-md-2 qrcode col-md-offset-1">
-      <img src="../images/qrcode.png" alt="">
+      <img src="../images/qrcode.jpeg" alt="">
       <div class="tips">扫一扫查看移动端</div>
     </div>
     <div class="col-md-2"></div>

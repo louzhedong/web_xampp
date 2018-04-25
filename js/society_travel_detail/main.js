@@ -56,7 +56,7 @@ jQuery(document).ready(function($){
 				'-o-transform': 'translateY(0)',
 				'transform': 'translateY(0)',
 			});
-		}	
+		}
 		if( faqsCategoriesContainer.hasClass('is-fixed') ) {
 			faqsCategoriesContainer.css({
 				'left': faqsContainer.offset().left,

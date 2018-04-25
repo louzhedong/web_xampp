@@ -6,7 +6,7 @@
 <html lang="zh-CN">
 <head>
   <title>个人中心</title>
-    <?php require 'link.php' ?>
+  <?php require 'link.php' ?>
   <link rel="stylesheet" href="../css/my_center.css">
   <link rel="stylesheet" href="../package/jVectorMap/jquery-jvectormap-2.0.3.css" type="text/css" media="screen">
   <script src="../package/jVectorMap/jquery-1.12.4.min.js"></script>
@@ -80,81 +80,13 @@ $tab = 'center';
   </div>
 </div>
 <section class="cd-faq">
-  <ul class="nav nav-pills nav-stacked">
+  <ul class="cd-faq-categories">
     <li><a class="selected" href="#basics"> 我的订单</a></li>
     <li><a href="#day1">我的收藏</a></li>
     <li><a href="#day2">我的游记</a></li>
     <li><a href="#day3">我的兑换</a></li>
     <li><a href="#day4">常用信息</a></li>
   </ul> <!-- cd-faq-categories -->
-  <ul class="nav nav-pills nav-stacked" style="float: left" role="tablist">
-    <li role="presentation"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">全部</a></li>
-    <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot" data-toggle="tab">跟团游</a></li>
-    <li role="presentation" class="active"><a aria-controls="banzizhuyou" href="#banzizhuyou" role="tab" data-toggle="tab">半自助游</a></li>
-    <li role="presentation"><a aria-controls="ziyouxing" href="#banzizhuyou" role="tab" data-toggle="tab">自由行</a></li>
-    <li role="presentation"><a aria-controls="qianzheng" href="#banzizhuyou" role="tab" data-toggle="tab">签证</a></li>
-    <li role="presentation"><a aria-controls="youlun" href="#banzizhuyou" role="tab" data-toggle="tab">邮轮</a></li>
-  </ul>
-  <div class="tab-content" style="float: right">
-    <div role="tabpanel" class="tab-pane active" id="all">
-      <div class="line">出发日期：<input type="checkbox">不限 <input type="checkbox">5月 <input type="checkbox">6月 <input
-            type="checkbox">7月 <input type="checkbox">8月 <input type="checkbox">9月 <input type="checkbox">10月 <input
-            type="checkbox">11月 <input type="checkbox">12月
-      </div>
-      <div class="line">价格区间：<input type="checkbox">不限 <input type="checkbox">1000-5000 <input type="checkbox">5000-10000
-        <input type="checkbox">10000+
-      </div>
-      <div class="line">产品特色：<input type="checkbox">不限 <input type="checkbox">全程无自费 <input type="checkbox">纯玩无购物
-        <input type="checkbox">含自由活动
-      </div>
-      <div class="line">优惠类型：<input type="checkbox">不限 <input type="checkbox">立减活动 <input type="checkbox">第N件减
-      </div>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="mall_detail">
-      <div class="line">出发日期：<input type="checkbox">不限 <input type="checkbox">5月 <input type="checkbox">6月 <input
-            type="checkbox">7月 <input type="checkbox">8月 <input type="checkbox">9月 <input type="checkbox">10月 <input
-            type="checkbox">11月 <input type="checkbox">12月
-      </div>
-      <div class="line">价格区间：<input type="checkbox">不限 <input type="checkbox">1000-5000 <input type="checkbox">5000-10000
-        <input type="checkbox">10000+
-      </div>
-      <div class="line">行程天数：<input type="checkbox">不限 <input type="checkbox">1天 <input type="checkbox">2天 <input
-            type="checkbox">3天 <input type="checkbox">5天 <input type="checkbox">7天 <input type="checkbox">8天 <input
-            type="checkbox">9天 <input type="checkbox">10天 <input type="checkbox">12天 <input type="checkbox">15天 <input
-            type="checkbox">18天
-      </div>
-      <div class="line">住宿类型：<input type="checkbox">不限 <input type="checkbox">青旅/客栈 <input type="checkbox">经济/连锁
-        <input type="checkbox">民宿 <input type="checkbox">酒店式公寓 <input type="checkbox">高档酒店 <input type="checkbox">度假村
-      </div>
-      <div class="line">产品特色：<input type="checkbox">不限 <input type="checkbox">全程无自费 <input type="checkbox">纯玩无购物
-        <input type="checkbox">含自由活动
-      </div>
-      <div class="line">优惠类型：<input type="checkbox">不限 <input type="checkbox">立减活动 <input type="checkbox">第N件减
-      </div>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="banzizhuyou">
-      <div class="line">出发日期：<input type="checkbox">不限 <input type="checkbox">5月 <input type="checkbox">6月 <input
-            type="checkbox">7月 <input type="checkbox">8月 <input type="checkbox">9月 <input type="checkbox">10月 <input
-            type="checkbox">11月 <input type="checkbox">12月
-      </div>
-      <div class="line">价格区间：<input type="checkbox">不限 <input type="checkbox">1000-5000 <input type="checkbox">5000-10000
-        <input type="checkbox">10000+
-      </div>
-      <div class="line">行程天数：<input type="checkbox">不限 <input type="checkbox">1天 <input type="checkbox">2天 <input
-            type="checkbox">3天 <input type="checkbox">5天 <input type="checkbox">7天 <input type="checkbox">8天 <input
-            type="checkbox">9天 <input type="checkbox">10天 <input type="checkbox">12天 <input type="checkbox">15天 <input
-            type="checkbox">18天
-      </div>
-      <div class="line">住宿类型：<input type="checkbox">不限 <input type="checkbox">青旅/客栈 <input type="checkbox">经济/连锁
-        <input type="checkbox">民宿 <input type="checkbox">酒店式公寓 <input type="checkbox">高档酒店 <input type="checkbox">度假村
-      </div>
-      <div class="line">产品特色：<input type="checkbox">不限 <input type="checkbox">全程无自费 <input type="checkbox">纯玩无购物
-        <input type="checkbox">含自由活动
-      </div>
-      <div class="line">优惠类型：<input type="checkbox">不限 <input type="checkbox">立减活动 <input type="checkbox">第N件减
-      </div>
-    </div>
-  </div>
   <div class="cd-faq-items">
     <ul id="basics" class="cd-faq-group">
       <li class="cd-faq-title"><h2>我的订单</h2></li>
@@ -184,7 +116,7 @@ $tab = 'center';
               <td class="td-info">
                 <a class="pro-img">
                   <img
-                    src="../images/order/1.jpeg">
+                      src="../images/order/1.jpeg">
                 </a>
                 <div class="pro-detail">
                   <p class="title" title="">【拒签全退】香港直飞日本大阪+东京+京都+富士山6天5晚跟团游（含签证+无自费+保证1晚温泉酒店+本愿寺+大阪城公园+豪华自助餐
@@ -232,7 +164,7 @@ $tab = 'center';
               <td class="td-info">
                 <a class="pro-img">
                   <img
-                    src="../images/order/2.jpeg">
+                      src="../images/order/2.jpeg">
                 </a>
                 <div class="pro-detail">
                   <p class="title" title="">【丽星邮轮处女星号】上海往返日本8天7晚邮轮之旅（暑期预售+家庭出游）
@@ -280,7 +212,7 @@ $tab = 'center';
               <td class="td-info">
                 <a class="pro-img">
                   <img
-                    src="../images/order/3.gif">
+                      src="../images/order/3.gif">
                 </a>
                 <div class="pro-detail">
                   <p class="title" title="">【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）
@@ -319,7 +251,7 @@ $tab = 'center';
       </li>
     </ul> <!-- cd-faq-group -->
 
-    <ul id="day1" class="cd-faq-group">
+    <ul id="day1" class="cd-faq-group" style="display: none">
       <li class="cd-faq-title"><h2>我的收藏</h2></li>
       <li>
         <div class="cd-faq-content">
@@ -329,7 +261,7 @@ $tab = 'center';
 
     </ul> <!-- cd-faq-group -->
 
-    <ul id="day2" class="cd-faq-group">
+    <ul id="day2" class="cd-faq-group" style="display: none">
       <li class="cd-faq-title"><h2>我的游记</h2></li>
       <li>
         <div class="cd-faq-content">
@@ -339,7 +271,7 @@ $tab = 'center';
 
     </ul> <!-- cd-faq-group -->
 
-    <ul id="day3" class="cd-faq-group">
+    <ul id="day3" class="cd-faq-group" style="display: none">
       <li class="cd-faq-title"><h2>我的兑换</h2></li>
       <li>
         <div class="cd-faq-content"
@@ -348,7 +280,7 @@ $tab = 'center';
   </li>
   </ul> <!-- cd-faq-group -->
 
-  <ul id="day4" class="cd-faq-group">
+  <ul id="day4" class="cd-faq-group" style="display: none">
     <li class="cd-faq-title"><h2>常用信息</h2></li>
     <li>
       <div class="cd-faq-content">
@@ -358,31 +290,31 @@ $tab = 'center';
   </div> <!-- cd-faq-items -->
   <a href="#0" class="cd-close-panel">Close</a>
 </section> <!-- cd-faq -->
-<script src="../js/society_travel_detail/main.js"></script>
+<script src="../js/center/main.js"></script>
 <?php require 'footer.php' ?>
 </body>
 </html>
 
 <script>
-  $(function () {
-    $('#big-map').vectorMap({
-      map: 'cn_mill',
-      backgroundColor: '#1f3957',
-      color: "#BBBBBB",
-      regionsSelectable: true,
-      regionStyle: {
-        initial: {
-          fill: '#485e6f',
-        },
-        hover: {
-          fill: '#cadead'
-        },
-        selected: {
-          fill: '#ff9d00',
-        }
-      },
-      zoomOnScroll: false,
+    $(function () {
+        $('#big-map').vectorMap({
+            map: 'cn_mill',
+            backgroundColor: '#1f3957',
+            color: "#BBBBBB",
+            regionsSelectable: true,
+            regionStyle: {
+                initial: {
+                    fill: '#485e6f',
+                },
+                hover: {
+                    fill: '#cadead'
+                },
+                selected: {
+                    fill: '#ff9d00',
+                }
+            },
+            zoomOnScroll: false,
+        });
     });
-  });
 
 </script>

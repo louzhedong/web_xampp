@@ -21,7 +21,7 @@
       })
   </script>
 </head>
-<body>
+<body data-spy="scroll" data-target="#jquery-accordion-menu">
 <?php
 $tab = 'scenic';
 $scenicdetail_tab = 'guide';
@@ -32,7 +32,7 @@ $scenicdetail_tab = 'guide';
   <div class="col-md-1"></div>
   <div class="col-md-3">
     <div class="content">
-      <div id="jquery-accordion-menu" class="jquery-accordion-menu red">
+      <div id="jquery-accordion-menu" class="jquery-accordion-menu red" data-spy="scroll" >
         <ul id="demo-list">
           <li class="active"><a href="#"><i class="fa fa-cog"></i>泰国文化地理 </a>
             <ul role="tablist" class="submenu">
@@ -156,27 +156,27 @@ $scenicdetail_tab = 'guide';
         普通签证
       </div>
       <div class="text">
-        Step 1. 下载和填写表格
+        Step 1. 下载和填写表格<br>
         从泰国大使馆网站下载并填写签证申请表
+        <br>
+        Step 2. 准备材料<br>
+        签证所需的申请材料会因不同条件略有差别，一般需要特别准备的主要包括：<br>
 
-        Step 2. 准备材料
-        签证所需的申请材料会因不同条件略有差别，一般需要特别准备的主要包括：
-
-        1. 往返机票复印件或确认过的机票订单。
-        2. 不少于10000元人民币的存款证明。
-        3. 由申请人本国单位或有关部门出具的担保信（英文或泰文），注明申请人的姓名、赴泰目的）公司抬头纸打印并加盖公章。
+        1. 往返机票复印件或确认过的机票订单。<br>
+        2. 不少于10000元人民币的存款证明。<br>
+        3. 由申请人本国单位或有关部门出具的担保信（英文或泰文），注明申请人的姓名、赴泰目的）公司抬头纸打印并加盖公章。<br>
         详细材料清单请以使馆网站上的材料要求为准，在职人员、退休人员和未成年人等特殊情况的申请材料会有区别，请在官方申请渠道提供的材料清单中特别注意。
-
+        <br>
         Tips: 护照有效期
-
+        <br>
         护照有效期需6个月以上。
-
-        Step 3. 递交材料
+        <br>
+        Step 3. 递交材料<br>
         申请者本人需携带签证申请表及相关材料亲自去往当地或附近的大使馆签证处或领事馆递交签证。
+        <br>
+        签证费: 230元人民币。<br>
 
-        签证费: 230元人民币。
-
-        办理时间: 所有类型的签证办理需三个工作日（如: 周五送签，下周三出签）。
+        办理时间: 所有类型的签证办理需三个工作日（如: 周五送签，下周三出签）。<br>
 
         出入境管理人员将会随机抽查入境泰国的游客携带的现金如下：旅游签需要携带现金或等值外币 20000泰铢（每人）40000泰铢（每户）
       </div>
@@ -186,20 +186,20 @@ $scenicdetail_tab = 'guide';
         过境签证
       </div>
       <div class="text">
-        Step 1. 准备材料
+        Step 1. 准备材料<br>
         签证所需的申请材料会因不同条件略有差别，一般需要特别准备的主要包括：
+        <br>
+        1. 有效期6个月以上的护照及复印件；<br>
+        2. 三份用英文填写完整的旅游签证申请表；<br>
+        3. 三张六个月内拍的两寸彩色免冠照片；<br>
+        4. 连程机票复印件和确认的连程机票包含票号；<br>
+        5. 第三国有效签证或旅行证及复印件；<br>
+        Step 2. 递交材料<br>
+        递交至泰国大使馆签证处或泰国驻中国各领事馆。<br>
 
-        1. 有效期6个月以上的护照及复印件；
-        2. 三份用英文填写完整的旅游签证申请表；
-        3. 三张六个月内拍的两寸彩色免冠照片；
-        4. 连程机票复印件和确认的连程机票包含票号；
-        5. 第三国有效签证或旅行证及复印件；
-        Step 2. 递交材料
-        递交至泰国大使馆签证处或泰国驻中国各领事馆。
+        签证费用:180元。(单次入境)<br>
 
-        签证费用:180元。(单次入境)
-
-        办理时间: 所有类型的签证办理需三个工作日（如: 周五送签，下周三出签）。
+        办理时间: 所有类型的签证办理需三个工作日（如: 周五送签，下周三出签）。<br>
       </div>
     </div>
     <div role="tabpanel" class="tab-pane active" id="luodiqianzheng">
@@ -207,18 +207,18 @@ $scenicdetail_tab = 'guide';
         落地签证
       </div>
       <div class="text">
-        Step 1. 准备材料
-        签证所需的申请材料会因不同条件略有差别，一般需要特别准备的主要包括：
+        Step 1. 准备材料<br>
+        签证所需的申请材料会因不同条件略有差别，一般需要特别准备的主要包括：<br>
 
-        1. 有效期6个月以上的护照及复印件；
-        2. 一张填写完整的旅游签证申请表；
-        3. 一张六个月内拍的两寸彩色免冠照片；
-        4. 入境后15天之内有效的返程机票复印件和确认过的机票
-        5. 入境时个人必须携带外币价值不少于10,000铢, 如一个家庭不少于20, 000铢。
-        Step 2. 递交材料
-        落地签在海关在泰国开放落地签证的32个口岸根据引导牌到相关办公室办理。
+        1. 有效期6个月以上的护照及复印件；<br>
+        2. 一张填写完整的旅游签证申请表；<br>
+        3. 一张六个月内拍的两寸彩色免冠照片；<br>
+        4. 入境后15天之内有效的返程机票复印件和确认过的机票<br>
+        5. 入境时个人必须携带外币价值不少于10,000铢, 如一个家庭不少于20, 000铢。<br>
+        Step 2. 递交材料<br>
+        落地签在海关在泰国开放落地签证的32个口岸根据引导牌到相关办公室办理。<br>
 
-        签证费用：2000泰铢。
+        签证费用：2000泰铢。<br>
       </div>
     </div>
     <div role="tabpanel" class="tab-pane active" id="shaungtiao">
@@ -226,11 +226,11 @@ $scenicdetail_tab = 'guide';
         双条、出租车和Tuktuk
       </div>
       <div class="text">
-        双条车是泰国特有的公共交通方式，上车前询问司机是否能够顺路，单程价格20到40铢，随叫随停。
+        双条车是泰国特有的公共交通方式，上车前询问司机是否能够顺路，单程价格20到40铢，随叫随停。<br>
 
-        出租车主要是在曼谷，上车前一定要问清是不是打表（by meter）。
+        出租车主要是在曼谷，上车前一定要问清是不是打表（by meter）。<br>
 
-        Tuktuk为东南亚普遍的短途交通工具，司机开价会很高，记得砍价。
+        Tuktuk为东南亚普遍的短途交通工具，司机开价会很高，记得砍价。<br>
       </div>
     </div>
     <div role="tabpanel" class="tab-pane active" id="qinggui">
@@ -246,19 +246,19 @@ $scenicdetail_tab = 'guide';
         租车
       </div>
       <div class="text">
-        建议选择国际连锁的大型租车公司，在主要城市都有网点，方便在特殊情况下及时联系公司进行解决。
+        建议选择国际连锁的大型租车公司，在主要城市都有网点，方便在特殊情况下及时联系公司进行解决。<br>
 
-        租车公司：
+        租车公司：<br>
 
-        1.AVIS ：www.avis.cn/
+        1.AVIS ：www.avis.cn/<br>
 
         2.hertz：https://www.hertz.cn/rentacar/reservation/?targetPage=reservationOnHomepage.jsp&refererUrl=&searchString=&id=36373&LinkType=HZLK
+        <br>
+        详情可以参考ZUZUCHE平台上的比价信息<br>
 
-        详情可以参考ZUZUCHE平台上的比价信息
+        w.zuzuche.com/topic/1000yuan/?bd=1<br>
 
-        w.zuzuche.com/topic/1000yuan/?bd=1
-
-        关于驾照：
+        关于驾照：<br>
 
         中国驾照需要进行翻译与公证方可使用
       </div>
@@ -523,9 +523,7 @@ $scenicdetail_tab = 'guide';
   <div class="col-md-1"></div>
 </div>
 <script type="text/javascript">
-
     jQuery("#jquery-accordion-menu").jqueryAccordionMenu();
-
 </script>
 </body>
 </html>

@@ -41,7 +41,7 @@ $tab = 'mall';
   </div>
   <div class="payment-success">
     <div class="order-action">
-    <span class="pay-btn" onclick="toIndex()">
+    <span class="pay-btn" onclick="tomy_center()">
       查看订单
     </span>
       <span class="pay-btn" onclick="toIndex()">
@@ -54,6 +54,9 @@ $tab = 'mall';
   <script>
     function toIndex() {
       location.href = './index.php';
+    }
+    function tomy_center() {
+        location.href = './my_center.php';
     }
   </script>
 </body>
