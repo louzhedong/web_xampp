@@ -22,6 +22,13 @@ $tab = 'mall';
     <span class="split"></span>
     <span class="sub">收银台</span>
   </div>
+  <div class="buy-step">
+    <ul>
+      <li class="step1"><p><i></i></p><em>提交订单</em></li>
+      <li class="step2"><p><i></i></p><em>确认支付</em></li>
+      <li class="step3"><p><i></i></p><em>完成购买</em></li>
+    </ul>
+  </div>
   <div class="message">
     <h3>
       <i><img src="../images/mall/payment/success.png" alt=""></i>您的订单提交成功！

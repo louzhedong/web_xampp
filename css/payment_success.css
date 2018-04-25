@@ -27,3 +27,154 @@
   border-radius: 2px;
   cursor: pointer;
 }
+
+.main-title {
+  padding: 0 10px;
+  margin-bottom: 35px;
+}
+
+.main-title .logo {
+  width: 120px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main-title .logo img {
+  width: 100%;
+}
+
+.main-title .split {
+  display: inline-block;
+  width: 2px;
+  height: 25px;
+  background-color: #999;
+  margin: 0 15px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.main-title .sub {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.buy-step {
+  margin: 15px 0 40px 20px;
+}
+
+.buy-step:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.buy-step li {
+  border-top: 4px solid #efefef;
+  height: 50px;
+  width: 165px;
+  float: left;
+  position: relative;
+}
+
+.buy-step li em {
+  font-style: normal;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  color: #999;
+}
+
+.buy-step .step1 {
+  border-top: 4px solid #ff9d00;
+}
+
+.buy-step .step1 p {
+  position: absolute;
+  left: 0;
+  top: -12px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 50%;
+  background: #ff9d00;
+}
+
+.buy-step .step1 p i {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background: #FFF;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-top: 7px;
+}
+
+.buy-step .step1 em {
+  left: -15px;
+  color: #ff9d00;
+}
+
+.buy-step .step2 {
+  width: 230px;
+}
+
+.buy-step .step2 p {
+  position: absolute;
+  left: 50%;
+  margin-left: -11px;
+  top: -12px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  line-height: 22px;
+  border-radius: 50%;
+  background: #FFF;
+}
+
+.buy-step .step2 p i {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background: #efefef;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-top: 7px;
+}
+
+.buy-step .step2 em {
+  left: 88px;
+}
+
+.buy-step .step3 p {
+  position: absolute;
+  right: 0;
+  top: -12px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+  background: #FFF;
+}
+
+.buy-step .step3 p i {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background: #efefef;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-top: 7px;
+}
+
+.buy-step .step3 em {
+  left: 125px;
+  display: block;
+  width: 60px;
+}
