@@ -16,9 +16,6 @@ $tab = 'mall';
 <?php require 'top.php' ?>
 <div class="payment">
   <div class="main-title">
-    <span class="logo">
-      <img src="../images/logo2.png" alt="">
-    </span>
     <span class="split"></span>
     <span class="sub">收银台</span>
   </div>

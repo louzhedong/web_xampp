@@ -88,7 +88,74 @@ $tab = 'center';
     <li><a href="#day3">我的兑换</a></li>
     <li><a href="#day4">常用信息</a></li>
   </ul> <!-- cd-faq-categories -->
-
+  <ul class="nav nav-pills nav-stacked" role="tablist">
+    <li role="presentation"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">全部</a></li>
+    <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot" data-toggle="tab">跟团游</a></li>
+    <li role="presentation" class="active"><a aria-controls="banzizhuyou" href="#banzizhuyou" role="tab" data-toggle="tab">半自助游</a></li>
+    <li role="presentation"><a aria-controls="ziyouxing" href="#banzizhuyou" role="tab" data-toggle="tab">自由行</a></li>
+    <li role="presentation"><a aria-controls="qianzheng" href="#banzizhuyou" role="tab" data-toggle="tab">签证</a></li>
+    <li role="presentation"><a aria-controls="youlun" href="#banzizhuyou" role="tab" data-toggle="tab">邮轮</a></li>
+  </ul>
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="all">
+      <div class="line">出发日期：<input type="checkbox">不限 <input type="checkbox">5月 <input type="checkbox">6月 <input
+            type="checkbox">7月 <input type="checkbox">8月 <input type="checkbox">9月 <input type="checkbox">10月 <input
+            type="checkbox">11月 <input type="checkbox">12月
+      </div>
+      <div class="line">价格区间：<input type="checkbox">不限 <input type="checkbox">1000-5000 <input type="checkbox">5000-10000
+        <input type="checkbox">10000+
+      </div>
+      <div class="line">产品特色：<input type="checkbox">不限 <input type="checkbox">全程无自费 <input type="checkbox">纯玩无购物
+        <input type="checkbox">含自由活动
+      </div>
+      <div class="line">优惠类型：<input type="checkbox">不限 <input type="checkbox">立减活动 <input type="checkbox">第N件减
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="mall_detail">
+      <div class="line">出发日期：<input type="checkbox">不限 <input type="checkbox">5月 <input type="checkbox">6月 <input
+            type="checkbox">7月 <input type="checkbox">8月 <input type="checkbox">9月 <input type="checkbox">10月 <input
+            type="checkbox">11月 <input type="checkbox">12月
+      </div>
+      <div class="line">价格区间：<input type="checkbox">不限 <input type="checkbox">1000-5000 <input type="checkbox">5000-10000
+        <input type="checkbox">10000+
+      </div>
+      <div class="line">行程天数：<input type="checkbox">不限 <input type="checkbox">1天 <input type="checkbox">2天 <input
+            type="checkbox">3天 <input type="checkbox">5天 <input type="checkbox">7天 <input type="checkbox">8天 <input
+            type="checkbox">9天 <input type="checkbox">10天 <input type="checkbox">12天 <input type="checkbox">15天 <input
+            type="checkbox">18天
+      </div>
+      <div class="line">住宿类型：<input type="checkbox">不限 <input type="checkbox">青旅/客栈 <input type="checkbox">经济/连锁
+        <input type="checkbox">民宿 <input type="checkbox">酒店式公寓 <input type="checkbox">高档酒店 <input type="checkbox">度假村
+      </div>
+      <div class="line">产品特色：<input type="checkbox">不限 <input type="checkbox">全程无自费 <input type="checkbox">纯玩无购物
+        <input type="checkbox">含自由活动
+      </div>
+      <div class="line">优惠类型：<input type="checkbox">不限 <input type="checkbox">立减活动 <input type="checkbox">第N件减
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="banzizhuyou">
+      <div class="line">出发日期：<input type="checkbox">不限 <input type="checkbox">5月 <input type="checkbox">6月 <input
+            type="checkbox">7月 <input type="checkbox">8月 <input type="checkbox">9月 <input type="checkbox">10月 <input
+            type="checkbox">11月 <input type="checkbox">12月
+      </div>
+      <div class="line">价格区间：<input type="checkbox">不限 <input type="checkbox">1000-5000 <input type="checkbox">5000-10000
+        <input type="checkbox">10000+
+      </div>
+      <div class="line">行程天数：<input type="checkbox">不限 <input type="checkbox">1天 <input type="checkbox">2天 <input
+            type="checkbox">3天 <input type="checkbox">5天 <input type="checkbox">7天 <input type="checkbox">8天 <input
+            type="checkbox">9天 <input type="checkbox">10天 <input type="checkbox">12天 <input type="checkbox">15天 <input
+            type="checkbox">18天
+      </div>
+      <div class="line">住宿类型：<input type="checkbox">不限 <input type="checkbox">青旅/客栈 <input type="checkbox">经济/连锁
+        <input type="checkbox">民宿 <input type="checkbox">酒店式公寓 <input type="checkbox">高档酒店 <input type="checkbox">度假村
+      </div>
+      <div class="line">产品特色：<input type="checkbox">不限 <input type="checkbox">全程无自费 <input type="checkbox">纯玩无购物
+        <input type="checkbox">含自由活动
+      </div>
+      <div class="line">优惠类型：<input type="checkbox">不限 <input type="checkbox">立减活动 <input type="checkbox">第N件减
+      </div>
+    </div>
+  </div>
   <div class="cd-faq-items">
     <ul id="basics" class="cd-faq-group">
       <li class="cd-faq-title"><h2>我的订单</h2></li>
