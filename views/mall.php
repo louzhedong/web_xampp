@@ -21,13 +21,10 @@ $mall_tab = 'index';
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="../images/mall/carousel/1.jpeg" alt="...">
+        <img src="../images/index/poster22.png" alt="...">
       </div>
       <div class="item">
-        <img src="../images/mall/carousel/2.jpeg" alt="...">
-      </div>
-      <div class="item">
-        <img src="../images/mall/carousel/3.jpeg" alt="...">
+        <img src="../images/index/poster33.png" alt="...">
       </div>
     </div>
 
@@ -420,94 +417,44 @@ $mall_tab = 'index';
             </div>
           </a>
         </li>
-        <li role="presentation"><a aria-controls="t2" href="#t2" role="tab" data-toggle="tab">
-            <div class="left">
-              24:00
-            </div>
-            <div class="right">
-              <div>正在秒杀</div>
-              <div id="leftTime"></div>
-            </div>
-          </a>
-        </li>
       </ul>
       <div class="kill-body">
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane active" id="t1">
             <div class="kill-pic">
               <div class="kill-item">
-                <img src="../images/index/carousel/carousel6.jpeg" alt="">
+                <img src="../images/mall/index/1.jpeg" alt="">
                 <div class="describe">
-                  <div class="describe-inner">
-                    [aa上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
+                  <div class="describe-inner" onclick="togood_detail()">
+                    泰国普吉出发斯米兰群岛双体快船浮潜一日游(中文导游+看海龟)
                   </div>
                 </div>
                 <div class="price">
-                  <span class="number">￥1999</span>
+                  <span class="number">￥358</span>
                   <span class="word">元起</span>
                 </div>
               </div>
-              <div class="kill-item">
-                <img src="../images/index/carousel/carousel6.jpeg" alt="">
+              <div class="kill-item" onclick="togood_detail()">
+                <img src="../images/mall/index/2.jpeg" alt="">
                 <div class="describe">
                   <div class="describe-inner">
-                    【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
+                    【皇后镇Skyline天空缆车门票+海鲜自助午餐/晚餐
                   </div>
                 </div>
                 <div class="price">
-                  <span class="number">￥5122</span>
+                  <span class="number">￥63</span>
                   <span class="word">元起</span>
                 </div>
               </div>
-              <div class="kill-item">
-                <img src="../images/index/carousel/carousel6.jpeg" alt="">
+              <div class="kill-item" onclick="togood_detail()">
+                <img src="../images/mall/index/3.jpeg" alt="">
                 <div class="describe">
                   <div class="describe-inner">
-                    【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
+                    【泰国清迈Ker-Chor大象生态公园 (体验象夫生活,照顾大象一家)
                   </div>
                 </div>
                 <div class="price">
-                  <span class="number">￥7196</span>
-                  <span class="word">元起</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="t2">
-            <div class="kill-pic">
-              <div class="kill-item">
-                <img src="../images/index/carousel/carousel6.jpeg" alt="">
-                <div class="describe">
-                  <div class="describe-inner">
-                    [上海送签]菲律宾旅游签证（全国受理+免存款+免在职+升级加急+极简资料+无需面试）
-                  </div>
-                </div>
-                <div class="price">
-                  <span class="number">￥1999</span>
-                  <span class="word">元起</span>
-                </div>
-              </div>
-              <div class="kill-item">
-                <img src="../images/index/carousel/carousel6.jpeg" alt="">
-                <div class="describe">
-                  <div class="describe-inner">
-                    【星梦邮轮世界梦号】广州-冲绳-宫古岛-广州6天5晚邮轮之旅（五一暑假国庆航次+免签说走就走+含港务费+多航期）
-                  </div>
-                </div>
-                <div class="price">
-                  <span class="number">￥5122</span>
-                  <span class="word">元起</span>
-                </div>
-              </div>
-              <div class="kill-item">
-                <img src="../images/index/carousel/carousel6.jpeg" alt="">
-                <div class="describe">
-                  <div class="describe-inner">
-                    【泼水节】上海直飞曼谷+芭提雅5晚6/7天半自助游（全程国际五星酒店+芭堤雅海边国五酒店+地道网红夜市+杜拉拉水市场+宝妮小马俱乐部/蜜月岛浮潜海钓）
-                  </div>
-                </div>
-                <div class="price">
-                  <span class="number">￥7196</span>
+                  <span class="number">￥208</span>
                   <span class="word">元起</span>
                 </div>
               </div>
@@ -527,16 +474,16 @@ $mall_tab = 'index';
     </div>
     <div class="package-tour-body">
       <ul class="package-tour-list">
-        <li class="package-tour-one">
+        <li class="package-tour-one" onclick="togood_detail()">
           <p class="pics">
             <img src="../images/mall/package_tour/1.jpeg" alt="">
           </p>
           <div class="mask"></div>
           <div class="tag">跟团游</div>
-          <h3 class="title">[可用券]深圳直飞新加坡+印尼民丹岛5天4晚跟团游（探寻赤道秘境+穿梭红树林+见证黄金沙漠海洋+环游马坡岛+穿越狮城）</h3>
+          <h3 class="title">深圳直飞新加坡+印尼民丹岛5天4晚跟团游（探寻赤道秘境+穿梭红树林+见证黄金沙漠海洋+环游马坡岛+穿越狮城）</h3>
           <p class="price"><em>999</em>元起</p>
         </li>
-        <li class="package-tour-item">
+        <li class="package-tour-item" onclick="togood_detail()">
           <p class="pics">
             <img src="../images/mall/package_tour/2.jpeg" alt="">
           </p>
@@ -545,7 +492,7 @@ $mall_tab = 'index';
             <p class="price"><em>2780</em>元起</p>
           </div>
         </li>
-        <li class="package-tour-item">
+        <li class="package-tour-item" onclick="togood_detail()">
           <p class="pics">
             <img src="../images/mall/package_tour/3.jpeg" alt="">
           </p>
@@ -554,16 +501,16 @@ $mall_tab = 'index';
             <p class="price"><em>11299</em>元起</p>
           </div>
         </li>
-        <li class="package-tour-item">
+        <li class="package-tour-item" onclick="togood_detail()">
           <p class="pics">
             <img src="../images/mall/package_tour/4.jpeg" alt="">
           </p>
           <div class="infos">
-            <h3 class="title">[国庆]洛杉矶佩吉拉斯5天4晚房车跟团游（小团VIP服务+美国营地体验+自营满意度高+可配上海/长沙/重庆往返机票）</h3>
+            <h3 class="title">洛杉矶佩吉拉斯5天4晚房车跟团游（小团VIP服务+美国营地体验+自营满意度高+可配上海/长沙/重庆往返机票）</h3>
             <p class="price"><em>6999</em>元起</p>
           </div>
         </li>
-        <li class="package-tour-item">
+        <li class="package-tour-item" onclick="togood_detail()">
           <p class="pics">
             <img src="../images/mall/package_tour/5.jpeg" alt="">
           </p>
@@ -572,7 +519,7 @@ $mall_tab = 'index';
             <p class="price"><em>8289</em>元起</p>
           </div>
         </li>
-        <li class="package-tour-item">
+        <li class="package-tour-item" onclick="togood_detail()">
           <p class="pics">
             <img src="../images/mall/package_tour/6.jpeg" alt="">
           </p>
@@ -601,36 +548,36 @@ $mall_tab = 'index';
     </div>
     <div class="dangdi-tour-body">
       <ul class="dangdi-tour-list">
-        <div class="dangdi-tour-one">
+        <div class="dangdi-tour-one" onclick="togood_detail()">
           <p class="pics">
             <img src="../images/mall/dangdi/1.jpeg" alt="">
           </p>
           <div class="mask"></div>
-          <h3 class="title">【3月22再秒杀】【打卡必玩】日本东京迪斯尼乐园/迪士尼海洋1日/多日通票</h3>
+          <h3 class="title">【打卡必玩】日本东京迪斯尼乐园/迪士尼海洋1日/多日通票</h3>
           <div class="infos">
             <p class="type">城市玩乐</p>
             <p class="price"><em>435</em>元起</p>
           </div>
         </div>
-        <div class="dangdi-tour-item">
+        <div class="dangdi-tour-item" onclick="togood_detail()">
           <div class="pics">
             <img src="../images/mall/dangdi/2.jpeg" alt="">
           </div>
-          <h3 class="title">【樱花季买二免一】【穷游Q-Home首发】日本京都祇园花见和服体验</h3>
+          <h3 class="title">日本京都祇园花见和服体验</h3>
           <p class="price"><em>240</em>元起</p>
         </div>
-        <div class="dangdi-tour-item">
+        <div class="dangdi-tour-item" onclick="togood_detail()">
           <div class="pics">
             <img src="../images/mall/dangdi/3.jpeg" alt="">
           </div>
-          <h3 class="title">【【3月21秒杀】【酒店接】日本大阪京都一日游金阁寺+伏见稻荷大社+祗园等（大阪往返，一人成团）</h3>
+          <h3 class="title">【酒店接】日本大阪京都一日游金阁寺+伏见稻荷大社+祗园等（大阪往返，一人成团）</h3>
           <p class="price"><em>195</em>元起</p>
         </div>
-        <div class="dangdi-tour-item">
+        <div class="dangdi-tour-item" onclick="togood_detail()">
           <div class="pics">
             <img src="../images/mall/dangdi/4.jpeg" alt="">
           </div>
-          <h3 class="title">【3月22再秒】【打卡必玩】日本大阪环球影城入园电子票</h3>
+          <h3 class="title">【打卡必玩】日本大阪环球影城入园电子票</h3>
           <p class="price"><em>466</em>元起</p>
         </div>
         <div class="dangdi-tour-more" onclick="toDangdiyou()">
@@ -639,14 +586,14 @@ $mall_tab = 'index';
             <span class="glyphicon glyphicon-menu-right"></span>
           </p>
         </div>
-        <div class="dangdi-tour-item">
+        <div class="dangdi-tour-item" onclick="togood_detail()">
           <div class="pics">
             <img src="../images/mall/dangdi/5.jpeg" alt="">
           </div>
           <h3 class="title">日本青森县星野酒店集团奥入濑溪流酒店</h3>
           <p class="price"><em>599</em>元起</p>
         </div>
-        <div class="dangdi-tour-item">
+        <div class="dangdi-tour-item" onclick="togood_detail()">
           <div class="pics">
             <img src="../images/mall/dangdi/6.jpeg" alt="">
           </div>
@@ -658,130 +605,6 @@ $mall_tab = 'index';
   </div>
 </div>
 
-
-
-
-<div class="gentuanyou-recommend">
-  <div class="gentuanyou-recommend-header">
-    <span class="title">优选推荐</span>
-    <span class="subtitle">集合热门目的地玩法与热选商品，从此告别选择困难症</span>
-  </div>
-  <ul class="gentuanyou-recommend-content">
-    <li class="gentuanyou-recommend-menu">
-      <h2 class="title"></h2>
-      <p class="list"><a>听说 你每年都想来一次京都</a><a>请1天假就能游澳门</a><a>去曼谷 有这一篇攻略就够了</a></p>
-      <h4 class="hot_title">热卖推荐</h4>
-      <p class="hot_list"><a>日本东京迪士尼通票</a><span class="gapline"></span><a>在新加坡与动物共进晚餐</a><span
-            class="gapline"></span><a>体验英国古堡风范</a></p>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/1.jpeg" alt="" width="570" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">冰火共存 探索极光国度</h3>
-        <p class="subtitle">冰岛游玩全攻略</p>
-      </div>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/2.jpeg" alt="" width="275" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">今夏南法 不可错过</h3>
-        <p class="subtitle">普罗旺斯及周边玩法大集合</p>
-      </div>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/3.jpeg" alt="" width="275" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">关西漫步</h3>
-        <p class="subtitle">盘点大阪及周边的HOT SPOT</p>
-      </div>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/4.jpeg" alt="" width="275" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">遇见迪拜 邂逅奢华</h3>
-        <p class="subtitle">迪拜及周边必体验 SPOT</p>
-      </div>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/5.jpeg" alt="" width="275" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">最佳时节的美国西岸</h3>
-        <p class="subtitle">玩转洛杉矶 方法任你选 SPOT</p>
-      </div>
-    </li>
-  </ul>
-</div>
-<div class="gentuanyou-recommend">
-  <div class="gentuanyou-recommend-header">
-    <span class="title">玩转全球</span>
-    <span class="subtitle">像当地人一样，体验最本土的吃喝玩乐</span>
-  </div>
-  <ul class="gentuanyou-recommend-content">
-    <li class="gentuanyou-recommend-menu red">
-      <h2 class="title">东南亚 南亚</h2>
-      <p class="list"><a>新加坡</a><a>普吉</a><a>清迈</a><a>苏梅岛</a><a>巴厘岛</a><a>沙巴</a><a>吴哥</a></p>
-      <h4 class="hot_title">热卖推荐</h4>
-      <p class="hot_list"><a>丛林飞跃</a><span class="gapline"></span><a>海岛浮潜</a><span
-            class="gapline"></span><a>圣淘沙</a><span class="gapline"></span><a>新加坡环球影城</a><span
-            class="gapline"></span><a>滨海湾花园</a></p>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/6.jpeg" alt="" width="570" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">与泰国一起 为美食疯狂</h3>
-        <p class="subtitle">曼谷+清迈人气餐厅大盘点</p>
-      </div>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/7.jpeg" alt="" width="275" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">嗨玩清迈</h3>
-        <p class="subtitle">大众小众全cover</p>
-      </div>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/8.jpeg" alt="" width="275" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">情迷巴厘岛</h3>
-        <p class="subtitle">与情人共同漫步夕阳下的海滩</p>
-      </div>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/9.jpeg" alt="" width="275" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">除了雪这里拥有一切</h3>
-        <p class="subtitle">跟随驴享汇 了解斯里兰卡</p>
-      </div>
-    </li>
-    <li class="gentuanyou-recommend-item">
-      <div class="image">
-        <img src="../images/mall/gentuanyou/recommend/10.jpeg" alt="" width="275" height="186">
-      </div>
-      <div class="titles">
-        <h3 class="title">一生要来一次一次定爱一回</h3>
-        <p class="subtitle">柬埔寨吴哥窟之旅</p>
-      </div>
-    </li>
-  </ul>
-</div>
 <?php require 'footer.php' ?>
 </body>
 </html>
@@ -793,6 +616,14 @@ $mall_tab = 'index';
 
     function toDangdiyou() {
         window.location.href = './dangdiyou.php';
+    }
+
+    function tomall_detail() {
+        window.location.href = './mall_detail.php';
+    }
+
+    function togood_detail() {
+        window.location.href = './good_detail.php';
     }
 
     function timeFormat(format, timestamp) {

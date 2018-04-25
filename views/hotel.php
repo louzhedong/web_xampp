@@ -52,25 +52,25 @@ $tab = 'hotel'
                         <div class="row">
                           <div class="col-xxs-12 col-xs-12 mt">
                             <div class="input-field">
-                              <label for="from">City:</label>
-                              <input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+                              <label for="from">城市:</label>
+                              <input type="text" class="form-control" id="from-place" placeholder="输入您所在的城市"/>
                             </div>
                           </div>
                           <div class="col-xxs-12 col-xs-6 mt alternate">
                             <div class="input-field">
-                              <label for="date-start">Return:</label>
-                              <input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+                              <label for="date-start">入住日期:</label>
+                              <input type="text" class="form-control" id="date-start" placeholder="05/08/2018"/>
                             </div>
                           </div>
                           <div class="col-xxs-12 col-xs-6 mt alternate">
                             <div class="input-field">
-                              <label for="date-end">Check Out:</label>
-                              <input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+                              <label for="date-end">离店日期:</label>
+                              <input type="text" class="form-control" id="date-end" placeholder="05/09/2018"/>
                             </div>
                           </div>
                           <div class="col-sm-12 mt">
                             <section>
-                              <label for="class">Rooms:</label>
+                              <label for="class">房间数量:</label>
                               <select class="cs-select cs-skin-border">
                                 <option value="" disabled selected>1</option>
                                 <option value="economy">1</option>
@@ -81,7 +81,7 @@ $tab = 'hotel'
                           </div>
                           <div class="col-xxs-12 col-xs-6 mt">
                             <section>
-                              <label for="class">Adult:</label>
+                              <label for="class">成人:</label>
                               <select class="cs-select cs-skin-border">
                                 <option value="" disabled selected>1</option>
                                 <option value="1">1</option>
@@ -93,7 +93,7 @@ $tab = 'hotel'
                           </div>
                           <div class="col-xxs-12 col-xs-6 mt">
                             <section>
-                              <label for="class">Children:</label>
+                              <label for="class">小孩:</label>
                               <select class="cs-select cs-skin-border">
                                 <option value="" disabled selected>1</option>
                                 <option value="1">1</option>
@@ -104,7 +104,7 @@ $tab = 'hotel'
                             </section>
                           </div>
                           <div class="col-xs-12">
-                            <input type="submit" class="btn btn-primary btn-block" value="Search Hotel">
+                            <input type="submit" class="btn btn-primary btn-block" value="搜索酒店">
                           </div>
                         </div>
                       </div>
@@ -114,10 +114,8 @@ $tab = 'hotel'
                 </div>
                 <div class="desc2">
                   <div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
-                    <p>HandCrafted by <a href="#" target="_blank" class="fh5co-site-name">FreeHTML5.co</a></p>
-                    <h2>Exclusive Limited Time Offer</h2>
-                    <h3>Fly to Hong Kong via Los Angeles, USA</h3>
-                    <span class="price">$599</span>
+                    <h2>让旅途更轻松一点</h2>
+                    <h3> 千万房源任您挑选   质量保证</h3>
                     <!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
                   </div>
                 </div>
@@ -127,15 +125,11 @@ $tab = 'hotel'
         </div>
 
       </div>
-      <div class="copyrights">Collect from <a href="#" title="网站模板">网站模板</a></div>
-
       <div id="fh5co-tours" class="fh5co-section-gray">
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h3>Hot Tours</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-                blind texts.</p>
+              <h3>热门酒店</h3>
             </div>
           </div>
           <div class="row">
@@ -143,10 +137,10 @@ $tab = 'hotel'
               <div href="#"><img src="../images/hotel/place-1.jpg" class="img-responsive">
                 <div class="desc">
                   <span></span>
-                  <h3>New York</h3>
-                  <span>3 nights + Flight 5*Hotel</span>
-                  <span class="price">$1,000</span>
-                  <a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>
+                  <h3>纽约</h3>
+                  <span>3个夜晚加上接机服务，五星级酒店</span>
+                  <span class="price">¥1500</span>
+                  <a class="btn btn-primary btn-outline" href="#">立刻预订 <i class="icon-arrow-right22"></i></a>
                 </div>
               </div>
             </div>
@@ -154,10 +148,10 @@ $tab = 'hotel'
               <div href="#"><img src="../images/hotel/place-2.jpg" class="img-responsive">
                 <div class="desc">
                   <span></span>
-                  <h3>Philippines</h3>
-                  <span>4 nights + Flight 5*Hotel</span>
-                  <span class="price">$1,000</span>
-                  <a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>
+                  <h3>菲律宾</h3>
+                  <span>5个夜晚加上接机服务，五星级酒店</span>
+                  <span class="price">¥1800</span>
+                  <a class="btn btn-primary btn-outline" href="#">立刻预订  <i class="icon-arrow-right22"></i></a>
                 </div>
               </div>
             </div>
@@ -165,15 +159,15 @@ $tab = 'hotel'
               <div href="#"><img src="../images/hotel/place-3.jpg" class="img-responsive">
                 <div class="desc">
                   <span></span>
-                  <h3>Hongkong</h3>
-                  <span>2 nights + Flight 4*Hotel</span>
-                  <span class="price">$1,000</span>
-                  <a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>
+                  <h3>香港</h3>
+                  <span>2个夜晚加上接机服务，四星级酒店</span>
+                  <span class="price">¥900</span>
+                  <a class="btn btn-primary btn-outline" href="#">立刻预订  <i class="icon-arrow-right22"></i></a>
                 </div>
               </div>
             </div>
             <div class="col-md-12 text-center animate-box">
-              <p><a class="btn btn-primary btn-outline btn-lg" href="#">See All Offers <i
+              <p><a class="btn btn-primary btn-outline btn-lg" href="#">查看更多   <i
                       class="icon-arrow-right22"></i></a></p>
             </div>
           </div>
@@ -190,9 +184,8 @@ $tab = 'hotel'
 								<i class="icon-hotairballoon"></i>
 							</span>
                 <div class="feature-copy">
-                  <h3>Family Travel</h3>
-                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                  <p><a href="#">Learn More</a></p>
+                  <h3><span class="glyphicon glyphicon-book" aria-hidden="true"></span>住宿攻略</h3>
+                  <p>区域攻略到特色主题，应有尽有</p>
                 </div>
               </div>
 
@@ -204,9 +197,8 @@ $tab = 'hotel'
 								<i class="icon-search"></i>
 							</span>
                 <div class="feature-copy">
-                  <h3>Travel Plans</h3>
-                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                  <p><a href="#">Learn More</a></p>
+                  <h3><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>专享价格</h3>
+                  <p>多平台价格对比，天天专享特惠</p>
                 </div>
               </div>
             </div>
@@ -216,51 +208,9 @@ $tab = 'hotel'
 								<i class="icon-wallet"></i>
 							</span>
                 <div class="feature-copy">
-                  <h3>Honeymoon</h3>
-                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                  <p><a href="#">Learn More</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 animate-box">
 
-              <div class="feature-left">
-							<span class="icon">
-								<i class="icon-wine"></i>
-							</span>
-                <div class="feature-copy">
-                  <h3>Business Travel</h3>
-                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                  <p><a href="#">Learn More</a></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="col-md-4 animate-box">
-              <div class="feature-left">
-							<span class="icon">
-								<i class="icon-genius"></i>
-							</span>
-                <div class="feature-copy">
-                  <h3>Solo Travel</h3>
-                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                  <p><a href="#">Learn More</a></p>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-md-4 animate-box">
-              <div class="feature-left">
-							<span class="icon">
-								<i class="icon-chat"></i>
-							</span>
-                <div class="feature-copy">
-                  <h3>Explorer</h3>
-                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                  <p><a href="#">Learn More</a></p>
+                  <h3><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>真实点评</h3>
+                  <p>超过100万真实用户点评和游记</p>
                 </div>
               </div>
             </div>
@@ -277,28 +227,28 @@ $tab = 'hotel'
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-1.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Los Angeles</h2>
+                      <h2>洛杉矶</h2>
                     </div>
                   </a>
                 </li>
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-2.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Hongkong</h2>
+                      <h2>香港</h2>
                     </div>
                   </a>
                 </li>
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-3.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Italy</h2>
+                      <h2>意大利</h2>
                     </div>
                   </a>
                 </li>
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-4.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Philippines</h2>
+                      <h2>菲律宾</h2>
                     </div>
                   </a>
                 </li>
@@ -306,125 +256,56 @@ $tab = 'hotel'
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-5.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Japan</h2>
+                      <h2>日本</h2>
                     </div>
                   </a>
                 </li>
                 <li class="one-half text-center">
                   <div class="title-bg">
                     <div class="case-studies-summary">
-                      <h2>Most Popular Destinations</h2>
-                      <span><a href="#">View All Destinations</a></span>
+                      <h2>更多高人气目的地</h2>
+                      <span><a href="#">查看更多</a></span>
                     </div>
                   </div>
                 </li>
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-6.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Paris</h2>
+                      <h2>巴黎</h2>
                     </div>
                   </a>
                 </li>
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-7.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Singapore</h2>
+                      <h2>新加坡</h2>
                     </div>
                   </a>
                 </li>
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-8.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Madagascar</h2>
+                      <h2>马达加斯加岛</h2>
                     </div>
                   </a>
                 </li>
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-9.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Egypt</h2>
+                      <h2>埃及</h2>
                     </div>
                   </a>
                 </li>
                 <li class="one-forth text-center" style="background-image: url(../images/hotel/place-10.jpg); ">
                   <a href="#">
                     <div class="case-studies-summary">
-                      <h2>Indonesia</h2>
+                      <h2>印尼</h2>
                     </div>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div id="fh5co-blog-section" class="fh5co-section-gray">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h3>Recent From Blog</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis
-                accusamus asperiores sint consequuntur debitis.</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row row-bottom-padded-md">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <div class="fh5co-blog animate-box">
-                <a href="#"><img class="img-responsive" src="../images/hotel/place-1.jpg"></a>
-                <div class="blog-text">
-                  <div class="prod-title">
-                    <h3><a href="#">30% Discount to Travel All Around the World</a></h3>
-                    <span class="posted_by">Sep. 15th</span>
-                    <span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                      live the blind texts.</p>
-                    <p><a href="#">Learn More...</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <div class="fh5co-blog animate-box">
-                <a href="#"><img class="img-responsive" src="../images/hotel/place-2.jpg"></a>
-                <div class="blog-text">
-                  <div class="prod-title">
-                    <h3><a href="#">Planning for Vacation</a></h3>
-                    <span class="posted_by">Sep. 15th</span>
-                    <span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                      live the blind texts.</p>
-                    <p><a href="#">Learn More...</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="clearfix visible-sm-block"></div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <div class="fh5co-blog animate-box">
-                <a href="#"><img class="img-responsive" src="../images/hotel/place-3.jpg"></a>
-                <div class="blog-text">
-                  <div class="prod-title">
-                    <h3><a href="#">Visit Tokyo Japan</a></h3>
-                    <span class="posted_by">Sep. 15th</span>
-                    <span class="comment"><a href="#">21<i class="icon-bubble2"></i></a></span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                      live the blind texts.</p>
-                    <p><a href="#">Learn More...</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="clearfix visible-md-block"></div>
-          </div>
-
-          <div class="col-md-12 text-center animate-box">
-            <p><a class="btn btn-primary btn-outline btn-lg" href="#">See All Post <i
-                    class="icon-arrow-right22"></i></a></p>
-          </div>
-
         </div>
       </div>
     </div>

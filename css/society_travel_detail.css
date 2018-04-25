@@ -74,12 +74,11 @@ header h1{
 
 header h1 span img{
   margin-left: 30px;
-  border: 2px solid #fff;
-  border-radius: 20px;
   width: 40px;
   height: 40px;
 
 }
+
 
 header h1 span{
   text-align: right;

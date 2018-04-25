@@ -54,9 +54,15 @@ $tab = 'mall';
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
+
         </div>
       </div>
+      <p>
+        <span class="glyphicon glyphicon-heart" aria-hidden="true" style="margin: 10px 10px;cursor:pointer;width: 20px;color: #ff9d00"></span>
+        <span>收藏</span>
+      </p>
     </div>
+
     <div class="up-right">
       <div class="tab1">
         <div class="title">

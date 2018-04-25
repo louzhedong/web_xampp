@@ -419,12 +419,13 @@ $tab = 'index'
         </div>
 
         <div class="activity-item">
-          <img src="../images/index/activity1.jpeg" alt="">
-          <img src="../images/index/activity.jpeg" alt="">
+          <img src="../images/index/poster1.jpg" alt="">
+          <img src="../images/index/poster2.png" alt="">
+          <img src="../images/index/poster3.png" alt="">
           <div class="activity-describe">
             <div class="activity-describe-body">
               <marquee direction=up behavior=scroll loop=13 scrollamount=1 scrolldelay=10 align=middle height=150 width=80% hspace=20 vspace=10 onmouseover=this.stop() onmouseout=this.start()>
-                【五一端午小长假即将来袭！】
+                【五一小长假即将来袭！】
                 <br><br>
                 如果还没定好去哪里玩，就让我们来帮你！<br>
                 可别错过了一年中最惬意的时光！<br>

@@ -95,6 +95,7 @@
 
 .carousel .mall-menu .mall-menu-item:hover .menu-content {
   display: block;
+  cursor: pointer;
 }
 
 .carousel .mall-menu .mall-menu-item .menu-content .menu-content-header {
@@ -143,10 +144,12 @@
 
 .discounts .discounts-content .discounts-item {
   width: 22%;
+  cursor: pointer;
 }
 
 .discounts .discounts-content .discounts-item img {
   width: 100%;
+
 }
 
 .kill {
@@ -346,6 +349,7 @@
   margin: 20px 0 0 20px;
   position: relative;
   width: 570px;
+  cursor: pointer;
 }
 
 .package-tour .package-tour-body .package-tour-list .package-tour-one .pics {
@@ -420,6 +424,7 @@
   float: left;
   margin: 20px 0 0 20px;
   width: 275px;
+  cursor: pointer;
 }
 
 .package-tour .package-tour-body .package-tour-list .package-tour-item .pics {
@@ -659,6 +664,7 @@
   height: 120px;
   padding-left: 120px;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .dangdi-tour .dangdi-tour-body .dangdi-tour-list .dangdi-tour-item .pics {
