@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="../package/jVectorMap/jquery-jvectormap-2.0.3.css" type="text/css" media="screen">
   <script src="../package/jVectorMap/jquery-1.12.4.min.js"></script>
   <script src="../package/jVectorMap/jquery-jvectormap-2.0.3.min.js"></script>
-  <script src="../package/jVectorMap/world_mill.js"></script>
   <script src="../package/jVectorMap/jquery-jvectormap-cn-mill.js"></script>
 </head>
 <body>
@@ -88,7 +87,7 @@ $tab = 'center';
     <li><a href="#day3">我的兑换</a></li>
     <li><a href="#day4">常用信息</a></li>
   </ul> <!-- cd-faq-categories -->
-  <ul class="nav nav-pills nav-stacked" role="tablist">
+  <ul class="nav nav-pills nav-stacked" style="float: left" role="tablist">
     <li role="presentation"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">全部</a></li>
     <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot" data-toggle="tab">跟团游</a></li>
     <li role="presentation" class="active"><a aria-controls="banzizhuyou" href="#banzizhuyou" role="tab" data-toggle="tab">半自助游</a></li>
@@ -96,7 +95,7 @@ $tab = 'center';
     <li role="presentation"><a aria-controls="qianzheng" href="#banzizhuyou" role="tab" data-toggle="tab">签证</a></li>
     <li role="presentation"><a aria-controls="youlun" href="#banzizhuyou" role="tab" data-toggle="tab">邮轮</a></li>
   </ul>
-  <div class="tab-content">
+  <div class="tab-content" style="float: right">
     <div role="tabpanel" class="tab-pane active" id="all">
       <div class="line">出发日期：<input type="checkbox">不限 <input type="checkbox">5月 <input type="checkbox">6月 <input
             type="checkbox">7月 <input type="checkbox">8月 <input type="checkbox">9月 <input type="checkbox">10月 <input

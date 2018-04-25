@@ -278,3 +278,8 @@
 .guide_row .col-md-7{
     margin-top: 30px;
 }
+
+.guide_row .col-md-7 .title{
+    margin:100px 0 10px 0;
+    padding:10px 0 10px 0;
+}
