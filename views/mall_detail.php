@@ -91,7 +91,7 @@ $mall_tab = 'mall_detail'
       <div class="mall_detail-list">
         <div class="row">
           <div class="col-md-8">
-            <a class="item" href="#">
+            <a class="item" onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin1.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -123,7 +123,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin2.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -155,7 +155,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item" onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin3.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -186,7 +186,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item" onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin4.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -217,7 +217,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin5.gif" height="150" width="200">
                 <span class="mark-type type-10">
@@ -249,7 +249,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin6.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -282,7 +282,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin7.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -314,7 +314,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin8.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -346,7 +346,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin9.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -378,7 +378,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin10.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -410,7 +410,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin11.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -442,7 +442,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin12.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -475,7 +475,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin13.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -507,7 +507,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin14.jpeg" height="150" width="200">
                 <span class="mark-type type-10">
@@ -539,7 +539,7 @@ $mall_tab = 'mall_detail'
                 </div>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item"  onclick="togood_detail()">
               <div class="image">
                 <img src="../images/mall/detail/shangpin15.gif" height="150" width="200">
                 <span class="mark-type type-10">
@@ -573,7 +573,38 @@ $mall_tab = 'mall_detail'
             </a>
           </div>
           <div class="col-md-1"></div>
-          <div class="col-md-3"></div>
+          <div class="col-md-3">
+            <div class="activity-header">
+              最新活动
+            </div>
+            <div class="activity-item">
+              <img src="../images/index/poster1.jpg" alt="">
+              <img src="../images/index/poster2.png" alt="">
+              <img src="../images/index/poster3.png" alt="">
+              <div class="activity-describe">
+                <div class="activity-describe-body">
+                  <marquee direction=up behavior=scroll loop=13 scrollamount=1 scrolldelay=10 align=middle height=150 width=80% hspace=20 vspace=10 onmouseover=this.stop() onmouseout=this.start()>
+                    【五一小长假即将来袭！】
+                    <br><br>
+                    如果还没定好去哪里玩，就让我们来帮你！<br>
+                    可别错过了一年中最惬意的时光！<br>
+                    <br><br>
+                    【跟父母一起去远方】
+                    <br><br>
+                    每个成长的瞬间，都有他们的陪伴，<br>
+                    曾经他们把世界带给我们，如今我们将世界呈现给他们。<br>
+                    日本的古朴、清迈的悠闲、纽约的繁华…<br>
+                    现在，是你带领他们看世界的时候了！<br>
+                    <br><br>
+                    【签证1元起，你还在等什么？】
+                    <br><br>
+                    时近暑期，还伴随着清明五一端午节的假日，<br>
+                    闲不下来的你，是否被想出国耍的思绪搞的心痒痒？<br>
+                    那不如，我们帮你搞定签证！</marquee>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -583,3 +614,8 @@ $mall_tab = 'mall_detail'
 <?php require 'footer.php' ?>
 </body>
 </html>
+<script>
+    function togood_detail() {
+        window.location.href = './good_detail.php';
+    }
+</script>

@@ -128,7 +128,7 @@ $tab = 'mall';
           <em id="total-count">4285</em>
           </span>
         </div>
-        <div class="right">
+        <div class="right" onclick="tobooking()">
           立即预订
         </div>
       </div>
@@ -226,6 +226,10 @@ $tab = 'mall';
   <script src="../package/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
   <script src="../package/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
   <script>
+      function tobooking() {
+          window.location.href = './booking.php';
+      }
+
       $('#datetimepicker').datetimepicker({
           format: 'yyyy-mm-dd',
           autoclose: true,
