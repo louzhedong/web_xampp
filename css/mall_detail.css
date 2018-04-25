@@ -101,7 +101,7 @@
 }
 
 .mall_detail .mall_detail-list .col-md-8 .item .detail {
-  float: right;
+  float: left;
   width: 520px;
 }
 
@@ -194,8 +194,7 @@
   font-weight: bold;
 }
 
-
-.mall_detail .mall_detail_list .row .col-md-3 .activity .activity-header {
+.mall_detail .mall_detail-list .row .col-md-3 .activity-header {
   margin-bottom: 30px;
   height: 30px;
   line-height: 30px;
@@ -203,16 +202,17 @@
   padding-left: 15px;
   font-size: 20px;
 }
-.mall_detail .mall_detail_list .row .col-md-3 .activity .activity-item {
+
+.mall_detail .mall_detail-list .row .col-md-3 .activity-item {
   cursor: pointer;
   width: 100%;
 }
 
-.mall_detail .mall_detail_list .row .col-md-3 .activity .activity-item img {
+.mall_detail .mall_detail-list .row .col-md-3 .activity-item img {
   width: 100%;
 }
 
-.mall_detail_list .row .activity .activity-item .activity-describe {
+.mall_detail-list .row .activity-item .activity-describe {
   background-color: #F0F8FA;
   padding-left: 5px;
   padding-right: 5px;
@@ -220,8 +220,7 @@
   padding-top: 20px;
 }
 
-
-.mall_detail_list .row .activity .activity-item .activity-describe .activity-describe-body {
+.mall_detail-list .row .activity-item .activity-describe .activity-describe-body {
   font-size: 14px;
   line-height: 22px;
   color: #666;
