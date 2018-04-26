@@ -14,17 +14,20 @@
 .carousel .carousel-inner .item img {
   height: 100%;
   width: 100%;
+
 }
 
 .carousel .carousel-inner .item .carousel-caption {
   font-size: 18px;
   text-align: right;
+  cursor: pointer;
 }
 
 .carousel .carousel-inner .item .carousel-caption .date {
   font-size: 24px;
   margin-right: 10px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .carousel .search-box {

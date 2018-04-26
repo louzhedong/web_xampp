@@ -25,8 +25,8 @@ $tab = 'index'
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="../images/index/carousel/carousel1.jpeg" alt="...">
-        <div class="carousel-caption">
-          【跟着英剧镜头 玩转不列颠】独家英剧取景地打卡、唐顿庄园复古Vintage穿搭、超赞民宿
+        <div class="carousel-caption" onclick="tosociety_travel_detail()">
+          <span class="date">2/2018</span>【跟着英剧镜头 玩转不列颠】独家英剧取景地打卡、唐顿庄园复古Vintage穿搭、超赞民宿
         </div>
       </div>
       <div class="item">
@@ -37,14 +37,14 @@ $tab = 'index'
       </div>
       <div class="item">
         <img src="../images/index/carousel/carousel3.jpeg" alt="...">
-        <div class="carousel-caption">
-          夜夜夜新加坡，越夜越HAPPY，新加坡夜色大狂欢
+        <div class="carousel-caption" onclick="tosociety_travel_detail()">
+          <span class="date">4/2018</span>夜夜夜新加坡，越夜越HAPPY，新加坡夜色大狂欢
         </div>
       </div>
       <div class="item">
         <img src="../images/index/carousel/carousel4.jpeg" alt="...">
-        <div class="carousel-caption">
-          <span class="date">4/2018</span>雪线之下无风景，路绳之上皆兄弟
+        <div class="carousel-caption" onclick="tosociety_travel_detail()">
+          <span class="date">5/2018</span>雪线之下无风景，路绳之上皆兄弟
         </div>
       </div>
       <div class="item">
@@ -264,7 +264,7 @@ $tab = 'index'
               <img src="../images/society/society_travel/t1.jpeg" height="100%">
             </div>
             <div class="detail">
-              <div class="info">
+              <div class="info" >
                 <h3>泰国：FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略</h3>
                 <div class="extra">
                   <div class="action">
