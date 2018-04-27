@@ -189,7 +189,7 @@ $scenicdetail_tab= 'gailan';
       </div>
       <div class="goods">
         <ul class="hot-sale-content" style="overflow:hidden">
-          <li class="hot-sale-item" onclick="tomall_detail()">
+          <li class="hot-sale-item" onclick="togood_detail()">
             <div class="image" >
               <img src="../images/mall/dangdi/hot_sale/1.jpeg" alt="">
               <div class="mark-tag">
@@ -202,7 +202,7 @@ $scenicdetail_tab= 'gailan';
               <span class="price"><b>￥800</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item" onclick="tomall_detail()">
+          <li class="hot-sale-item" onclick="togood_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/2.gif" alt="">
               <div class="mark-tag">
@@ -215,7 +215,7 @@ $scenicdetail_tab= 'gailan';
               <span class="price"><b>￥398</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item" onclick="tomall_detail()">
+          <li class="hot-sale-item" onclick="togood_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/3.jpeg" alt="">
               <div class="mark-tag">
@@ -228,7 +228,7 @@ $scenicdetail_tab= 'gailan';
               <span class="price"><b>￥660</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item"  onclick="tomall_detail()">
+          <li class="hot-sale-item"  onclick="togood_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/4.gif" alt="">
               <div class="mark-tag">
@@ -241,7 +241,7 @@ $scenicdetail_tab= 'gailan';
               <span class="price"><b>￥369</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item" onclick="tomall_detail()">
+          <li class="hot-sale-item" onclick="togood_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/5.jpeg" alt="">
               <div class="mark-tag">
@@ -254,7 +254,7 @@ $scenicdetail_tab= 'gailan';
               <span class="price"><b>￥3980</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item" onclick="tomall_detail()">
+          <li class="hot-sale-item" onclick="togood_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/6.jpeg" alt="">
               <div class="mark-tag">
@@ -267,7 +267,7 @@ $scenicdetail_tab= 'gailan';
               <span class="price"><b>￥208</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item"  onclick="tomall_detail()">
+          <li class="hot-sale-item"  onclick="togood_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/7.jpeg" alt="">
               <div class="mark-tag">
@@ -280,7 +280,7 @@ $scenicdetail_tab= 'gailan';
               <span class="price"><b>￥278</b> 起</span>
             </div>
           </li>
-          <li class="hot-sale-item" onclick="tomall_detail()">
+          <li class="hot-sale-item" onclick="togood_detail()">
             <div class="image">
               <img src="../images/mall/dangdi/hot_sale/8.jpeg" alt="">
               <div class="mark-tag">
@@ -296,7 +296,7 @@ $scenicdetail_tab= 'gailan';
         </ul>
       </div>
       <div class="more">
-        <button type="button" class="btn btn-default" onclick="toMall_detail()">点击查看更多</button>
+        <button type="button" class="btn btn-default" onclick="tomall_detail()">点击查看更多</button>
       </div>
     </div>
     <div class="col-md-1"></div>
@@ -641,6 +641,10 @@ $scenicdetail_tab= 'gailan';
 
     function tosociety_travel() {
         window.location.href = './society_travel.php';
+    }
+
+    function togood_detail() {
+        window.location.href = './good_detail.php';
     }
 
 </script>
