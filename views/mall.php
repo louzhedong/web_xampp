@@ -328,57 +328,57 @@ $mall_tab = 'index';
         </div>
       </div>
     </div>
-    <div class="mall-menu-item">
-      <span class="mall-menu-icon glyphicon glyphicon-film"></span>
-      <div class="title">
-        <h2 class="mall-menu-title">个性推荐</h2>
-        <p class="mall-menu-subtitle">海岛游 闺蜜 度蜜月</p>
-      </div>
-      <span class="mall-menu-arrow glyphicon glyphicon-chevron-right"></span>
-      <div class="menu-content">
-        <div class="menu-content-header">香港 澳门 台湾</div>
-        <div class="menu-content-body">
-          <ul class="menu-content-item">
-            <li>香港</li>
-            <li>澳门</li>
-          </ul>
-          <ul class="menu-content-item">
-            <li>香港迪士尼</li>
-            <li>澳门塔</li>
-            <li>摩天轮</li>
-          </ul>
-          <ul class="menu-content-item">
-            <li>台北</li>
-            <li>高雄</li>
-          </ul>
-          <ul class="menu-content-item">
-            <li>高铁票</li>
-            <li>城市交通</li>
-            <li>环岛精选</li>
-          </ul>
-        </div>
-        <div class="menu-content-header">国内</div>
-        <div class="menu-content-body">
-          <ul class="menu-content-item">
-            <li>长白山</li>
-            <li>三亚</li>
-            <li>厦门</li>
-            <li>成都</li>
-            <li>丽江</li>
-            <li>重庆</li>
-            <li>上海</li>
-            <li>西安</li>
-            <li>桂林</li>
-            <li>杭州</li>
-            <li>北海</li>
-          </ul>
-          <ul class="menu-content-item">
-            <li>兰州机票</li>
-            <li>故宫以东</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+<!--    <div class="mall-menu-item">-->
+<!--      <span class="mall-menu-icon glyphicon glyphicon-film"></span>-->
+<!--      <div class="title">-->
+<!--        <h2 class="mall-menu-title">个性推荐</h2>-->
+<!--        <p class="mall-menu-subtitle">海岛游 闺蜜 度蜜月</p>-->
+<!--      </div>-->
+<!--      <span class="mall-menu-arrow glyphicon glyphicon-chevron-right"></span>-->
+<!--      <div class="menu-content">-->
+<!--        <div class="menu-content-header">香港 澳门 台湾</div>-->
+<!--        <div class="menu-content-body">-->
+<!--          <ul class="menu-content-item">-->
+<!--            <li>香港</li>-->
+<!--            <li>澳门</li>-->
+<!--          </ul>-->
+<!--          <ul class="menu-content-item">-->
+<!--            <li>香港迪士尼</li>-->
+<!--            <li>澳门塔</li>-->
+<!--            <li>摩天轮</li>-->
+<!--          </ul>-->
+<!--          <ul class="menu-content-item">-->
+<!--            <li>台北</li>-->
+<!--            <li>高雄</li>-->
+<!--          </ul>-->
+<!--          <ul class="menu-content-item">-->
+<!--            <li>高铁票</li>-->
+<!--            <li>城市交通</li>-->
+<!--            <li>环岛精选</li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--        <div class="menu-content-header">国内</div>-->
+<!--        <div class="menu-content-body">-->
+<!--          <ul class="menu-content-item">-->
+<!--            <li>长白山</li>-->
+<!--            <li>三亚</li>-->
+<!--            <li>厦门</li>-->
+<!--            <li>成都</li>-->
+<!--            <li>丽江</li>-->
+<!--            <li>重庆</li>-->
+<!--            <li>上海</li>-->
+<!--            <li>西安</li>-->
+<!--            <li>桂林</li>-->
+<!--            <li>杭州</li>-->
+<!--            <li>北海</li>-->
+<!--          </ul>-->
+<!--          <ul class="menu-content-item">-->
+<!--            <li>兰州机票</li>-->
+<!--            <li>故宫以东</li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
   </div>
 </div>
 <div class="discounts">
@@ -469,7 +469,7 @@ $mall_tab = 'index';
 <div class="package-tour">
   <div class="package-tour-content">
     <div class="package-tour-header">
-      <p class="title">跟团游</p>
+      <p class="title">跟团游世界</p>
       <p class="subtitle">旅游需要好的选择，全网精选强力推荐</p>
     </div>
     <div class="package-tour-body">
@@ -528,7 +528,7 @@ $mall_tab = 'index';
             <p class="price"><em>3680</em>元起</p>
           </div>
         </li>
-        <div class="package-tour-more" onclick="toGentuanyou()">
+        <div class="package-tour-more" onclick="tomall_detail()">
           <p class="title">查看更多<br>跟团游产品</p>
           <p class="arrow">
             <span class="glyphicon glyphicon-menu-right"></span>
@@ -543,8 +543,8 @@ $mall_tab = 'index';
 <div class="dangdi-tour">
   <div class="dangdi-tour-content">
     <div class="dangdi-tour-header">
-      <p class="title">当地自助游</p>
-      <p class="subtitle">像当地人一样，体验最本土的吃喝玩乐</p>
+      <p class="title">畅爽当地自由行</p>
+      <p class="subtitle">想玩什么玩什么，谁也无法阻挡一颗渴望自由的心</p>
     </div>
     <div class="dangdi-tour-body">
       <ul class="dangdi-tour-list">
@@ -570,7 +570,7 @@ $mall_tab = 'index';
           <div class="pics">
             <img src="../images/mall/dangdi/3.jpeg" alt="">
           </div>
-          <h3 class="title">【酒店接】日本大阪京都一日游金阁寺+伏见稻荷大社+祗园等（大阪往返，一人成团）</h3>
+          <h3 class="title">日本大阪京都一日游金阁寺+伏见稻荷大社+祗园等（大阪往返，一人成团）</h3>
           <p class="price"><em>195</em>元起</p>
         </div>
         <div class="dangdi-tour-item" onclick="togood_detail()">
@@ -580,8 +580,8 @@ $mall_tab = 'index';
           <h3 class="title">【打卡必玩】日本大阪环球影城入园电子票</h3>
           <p class="price"><em>466</em>元起</p>
         </div>
-        <div class="dangdi-tour-more" onclick="toDangdiyou()">
-          <p class="title">查看更多<br>当地玩乐产品</p>
+        <div class="dangdi-tour-more" onclick="tomall_detail()">
+          <p class="title">查看更多<br>当地游产品</p>
           <p class="arrow">
             <span class="glyphicon glyphicon-menu-right"></span>
           </p>

@@ -54,9 +54,9 @@ $tab = 'strategy'
     <div class="col-md-5">
       <div class="left">
         <div class="related-header">
-          相关游记
+          相关驴友记
           <span class="right" onclick="tosociety_travel()">
-            更多游记<span class="glyphicon glyphicon-send"></span>
+            更多驴友记<span class="glyphicon glyphicon-send"></span>
           </span>
         </div>
         <div class="related-content">
