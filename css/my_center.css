@@ -1,5 +1,9 @@
-.my-center {
+body{
   background-color: #f3f3f5;
+}
+
+.my-center {
+
   margin-bottom: 60px;
 }
 
@@ -638,7 +642,7 @@ table tbody tr {
 .cd-faq-content .order-hd {
   padding: 0 20px;
   height: 44px;
-  background-color: #f5f5f5;
+  background-color: #e4e4e4;
   line-height: 44px;
   text-align: center;
   color: #333;
@@ -681,7 +685,7 @@ table tbody tr {
   padding: 0 30px;
   text-align: left;
   line-height: 40px;
-  background-color: #f5f5f5;
+  background-color: #e4e4e4;
   display: table-caption;
 }
 
@@ -781,9 +785,8 @@ table tbody tr {
   padding: 0 5px;
 }
 
-#day4 .cd-faq-content .content .hd {
-  padding-bottom: 18px;
-  margin: 0 0 20px 0;
+#day4 .cd-faq-content .content{
+  margin: 20px 0 20px 0;
   border-bottom: 1px solid #eee;
 }
 
@@ -1103,4 +1106,71 @@ table tbody tr {
 
 #day1 .cd-faq-content .favlist .post_item .info .author a {
   color: #fa0;;
+}
+
+
+.nav-tabs {
+  border-bottom: none;
+  margin-left: 20px;
+}
+
+.nav-tabs li a {
+  color: #000;
+  cursor: pointer;
+  border: 0 !important;
+}
+
+.nav-tabs li.active a {
+  color: #000;
+  font-weight: bold;
+  border-radius: 0px;
+  border-bottom: 2px solid #ff9d00 !important;
+}
+
+
+#day3 .cd-faq-content .favlist {
+  padding-left: 20px;
+}
+
+#day3 .cd-faq-content .favlist .post_item {
+  padding: 20px 0;
+  margin-bottom: -1px;
+  border-bottom: 1px dashed #cecece;
+  color: #666;
+  position: relative;
+  overflow: hidden;
+}
+
+#day3 .cd-faq-content .favlist .post_item .pic {
+  float: left;
+  margin-right: 15px;
+  width: 195px;
+  position: relative;
+  height: 140px;
+  overflow: hidden;
+}
+
+#day3 .cd-faq-content .favlist .post_item .pic img {
+  width: 100%;
+}
+
+#day3 .cd-faq-content .favlist .post_item .info {
+  float: left;
+  width: 450px;
+}
+
+#day3 .cd-faq-content .favlist .post_item .info h2 {
+  height: 50px;
+  margin: 0 25px 5px 0;
+  font-size: 16px;
+  overflow: hidden;
+  font-weight: normal;
+  color: #ff9d00;
+}
+
+#day3 .cd-faq-content .favlist .post_item .info .post_info {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  clear: both;
 }

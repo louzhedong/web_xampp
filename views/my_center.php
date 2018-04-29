@@ -85,7 +85,7 @@ $tab = 'center';
     <li><a class="selected" href="#basics"> 我的订单</a></li>
     <li><a href="#day1">我的收藏</a></li>
     <li><a href="#day2">我的问答</a></li>
-    <li><a href="#day3">我的兑换</a></li>
+    <li><a href="#day3">我的游记</a></li>
     <li><a href="#day4">常用信息</a></li>
   </ul> <!-- cd-faq-categories -->
   <div class="cd-faq-items">
@@ -255,6 +255,15 @@ $tab = 'center';
     <ul id="day1" class="cd-faq-group" style="display: none">
       <li class="cd-faq-title"><h2>我的收藏</h2></li>
       <li>
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">驴友记收藏</a>
+          </li>
+          <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot" data-toggle="tab">团购收藏</a></li>
+          <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot" data-toggle="tab">地点收藏</a></li>
+          <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot" data-toggle="tab">酒店收藏</a></li>
+          <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot" data-toggle="tab">问答收藏</a></li>
+
+        </ul>
         <div class="cd-faq-content">
           <ul class="favlist">
             <li class="post_item">
@@ -336,12 +345,20 @@ $tab = 'center';
     </ul> <!-- cd-faq-group -->
 
     <ul id="day2" class="cd-faq-group" style="display: none">
+
       <li class="cd-faq-title"><h2>我的问答</h2></li>
+
       <li>
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">我的回答</a>
+          </li>
+          <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot"
+                                     data-toggle="tab">我的提问</a></li>
+        </ul>
         <div class="cd-faq-content">
           <div class="wd-total">
             <span class="left">共有8个回答</span>
-            <span class="right">我要提问</span>
+            <span class="right"><button type="button" class="btn btn-warning">我要提问</button></span>
           </div>
           <div class="wd-list">
             <div class="wd-item">
@@ -394,23 +411,53 @@ $tab = 'center';
     </ul> <!-- cd-faq-group -->
 
     <ul id="day3" class="cd-faq-group" style="display: none">
-      <li class="cd-faq-title"><h2>我的兑换</h2></li>
+      <li class="cd-faq-title"><h2>我的游记</h2></li>
       <li>
+        <div class="wirte" style="border-bottom: 1px solid #f5f5f5;text-align: right;padding: 20px 10px 10px 20px;"><button type="button" class="btn btn-warning">写游记</button>
+        </div>
         <div class="cd-faq-content">
+          <ul class="favlist">
+            <li class="post_item">
+              <div class="pic">
+                <img src="../images/society/society_travel/t1.jpeg" alt="">
+              </div>
+              <div class="info">
+                <h2>FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略</h2>
+                <div class="post_info">
+                  <p>泰国这个地方呢，很神奇，怎么说他神奇呢？是因为在时间安排上来讲，泰国旅游就跟他们人妖的“小弟弟”一样--可长可短；旅行范围呢，又跟他们人妖的“小妹妹”一样--可大可小。
+                    先说时间，楼主在泰国的这几次...</p>
+                </div>
+              </div>
+            </li>
+            <li class="post_item">
+              <div class="pic">
+                <img src="../images/society/society_travel/t3.jpg" alt="">
+              </div>
+              <div class="info">
+                <h2>Japan 日本的一周游，开心，分享给大家</h2>
+                <div class="post_info">
+                  <p>日本这个地方，其实国土体积比起中国算是很小了，但是他属于发达国家，我也是因此来游玩，见识见识，济州岛啊，清潭洞啊，弘大等地方都是人流量很大的地方，旅行范围呢，很大...
+                    </p>
+                </div>
+              </div>
+            </li>
 
+          </ul>
         </div> <!-- cd-faq-content -->
       </li>
     </ul> <!-- cd-faq-group -->
 
     <ul id="day4" class="cd-faq-group" style="display: none">
-      <li class="cd-faq-title"><h2>常用信息</h2></li>
+      <li class="cd-faq-title"><h2>我的问答</h2></li>
       <li>
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">我的信息</a>
+          </li>
+          <li role="presentation"><a aria-controls="mall_detail" href="#mall_detail" role="hot"
+                                     data-toggle="tab">常用联系人</a></li>
+        </ul>
         <div class="cd-faq-content">
           <div class="content">
-            <div class="hd">
-              <strong>我的信息</strong>
-            </div>
-
             <div class="userinfo">
               <form action="" method="post" id="_j_form">
                 <div class="my-avatar">
@@ -419,7 +466,7 @@ $tab = 'center';
                   <input type="file" id="upload-avatar">
                 </div>
                 <dl class="clearfix">
-                  <dt>名号：</dt>
+                  <dt>用户名：</dt>
                   <dd><input type="text" name="name" value="wuli思密达达达达达" maxlength="16" autocomplete="off"></dd>
                 </dl>
                 <dl class="clearfix">
@@ -455,9 +502,9 @@ $tab = 'center';
                 </dl>
                 <dl class="clearfix">
                   <dt>收货地址：</dt>
-                  <dd class="myaddress">
-                    <a>新增收货地址</a>
-                  </dd>
+                  <dd><textarea name="intro" placeholder="例：输入地址"
+                                maxlength="100"></textarea></dd>
+
                 </dl>
                 <dl class="clearfix">
                   <dt></dt>
