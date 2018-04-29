@@ -100,7 +100,7 @@
                 if (data.resultCode === 0) {
                     toastr.success('注册成功！');
                     setTimeout(function () {
-                        window.location.href = "/index/User/login";
+                        window.location.href = "./login.php";
                     }, 2000)
                 } else if (data.resultCode !== 0) {
                     toastr.error('用户名已存在！');
