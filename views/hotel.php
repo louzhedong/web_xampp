@@ -129,7 +129,7 @@ $tab = 'hotel'
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h3>热门酒店</h3>
+              <h3>热门城市酒店</h3>
             </div>
           </div>
           <div class="row">
@@ -162,6 +162,72 @@ $tab = 'hotel'
                   <h3>香港</h3>
                   <span>2个夜晚加上接机服务，四星级酒店</span>
                   <span class="price">¥900</span>
+                  <a class="btn btn-primary btn-outline" href="#">立刻预订  <i class="icon-arrow-right22"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+              <div href="#"><img src="../images/hotel/place-4.jpg" class="img-responsive">
+                <div class="desc">
+                  <span></span>
+                  <h3>英格兰</h3>
+                  <span>2个夜晚加上接机服务，五星级酒店</span>
+                  <span class="price">¥1050</span>
+                  <a class="btn btn-primary btn-outline" href="#">立刻预订 <i class="icon-arrow-right22"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+              <div href="#"><img src="../images/hotel/place-5.jpg" class="img-responsive">
+                <div class="desc">
+                  <span></span>
+                  <h3>三亚</h3>
+                  <span>4个夜晚加上接机服务，五星级酒店</span>
+                  <span class="price">¥2100</span>
+                  <a class="btn btn-primary btn-outline" href="#">立刻预订  <i class="icon-arrow-right22"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+              <div href="#"><img src="../images/hotel/place-6.jpg" class="img-responsive">
+                <div class="desc">
+                  <span></span>
+                  <h3>巴黎</h3>
+                  <span>4个夜晚加上接机服务，四星级酒店</span>
+                  <span class="price">¥2350</span>
+                  <a class="btn btn-primary btn-outline" href="#">立刻预订  <i class="icon-arrow-right22"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+              <div href="#"><img src="../images/hotel/place-7.jpg" class="img-responsive">
+                <div class="desc">
+                  <span></span>
+                  <h3>丽江</h3>
+                  <span>4个夜晚加上接机服务，五星级酒店</span>
+                  <span class="price">¥1500</span>
+                  <a class="btn btn-primary btn-outline" href="#">立刻预订 <i class="icon-arrow-right22"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+              <div href="#"><img src="../images/hotel/place-8.jpg" class="img-responsive">
+                <div class="desc">
+                  <span></span>
+                  <h3>爱尔兰</h3>
+                  <span>4个夜晚加上接机服务，五星级酒店</span>
+                  <span class="price">¥1980</span>
+                  <a class="btn btn-primary btn-outline" href="#">立刻预订  <i class="icon-arrow-right22"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+              <div href="#"><img src="../images/hotel/place-9.jpg" class="img-responsive">
+                <div class="desc">
+                  <span></span>
+                  <h3>悉尼</h3>
+                  <span>5个夜晚加上接机服务，四星级酒店</span>
+                  <span class="price">¥2280</span>
                   <a class="btn btn-primary btn-outline" href="#">立刻预订  <i class="icon-arrow-right22"></i></a>
                 </div>
               </div>

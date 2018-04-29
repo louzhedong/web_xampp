@@ -24,7 +24,7 @@ $mall_tab = 'visa';
     <div class="col-md-8">
       <div class="visa-recommend">
         <div class="visa-recommend-header">
-          <h3>驴享网推荐</h3>
+          <h3>驴享汇推荐</h3>
         </div>
         <ul class="visa-recommend-content">
           <li class="visa-recommend-item">

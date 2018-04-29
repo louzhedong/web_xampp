@@ -190,15 +190,6 @@ $tab = 'travel';
     <ul class="list-group sf-box">
       <li class="list-group-item"><a href="#"><i class="fa fa-gift" aria-hidden="true"></i>每日签到</a></li>
     </ul>
-
-    <div class="panel panel-default sf-box">
-      <div class="panel-heading gray">社区运行状况</div>
-      <div class="panel-body">
-        <span class="si-label">注册会员:</span><span class="si-info">6624</span>
-        <span class="si-label">板块:</span><span class="si-info">4</span>
-        <span class="si-label">问题:</span><span class="si-info">761</span>
-      </div>
-    </div>
   </div>
   <!-- sf-right end -->
 

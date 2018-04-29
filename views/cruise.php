@@ -330,7 +330,7 @@ $mall_tab = 'cruise';
       </div>
       <div class="cruise-ship">
         <div class="cruise-ship-header">
-          <span class="title">邮轮推荐</span>
+          <span class="title">邮轮热卖</span>
           <span class="subtitle">总有一款适合你</span>
         </div>
         <ul class="cruise-ship-content">

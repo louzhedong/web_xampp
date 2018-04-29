@@ -259,24 +259,6 @@ $tab = 'center';
           <ul class="favlist">
             <li class="post_item">
               <div class="pic">
-                <img src="../images/my_favorite/1.jpeg" alt="">
-              </div>
-              <div class="info">
-                <h2>夜夜夜新加坡，越夜越HAPPY，新加坡夜色大</h2>
-                <div class="author">
-                  <p class="authorA">
-                    作者：<a>唐人</a>,
-                  </p>
-                  <p class="authorB">回复：<a>花儿</a>. 2017-02-21 15:16:31</p>
-                </div>
-                <div class="post_info">
-                  <p>作为夜猫子的我，生来对夜生活有着狂热追求。 出门旅行，无论走到哪里，总是对每个地方的夜生活充满期待。 于是，这次 新加坡 的旅行我选择了一次特别的夜生活体验。 新加坡
-                    的夜生活完全没有让我失望，无论是夜幕降</p>
-                </div>
-              </div>
-            </li>
-            <li class="post_item">
-              <div class="pic">
                 <img src="../images/my_favorite/2.jpeg" alt="">
               </div>
               <div class="info">
@@ -354,7 +336,7 @@ $tab = 'center';
     </ul> <!-- cd-faq-group -->
 
     <ul id="day2" class="cd-faq-group" style="display: none">
-      <li class="cd-faq-title"><h2>我的回答</h2></li>
+      <li class="cd-faq-title"><h2>我的问答</h2></li>
       <li>
         <div class="cd-faq-content">
           <div class="wd-total">

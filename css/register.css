@@ -4,7 +4,7 @@
 .register-box {
     position: absolute;
     width: 360px;
-    background: #fff;
+    background:rgba(255,255,255,0.2);
     top: 50%;
     left: 50%;
     margin: -180px;
