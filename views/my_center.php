@@ -84,7 +84,7 @@ $tab = 'center';
   <ul class="cd-faq-categories">
     <li><a class="selected" href="#basics"> 我的订单</a></li>
     <li><a href="#day1">我的收藏</a></li>
-    <li><a href="#day2">我的回答</a></li>
+    <li><a href="#day2">我的问答</a></li>
     <li><a href="#day3">我的兑换</a></li>
     <li><a href="#day4">常用信息</a></li>
   </ul> <!-- cd-faq-categories -->
@@ -340,7 +340,8 @@ $tab = 'center';
       <li>
         <div class="cd-faq-content">
           <div class="wd-total">
-            共有8个回答
+            <span class="left">共有8个回答</span>
+            <span class="right">我要提问</span>
           </div>
           <div class="wd-list">
             <div class="wd-item">

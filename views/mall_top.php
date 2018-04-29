@@ -14,6 +14,10 @@
       <div class="col-md-3 title">享商城</div>
       <div class="col-md-8">
         <div class="mall-search">
+          <div class="from">
+            <span class="big">杭州</span>
+            <span class="small">出发</span>
+          </div>
           <div class="icons glyphicon glyphicon-search"></div>
           <input class="search-input" placeholder="搜索国家、城市、产品"></input>
         </div>

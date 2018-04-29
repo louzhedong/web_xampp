@@ -21,16 +21,28 @@
   position: relative;
 }
 
+.mall-top .mall-top-search .col-md-8 .mall-search .from{
+  width: 100px;
+  background: #fff;
+  position: absolute;
+  height: 30px;
+  margin: 5px;
+  border-radius: 20px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
 .mall-top .mall-top-search .col-md-8 .mall-search .icons {
   position: absolute;
   margin-left: 14px;
   margin-top: 12px;
+  left: 100px;
 }
 
 .mall-top .mall-top-search .col-md-8 .mall-search .search-input {
   width: 615px;
   height: 40px;
-  padding: 0 25px 0 43px;
+  padding: 0 25px 0 143px;
   border: none;
   border-radius: 20px;
   background-color: #f0f0f0;

@@ -997,9 +997,22 @@ table tbody tr {
 
 #day2 .cd-faq-content .wd-total {
   margin: 15px 0 5px;
-  line-height: 24px;
+  line-height: 30px;
   font-size: 14px;
   color: #999;
+}
+
+#day2 .cd-faq-content .wd-total .right {
+  float: right;
+  background: #ff9d00;
+  color: #fff;
+  width: 80px;
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+  line-height: 30px;
+  cursor: pointer;
+}
 }
 
 #day2 .cd-faq-content .wd-list {

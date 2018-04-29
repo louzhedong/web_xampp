@@ -7,7 +7,7 @@
 <head>
   <title>驴友记</title>
   <link rel="stylesheet" href="../css/society_travel.css">
-  <?php require 'link.php' ?>
+    <?php require 'link.php' ?>
   <link rel="stylesheet" href="../css/good_detail.css">
   <link rel="stylesheet" href="../package/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
 </head>
@@ -58,7 +58,8 @@ $tab = 'mall';
         </div>
       </div>
       <p>
-        <span class="glyphicon glyphicon-heart" aria-hidden="true" style="margin: 10px 10px;cursor:pointer;width: 20px;color: #ff9d00"></span>
+        <span class="glyphicon glyphicon-heart" aria-hidden="true"
+              style="margin: 10px 10px;cursor:pointer;width: 20px;color: #ff9d00"></span>
         <span>收藏</span>
       </p>
     </div>
@@ -222,37 +223,54 @@ $tab = 'mall';
         </div>
       </div>
     </div>
+    <div class="good-service">
+      <div class="hd"><a>度假牛旅游网</a><span class="auth"><i></i>驴享汇认证商家</span>
+      </div>
+      <ul class="bd">
+        <li class="item-service" style="" data-show-im="entrance">
+          <span class="glyphicon glyphicon-comment"></span>
+          <span class="s-num">咨询客服管家</span>
+          <span class="s-time" data-show-im="hour">周一至周日 9:00-20:00</span>
+        </li>
+        <li class="item-tel">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span class="s-num">客服</span>
+          <span class="s-num">4006588799转3743</span>
+          <span class="s-time">周一至周日 09:00-21:35</span>
+        </li>
+      </ul>
+    </div>
   </div>
   <script src="../package/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
   <script src="../package/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
   <script>
-      function tobooking() {
-          window.location.href = './booking.php';
-      }
+    function tobooking() {
+      window.location.href = './booking.php';
+    }
 
-      $('#datetimepicker').datetimepicker({
-          format: 'yyyy-mm-dd',
-          autoclose: true,
-          minView: 2
-      });
+    $('#datetimepicker').datetimepicker({
+      format: 'yyyy-mm-dd',
+      autoclose: true,
+      minView: 2
+    });
 
-      function addNumber() {
-          var $elm = document.getElementById('buy-number');
-          var value = parseInt($elm.innerText);
-          value++;
-          $elm.innerText = value;
-          document.getElementById('total-count').innerText = value * 4285;
-      }
+    function addNumber() {
+      var $elm = document.getElementById('buy-number');
+      var value = parseInt($elm.innerText);
+      value++;
+      $elm.innerText = value;
+      document.getElementById('total-count').innerText = value * 4285;
+    }
 
-      function subNumber() {
-          var $elm = document.getElementById('buy-number');
-          var value = parseInt($elm.innerText);
-          if (value > 1) {
-              value--;
-              $elm.innerText = value;
-              document.getElementById('total-count').innerText = value * 4285;
-          }
+    function subNumber() {
+      var $elm = document.getElementById('buy-number');
+      var value = parseInt($elm.innerText);
+      if (value > 1) {
+        value--;
+        $elm.innerText = value;
+        document.getElementById('total-count').innerText = value * 4285;
       }
+    }
   </script>
 </div>
 <?php require 'footer.php' ?>
