@@ -235,7 +235,7 @@ $tab = 'mall';
         <li class="item-tel">
           <span class="glyphicon glyphicon-earphone"></span>
           <span class="s-num">客服</span>
-          <span class="s-num">4006588799转3743</span>
+          <span class="s-num">4000000000转1111</span>
           <span class="s-time">周一至周日 09:00-21:35</span>
         </li>
       </ul>

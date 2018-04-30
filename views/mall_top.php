@@ -15,7 +15,7 @@
       <div class="col-md-8">
         <div class="mall-search">
           <div class="from">
-            <span class="big">杭州</span>
+            <span class="big" style="color:#ff9d00">杭州</span>
             <span class="small">出发</span>
           </div>
           <div class="icons glyphicon glyphicon-search"></div>

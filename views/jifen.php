@@ -39,9 +39,9 @@ $tab = 'travel';
     </div>
     <div class="col-md-4">
       <img src="../images/society/jifen/transfer.png">
-      <span>兑换记录</span>
+      <span style="cursor: pointer">兑换记录</span>
       <img src="../images/society/jifen/love.png">
-      <span>我的收藏</span>
+      <span style="cursor: pointer">我的收藏</span>
     </div>
     <div class="col-md-1"></div>
   </div>

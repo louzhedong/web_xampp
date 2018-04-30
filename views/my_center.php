@@ -50,8 +50,8 @@ $tab = 'center';
             <p>粉丝</p>
           </div>
           <div class="MAvaNums last">
-            <strong><a>0</a></strong>
-            <p>青草</p>
+            <strong><a>1500</a></strong>
+            <p>积分</p>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ $tab = 'center';
           <span class="count">2</span>
           <span>撰写游记：</span>
           <span class="count">12</span>
-          <span>获得徽章：</span>
+          <span>问答次数：</span>
           <span class="count">3</span>
         </div>
       </div>
@@ -85,7 +85,7 @@ $tab = 'center';
     <li><a class="selected" href="#basics"> 我的订单</a></li>
     <li><a href="#day1">我的收藏</a></li>
     <li><a href="#day2">我的问答</a></li>
-    <li><a href="#day3">我的游记</a></li>
+    <li><a href="#day3">我的驴友记</a></li>
     <li><a href="#day4">常用信息</a></li>
   </ul> <!-- cd-faq-categories -->
   <div class="cd-faq-items">
@@ -363,17 +363,17 @@ $tab = 'center';
           <div class="wd-list">
             <div class="wd-item">
               <div class="wd-title">
-                <span class="label-mdd">秦皇岛</span>
-                五一去秦皇岛玩2天能花多少钱
+                <span class="label-mdd"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>泰国</span>
+                五一去泰国玩5天能花多少钱
               </div>
               <div class="wd-detail">
-                五一想和小伙伴去秦皇岛玩2天，想去风景好的地方，一个人大概能花费多少
+                五一想和小伙伴去泰国玩5天，想去风景好的地方，一个人大概能花费多少
               </div>
             </div>
             <div class="wd-item">
               <div class="wd-title">
-                <span class="label-mdd">秦皇岛</span>
-                燕塞湖四月末可以去吗？
+                <span class="label-mdd"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>苏州</span>
+                太湖五月末可以去吗？
               </div>
               <div class="wd-detail">
                 秦皇岛的燕塞湖现在可以去吗？听说封山，四月末可以爬角山长城吗？
@@ -381,28 +381,21 @@ $tab = 'center';
             </div>
             <div class="wd-item">
               <div class="wd-title">
-                <span class="label-mdd">秦皇岛</span>
+                <span class="label-mdd"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>秦皇岛</span>
                 秦皇岛哪里有农家院～～可以陪同出海打鱼，住宿，最好有自己的私人沙滩
               </div>
               <div class="wd-detail">
                 五月份想带着家人去秦皇岛玩，想找一个有自己的私人海滩，可以一起出海打鱼，吃海鲜的～～不知道有吗？或者导航导秦皇岛哪里，具体点的位置～谢谢推荐
               </div>
             </div>
+
             <div class="wd-item">
               <div class="wd-title">
-                <span class="label-mdd">秦皇岛</span>
-                秦皇岛阿那亚预约问题
-              </div>
-              <div class="wd-detail">
-                请问一下 秦皇岛阿那亚如果不预约游客的话能进入嘛 另外就是秦皇岛有哪些值得一去的地方？
-              </div>
-            </div>
-            <div class="wd-item">
-              <div class="wd-title">
-                <span class="label-mdd">秦皇岛</span>
+                <span class="label-mdd"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>秦皇岛</span>
                 杭州有去秦皇岛的轮渡吗
               </div>
               <div class="wd-detail">
+                请问一下 秦皇岛阿那亚如果不预约游客的话能进入嘛 另外就是秦皇岛有哪些值得一去的地方？
               </div>
             </div>
           </div>
@@ -411,7 +404,7 @@ $tab = 'center';
     </ul> <!-- cd-faq-group -->
 
     <ul id="day3" class="cd-faq-group" style="display: none">
-      <li class="cd-faq-title"><h2>我的游记</h2></li>
+      <li class="cd-faq-title"><h2>我的驴友记</h2></li>
       <li>
         <div class="wirte" style="border-bottom: 1px solid #f5f5f5;text-align: right;padding: 20px 10px 10px 20px;"><button type="button" class="btn btn-warning">写游记</button>
         </div>
@@ -448,7 +441,7 @@ $tab = 'center';
     </ul> <!-- cd-faq-group -->
 
     <ul id="day4" class="cd-faq-group" style="display: none">
-      <li class="cd-faq-title"><h2>我的问答</h2></li>
+      <li class="cd-faq-title"><h2>常用信息</h2></li>
       <li>
         <ul class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active"><a aria-controls="all" href="#all" role="tab" data-toggle="tab">我的信息</a>
