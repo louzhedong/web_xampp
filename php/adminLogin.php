@@ -11,7 +11,6 @@ include 'database.php';
 $query = "select username, password, token from admins where username='{$username}'";
 
 $result = $mysqliConn->query($query);
-error_log(json_encode($result));
 
 while ($row = $result->fetch_array()) {
     if ($row['username'] == $username) {

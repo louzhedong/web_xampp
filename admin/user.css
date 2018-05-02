@@ -1,0 +1,13 @@
+.user-admin {
+  margin-top: 30px;
+}
+
+.user-admin .user-edit {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.user-admin .user-delete {
+  cursor: pointer;
+}
+

@@ -19,9 +19,12 @@ $result_count = $mysqliConn->query($query_count);
 $totalCount = $result_count->num_rows;
 
 $data = [];
-while ($row = $result->fetch_object()) {
-    array_push($data, $row);
+if ($result) {
+    while ($row = $result->fetch_object()) {
+        array_push($data, $row);
+    }
 }
+
 
 $response = ['list' => $data, 'totalCount' => $totalCount];
 
