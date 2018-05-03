@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+<<<<<<< Updated upstream
   <title>消息发布</title>
+=======
+    <title>消息管理</title>
+>>>>>>> Stashed changes
     <?php require '../views/link.php' ?>
   <link rel="stylesheet" href="./message.css">
 </head>
