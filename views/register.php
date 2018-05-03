@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-	<title>用户注册</title>
-	<?php require 'link.php'?>
-    <link rel="stylesheet" href="../css/register.css">
+  <title>用户注册</title>
+    <?php require 'link.php' ?>
+  <link rel="stylesheet" href="../css/register.css">
   <style>
     * {
-      margin: 0; padding: 0;
+      margin: 0;
+      padding: 0;
     }
 
     body {
@@ -47,6 +48,24 @@
           </div>
         </div>
         <div class="form-group">
+          <div>
+            <input type="text" class="form-control" name="phone" id="phone"  placeholder="电话(选填)"
+                   autocomplete="off">
+          </div>
+        </div>
+        <div class="form-group">
+          <div>
+            <input type="text" class="form-control" name="email" id="email" placeholder="邮箱(选填)"
+                   autocomplete="off">
+          </div>
+        </div>
+        <div class="form-group">
+          <div>
+            <input type="text" class="form-control" name="address" id="address" placeholder="地址(选填)"
+                   autocomplete="off">
+          </div>
+        </div>
+        <div class="form-group">
           <button class="btn register-btn" type="button">立即注册</button>
         </div>
         <div class="form-group fr">
@@ -58,64 +77,67 @@
 </div>
 </body>
 <script>
-	// 注册
-    var $regBtn = $('.register-btn')[0];
-    $regBtn.addEventListener('click', function () {
-        var $username = $("input[name='username']")[0];
-        var $password = $("input[name='password']")[0];
-        var $repassword = $("input[name='repassword']")[0];
-        var username = $username.value;
-        var password = $password.value;
-        var repassword = $repassword.value;
+  // 注册
+  var $regBtn = $('.register-btn')[0];
+  $regBtn.addEventListener('click', function () {
+    var $username = $("input[name='username']")[0];
+    var $password = $("input[name='password']")[0];
+    var $repassword = $("input[name='repassword']")[0];
+    var username = $username.value;
+    var password = $password.value;
+    var repassword = $repassword.value;
 
-        if (!username) {
-            toastr.warning('用户名不能为空！');
-            return;
-        }
-        if (!password) {
-            toastr.warning('密码不能为空！');
-            return;
-        }
-        if (!repassword) {
-            toastr.warning('确认密码不能为空！');
-            return;
-        }
-        if (password !== repassword) {
-            toastr.warning('两次密码不相同！');
-            $password.value = '';
-            $repassword.value = '';
-            return;
-        }
-        var data = {
-            'username': username,
-            'password': $.md5(password)
-        };
+    if (!username) {
+      toastr.warning('用户名不能为空！');
+      return;
+    }
+    if (!password) {
+      toastr.warning('密码不能为空！');
+      return;
+    }
+    if (!repassword) {
+      toastr.warning('确认密码不能为空！');
+      return;
+    }
+    if (password !== repassword) {
+      toastr.warning('两次密码不相同！');
+      $password.value = '';
+      $repassword.value = '';
+      return;
+    }
+    var data = {
+      'username': username,
+      'password': $.md5(password),
+      'phone': document.getElementById('phone').value,
+      'email': document.getElementById('email').value,
+      'address': document.getElementById('address').value
+    };
 
-        $.ajax({
-            type: 'POST',
-            url: '../php/user/register.php',
-            data: data,
-            dataType: 'json',
-            success: function (data) {
-                if (data.resultCode === 0) {
-                    toastr.success('注册成功！');
-                    setTimeout(function () {
-                        window.location.href = "./login.php";
-                    }, 2000)
-                } else if (data.resultCode !== 0) {
-                    toastr.error('用户名已存在！');
-                    $password.value = '';
-                    $repassword.value = '';
-                }
-            },
-            error: function () {
+    $.ajax({
+      type: 'POST',
+      url: '../php/user/register.php',
+      data: data,
+      dataType: 'json',
+      success: function (data) {
+        if (data.resultCode === 0) {
+          toastr.success('注册成功！');
+          setTimeout(function () {
+            window.location.href = "./login.php";
+          }, 2000)
+        } else if (data.resultCode !== 0) {
+          toastr.error('用户名已存在！');
+          $password.value = '';
+          $repassword.value = '';
+        }
+      },
+      error: function () {
 
-            }
-        })
-    }, false);
-	
-	function toLogin() {
-		window.location.href = "./login.php";	
-	}
+      }
+    })
+  }, false);
+
+  function toLogin() {
+    window.location.href = "./login.php";
+  }
 </script>
 </html>

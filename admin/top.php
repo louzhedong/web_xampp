@@ -24,6 +24,14 @@
     </div>
 </div>
 <script>
+  (function () {
+    var admin = sessionStorage.getItem('admin');
+    var regx = /login.php/;
+    if (!admin && !regx.test(location.href)) {
+      window.location.href = './login.php';
+    }
+  }());
+
     function toUser() {
       window.location.href = './user.php';
     }
