@@ -70,13 +70,13 @@ $tab = 'message';
             <div class="form-group">
               <label for="inputPassword" class="col-sm-2 control-label">标题</label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="title" placeholder="请输入标题(64字以内)">
+                <input type="text" class="form-control" id="title" placeholder="请输入标题">
               </div>
             </div>
             <div class="form-group">
               <label for="inputPassword" class="col-sm-2 control-label">内容</label>
               <div class="col-sm-10">
-                <textarea class="form-control" id="content" cols="5" placeholder="请输入内容(256字以内)"></textarea>
+                <textarea class="form-control" id="content" cols="5" placeholder="请输入内容"></textarea>
               </div>
             </div>
           </form>
