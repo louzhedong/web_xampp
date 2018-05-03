@@ -105,10 +105,16 @@
       $repassword.value = '';
       return;
     }
+
+    var phone = document.getElementById('phone').value;
+    if (phone && phone.length != 11) {
+      toastr.warning('电话号码必须为11位！');
+      return;
+    }
     var data = {
       'username': username,
       'password': $.md5(password),
-      'phone': document.getElementById('phone').value,
+      'phone': phone,
       'email': document.getElementById('email').value,
       'address': document.getElementById('address').value
     };

@@ -14,6 +14,7 @@ $tab = 'user';
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
+      <div id="count"></div>
       <div class="table-responsive">
         <table class="table table-bordered">
           <thead>
@@ -120,6 +121,7 @@ $tab = 'user';
           var list = res.data.list;
           userList = res.data.list;
           var tempStr = '';
+          document.getElementById('count').innerHTML = "共有" + res.data.totalCount+ "个会员";
           list.map(function (item, index) {
             var tr = "<tr><td>" + item.id + "</td><td>" + item.username + "</td><td>" + item.phone +
               "</td><td>" + item.email + "</td><td>" + item.address +
@@ -157,9 +159,16 @@ $tab = 'user';
 
   // 确定编辑学员
   function handleEditUser() {
+
+    var phone = document.getElementById('phone').value;
+    if (phone && phone.length != 11) {
+      toastr.warning('电话号码必须为11位！');
+      return;
+    }
+
     var data = {
       id: chooseUser.id,
-      phone: document.getElementById('phone').value,
+      phone: phone,
       email: document.getElementById('email').value,
       address: document.getElementById('address').value
     };

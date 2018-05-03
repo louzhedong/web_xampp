@@ -1,0 +1,29 @@
+.admin-message {
+  margin-top: 30px;
+}
+
+.admin-message .operate {
+  text-align: right;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.admin-message .operate #count {
+  position: absolute;
+  left: 0;
+  height: 30px;
+  line-height: 30px;
+}
+
+.admin-message textarea {
+  height: 80px;
+}
+
+.admin-message .message-edit {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.admin-message .message-delete {
+  cursor: pointer;
+}

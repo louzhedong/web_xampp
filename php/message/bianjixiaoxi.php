@@ -1,16 +1,15 @@
 <?php
 /**
- * 编辑用户
+ * 编辑消息
  */
 
 include '../database.php';
 
-$userId = $_REQUEST['id'];
-$phone = $_REQUEST['phone'];
-$email = $_REQUEST['email'];
-$address = $_REQUEST['address'];
+$messageId = $_REQUEST['id'];
+$title = $_REQUEST['title'];
+$content = $_REQUEST['content'];
 
-$query = "update users set phone='{$phone}', email='{$email}', address='{$address}' where id={$userId}";
+$query = "update message set title='{$title}', content='{$content}'where id={$messageId}";
 
 $result = $mysqliConn->query($query);
 

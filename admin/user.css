@@ -2,6 +2,10 @@
   margin-top: 30px;
 }
 
+.user-admin #count {
+  margin-bottom: 30px;
+}
+
 .user-admin .user-edit {
   margin-right: 10px;
   cursor: pointer;
