@@ -17,7 +17,7 @@
                 </li>
                 <li class="header-tab <?php if ($tab == 'message') echo 'active' ?>"
                     onclick="<?php if ($tab != 'message') echo "toMessage()" ?>">
-                    信息管理
+                    信息发布管理
                 </li>
             </ul>
         </div>

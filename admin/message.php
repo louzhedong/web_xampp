@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 
-  <title>消息发布</title>
+  <title>消息发布管理</title>
     <?php require '../views/link.php' ?>
   <link rel="stylesheet" href="./message.css">
 </head>
