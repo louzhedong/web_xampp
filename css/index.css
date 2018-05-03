@@ -374,7 +374,8 @@
 
 .notice-list li {
   padding-left: 12px;
-  line-height: 20px;
+  line-height: 25px;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 
@@ -387,4 +388,8 @@
   top: -2px;
   background-color: #ccc;
   display: inline-block;
+}
+
+.notice-list li .title {
+  color: #ff9d00;
 }

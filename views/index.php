@@ -3,7 +3,7 @@
 <head>
   <title>首页</title>
   <link rel="stylesheet" href="../css/index.css">
-  <?php require 'link.php' ?>
+    <?php require 'link.php' ?>
 </head>
 <body>
 <?php
@@ -264,7 +264,7 @@ $tab = 'index'
               <img src="../images/society/society_travel/t1.jpeg" height="100%">
             </div>
             <div class="detail">
-              <div class="info" >
+              <div class="info">
                 <h3>泰国：FRIENDS六人行，泰美泰国！包含普吉岛自驾、曼谷扫货全攻略</h3>
                 <div class="extra">
                   <div class="action">
@@ -424,7 +424,8 @@ $tab = 'index'
           <img src="../images/index/poster3.png" alt="">
           <div class="activity-describe">
             <div class="activity-describe-body">
-              <marquee direction=up behavior=scroll loop=13 scrollamount=1 scrolldelay=10 align=middle height=150 width=80% hspace=20 vspace=10 onmouseover=this.stop() onmouseout=this.start()>
+              <marquee direction=up behavior=scroll loop=13 scrollamount=1 scrolldelay=10 align=middle height=150
+                       width=80% hspace=20 vspace=10 onmouseover=this.stop() onmouseout=this.start()>
                 【五一小长假即将来袭！】
                 <br><br>
                 如果还没定好去哪里玩，就让我们来帮你！<br>
@@ -441,7 +442,8 @@ $tab = 'index'
                 <br><br>
                 时近暑期，还伴随着清明五一端午节的假日，<br>
                 闲不下来的你，是否被想出国耍的思绪搞的心痒痒？<br>
-                那不如，我们帮你搞定签证！</marquee>
+                那不如，我们帮你搞定签证！
+              </marquee>
             </div>
           </div>
         </div>
@@ -449,9 +451,6 @@ $tab = 'index'
           公告栏
         </div>
         <ul class="notice-list">
-          <li><span class="gray-point"></span><a class="nslog" >评选最佳驴友记的标准新鲜出炉啦！！！</a></li>
-          <li><span class="gray-point"></span><a class="nslog" >靠谱点评标准升级啦！</a></li>
-          <li><span class="gray-point"></span><a class="nslog" >网站最新功能看这里 </a></li>
         </ul>
       </div>
     </div>
@@ -463,28 +462,63 @@ $tab = 'index'
 </body>
 </html>
 <script>
-    function toscenicdetail_gailan() {
-        window.location.href = './scenicdetail_gailan.php';
-    }
+  (function () {
+    getMessageList();
+  }());
 
-    function tosociety_travel_detail() {
-        window.location.href = './society_travel_detail.php';
-    }
+  function toscenicdetail_gailan() {
+    window.location.href = './scenicdetail_gailan.php';
+  }
 
-    function tomall() {
-        window.location.href = './mall.php';
-    }
+  function tosociety_travel_detail() {
+    window.location.href = './society_travel_detail.php';
+  }
 
-    function togentuanyou() {
-        window.location.href = './gentuanyou.php';
-    }
+  function tomall() {
+    window.location.href = './mall.php';
+  }
 
-    function toscenic() {
-        window.location.href = './scenic.php';
-    }
+  function togentuanyou() {
+    window.location.href = './gentuanyou.php';
+  }
 
-    function tosociety_travel() {
-        window.location.href = './society_travel.php';
-    }
+  function toscenic() {
+    window.location.href = './scenic.php';
+  }
+
+  function tosociety_travel() {
+    window.location.href = './society_travel.php';
+  }
+
+  function getMessageList() {
+    $.ajax({
+      type: 'POST',
+      url: '../php/message/xiaoxiliebiao.php',
+      data: {
+        pageNo: 1,
+        pageSize: 5
+      },
+      dataType: 'json',
+      success: function (res) {
+        if (res.resultCode === 0) {
+          var list = res.data.list;
+          var tempStr = '';
+          list.map(function (item) {
+            var li = "<li><span class='gray-point'></span><span class='title' data-container='body' data-toggle='popover'" +
+              "data-placement='left' data-content='" + item.content + "'>" +
+              item.title + "</span></li>";
+            tempStr += li;
+          });
+          var $tbody = document.getElementsByClassName('notice-list')[0];
+          $tbody.innerHTML = tempStr;
+          $('[data-toggle="popover"]').popover()
+        } else if (res.resultCode !== 0) {
+          toastr.warning(res.resultMsg);
+        }
+      },
+      error: function () {
+      }
+    })
+  }
 
 </script>
