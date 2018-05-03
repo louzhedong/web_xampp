@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<<<<<<< Updated upstream
+
   <title>消息发布</title>
-=======
-    <title>消息管理</title>
->>>>>>> Stashed changes
     <?php require '../views/link.php' ?>
   <link rel="stylesheet" href="./message.css">
 </head>
@@ -118,7 +115,7 @@ $tab = 'message';
           var list = res.data.list;
           messageList = res.data.list;
           var tempStr = '';
-          document.getElementById('count').innerHTML = "共有" + res.data.totalCount+ "条消息";
+          document.getElementById('count').innerHTML = "共有" + res.data.totalCount + "条消息";
           list.map(function (item, index) {
             var tr = "<tr><td>" + item.id + "</td><td>" + item.title + "</td><td>" + item.content +
               "</td><td><a class='message-edit' onclick='editMessage(" + index + ")'>编辑</a>" +
