@@ -456,12 +456,43 @@ $tab = 'index'
     </div>
     <div class="col-md-1"></div>
   </div>
-</div>
-<?php require 'footer.php' ?>
+
+  <div class="modal fade" tabindex="-1" role="dialog" id="MessageModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">消息</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <div class="col-sm-2"><p class="form-control-static">标题</p></div>
+            <div class="col-sm-10">
+              <p class="form-control-static" id="title"></p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-2"><p class="form-control-static">内容</p></div>
+              <div class="col-sm-10">
+                <p class="form-control-static" id="content"></p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+  </div>
+    <?php require 'footer.php' ?>
 
 </body>
 </html>
 <script>
+  var messageList = [];
+  var chooseMessage = {};
   (function () {
     getMessageList();
   }());
@@ -502,10 +533,10 @@ $tab = 'index'
       success: function (res) {
         if (res.resultCode === 0) {
           var list = res.data.list;
+          messageList = res.data.list;
           var tempStr = '';
-          list.map(function (item) {
-            var li = "<li><span class='gray-point'></span><span class='title' data-container='body' data-toggle='popover'" +
-              "data-placement='left' data-content='" + item.content + "'>" +
+          list.map(function (item, index) {
+            var li = "<li><span class='gray-point'></span><span class='title' onclick='showMessage(" + index + ")'>" +
               item.title + "</span></li>";
             tempStr += li;
           });
@@ -520,5 +551,13 @@ $tab = 'index'
       }
     })
   }
+
+  function showMessage(index) {
+    chooseMessage = messageList[index];
+    document.getElementById('title').innerHTML = chooseMessage.title;
+    document.getElementById('content').innerHTML = chooseMessage.content;
+    $('#MessageModal').modal('show');
+  }
+
 
 </script>

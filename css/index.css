@@ -393,3 +393,7 @@
 .notice-list li .title {
   color: #ff9d00;
 }
+
+#MessageModal .form-group {
+  overflow: hidden;
+}
