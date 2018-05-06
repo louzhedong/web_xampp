@@ -30,7 +30,7 @@
       <div class="col-md-10">
         <div class="mall-nav">
           <div class="mall-tab <?php if ($mall_tab == 'index') {echo 'active';}?>"
-               onclick="<?php if ($mall_tab!= 'index') echo "toIndex()" ?>">首页</div>
+               onclick="<?php if ($mall_tab!= 'index') echo "toMall()" ?>">首页</div>
           <div class="mall-tab <?php if ($mall_tab == 'gentuanyou') {echo 'active';}?>"
                onclick="<?php if ($mall_tab != 'gentuanyou') echo "toGentuanyou()" ?>">跟团游</div>
           <div class="mall-tab <?php if ($mall_tab == 'dangdiyou') {echo 'active';}?>"
@@ -47,7 +47,7 @@
 </div>
 
 <script>
-  function toIndex() {
+  function toMall() {
     window.location.href = './mall.php';
   }
 
