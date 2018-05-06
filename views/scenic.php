@@ -17,7 +17,7 @@ $tab = 'scenic'
 <div class="scenic-header">
   <img src="../images/scenic/top.jpg">
   <div class="search-box">
-    <div class="hello-world"><a style="color: #fff">世界那么大，</a> <a style="color: #ff9d00">我想去看看！</a>
+    <div class="hello-world"><span style="color: #fff">世界那么大，</span> <span style="color: #ff9d00">我想去看看！</span>
     </div>
     <div class="search-input">
       <div class="left">
